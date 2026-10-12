@@ -1,0 +1,15 @@
+node_modules/
+.impeccable/
+.DS_Store
+_to_delete/
+dist/
+
+# Design-starter tooling (skills, hooks, MCP config) stays local; it lives in ../design-starter.
+.claude/
+.cursor/
+.mcp.json
+
+# Never publish the private resume (it has a phone number and home address).
+public/Karan_Sadiora_Resume.pdf
+*.local
+.env*

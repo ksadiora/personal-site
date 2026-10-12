@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Karan Sadiora</title>
+    <meta name="description" content="Karan Sadiora studies neuroscience at UVA and researches and builds software for hospitals, labs and patients." />
+    <meta name="theme-color" content="#030407" />
+    <link rel="canonical" href="https://karansadiora.com/" />
+    <meta property="og:url" content="https://karansadiora.com/" />
+    <meta property="og:title" content="Karan Sadiora" />
+    <meta property="og:description" content="Neuroscience @ UVA. Researches and builds software for hospitals, labs and patients." />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <script>
+      // Apply the saved theme before first paint. Dark is the default look.
+      try { document.documentElement.dataset.theme = localStorage.getItem('ks-theme') === 'light' ? 'light' : 'dark'; }
+      catch (e) { document.documentElement.dataset.theme = 'dark'; }
+    </script>
+  </head>
+  <body>
+    <canvas id="gl" aria-hidden="true"></canvas>
+    <div class="scrim" aria-hidden="true"></div>
+
+    <button type="button" class="theme" id="theme" aria-label="Switch to light mode">
+      <svg class="i-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2" /><path d="M12 2.5v2.4M12 19.1v2.4M2.5 12h2.4M19.1 12h2.4M5.3 5.3l1.7 1.7M17 17l1.7 1.7M5.3 18.7 7 17M17 7l1.7-1.7" /></svg>
+      <svg class="i-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.2 14.6A8.4 8.4 0 0 1 9.4 3.8a8.4 8.4 0 1 0 10.8 10.8Z" /></svg>
+    </button>
+
+    <main class="page" id="page"></main>
+
+    <div class="vm" id="vm-box" aria-hidden="true">
+      <p><span class="vm-k">v<sub>m</sub></span><b id="vm">−70.0 mV</b></p>
+      <p class="vm-hint" id="vm-hint">hover a line to send the cell an input</p>
+    </div>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

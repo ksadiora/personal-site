@@ -1,0 +1,177 @@
+/* One page. The live neuron fills the screen behind it; the text sits on the left
+   (stacked under the cell on narrow screens).
+   Dark = fluorescence micrograph. Light = ink on a glass slide. */
+:root {
+  --bg: #030407;
+  --bg-rgb: 3, 4, 7;
+  --ink: #e6ebf4;
+  --ink-2: #aab3c5;
+  --ink-3: #6d768b;
+  --link: #9cc0ff;
+  --line-rgb: 160, 175, 210;
+  --rule: rgba(var(--line-rgb), 0.16);
+  --rule-2: rgba(var(--line-rgb), 0.28);
+  --fire: #ffd27a;
+  --f-mono: 'JetBrains Mono Variable', ui-monospace, SFMono-Regular, Menlo, monospace;
+  --gut: clamp(20px, 7vw, 128px);
+  --ease: cubic-bezier(0.2, 0.7, 0.15, 1);
+  color-scheme: dark;
+}
+:root[data-theme='light'] {
+  --bg: #eef1f5;
+  --bg-rgb: 238, 241, 245;
+  --ink: #121725;
+  --ink-2: #434d62;
+  --ink-3: #7a8398;
+  --link: #2050c8;
+  --line-rgb: 30, 40, 65;
+  --fire: #b45f00;
+  color-scheme: light;
+}
+
+* { box-sizing: border-box; }
+html { background: var(--bg); }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink-2);
+  font-family: var(--f-mono);
+  font-size: 15px;
+  line-height: 1.75;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
+::selection { background: rgba(156, 192, 255, 0.3); }
+
+/* Theme switch: the new theme grows out of the button as a circle. */
+::view-transition-old(root), ::view-transition-new(root) { animation: none; mix-blend-mode: normal; }
+::view-transition-new(root) { z-index: 9999; }
+
+/* ---------- stage */
+
+#gl { position: fixed; inset: 0; width: 100vw; height: 100vh; display: block; z-index: 0; }
+.no-gl #gl, .no-gl .vm { display: none; }
+.no-gl { background: radial-gradient(ellipse at 70% 45%, rgba(var(--line-rgb), 0.1), var(--bg) 60%); }
+.over-cell #gl { cursor: pointer; }
+
+/* Keeps the text readable over the culture without boxing it in. */
+.scrim {
+  position: fixed; inset: 0; z-index: 1; pointer-events: none;
+  background: linear-gradient(90deg, rgba(var(--bg-rgb), 0.82) 0%, rgba(var(--bg-rgb), 0.6) 32%, rgba(var(--bg-rgb), 0) 56%);
+}
+
+/* ---------- theme button */
+
+.theme {
+  position: fixed; z-index: 10;
+  top: calc(env(safe-area-inset-top, 0px) + 18px); right: clamp(16px, 3vw, 32px);
+  width: 40px; height: 40px; display: grid; place-items: center; border-radius: 50%;
+  appearance: none; padding: 0; color: var(--ink); cursor: pointer;
+  border: 1px solid var(--rule-2); background: rgba(var(--bg-rgb), 0.55);
+  backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
+  transition: border-color 0.25s, background 0.25s;
+}
+.theme:hover { border-color: rgba(var(--line-rgb), 0.5); }
+.theme:focus-visible { outline: 2px solid var(--link); outline-offset: 3px; }
+.theme svg { width: 17px; height: 17px; fill: none; stroke: currentColor; stroke-width: 1.5; stroke-linecap: round; grid-area: 1 / 1; transition: opacity 0.3s, transform 0.5s var(--ease); }
+.theme .i-moon { opacity: 0; transform: rotate(-60deg) scale(0.6); }
+:root[data-theme='light'] .theme .i-sun { opacity: 0; transform: rotate(60deg) scale(0.6); }
+:root[data-theme='light'] .theme .i-moon { opacity: 1; transform: none; }
+
+/* ---------- the page */
+
+.page {
+  position: relative; z-index: 2;
+  min-height: 100vh; min-height: 100svh;
+  display: flex; align-items: center;
+  padding: clamp(56px, 10vh, 88px) var(--gut) clamp(44px, 9vh, 96px);
+}
+/* Spacing inside the card is in em, so main.js can shrink the card's font size to fit short screens
+   and everything scales together. Wide screens get no scroll; html.fits marks when it all fits. */
+.card { width: min(540px, 100%); }
+.card p, .card ul { margin: 0 0 0.93em; }
+html.fits, html.fits body { overflow: hidden; }
+
+h1 {
+  margin: 0 0 0.95em;
+  color: var(--ink);
+  font-size: 1.85em;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  line-height: 1.2;
+}
+.sub { margin-top: 2em !important; color: var(--ink); font-weight: 600; }
+
+.card a {
+  color: var(--link);
+  text-decoration: underline;
+  text-decoration-color: color-mix(in srgb, var(--link) 40%, transparent);
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+  transition: text-decoration-color 0.2s, background-color 0.2s;
+  border-radius: 2px;
+}
+.card a:hover { text-decoration-color: var(--link); background: color-mix(in srgb, var(--link) 12%, transparent); }
+.card a:focus-visible { outline: 2px solid var(--link); outline-offset: 2px; }
+
+/* "previously": each line drives one branch of the cell, and its marker carries that branch's color. */
+.did { list-style: none; padding: 0; }
+.did li {
+  position: relative; padding: 0.2em 0 0.2em 1.47em; margin: 0 0 0.4em;
+  transition: color 0.25s;
+}
+.did li:hover { color: var(--ink); }
+.mk {
+  --k: var(--c);
+  position: absolute; left: 0; top: 0.2em;
+  width: 0.93em; text-align: center;
+  font-style: normal; font-weight: 700;
+  color: var(--k);
+  opacity: 0.75;
+  transition: opacity 0.25s;
+}
+:root[data-theme='light'] .mk { --k: var(--cl); }
+.did li:hover .mk { opacity: 1; }
+
+.links {
+  display: flex; flex-wrap: wrap; gap: 4px 10px; align-items: baseline;
+  margin-top: 2em !important; padding-top: 1.2em;
+  border-top: 1px solid var(--rule);
+}
+.links span { color: var(--ink-3); }
+
+/* Entrance: each block rises in after the one above it. */
+.rv { opacity: 0; transform: translateY(8px); }
+.live .rv { opacity: 1; transform: none; transition: opacity 0.7s var(--ease) var(--d), transform 0.9s var(--ease) var(--d); }
+
+/* ---------- membrane readout */
+
+.vm {
+  position: fixed; z-index: 3; right: clamp(16px, 3vw, 32px); bottom: 22px;
+  margin: 0; text-align: right; pointer-events: none;
+  font-size: 11px; line-height: 1.55; color: var(--ink-3);
+}
+.vm p { margin: 0; }
+.vm-k { margin-right: 10px; }
+.vm sub { font-size: 0.75em; }
+.vm b { font-weight: 500; color: var(--ink-2); font-variant-numeric: tabular-nums; transition: color 0.4s; }
+.vm.firing b { color: var(--fire); transition: none; }
+.vm-hint { opacity: 0.8; }
+
+/* ---------- narrow screens: the cell on top, the text below it */
+
+@media (max-width: 1079px) {
+  .page { align-items: flex-start; padding-top: 46vh; padding-top: 46svh; }
+  .scrim { background: linear-gradient(180deg, rgba(var(--bg-rgb), 0) 34%, rgba(var(--bg-rgb), 0.7) 52%, rgba(var(--bg-rgb), 0.78) 100%); }
+  .vm { position: absolute; top: calc(46svh - 34px); bottom: auto; right: auto; left: var(--gut); text-align: left; }
+  .vm-hint { display: none; }
+}
+@media (max-width: 520px) {
+  body { font-size: 14px; line-height: 1.7; }
+  .theme { width: 36px; height: 36px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .rv, .live .rv { opacity: 1; transform: none; transition: none; }
+}

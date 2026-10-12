@@ -59,11 +59,13 @@ Everything is in `src/content.js`. `[text](url)` becomes a link.
 
 Live domain: **karansadiora.com** (registered on Cloudflare). Repo: github.com/ksadiora/personal-site (private).
 
-Hosted on Cloudflare Pages, connected to the repo, so every push to `main` deploys:
+Hosted on Cloudflare as a Worker named `karansadiora` (Workers & Pages), connected to this repo with Workers
+Builds, so every push to `main` builds and deploys:
 
-- Build command `npm run build`, output directory `dist`. Node comes from `.node-version` (22).
-- Custom domains: `karansadiora.com` and `www.karansadiora.com`, added in the Pages project. Because the DNS is
-  on Cloudflare, it creates the records itself.
+- Build command `npm run build`; Cloudflare's deploy step (`npx wrangler deploy`) uploads `dist/` as static assets.
+  Node comes from `.node-version` (22).
+- Custom domains: `karansadiora.com` and `www.karansadiora.com`, added on the Worker (Settings → Domains & Routes).
+  Because the DNS is on Cloudflare, it creates the records itself.
 
 ## Skill layer
 

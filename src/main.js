@@ -11,9 +11,9 @@ const REDUCED = matchMedia('(prefers-reduced-motion: reduce)').matches;
 const FINE = matchMedia('(pointer: fine)').matches;
 const $ = (s, r = document) => r.querySelector(s);
 const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
-// [text](url) becomes a link; everything else is escaped.
+// [text](url) becomes a link that opens in a new tab; everything else is escaped.
 const md = (s) => esc(s).replace(/\[([^\]]+)\]\(([^)\s]+)\)/g, (_, text, url) =>
-  `<a href="${url}"${/^https?:/.test(url) ? ' target="_blank" rel="noopener"' : ''}>${text}</a>`);
+  `<a href="${url}" target="_blank" rel="noopener">${text}</a>`);
 
 // ---------- content
 

@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#111111" />
+    <title>EyeSpeak</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <section id="welcome" class="welcome" aria-labelledby="welcome-title">
+        <p class="wordmark">EyeSpeak</p>
+        <h1 id="welcome-title">Write with your eyes.</h1>
+        <p>Look at a three-letter group and hold your gaze on it to open it. Hold a letter to write it. An orb fills on whatever you are looking at, and selects it when it completes.</p>
+        <div class="welcome-actions">
+          <button id="start-eye" class="start-button">Start eye control</button>
+          <button id="start-mouse" class="quiet-button">Try with mouse</button>
+        </div>
+      </section>
+
+      <section id="communicator" class="communicator hidden" aria-label="EyeSpeak communicator">
+        <section class="message-panel" aria-label="Composed message">
+          <p id="message" class="message" aria-live="polite">Write with your eyes</p>
+        </section>
+
+        <section class="keyboard-panel" aria-labelledby="keyboard-title">
+          <p id="keyboard-title" class="keyboard-title">Look at a letter group and hold</p>
+          <div id="tile-grid" class="keyboard-grid"></div>
+        </section>
+
+        <div class="action-row">
+          <button id="delete-key" class="key-tile action-key hidden" type="button" data-tile-id="delete" data-action="delete">DELETE</button>
+          <button id="speak" class="speak-button" type="button" data-tile-id="speak" data-action="speak">Speak</button>
+        </div>
+      </section>
+
+      <div id="gaze-cursor" class="gaze-cursor hidden" aria-hidden="true"></div>
+      <div id="dwell-orb" class="dwell-orb hidden" aria-hidden="true"></div>
+      <div id="calibration-overlay" class="calibration-overlay hidden" aria-live="assertive">
+        <div class="calibration-copy">
+          <p id="calibration-step">CALIBRATION</p>
+          <p id="calibration-copy">Follow the dot with your eyes.</p>
+        </div>
+        <div id="calibration-target" class="calibration-target hidden" aria-hidden="true"></div>
+        <canvas id="trace-canvas" class="trace-canvas hidden" aria-hidden="true"></canvas>
+        <div id="trace-target" class="trace-target hidden" aria-hidden="true"></div>
+        <div id="trace-gaze" class="trace-gaze hidden" aria-hidden="true"></div>
+      </div>
+      <div id="toast" class="toast hidden" role="status"></div>
+      <div id="hud" class="hud hidden" aria-hidden="true"></div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/face_mesh@0.4.1633559619/face_mesh.js"></script>
+    <script type="module" src="app.mjs"></script>
+  </body>
+</html>

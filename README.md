@@ -19,6 +19,12 @@ without scrolling: `fit()` in `src/main.js` shrinks the text (all card spacing i
 The sun/moon button switches between dark (fluorescence micrograph) and light (ink on a glass slide); the choice is
 saved per browser. Below 1080px wide the cell sits in a band at the top and the text runs underneath.
 
+**EyeSpeak runs on the site at `/eyespeak/`.** Its files are a copy of `../_archive/eyespeak/public/` in
+`public/eyespeak/` (refresh with `npm run sync:eyespeak`, from github.com/ksadiora/eyespeak). Its sentence repair
+calls `/eyespeak/api/repair`, which `worker/index.js` answers: it sends the typed letters to Gemini with the Worker
+secret `GEMINI_API_KEY`, allows 20 requests a minute per visitor, and refuses other websites. Without the secret,
+typing still works and Speak shows "not set up yet".
+
 The earlier scroll-driven resume version is saved, runnable, in `../personal-site-scroll/`.
 
 ## Run
@@ -48,6 +54,9 @@ Everything is in `src/content.js`. `[text](url)` becomes a link.
 | `src/neuron.js` | Builds the cell and the culture around it; shaders |
 | `src/stage.js` | Renderer, bloom, microscope pass (fringe, vignette, grain) |
 | `src/util.js` | Math helpers |
+| `worker/index.js` | Cloudflare Worker: serves `dist/`, and runs EyeSpeak's Gemini sentence repair |
+| `wrangler.jsonc` | Worker config: name, assets, the `/eyespeak/api/*` route, the rate limit |
+| `public/eyespeak/` | The EyeSpeak app, copied from its repo |
 
 ## Dev tricks
 
@@ -62,8 +71,11 @@ Live domain: **karansadiora.com** (registered on Cloudflare). Repo: github.com/k
 Hosted on Cloudflare as a Worker named `karansadiora` (Workers & Pages), connected to this repo with Workers
 Builds, so every push to `main` builds and deploys:
 
-- Build command `npm run build`; Cloudflare's deploy step (`npx wrangler deploy`) uploads `dist/` as static assets.
-  Node comes from `.node-version` (22).
+- Build command `npm run build`; then `npx wrangler deploy` reads `wrangler.jsonc`: `dist/` as static assets, plus
+  the Worker in `worker/index.js` for `/eyespeak/api/*` only. Node comes from `.node-version` (22).
+- Secret: `GEMINI_API_KEY` (Worker → Settings → Variables and Secrets). Deploys keep it.
+- Test the Worker locally with `npm run preview:worker` (http://localhost:8787). Put a test key in `.dev.vars`
+  (gitignored) as `GEMINI_API_KEY=...`.
 - Custom domains: `karansadiora.com` and `www.karansadiora.com`, added on the Worker (Settings → Domains & Routes).
   Because the DNS is on Cloudflare, it creates the records itself.
 

@@ -13,3 +13,7 @@ dist/
 public/Karan_Sadiora_Resume.pdf
 *.local
 .env*
+
+# Local Worker secrets for `wrangler dev`.
+.dev.vars*
+.wrangler/

@@ -26,12 +26,12 @@ export const previously = [
   'took 3rd overall at VTHacks 14 with [Aftercare](https://github.com/ksadiora/aftercare), a post-discharge check-in system for nurses and their patients',
   // BI-CTSICN/Urea_Cycle_App (private repo), Children's National, 2025–26. Links to the Morizono lab page.
   "built the urea cycle research hub at [Children's National](https://research.childrensnational.org/labs/morizono), which scores disease mutations and maps them onto 3D protein structures",
-  // ksadiora/eyespeak README.
-  'made [EyeSpeak](https://github.com/ksadiora/eyespeak), which lets you type with only your eyes and a webcam',
-  // Resume: Junior Medical Assistant, MedicsUSA (urgent + primary care), 2026.
-  'worked 200+ hours as a medical assistant in urgent and primary care, rooming patients, giving injections and drawing blood',
   // Resume: NRL SEAP 2025 (lateral flow immunoassays); Computational Molecular Bioscience 14(3), 2024.
   'built drug-detection assays at the U.S. Naval Research Lab, and [published a paper](https://doi.org/10.4236/cmb.2024.143005) on making protein drugs last longer',
+  // Resume: Junior Medical Assistant, MedicsUSA (urgent + primary care), 2026.
+  'worked 200+ hours as a medical assistant in urgent and primary care, rooming patients, giving injections and drawing blood',
+  // ksadiora/eyespeak. The app itself runs on this site at /eyespeak/ (public/eyespeak, `npm run sync:eyespeak`).
+  'made [EyeSpeak](/eyespeak/), which lets you type with only your eyes and a webcam ([code](https://github.com/ksadiora/eyespeak))',
 ];
 
 export const also = [

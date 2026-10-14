@@ -1,0 +1,76 @@
+/* Plain pages next to the home page. Same tokens as style.css, no canvas. */
+:root {
+  --bg: #030407;
+  --ink: #e6ebf4;
+  --ink-2: #aab3c5;
+  --ink-3: #6d768b;
+  --link: #9cc0ff;
+  --line-rgb: 160, 175, 210;
+  --card: rgba(var(--line-rgb), 0.05);
+  --rule: rgba(var(--line-rgb), 0.18);
+  --f-mono: 'JetBrains Mono Variable', ui-monospace, SFMono-Regular, Menlo, monospace;
+  color-scheme: dark;
+}
+:root[data-theme='light'] {
+  --bg: #eef1f5;
+  --ink: #121725;
+  --ink-2: #434d62;
+  --ink-3: #7a8398;
+  --link: #2050c8;
+  --line-rgb: 30, 40, 65;
+  --card: rgba(255, 255, 255, 0.7);
+  color-scheme: light;
+}
+
+* { box-sizing: border-box; }
+html { background: var(--bg); }
+body {
+  margin: 0;
+  min-height: 100vh; min-height: 100svh;
+  background:
+    radial-gradient(ellipse 60% 50% at 50% 0%, rgba(var(--line-rgb), 0.08), transparent 70%),
+    var(--bg);
+  color: var(--ink-2);
+  font-family: var(--f-mono);
+  font-size: 15px;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+
+.sub {
+  width: min(700px, 100%);
+  margin: 0 auto;
+  padding: clamp(40px, 11vh, 120px) 24px 64px;
+}
+.back { color: var(--ink-3); text-decoration: none; font-size: 13px; }
+.back:hover { color: var(--link); }
+.back:focus-visible, .docs a:focus-visible { outline: 2px solid var(--link); outline-offset: 3px; }
+
+.kicker { margin: 44px 0 10px; color: var(--ink-3); font-size: 12px; letter-spacing: 0.04em; }
+h1 { margin: 0 0 10px; color: var(--ink); font-size: clamp(24px, 3vw, 32px); line-height: 1.2; letter-spacing: -0.01em; }
+.subtitle { margin: 0 0 22px; color: var(--ink); }
+.byline { margin: 0 0 22px; font-size: 13px; color: var(--ink-3); }
+.summary { margin: 0 0 30px; }
+
+.docs { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+.docs a {
+  display: flex; flex-direction: column; gap: 4px;
+  padding: 18px 20px;
+  border: 1px solid var(--rule); border-radius: 10px;
+  background: var(--card);
+  color: var(--ink-2); text-decoration: none;
+  transition: border-color 0.2s, transform 0.2s;
+}
+.docs a:hover { border-color: var(--link); transform: translateY(-1px); }
+.docs .name { color: var(--link); font-size: 17px; font-weight: 600; }
+.docs .name::after { content: ' ↗'; font-weight: 400; }
+.docs .meta { font-size: 12px; color: var(--ink-3); }
+
+@media (max-width: 520px) {
+  body { font-size: 14px; }
+  .docs { grid-template-columns: 1fr; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .docs a { transition: none; }
+  .docs a:hover { transform: none; }
+}

@@ -24,9 +24,9 @@ export const currently = [
 export const previously = [
   // ksadiora/aftercare README; VTHacks 14, Sep 2026.
   'took 3rd overall at VTHacks 14 with [Aftercare](https://github.com/ksadiora/aftercare), a post-discharge check-in system for nurses and their patients',
-  // BI-CTSICN/Urea_Cycle_App (private repo), Children's National, 2025–26. Links to the practicum poster
-  // (public/urea-cycle-research-hub-poster.pdf, exported from the Drive .pptx).
-  "built the urea cycle research hub at [Children's National](/urea-cycle-research-hub-poster.pdf), which scores disease mutations and maps them onto 3D protein structures",
+  // BI-CTSICN/Urea_Cycle_App (private repo), Children's National, 2025–26. Links to /urea-cycle/, the page with the
+  // practicum paper and poster (urea-cycle/index.html; PDFs in public/urea-cycle/, exported from Drive).
+  "built the urea cycle research hub at [Children's National](/urea-cycle/), which scores disease mutations and maps them onto 3D protein structures",
   // Resume: NRL SEAP 2025 (lateral flow immunoassays); Computational Molecular Bioscience 14(3), 2024.
   'built drug-detection assays at the U.S. Naval Research Lab, and [published a paper](https://doi.org/10.4236/cmb.2024.143005) on making protein drugs last longer',
   // Resume: Junior Medical Assistant, MedicsUSA (urgent + primary care), 2026.

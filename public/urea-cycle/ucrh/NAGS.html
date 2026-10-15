@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><link rel="stylesheet" href="/urea-cycle/ucrh/_snapshot/snapshot.css"><script src="/urea-cycle/ucrh/_snapshot/shim.js"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NAGS - N-Acetylglutamate Synthase</title>
+  <link rel="icon" type="image/jpeg" href="/urea-cycle/ucrh/static/images/favicon.jpeg">
+  <link rel="stylesheet" href="/urea-cycle/ucrh/static/css/styles.css">
+</head>
+<body><div class="ucrh-snapshot-bar">Read-only snapshot of the Urea Cycle Research Hub, taken Oct 14, 2026. Live PubMed search, accounts, comments and email digests are off. <a href="/urea-cycle/">Paper and poster</a> · <a href="/">karansadiora.com</a></div>
+  
+  <header>
+    <a href="/urea-cycle/ucrh/" class="header-home-link">Home</a>
+    <div class="header-top-right">
+      
+        
+        
+      
+    </div>
+    <div style="display: flex; align-items: center; justify-content: center; margin-bottom: 1rem; position: relative;">
+      <h1><a href="/urea-cycle/ucrh/" class="site-title-link">Urea Cycle Research Hub</a></h1>
+    </div>
+    <nav>
+      <a href="/urea-cycle/ucrh/OTC" class="">OTC</a>  
+      <a href="/urea-cycle/ucrh/CPS1" class="">CPS1</a>
+      <a href="/urea-cycle/ucrh/NAGS" class="active">NAGS</a>
+      <a href="/urea-cycle/ucrh/ASS" class="">ASS</a>
+      <a href="/urea-cycle/ucrh/ARG1" class="">ARG1</a>
+      <a href="/urea-cycle/ucrh/ASL" class="">ASL</a>
+      <a href="/urea-cycle/ucrh/ORNT1" class="">ORNT1</a>
+      <a href="/urea-cycle/ucrh/CITRIN" class="">CITRIN</a>
+      <a href="/urea-cycle/ucrh/variants" class="">Variants</a>
+      
+      
+      
+    </nav>
+  </header>
+
+  <main>
+    
+
+
+<!-- Sidebar panel -->
+<div id="keywords-panel" style="display:none; position: fixed; right:0; top:0; height:100%; width:250px; background:#f7f7f7; border-left:1px solid #ccc; padding:15px; padding-top: 80px; box-shadow: -2px 0 5px rgba(0,0,0,0.1); overflow-y:auto; z-index: 1001;">
+  <button id="close-keywords" style="position: absolute; top: 15px; right: 15px; background: #C8102E; color: white; border: none; border-radius: 50%; width: 30px; height: 30px; cursor: pointer; font-size: 18px; line-height: 1; display: flex; align-items: center; justify-content: center;">×</button>
+  <h4>Current Keywords</h4>
+  <ul id="current-keywords">
+    
+      <li>urea cycle</li>
+    
+      <li>ureagenesis</li>
+    
+      <li>N-acetylglutamate synthase</li>
+    
+      <li>NAGS</li>
+    
+    
+  </ul>
+
+  <h5 style="margin-top: 1rem;">Add Keywords (comma-separated)</h5>
+  <input type="text" id="new-keywords" placeholder="e.g., mitochondrial" style="width:100%; padding:5px;">
+  <button id="add-keywords" style="margin-top:5px; padding:6px 10px; background-color:#003366; color:white; border:none; border-radius:4px;">Add</button>
+</div>
+
+<div style="margin-bottom: 1rem;">
+  <h2 style="margin: 0 0 0.5rem 0;">N-Acetylglutamate Synthase (NAGS)</h2>
+  <p style="margin: 0;">NAGS is a mitochondrial enzyme that produces N-acetylglutamate, an essential allosteric activator of CPS1 in the urea cycle.</p>
+</div>
+
+<h4 style="color:#284b63; margin-top:1rem;"><a href="#" id="new-papers-link" data-since="" style="color:#284b63; text-decoration: underline; cursor: pointer;">
+  0 Publications Since Last Visit
+</a></h4>
+
+<!-- Modal for new papers -->
+<div id="new-papers-modal" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.5); z-index: 2000; overflow-y: auto;">
+  <div style="position: relative; background: white; margin: 50px auto; max-width: 900px; padding: 30px; border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.3); max-height: 90vh; overflow-y: auto;">
+    <button id="close-modal" style="position: absolute; top: 15px; right: 15px; background: #C8102E; color: white; border: none; border-radius: 50%; width: 35px; height: 35px; cursor: pointer; font-size: 20px; line-height: 1; display: flex; align-items: center; justify-content: center;">×</button>
+    <h2 style="margin-top: 0; color: #284b63;">New Publications Since Last Visit</h2>
+    <div id="new-papers-content">
+      <div style="text-align: center; padding: 40px;">
+        <p>Loading new publications...</p>
+      </div>
+    </div>
+  </div>
+</div>
+<hr>
+<div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 1rem;">
+  <h3 style="margin: 0;">Recent Publications</h3>
+  <div style="display: flex; gap: 10px; align-items: center;">
+    <select id="sort-select" style="padding: 6px 10px; background-color:#fff; border:1px solid #ccc; border-radius:4px; font-size:14px;">
+      <option value="date" selected>Sort by Date</option>
+      <option value="popularity" >Sort by Popularity</option>
+    </select>
+    <div style="position: relative; display: inline-block;">
+      <button id="export-btn" style="padding: 6px 10px; background-color:#284b63; color:white; border:none; border-radius:4px; cursor: pointer; display: inline-flex; align-items: center; gap: 4px;">
+        Export<span style="display: inline-block;">▼</span>
+      </button>
+      <div id="export-menu" style="display: none; position: absolute; top: 100%; right: 0; margin-top: 5px; background: white; border: 1px solid #ccc; border-radius: 4px; box-shadow: 0 2px 5px rgba(0,0,0,0.2); z-index: 1000; min-width: 150px;">
+        <a href="#" id="export-ris" style="display: block; padding: 8px 12px; text-decoration: none; color: #333; border-bottom: 1px solid #eee;">Export as RIS</a>
+        <a href="#" id="export-pmid" style="display: block; padding: 8px 12px; text-decoration: none; color: #333;">Export as PMID list</a>
+      </div>
+    </div>
+    <button id="toggle-keywords" style="padding: 6px 10px; background-color:#C8102E; color:white; border:none; border-radius:4px;">
+      Keywords
+    </button>
+  </div>
+</div>
+
+
+<ol id="papers-list">
+  
+    <li style="margin-bottom: 1.5em; padding-bottom: 1em; border-bottom: 1px solid #eee;">
+      <strong>
+        <a href="https://pubmed.ncbi.nlm.nih.gov/42286544/" target="_blank" style="text-decoration: none; color: #003366;">
+          Ammonia storm: unmasking a suspected rare proximal urea cycle disorder in adulthood.
+        </a>
+      </strong><br>
+      <em>BMC neurology</em>, Jun 12 2026, Vol. 26, pp. N/A<br>
+      <small>
+        PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/42286544/" target="_blank">42286544</a> |
+        PMCID: PMC13488257
+      </small>
+      <p>Hyperammonaemia is a medical emergency which is mostly associated with liver dysfunction. However, in the absence of hepatic disease, rare inborn errors of metabolism such as urea cycle disorders (UCDs) must be considered. While UCDs typically present in the neonatal period, partial enzyme deficiencies may remain clinically silent until adulthood and present abruptly with life-threatening hyperammonaemia encephalopathy. Among these, late-onset carbamoyl phosphate synthetase I (CPS-I) deficiency is exceedingly rare and often underdiagnosed. We report a 32-year-old male who presented with acute onset altered sensorium progressing to coma over 12 h. The neurological decline was preceded by two to three episodes of vomiting on the day of admission and a recent history of a five-to-six-day febrile illness accompanied by gastrointestinal symptoms. On admission, the patient had a Glasgow Coma Scale score of 7/15 and required endotracheal intubation with ventilatory support. Routine laboratory investigations, including liver and renal function tests, were within normal limits. Neuroimaging studies (CT and MRI brain) showed no abnormalities. Plasma ammonia was markedly elevated at 397 µg/dL (Normal: &lt;50 µg/dL), which rapidly escalated to 804 µg/dL within 24 h despite initial pharmacological intervention. Further metabolic evaluation revealed low plasma citrulline, elevated glutamine levels, and low urinary orotic acid, suggestive of a proximal urea cycle defect such as carbamoyl phosphate synthetase I (CPS-I) or N-acetylglutamate synthase (NAGS) deficiency. A significant family history of consanguinity and unexplained neonatal death, further supported a genetic etiology. The patient underwent urgent haemodialysis for ammonia clearance and was treated with protein restriction, dextrose-based intravenous fluids, and ammonia-lowering agents including sodium benzoate. His neurological status improved progressively, allowing successful extubation after three days. He was later discharged on oral L-citrulline supplementation and dietary protein restriction. At two-week follow-up, he was clinically stable with normalized plasma ammonia levels. This case highlights the importance of considering late-onset urea cycle disorders in adults presenting with unexplained hyperammonaemia encephalopathy. Early recognition and prompt aggressive management can be lifesaving and lead to complete neurological recovery.</p>
+      
+      
+      <!-- Interaction buttons -->
+      <div style="margin-top: 10px; display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
+        <button class="like-btn" data-pmid="42286544" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👍 Like (<span class="like-count">0</span>)
+        </button>
+        <button class="dislike-btn" data-pmid="42286544" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👎 Dislike (<span class="dislike-count">0</span>)
+        </button>
+        <button class="comment-btn" data-pmid="42286544" 
+                style="padding: 5px 12px; background-color: #284b63; color: white; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          💬 Comment (<span class="comment-count">0</span>)
+        </button>
+      </div>
+      
+      <!-- Comments section (hidden by default) -->
+      <div class="comments-section" id="comments-42286544" style="display: none; margin-top: 15px; padding: 10px; background-color: #f9f9f9; border-radius: 4px;">
+        <h5 style="margin-top: 0;">Comments:</h5>
+        <div class="comments-list" id="comments-list-42286544">
+          <!-- Comments will be loaded here -->
+        </div>
+        <div style="margin-top: 10px;">
+          <textarea class="comment-input" data-pmid="42286544" 
+                    placeholder="Add a comment..." 
+                    style="width: 100%; min-height: 60px; padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; font-size: 14px;"></textarea>
+          <button class="submit-comment-btn" data-pmid="42286544" 
+                  style="margin-top: 5px; padding: 6px 12px; background-color: #284b63; color: white; 
+                         border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+            Submit Comment
+          </button>
+        </div>
+      </div>
+    </li>
+  
+    <li style="margin-bottom: 1.5em; padding-bottom: 1em; border-bottom: 1px solid #eee;">
+      <strong>
+        <a href="https://pubmed.ncbi.nlm.nih.gov/42346728/" target="_blank" style="text-decoration: none; color: #003366;">
+          A Four-Year Prospective Pilot Study of Newborn Screening for Late-Onset Proximal Urea-Cycle Disorders in Hyogo Prefecture in Japan.
+        </a>
+      </strong><br>
+      <em>International journal of neonatal screening</em>, Jun 04 2026, Vol. 12, pp. N/A<br>
+      <small>
+        PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/42346728/" target="_blank">42346728</a> |
+        PMCID: PMC13300342
+      </small>
+      <p>Proximal urea-cycle disorders (PUCDs), including N-acetylglutamate synthase deficiency (NAGSD), ornithine transcarbamylase deficiency (OTCD), and carbamoyl phosphate synthase 1 deficiency (CPS1D), cause hyperammonemia and impair neurological outcomes. Early detection of late-onset forms allows presymptomatic intervention to prevent hyperammonemia; however, reliable newborn screening (NBS) markers are lacking. This prospective pilot study in Hyogo Prefecture, Japan, evaluated hypocitrullinemia as a screening marker for late-onset PUCDs. Newborns with citrulline levels below the 0.05th percentile on NBS between June 2020 and May 2024 were enrolled in the study. Confirmatory diagnosis of PUCDs was performed using plasma amino acids, urinary organic acids, and genetic testing. During the first period (101,172 newborns), 11 newborns exhibited hypocitrullinemia; 10 underwent further evaluation. One newborn was diagnosed with CPS1D (compound heterozygous &lt;i&gt;CPS1&lt;/i&gt; variants); another was later diagnosed with Leigh syndrome. The remaining eight cases were false positives, often associated with prematurity, poor feeding, or gastrointestinal disorders. A second dried blood spot (DBS) card protocol was introduced in the second period (34,694 newborns), reducing false positives. One neonatal-onset OTCD case was detected, and citrulline levels were normalized in six of the seven other cases. In summary, hypocitrullinemia can identify presymptomatic PUCDs, and requesting a second DBS card reduces false positives, supporting its feasibility for incorporation into NBS programs.</p>
+      
+      
+      <!-- Interaction buttons -->
+      <div style="margin-top: 10px; display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
+        <button class="like-btn" data-pmid="42346728" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👍 Like (<span class="like-count">0</span>)
+        </button>
+        <button class="dislike-btn" data-pmid="42346728" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👎 Dislike (<span class="dislike-count">0</span>)
+        </button>
+        <button class="comment-btn" data-pmid="42346728" 
+                style="padding: 5px 12px; background-color: #284b63; color: white; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          💬 Comment (<span class="comment-count">0</span>)
+        </button>
+      </div>
+      
+      <!-- Comments section (hidden by default) -->
+      <div class="comments-section" id="comments-42346728" style="display: none; margin-top: 15px; padding: 10px; background-color: #f9f9f9; border-radius: 4px;">
+        <h5 style="margin-top: 0;">Comments:</h5>
+        <div class="comments-list" id="comments-list-42346728">
+          <!-- Comments will be loaded here -->
+        </div>
+        <div style="margin-top: 10px;">
+          <textarea class="comment-input" data-pmid="42346728" 
+                    placeholder="Add a comment..." 
+                    style="width: 100%; min-height: 60px; padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; font-size: 14px;"></textarea>
+          <button class="submit-comment-btn" data-pmid="42346728" 
+                  style="margin-top: 5px; padding: 6px 12px; background-color: #284b63; color: white; 
+                         border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+            Submit Comment
+          </button>
+        </div>
+      </div>
+    </li>
+  
+    <li style="margin-bottom: 1.5em; padding-bottom: 1em; border-bottom: 1px solid #eee;">
+      <strong>
+        <a href="https://pubmed.ncbi.nlm.nih.gov/42033394/" target="_blank" style="text-decoration: none; color: #003366;">
+          Seizure and Neurodevelopmental Regression in Inherited &lt;i&gt;N&lt;/i&gt;-Acetyl Glutamate Synthase Deficiency (NAGSD): A Case Series From Neuroimaging to Genome Sequencing.
+        </a>
+      </strong><br>
+      <em>Journal of child neurology</em>, Apr 25 2026, Vol. N/A, pp. 8830738261439220<br>
+      <small>
+        PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/42033394/" target="_blank">42033394</a> |
+        PMCID: N/A
+      </small>
+      <p>BackgroundInherited hyperammonemia is a challenging disorder to diagnose. Various enzymes can be mutated in the urea cycle, but NAGSD is the rarest one. In this case series, we report 2 siblings with a neurometabolic disorder and their neuroimaging findings and genome sequencing, which led to the discovery of a new variation in the related gene.Case SeriesA 16-year-old girl presented to the emergency department with a focal seizure, right paresis, and a Glasgow Coma Scale score of 9. Imaging of the brain indicated abnormalities in the dentate nucleus and parietal lobes. Severe malnutrition with high serum ammonia suggested an inherited urea cycle deficiency. A month later, her 7-year-old brother presented to the emergency department with fatigue, headaches, and neurodevelopmental regression. He was initially suspected of encephalitis or metabolic disorders, but he also had high serum ammonia and plasma glutamic acid. Whole exome sequencing indicated a variant of uncertain significance linked to NAGSD. Sanger sequencing confirmed an autosomal recessive pattern (c.791C&gt;T, p.Thr264Met) in both siblings, with parents identified as heterozygote carriers.DiscussionAlthough most of the presentations in NAGSD happen early in life, both of our cases presented their neurologic presentations later than the usual reported age range. Previous investigation on this specific type of variation showed that NAGS activity is enough to live an everyday life, and the key problem is in the solubility of the enzyme, which has been decreased in the corresponding variation and can present later in life.</p>
+      
+      
+      <!-- Interaction buttons -->
+      <div style="margin-top: 10px; display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
+        <button class="like-btn" data-pmid="42033394" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👍 Like (<span class="like-count">0</span>)
+        </button>
+        <button class="dislike-btn" data-pmid="42033394" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👎 Dislike (<span class="dislike-count">0</span>)
+        </button>
+        <button class="comment-btn" data-pmid="42033394" 
+                style="padding: 5px 12px; background-color: #284b63; color: white; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          💬 Comment (<span class="comment-count">0</span>)
+        </button>
+      </div>
+      
+      <!-- Comments section (hidden by default) -->
+      <div class="comments-section" id="comments-42033394" style="display: none; margin-top: 15px; padding: 10px; background-color: #f9f9f9; border-radius: 4px;">
+        <h5 style="margin-top: 0;">Comments:</h5>
+        <div class="comments-list" id="comments-list-42033394">
+          <!-- Comments will be loaded here -->
+        </div>
+        <div style="margin-top: 10px;">
+          <textarea class="comment-input" data-pmid="42033394" 
+                    placeholder="Add a comment..." 
+                    style="width: 100%; min-height: 60px; padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; font-size: 14px;"></textarea>
+          <button class="submit-comment-btn" data-pmid="42033394" 
+                  style="margin-top: 5px; padding: 6px 12px; background-color: #284b63; color: white; 
+                         border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+            Submit Comment
+          </button>
+        </div>
+      </div>
+    </li>
+  
+    <li style="margin-bottom: 1.5em; padding-bottom: 1em; border-bottom: 1px solid #eee;">
+      <strong>
+        <a href="https://pubmed.ncbi.nlm.nih.gov/41430122/" target="_blank" style="text-decoration: none; color: #003366;">
+          Diagnostic and management challenges of a case of N-acetylglutamate synthase deficiency in a resource-limited healthcare setting in Tanzania: a case report.
+        </a>
+      </strong><br>
+      <em>BMC pediatrics</em>, Dec 22 2025, Vol. 26, pp. 86<br>
+      <small>
+        PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/41430122/" target="_blank">41430122</a> |
+        PMCID: PMC12870521
+      </small>
+      <p>Inborn errors of metabolism represent a significant cause of childhood morbidity and mortality. These conditions are frequently missed in low-resource settings due to their anticipated rarity and similarity of symptoms to conditions such as sepsis. We present a case of a neonate with N-acetylglutamate synthase deficiency whose diagnosis and management at our facility were complicated by limited healthcare resources. A three-day-old male of South Asian origin born to consanguineous parents presented with lethargy, hypothermia and respiratory distress. He was initially managed for suspected septic shock. However, further investigations revealed severe hyperammonemia for which he was managed with peritoneal dialysis and oral sodium benzoate. His care was coordinated by a multidisciplinary team and included teleconsultation with a metabolic specialist. Once stabilized, he was transferred to our sister institution in Pakistan for further care where genetic analysis revealed a homozygous pathogenic variant (c.1306_1307insT; p.Thr439fs*52) in the N-acetylglutamate synthase gene, confirming the diagnosis of N-acetylglutamate synthase deficiency. However, the baby passed away at 49th day of life. High index of suspicion is important in diagnosing inborn errors of metabolism. Even in resource-limited setting, a multidisciplinary team with international partnership can optimize the care for patients with rare inborn errors of metabolism. There is also a need to increase awareness, improve diagnostic capacity and establish standardized treatment protocols for rare metabolic disorders in low-resource settings like Tanzania.</p>
+      
+      
+      <!-- Interaction buttons -->
+      <div style="margin-top: 10px; display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
+        <button class="like-btn" data-pmid="41430122" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👍 Like (<span class="like-count">0</span>)
+        </button>
+        <button class="dislike-btn" data-pmid="41430122" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👎 Dislike (<span class="dislike-count">0</span>)
+        </button>
+        <button class="comment-btn" data-pmid="41430122" 
+                style="padding: 5px 12px; background-color: #284b63; color: white; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          💬 Comment (<span class="comment-count">0</span>)
+        </button>
+      </div>
+      
+      <!-- Comments section (hidden by default) -->
+      <div class="comments-section" id="comments-41430122" style="display: none; margin-top: 15px; padding: 10px; background-color: #f9f9f9; border-radius: 4px;">
+        <h5 style="margin-top: 0;">Comments:</h5>
+        <div class="comments-list" id="comments-list-41430122">
+          <!-- Comments will be loaded here -->
+        </div>
+        <div style="margin-top: 10px;">
+          <textarea class="comment-input" data-pmid="41430122" 
+                    placeholder="Add a comment..." 
+                    style="width: 100%; min-height: 60px; padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; font-size: 14px;"></textarea>
+          <button class="submit-comment-btn" data-pmid="41430122" 
+                  style="margin-top: 5px; padding: 6px 12px; background-color: #284b63; color: white; 
+                         border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+            Submit Comment
+          </button>
+        </div>
+      </div>
+    </li>
+  
+    <li style="margin-bottom: 1.5em; padding-bottom: 1em; border-bottom: 1px solid #eee;">
+      <strong>
+        <a href="https://pubmed.ncbi.nlm.nih.gov/40976841/" target="_blank" style="text-decoration: none; color: #003366;">
+          Current Treatment Modalities for Urea Cycle Disorders.
+        </a>
+      </strong><br>
+      <em>Paediatric drugs</em>, Nov 2025, Vol. 27, pp. 723-734<br>
+      <small>
+        PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/40976841/" target="_blank">40976841</a> |
+        PMCID: N/A
+      </small>
+      <p>The urea cycle, a metabolic pathway comprising six enzymes and two transporters, is necessary for mammalian nitrogen detoxification. A deficiency of any of these components disrupts this process, leading to the accumulation of nitrogen in the form of ammonia, which is especially toxic to the brain. For decades, treatment of urea cycle disorders has consisted of nitrogen scavengers, dietary protein restriction, arginine or citrulline supplementation, calorie support, and liver transplant. In 2011, carglumic acid became available as a substitute for N-acetylglutamate for N-acetylglutamate synthase deficiency. The past 10 years, however, have seen the development of enzyme therapy for arginase deficiency and gene therapy for ornithine transcarbamylase deficiency. This article reviews the current status and availability of treatment options for urea cycle disorders.</p>
+      
+      
+      <!-- Interaction buttons -->
+      <div style="margin-top: 10px; display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
+        <button class="like-btn" data-pmid="40976841" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👍 Like (<span class="like-count">0</span>)
+        </button>
+        <button class="dislike-btn" data-pmid="40976841" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👎 Dislike (<span class="dislike-count">0</span>)
+        </button>
+        <button class="comment-btn" data-pmid="40976841" 
+                style="padding: 5px 12px; background-color: #284b63; color: white; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          💬 Comment (<span class="comment-count">0</span>)
+        </button>
+      </div>
+      
+      <!-- Comments section (hidden by default) -->
+      <div class="comments-section" id="comments-40976841" style="display: none; margin-top: 15px; padding: 10px; background-color: #f9f9f9; border-radius: 4px;">
+        <h5 style="margin-top: 0;">Comments:</h5>
+        <div class="comments-list" id="comments-list-40976841">
+          <!-- Comments will be loaded here -->
+        </div>
+        <div style="margin-top: 10px;">
+          <textarea class="comment-input" data-pmid="40976841" 
+                    placeholder="Add a comment..." 
+                    style="width: 100%; min-height: 60px; padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; font-size: 14px;"></textarea>
+          <button class="submit-comment-btn" data-pmid="40976841" 
+                  style="margin-top: 5px; padding: 6px 12px; background-color: #284b63; color: white; 
+                         border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+            Submit Comment
+          </button>
+        </div>
+      </div>
+    </li>
+  
+    <li style="margin-bottom: 1.5em; padding-bottom: 1em; border-bottom: 1px solid #eee;">
+      <strong>
+        <a href="https://pubmed.ncbi.nlm.nih.gov/40285952/" target="_blank" style="text-decoration: none; color: #003366;">
+          Urea cycle defects in adulthood: clinical presentation, diagnosis and treatment in genetically encoded hepatic metabolic disorders with a potential for encephalopathy.
+        </a>
+      </strong><br>
+      <em>Metabolic brain disease</em>, Apr 26 2025, Vol. 40, pp. 192<br>
+      <small>
+        PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/40285952/" target="_blank">40285952</a> |
+        PMCID: PMC12033206
+      </small>
+      <p>Hyperammonaemia is an important cause for encephalopathy. Ammonia is the waste product of amino acid degradation and cannot be excreted via urine. Ammonia is metabolized to water-soluble urea via the urea cycle. Hyperammonaemia not only occurs during acute liver failure, but also in rare genetically determined defects of enzymes or transporters involved in the urea cycle resulting in elevated ammonia concentrations. Enzyme defects include deficiency of carbamylphosphate synthase, N-acetylglutamate synthase, ornithine transcarbamylase, argininosuccinate lyase and arginase, transporter defects are citrin deficiency and HHH-syndrome. These urea cycle defects (UCD) mostly manifest for the first time during the neonatal period, infancy or childhood, however first clinical manifestations including encephalopathy may be observed in adulthood in milder forms. Therefore, physicians treating adults should be aware of clinical symptoms in UCD to make a timely diagnosis and initiate treatment. In adulthood, clinical symptoms are often uncharacteristic including headache, avoidance of high-protein food, psychiatric symptoms triggered by heavy exercise or delivery of a child, autism, attention deficit, lethargy, developmental delay and epilepsy. Elevated ammonia concentrations in blood are the biochemical hallmark. Some UCDs can be diagnosed at metabolite level, others only at genetic level. Treatment consists of eucaloric, low-protein diet supplemented with essential amino acids and vitamins/trace elements, and intake of arginine or citrulline. Pharmacological scavengers of nitrogen are benzoate and butyrate. If conservative therapy fails, hemodialysis should be considered. Prompt treatment during acute crises is essential for optimal outcome. Liver transplantation is considered in metabolically unstable patients. For arginase deficiency, enzyme replacement therapy is available.</p>
+      
+      
+      <!-- Interaction buttons -->
+      <div style="margin-top: 10px; display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
+        <button class="like-btn" data-pmid="40285952" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👍 Like (<span class="like-count">0</span>)
+        </button>
+        <button class="dislike-btn" data-pmid="40285952" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👎 Dislike (<span class="dislike-count">0</span>)
+        </button>
+        <button class="comment-btn" data-pmid="40285952" 
+                style="padding: 5px 12px; background-color: #284b63; color: white; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          💬 Comment (<span class="comment-count">0</span>)
+        </button>
+      </div>
+      
+      <!-- Comments section (hidden by default) -->
+      <div class="comments-section" id="comments-40285952" style="display: none; margin-top: 15px; padding: 10px; background-color: #f9f9f9; border-radius: 4px;">
+        <h5 style="margin-top: 0;">Comments:</h5>
+        <div class="comments-list" id="comments-list-40285952">
+          <!-- Comments will be loaded here -->
+        </div>
+        <div style="margin-top: 10px;">
+          <textarea class="comment-input" data-pmid="40285952" 
+                    placeholder="Add a comment..." 
+                    style="width: 100%; min-height: 60px; padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; font-size: 14px;"></textarea>
+          <button class="submit-comment-btn" data-pmid="40285952" 
+                  style="margin-top: 5px; padding: 6px 12px; background-color: #284b63; color: white; 
+                         border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+            Submit Comment
+          </button>
+        </div>
+      </div>
+    </li>
+  
+    <li style="margin-bottom: 1.5em; padding-bottom: 1em; border-bottom: 1px solid #eee;">
+      <strong>
+        <a href="https://pubmed.ncbi.nlm.nih.gov/40218931/" target="_blank" style="text-decoration: none; color: #003366;">
+          Understanding the Natural History and the Effects of Current Therapeutic Strategies on Urea Cycle Disorders: Insights from the UCD Spanish Registry.
+        </a>
+      </strong><br>
+      <em>Nutrients</em>, Mar 28 2025, Vol. 17, pp. N/A<br>
+      <small>
+        PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/40218931/" target="_blank">40218931</a> |
+        PMCID: PMC11990916
+      </small>
+      <p>&lt;b&gt;Background/Objectives&lt;/b&gt;: The present study updates the Spanish registry of patients with urea cycle disorders (UCD), originally established in 2013, to provide comprehensive epidemiological data and evaluate the impact of therapeutic strategies and newborn screening (NBS) on clinical outcomes. &lt;b&gt;Methods&lt;/b&gt;: This retrospective, multicenter study focuses on 255 Spanish UCD patients. It includes all living and deceased cases up to February 2024, analyzing demographic, clinical, and biochemical variables. &lt;b&gt;Results&lt;/b&gt;: The incidence of UCD in Spain over the past decade was 1:36,063 births. The most common defects were ornithine transcarbamylase deficiency (OTCD) and argininosuccinate synthetase deficiency. Early-onset (EO) cases comprised 32.7%, and 10.6% were diagnosed through NBS. Global mortality was 14.9%, higher in carbamoylphosphate synthetase 1 deficiency (36.8%) and male OTCD patients (32.1%) compared to other defects (&lt;i&gt;p&lt;/i&gt; = 0.013). EO cases presented a higher mortality rate (35.8%) than late-onset (LO) cases (7.1%) (&lt;i&gt;p&lt;/i&gt; &lt; 0.0001). The median ammonia level in deceased patients was higher at 1058 µmol/L (IQR 410-1793) than in survivors at 294 µmol/L (IQR 71-494) (&lt;i&gt;p&lt;/i&gt; &lt; 0.0001). Diagnosis through NBS improved survival and reduced neurological impairment compared to symptomatic diagnosis. Neurological impairment occurred in 44% of patients, with worse neurological outcomes observed in patients with argininosuccinate lyase deficiency, arginase 1 deficiency, hyperornithinemia-hyperammonemia-homocitrullinuria, EO presentations, pre-2014 diagnosis, and patients with higher levels of ammonia at diagnosis. Among transplanted patients (20.6%), survival was 95.2%, with no significant neurological differences compared to non-transplanted patients. &lt;b&gt;Conclusions&lt;/b&gt;: This updated analysis highlights the positive impact of NBS and advanced treatments on mortality and neurologic outcomes. Persistent neurological challenges underscore the need for further therapeutic strategies.</p>
+      
+      
+      <!-- Interaction buttons -->
+      <div style="margin-top: 10px; display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
+        <button class="like-btn" data-pmid="40218931" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👍 Like (<span class="like-count">0</span>)
+        </button>
+        <button class="dislike-btn" data-pmid="40218931" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👎 Dislike (<span class="dislike-count">0</span>)
+        </button>
+        <button class="comment-btn" data-pmid="40218931" 
+                style="padding: 5px 12px; background-color: #284b63; color: white; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          💬 Comment (<span class="comment-count">0</span>)
+        </button>
+      </div>
+      
+      <!-- Comments section (hidden by default) -->
+      <div class="comments-section" id="comments-40218931" style="display: none; margin-top: 15px; padding: 10px; background-color: #f9f9f9; border-radius: 4px;">
+        <h5 style="margin-top: 0;">Comments:</h5>
+        <div class="comments-list" id="comments-list-40218931">
+          <!-- Comments will be loaded here -->
+        </div>
+        <div style="margin-top: 10px;">
+          <textarea class="comment-input" data-pmid="40218931" 
+                    placeholder="Add a comment..." 
+                    style="width: 100%; min-height: 60px; padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; font-size: 14px;"></textarea>
+          <button class="submit-comment-btn" data-pmid="40218931" 
+                  style="margin-top: 5px; padding: 6px 12px; background-color: #284b63; color: white; 
+                         border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+            Submit Comment
+          </button>
+        </div>
+      </div>
+    </li>
+  
+    <li style="margin-bottom: 1.5em; padding-bottom: 1em; border-bottom: 1px solid #eee;">
+      <strong>
+        <a href="https://pubmed.ncbi.nlm.nih.gov/39868884/" target="_blank" style="text-decoration: none; color: #003366;">
+          Associations between circulating amino acids and metabolic dysfunction-associated steatotic liver disease in individuals living with severe obesity.
+        </a>
+      </strong><br>
+      <em>Physiological reports</em>, Feb 2025, Vol. 13, pp. e70171<br>
+      <small>
+        PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/39868884/" target="_blank">39868884</a> |
+        PMCID: PMC11770886
+      </small>
+      <p>Metabolic dysfunction-associated steatotic liver disease (MASLD) describes liver diseases caused by the accumulation of triglycerides in hepatocytes (steatosis) as well as the resulting inflammation and fibrosis. Previous studies have demonstrated that accumulation of fat in visceral adipose tissue compartments and the liver is associated with alterations in the circulating levels of some amino acids, notably glutamate. This study aimed to investigate the associations between circulating amino acids, particularly glutamate, and MASLD. In addition, we hypothesized that liver steatosis, concomitant with visceral adiposity, could contribute to the association between circulating glutamate and visceral obesity. We studied a sample of 150 patients living with severe obesity who were non-diabetic and selected to represent a wide range of MASLD severity. Liver histological features were determined by a pathologist from a biopsy sample obtained at the time of bariatric surgery. Bulk RNA sequencing measured the hepatic mRNA expression level of selected genes related to the urea cycle and glutamate metabolism. Fasting plasma amino acid levels were measured by liquid chromatography coupled with tandem mass spectrometry. Patients with more advanced steatosis had larger visceral adipocytes, higher levels of circulating tyrosine, glutamate, and alanine as well as lower levels of serine. MASLD severity was significantly associated with the hepatic mRNA expression of glutamate metabolism genes such as GLS1, GLUL (positively), and NAGS (inversely). In individuals living with obesity, MASLD severity is associated with visceral adipocyte hypertrophy, higher circulating glutamate as well as potential alterations of hepatic amino acid and nitrogen metabolism.</p>
+      
+      
+      <!-- Interaction buttons -->
+      <div style="margin-top: 10px; display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
+        <button class="like-btn" data-pmid="39868884" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👍 Like (<span class="like-count">0</span>)
+        </button>
+        <button class="dislike-btn" data-pmid="39868884" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👎 Dislike (<span class="dislike-count">0</span>)
+        </button>
+        <button class="comment-btn" data-pmid="39868884" 
+                style="padding: 5px 12px; background-color: #284b63; color: white; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          💬 Comment (<span class="comment-count">0</span>)
+        </button>
+      </div>
+      
+      <!-- Comments section (hidden by default) -->
+      <div class="comments-section" id="comments-39868884" style="display: none; margin-top: 15px; padding: 10px; background-color: #f9f9f9; border-radius: 4px;">
+        <h5 style="margin-top: 0;">Comments:</h5>
+        <div class="comments-list" id="comments-list-39868884">
+          <!-- Comments will be loaded here -->
+        </div>
+        <div style="margin-top: 10px;">
+          <textarea class="comment-input" data-pmid="39868884" 
+                    placeholder="Add a comment..." 
+                    style="width: 100%; min-height: 60px; padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; font-size: 14px;"></textarea>
+          <button class="submit-comment-btn" data-pmid="39868884" 
+                  style="margin-top: 5px; padding: 6px 12px; background-color: #284b63; color: white; 
+                         border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+            Submit Comment
+          </button>
+        </div>
+      </div>
+    </li>
+  
+    <li style="margin-bottom: 1.5em; padding-bottom: 1em; border-bottom: 1px solid #eee;">
+      <strong>
+        <a href="https://pubmed.ncbi.nlm.nih.gov/38740568/" target="_blank" style="text-decoration: none; color: #003366;">
+          Use of pure recombinant human enzymes to assess the disease-causing potential of missense mutations in urea cycle disorders, applied to N-acetylglutamate synthase deficiency.
+        </a>
+      </strong><br>
+      <em>Journal of inherited metabolic disease</em>, Nov 2024, Vol. 47, pp. 1194-1212<br>
+      <small>
+        PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/38740568/" target="_blank">38740568</a> |
+        PMCID: PMC11586601
+      </small>
+      <p>N-acetylglutamate synthase (NAGS) makes acetylglutamate, the essential activator of the first, regulatory enzyme of the urea cycle, carbamoyl phosphate synthetase 1 (CPS1). NAGS deficiency (NAGSD) and CPS1 deficiency (CPS1D) present identical phenotypes. However, they must be distinguished, because NAGSD is cured by substitutive therapy with the N-acetyl-L-glutamate analogue N-carbamyl-L-glutamate, while curative therapy of CPS1D requires liver transplantation. Since their differentiation is done genetically, it is important to ascertain the disease-causing potential of CPS1 and NAGS genetic variants. With this goal, we previously carried out site-directed mutagenesis studies with pure recombinant human CPS1. We could not do the same with human NAGS (HuNAGS) because of enzyme instability, leading to our prior utilization of a bacterial NAGS as an imperfect surrogate of HuNAGS. We now use genuine HuNAGS, stabilized as a chimera of its conserved domain (cHuNAGS) with the maltose binding protein (MBP), and produced in Escherichia coli. MBP-cHuNAGS linker cleavage allowed assessment of the enzymatic properties and thermal stability of cHuNAGS, either wild-type or hosting each one of 23 nonsynonymous single-base changes found in NAGSD patients. For all but one change, disease causation was accounted by the enzymatic alterations identified, including, depending on the variant, loss of arginine activation, increased K&lt;sub&gt;m&lt;/sub&gt; &lt;sup&gt;Glutamate&lt;/sup&gt;, active site inactivation, decreased thermal stability, and protein misfolding. Our present approach outperforms experimental in vitro use of bacterial NAGS or in silico utilization of prediction servers (including AlphaMissense), illustrating with HuNAGS the value for UCDs of using recombinant enzymes for assessing disease-causation and molecular pathogenesis, and for therapeutic guidance.</p>
+      
+      
+      <!-- Interaction buttons -->
+      <div style="margin-top: 10px; display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
+        <button class="like-btn" data-pmid="38740568" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👍 Like (<span class="like-count">0</span>)
+        </button>
+        <button class="dislike-btn" data-pmid="38740568" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👎 Dislike (<span class="dislike-count">0</span>)
+        </button>
+        <button class="comment-btn" data-pmid="38740568" 
+                style="padding: 5px 12px; background-color: #284b63; color: white; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          💬 Comment (<span class="comment-count">0</span>)
+        </button>
+      </div>
+      
+      <!-- Comments section (hidden by default) -->
+      <div class="comments-section" id="comments-38740568" style="display: none; margin-top: 15px; padding: 10px; background-color: #f9f9f9; border-radius: 4px;">
+        <h5 style="margin-top: 0;">Comments:</h5>
+        <div class="comments-list" id="comments-list-38740568">
+          <!-- Comments will be loaded here -->
+        </div>
+        <div style="margin-top: 10px;">
+          <textarea class="comment-input" data-pmid="38740568" 
+                    placeholder="Add a comment..." 
+                    style="width: 100%; min-height: 60px; padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; font-size: 14px;"></textarea>
+          <button class="submit-comment-btn" data-pmid="38740568" 
+                  style="margin-top: 5px; padding: 6px 12px; background-color: #284b63; color: white; 
+                         border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+            Submit Comment
+          </button>
+        </div>
+      </div>
+    </li>
+  
+    <li style="margin-bottom: 1.5em; padding-bottom: 1em; border-bottom: 1px solid #eee;">
+      <strong>
+        <a href="https://pubmed.ncbi.nlm.nih.gov/37847851/" target="_blank" style="text-decoration: none; color: #003366;">
+          Datamining approaches for examining the low prevalence of N-acetylglutamate synthase deficiency and understanding transcriptional regulation of urea cycle genes.
+        </a>
+      </strong><br>
+      <em>Journal of inherited metabolic disease</em>, Nov 2024, Vol. 47, pp. 1175-1193<br>
+      <small>
+        PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/37847851/" target="_blank">37847851</a> |
+        PMCID: PMC11586597
+      </small>
+      <p>Ammonia, which is toxic to the brain, is converted into non-toxic urea, through a pathway of six enzymatically catalyzed steps known as the urea cycle. In this pathway, N-acetylglutamate synthase (NAGS, EC 2.3.1.1) catalyzes the formation of N-acetylglutamate (NAG) from glutamate and acetyl coenzyme A. NAGS deficiency (NAGSD) is the rarest of the urea cycle disorders, yet is unique in that ureagenesis can be restored with the drug N-carbamylglutamate (NCG). We investigated whether the rarity of NAGSD could be due to low sequence variation in the NAGS genomic region, high NAGS tolerance for amino acid replacements, and alternative sources of NAG and NCG in the body. We also evaluated whether the small genomic footprint of the NAGS catalytic domain might play a role. The small number of patients diagnosed with NAGSD could result from the absence of specific disease biomarkers and/or short NAGS catalytic domain. We screened for sequence variants in NAGS regulatory regions in patients suspected of having NAGSD and found a novel NAGS regulatory element in the first intron of the NAGS gene. We applied the same datamining approach to identify regulatory elements in the remaining urea cycle genes. In addition to the known promoters and enhancers of each gene, we identified several novel regulatory elements in their upstream regions and first introns. The identification of cis-regulatory elements of urea cycle genes and their associated transcription factors holds promise for uncovering shared mechanisms governing urea cycle gene expression and potentially leading to new treatments for urea cycle disorders.</p>
+      
+      
+      <!-- Interaction buttons -->
+      <div style="margin-top: 10px; display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
+        <button class="like-btn" data-pmid="37847851" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👍 Like (<span class="like-count">0</span>)
+        </button>
+        <button class="dislike-btn" data-pmid="37847851" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👎 Dislike (<span class="dislike-count">0</span>)
+        </button>
+        <button class="comment-btn" data-pmid="37847851" 
+                style="padding: 5px 12px; background-color: #284b63; color: white; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          💬 Comment (<span class="comment-count">0</span>)
+        </button>
+      </div>
+      
+      <!-- Comments section (hidden by default) -->
+      <div class="comments-section" id="comments-37847851" style="display: none; margin-top: 15px; padding: 10px; background-color: #f9f9f9; border-radius: 4px;">
+        <h5 style="margin-top: 0;">Comments:</h5>
+        <div class="comments-list" id="comments-list-37847851">
+          <!-- Comments will be loaded here -->
+        </div>
+        <div style="margin-top: 10px;">
+          <textarea class="comment-input" data-pmid="37847851" 
+                    placeholder="Add a comment..." 
+                    style="width: 100%; min-height: 60px; padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; font-size: 14px;"></textarea>
+          <button class="submit-comment-btn" data-pmid="37847851" 
+                  style="margin-top: 5px; padding: 6px 12px; background-color: #284b63; color: white; 
+                         border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+            Submit Comment
+          </button>
+        </div>
+      </div>
+    </li>
+  
+</ol>
+
+<div style="text-align:center; margin-top:1rem;">
+  <button id="load-more" style="padding:8px 16px; background-color:#284b63; color:white; border:none; border-radius:5px;">
+    Show More
+  </button>
+  <button id="show-all" style="padding:6px 14px; background-color:#999; color:white; border:none; border-radius:5px;">
+    Show All
+  </button>
+</div>
+
+
+
+<div id="loading-text" class="loading-text" style="display:none;">Fetching papers...</div>
+
+
+  </main>
+
+  <footer>
+    <p>© 2025 Urea Cycle Research Hub</p>
+  </footer>
+  
+<script src="/urea-cycle/ucrh/static/js/script.js"></script>
+
+</body>
+</html>

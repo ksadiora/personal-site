@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><link rel="stylesheet" href="/urea-cycle/ucrh/_snapshot/snapshot.css"><script src="/urea-cycle/ucrh/_snapshot/shim.js"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ASS - Argininosuccinate Synthase</title>
+  <link rel="icon" type="image/jpeg" href="/urea-cycle/ucrh/static/images/favicon.jpeg">
+  <link rel="stylesheet" href="/urea-cycle/ucrh/static/css/styles.css">
+</head>
+<body><div class="ucrh-snapshot-bar">Read-only snapshot of the Urea Cycle Research Hub, taken Oct 14, 2026. Live PubMed search, accounts, comments and email digests are off. <a href="/urea-cycle/">Paper and poster</a> · <a href="/">karansadiora.com</a></div>
+  
+  <header>
+    <a href="/urea-cycle/ucrh/" class="header-home-link">Home</a>
+    <div class="header-top-right">
+      
+        
+        
+      
+    </div>
+    <div style="display: flex; align-items: center; justify-content: center; margin-bottom: 1rem; position: relative;">
+      <h1><a href="/urea-cycle/ucrh/" class="site-title-link">Urea Cycle Research Hub</a></h1>
+    </div>
+    <nav>
+      <a href="/urea-cycle/ucrh/OTC" class="">OTC</a>  
+      <a href="/urea-cycle/ucrh/CPS1" class="">CPS1</a>
+      <a href="/urea-cycle/ucrh/NAGS" class="">NAGS</a>
+      <a href="/urea-cycle/ucrh/ASS" class="active">ASS</a>
+      <a href="/urea-cycle/ucrh/ARG1" class="">ARG1</a>
+      <a href="/urea-cycle/ucrh/ASL" class="">ASL</a>
+      <a href="/urea-cycle/ucrh/ORNT1" class="">ORNT1</a>
+      <a href="/urea-cycle/ucrh/CITRIN" class="">CITRIN</a>
+      <a href="/urea-cycle/ucrh/variants" class="">Variants</a>
+      
+      
+      
+    </nav>
+  </header>
+
+  <main>
+    
+
+
+<!-- Sidebar panel -->
+<div id="keywords-panel" style="display:none; position: fixed; right:0; top:0; height:100%; width:250px; background:#f7f7f7; border-left:1px solid #ccc; padding:15px; padding-top: 80px; box-shadow: -2px 0 5px rgba(0,0,0,0.1); overflow-y:auto; z-index: 1001;">
+  <button id="close-keywords" style="position: absolute; top: 15px; right: 15px; background: #C8102E; color: white; border: none; border-radius: 50%; width: 30px; height: 30px; cursor: pointer; font-size: 18px; line-height: 1; display: flex; align-items: center; justify-content: center;">×</button>
+  <h4>Current Keywords</h4>
+  <ul id="current-keywords">
+    
+      <li>urea cycle</li>
+    
+      <li>ureagenesis</li>
+    
+      <li>argininosuccinate synthase</li>
+    
+      <li>ASS</li>
+    
+    
+  </ul>
+
+  <h5 style="margin-top: 1rem;">Add Keywords (comma-separated)</h5>
+  <input type="text" id="new-keywords" placeholder="e.g., mitochondrial" style="width:100%; padding:5px;">
+  <button id="add-keywords" style="margin-top:5px; padding:6px 10px; background-color:#003366; color:white; border:none; border-radius:4px;">Add</button>
+</div>
+
+<div style="margin-bottom: 1rem;">
+  <h2 style="margin: 0 0 0.5rem 0;">Argininosuccinate Synthase (ASS)</h2>
+  <p style="margin: 0;">ASS is a cytosolic enzyme that catalyzes the condensation of citrulline and aspartate to form argininosuccinate in the urea cycle.</p>
+</div>
+
+<h4 style="color:#284b63; margin-top:1rem;"><a href="#" id="new-papers-link" data-since="" style="color:#284b63; text-decoration: underline; cursor: pointer;">
+  0 Publications Since Last Visit
+</a></h4>
+
+<!-- Modal for new papers -->
+<div id="new-papers-modal" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.5); z-index: 2000; overflow-y: auto;">
+  <div style="position: relative; background: white; margin: 50px auto; max-width: 900px; padding: 30px; border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.3); max-height: 90vh; overflow-y: auto;">
+    <button id="close-modal" style="position: absolute; top: 15px; right: 15px; background: #C8102E; color: white; border: none; border-radius: 50%; width: 35px; height: 35px; cursor: pointer; font-size: 20px; line-height: 1; display: flex; align-items: center; justify-content: center;">×</button>
+    <h2 style="margin-top: 0; color: #284b63;">New Publications Since Last Visit</h2>
+    <div id="new-papers-content">
+      <div style="text-align: center; padding: 40px;">
+        <p>Loading new publications...</p>
+      </div>
+    </div>
+  </div>
+</div>
+<hr>
+<div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 1rem;">
+  <h3 style="margin: 0;">Recent Publications</h3>
+  <div style="display: flex; gap: 10px; align-items: center;">
+    <select id="sort-select" style="padding: 6px 10px; background-color:#fff; border:1px solid #ccc; border-radius:4px; font-size:14px;">
+      <option value="date" selected>Sort by Date</option>
+      <option value="popularity" >Sort by Popularity</option>
+    </select>
+    <div style="position: relative; display: inline-block;">
+      <button id="export-btn" style="padding: 6px 10px; background-color:#284b63; color:white; border:none; border-radius:4px; cursor: pointer; display: inline-flex; align-items: center; gap: 4px;">
+        Export<span style="display: inline-block;">▼</span>
+      </button>
+      <div id="export-menu" style="display: none; position: absolute; top: 100%; right: 0; margin-top: 5px; background: white; border: 1px solid #ccc; border-radius: 4px; box-shadow: 0 2px 5px rgba(0,0,0,0.2); z-index: 1000; min-width: 150px;">
+        <a href="#" id="export-ris" style="display: block; padding: 8px 12px; text-decoration: none; color: #333; border-bottom: 1px solid #eee;">Export as RIS</a>
+        <a href="#" id="export-pmid" style="display: block; padding: 8px 12px; text-decoration: none; color: #333;">Export as PMID list</a>
+      </div>
+    </div>
+    <button id="toggle-keywords" style="padding: 6px 10px; background-color:#C8102E; color:white; border:none; border-radius:4px;">
+      Keywords
+    </button>
+  </div>
+</div>
+
+
+<ol id="papers-list">
+  
+    <li style="margin-bottom: 1.5em; padding-bottom: 1em; border-bottom: 1px solid #eee;">
+      <strong>
+        <a href="https://pubmed.ncbi.nlm.nih.gov/42729655/" target="_blank" style="text-decoration: none; color: #003366;">
+          FoxO transcription factors coordinate the urea cycle and gluconeogenesis by controlling &lt;i&gt;Ass1&lt;/i&gt;.
+        </a>
+      </strong><br>
+      <em>iScience</em>, Sep 18 2026, Vol. 29, pp. 117399<br>
+      <small>
+        PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/42729655/" target="_blank">42729655</a> |
+        PMCID: PMC13562413
+      </small>
+      <p>Amino acid catabolism during fasting requires coordinated nitrogen disposal and glucose production, but the transcriptional logic linking the urea cycle to gluconeogenesis remains unclear. Forkhead box O (FoxO) transcription factors regulate fasting metabolism, and here we identify FoxOs as direct hepatic regulators of argininosuccinate synthase 1 (&lt;i&gt;Ass1&lt;/i&gt;). Acute hepatic FoxO1/3a knockdown in fasted mice reduced Ass1 expression, lowered blood glucose, and altered urea-cycle amino acids, with decreased arginine and increased ornithine, even in &lt;i&gt;Klf15&lt;/i&gt;-deficient livers. &lt;i&gt;Ass1&lt;/i&gt; silencing phenocopied these effects and impaired glucose production from pyruvate and lactate, whereas Ass1 overexpression restored glucose production in FoxO-inhibited hepatocytes. Mechanistically, we identified a functional FoxO-binding element within an upstream Ass1 enhancer and confirmed its fasting-inducible activity by reporter assays, electrophoretic mobility shift assays, &lt;i&gt;in vivo&lt;/i&gt; imaging, and chromatin immunoprecipitation. These findings establish a KLF15-independent FoxO-Ass1 axis that coordinates ureagenesis with gluconeogenesis during fasting and supports hepatic metabolic adaptation to nutrient deprivation.</p>
+      
+      
+      <!-- Interaction buttons -->
+      <div style="margin-top: 10px; display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
+        <button class="like-btn" data-pmid="42729655" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👍 Like (<span class="like-count">0</span>)
+        </button>
+        <button class="dislike-btn" data-pmid="42729655" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👎 Dislike (<span class="dislike-count">0</span>)
+        </button>
+        <button class="comment-btn" data-pmid="42729655" 
+                style="padding: 5px 12px; background-color: #284b63; color: white; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          💬 Comment (<span class="comment-count">0</span>)
+        </button>
+      </div>
+      
+      <!-- Comments section (hidden by default) -->
+      <div class="comments-section" id="comments-42729655" style="display: none; margin-top: 15px; padding: 10px; background-color: #f9f9f9; border-radius: 4px;">
+        <h5 style="margin-top: 0;">Comments:</h5>
+        <div class="comments-list" id="comments-list-42729655">
+          <!-- Comments will be loaded here -->
+        </div>
+        <div style="margin-top: 10px;">
+          <textarea class="comment-input" data-pmid="42729655" 
+                    placeholder="Add a comment..." 
+                    style="width: 100%; min-height: 60px; padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; font-size: 14px;"></textarea>
+          <button class="submit-comment-btn" data-pmid="42729655" 
+                  style="margin-top: 5px; padding: 6px 12px; background-color: #284b63; color: white; 
+                         border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+            Submit Comment
+          </button>
+        </div>
+      </div>
+    </li>
+  
+    <li style="margin-bottom: 1.5em; padding-bottom: 1em; border-bottom: 1px solid #eee;">
+      <strong>
+        <a href="https://pubmed.ncbi.nlm.nih.gov/42706347/" target="_blank" style="text-decoration: none; color: #003366;">
+          ASS1-derived argininosuccinate promotes purine nucleoside synthesis in B cell acute lymphoblastic leukaemia.
+        </a>
+      </strong><br>
+      <em>Nature metabolism</em>, Sep 2026, Vol. 8, pp. 1871-1887<br>
+      <small>
+        PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/42706347/" target="_blank">42706347</a> |
+        PMCID: N/A
+      </small>
+      <p>Metabolic remodelling underlies tumour progression. However, how metabolites act as signalling molecules to support cancer cell proliferation remains unclear. Here we show that argininosuccinate (ASA), a key intermediate of the urea cycle, promotes purine nucleoside biosynthesis in tyrosine kinase-driven haematological malignancies. Mechanistically, BCR-ABL phosphorylates argininosuccinate synthase 1 (ASS1), which increases ASA production from citrulline. ASA directly binds cytosolic 5&#39;-nucleotidase II (NT5C2) and enhances its nucleosidase activity. The resulting purine nucleosides serve as a carbon source for glycolysis and the tricarboxylic acid cycle, which supports leukaemia cell proliferation under glucose-replete conditions. Loss of ASS1 or NT5C2 disrupts central carbon metabolism and inhibits leukaemia progression in vivo, which can be rescued with inosine or adenosine supplementation. Collectively, our findings uncover an ASA-NT5C2 signalling axis linking urea cycle dysregulation to purine metabolism, and identify purine nucleosides as a carbon source in tyrosine kinase-driven haematological malignancies.</p>
+      
+      
+      <!-- Interaction buttons -->
+      <div style="margin-top: 10px; display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
+        <button class="like-btn" data-pmid="42706347" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👍 Like (<span class="like-count">0</span>)
+        </button>
+        <button class="dislike-btn" data-pmid="42706347" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👎 Dislike (<span class="dislike-count">0</span>)
+        </button>
+        <button class="comment-btn" data-pmid="42706347" 
+                style="padding: 5px 12px; background-color: #284b63; color: white; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          💬 Comment (<span class="comment-count">0</span>)
+        </button>
+      </div>
+      
+      <!-- Comments section (hidden by default) -->
+      <div class="comments-section" id="comments-42706347" style="display: none; margin-top: 15px; padding: 10px; background-color: #f9f9f9; border-radius: 4px;">
+        <h5 style="margin-top: 0;">Comments:</h5>
+        <div class="comments-list" id="comments-list-42706347">
+          <!-- Comments will be loaded here -->
+        </div>
+        <div style="margin-top: 10px;">
+          <textarea class="comment-input" data-pmid="42706347" 
+                    placeholder="Add a comment..." 
+                    style="width: 100%; min-height: 60px; padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; font-size: 14px;"></textarea>
+          <button class="submit-comment-btn" data-pmid="42706347" 
+                  style="margin-top: 5px; padding: 6px 12px; background-color: #284b63; color: white; 
+                         border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+            Submit Comment
+          </button>
+        </div>
+      </div>
+    </li>
+  
+    <li style="margin-bottom: 1.5em; padding-bottom: 1em; border-bottom: 1px solid #eee;">
+      <strong>
+        <a href="https://pubmed.ncbi.nlm.nih.gov/42272250/" target="_blank" style="text-decoration: none; color: #003366;">
+          Urea cycle dysregulation and arginine pathways in the pathogenesis of NAFLD and NASH (Review).
+        </a>
+      </strong><br>
+      <em>International journal of molecular medicine</em>, Aug 2026, Vol. 58, pp. N/A<br>
+      <small>
+        PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/42272250/" target="_blank">42272250</a> |
+        PMCID: PMC13252948
+      </small>
+      <p>Non‑alcoholic fatty liver disease (NAFLD) and its advanced form, non‑alcoholic steatohepatitis (NASH), are now leading causes of chronic liver disease worldwide. Recent evidence highlights the central role of urea cycle and arginine metabolism dysregulation in NAFLD/NASH pathogenesis. Downregulation of key urea cycle enzymes, such as carbamoyl phosphate synthetase 1, ornithine transcarbamylase and argininosuccinate synthase, impairs ammonia detoxification, leading to hyperammonemia, mitochondrial dysfunction and oxidative stress. Epigenetic modifications, notably DNA methylation and histone changes, contribute to this metabolic reprogramming. Aberrant arginine metabolism, particularly the imbalance between urea and nitric oxide (NO) pathways, exacerbates liver inflammation and fibrosis through increased inducible nitric oxide synthase (NOS) activity in macrophages and hepatic stellate cells, driving excessive NO and polyamine production. In contrast, physiological NO signaling via endothelial NOS supports mitochondrial health and metabolic homeostasis. Clinically, urea cycle and arginine metabolites, including blood ammonia and urea cycle metabolites, serve as potential biomarkers for disease severity. Restoring urea cycle function and rebalancing arginine‑NO metabolism through targeted interventions, such as citrulline/arginine supplementation or enzyme modulation, are promising strategies.</p>
+      
+      
+      <!-- Interaction buttons -->
+      <div style="margin-top: 10px; display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
+        <button class="like-btn" data-pmid="42272250" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👍 Like (<span class="like-count">0</span>)
+        </button>
+        <button class="dislike-btn" data-pmid="42272250" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👎 Dislike (<span class="dislike-count">0</span>)
+        </button>
+        <button class="comment-btn" data-pmid="42272250" 
+                style="padding: 5px 12px; background-color: #284b63; color: white; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          💬 Comment (<span class="comment-count">0</span>)
+        </button>
+      </div>
+      
+      <!-- Comments section (hidden by default) -->
+      <div class="comments-section" id="comments-42272250" style="display: none; margin-top: 15px; padding: 10px; background-color: #f9f9f9; border-radius: 4px;">
+        <h5 style="margin-top: 0;">Comments:</h5>
+        <div class="comments-list" id="comments-list-42272250">
+          <!-- Comments will be loaded here -->
+        </div>
+        <div style="margin-top: 10px;">
+          <textarea class="comment-input" data-pmid="42272250" 
+                    placeholder="Add a comment..." 
+                    style="width: 100%; min-height: 60px; padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; font-size: 14px;"></textarea>
+          <button class="submit-comment-btn" data-pmid="42272250" 
+                  style="margin-top: 5px; padding: 6px 12px; background-color: #284b63; color: white; 
+                         border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+            Submit Comment
+          </button>
+        </div>
+      </div>
+    </li>
+  
+    <li style="margin-bottom: 1.5em; padding-bottom: 1em; border-bottom: 1px solid #eee;">
+      <strong>
+        <a href="https://pubmed.ncbi.nlm.nih.gov/42427528/" target="_blank" style="text-decoration: none; color: #003366;">
+          Argininosuccinate Synthase 1 links hepatic urea cycle to whole body lipid metabolism.
+        </a>
+      </strong><br>
+      <em>bioRxiv : the preprint server for biology</em>, Jul 03 2026, Vol. N/A, pp. N/A<br>
+      <small>
+        PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/42427528/" target="_blank">42427528</a> |
+        PMCID: PMC13345002
+      </small>
+      <p>The hepatic urea cycle is consistently suppressed in liver disease and hepatocellular carcinoma (HCC), but whether loss of individual enzymes contributes to disease initiation and progression remains unknown. Using mice with hepatocyte-specific deletion of argininosuccinate synthase 1 (ASS1), the urea cycle enzyme that condenses citrulline and aspartate into argininosuccinate, we investigated the role of ASS1 in diet and carcinogen-induced liver disease progression. We found that complete loss of hepatic &lt;i&gt;Ass1&lt;/i&gt; is lethal, but high fat diet extends lifespan. Unexpectedly, animals with approximately 85% loss of hepatic &lt;i&gt;Ass1&lt;/i&gt; are completed protected from diet-induced obesity, liver steatosis, fibrosis, and HCC. We determined that hepatic &lt;i&gt;Ass1&lt;/i&gt; loss activates fatty acid oxidation in peripheral oxidative tissues leading to increased energy expenditure and protection from disease phenotypes. Moreover, targeting &lt;i&gt;Ass1&lt;/i&gt; after obesity onset promotes weight loss and reverses liver steatosis. These findings implicate hepatic ASS1 as a novel regulator of whole-body lipid metabolism that can be targeted to prevent obesity, liver disease, and HCC.</p>
+      
+      
+      <!-- Interaction buttons -->
+      <div style="margin-top: 10px; display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
+        <button class="like-btn" data-pmid="42427528" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👍 Like (<span class="like-count">0</span>)
+        </button>
+        <button class="dislike-btn" data-pmid="42427528" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👎 Dislike (<span class="dislike-count">0</span>)
+        </button>
+        <button class="comment-btn" data-pmid="42427528" 
+                style="padding: 5px 12px; background-color: #284b63; color: white; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          💬 Comment (<span class="comment-count">0</span>)
+        </button>
+      </div>
+      
+      <!-- Comments section (hidden by default) -->
+      <div class="comments-section" id="comments-42427528" style="display: none; margin-top: 15px; padding: 10px; background-color: #f9f9f9; border-radius: 4px;">
+        <h5 style="margin-top: 0;">Comments:</h5>
+        <div class="comments-list" id="comments-list-42427528">
+          <!-- Comments will be loaded here -->
+        </div>
+        <div style="margin-top: 10px;">
+          <textarea class="comment-input" data-pmid="42427528" 
+                    placeholder="Add a comment..." 
+                    style="width: 100%; min-height: 60px; padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; font-size: 14px;"></textarea>
+          <button class="submit-comment-btn" data-pmid="42427528" 
+                  style="margin-top: 5px; padding: 6px 12px; background-color: #284b63; color: white; 
+                         border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+            Submit Comment
+          </button>
+        </div>
+      </div>
+    </li>
+  
+    <li style="margin-bottom: 1.5em; padding-bottom: 1em; border-bottom: 1px solid #eee;">
+      <strong>
+        <a href="https://pubmed.ncbi.nlm.nih.gov/42190069/" target="_blank" style="text-decoration: none; color: #003366;">
+          Is mild citrullinemia type I truly benign? a study of long-term clinical outcomes.
+        </a>
+      </strong><br>
+      <em>Journal of pediatric endocrinology &amp; metabolism : JPEM</em>, Jun 24 2026, Vol. 39, pp. 594-603<br>
+      <small>
+        PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/42190069/" target="_blank">42190069</a> |
+        PMCID: N/A
+      </small>
+      <p>Citrullinemia type I (CTLN1), caused by variants in the &lt;i&gt;ASS1&lt;/i&gt; gene, is characterized by life-threatening neonatal hyperammonemia. The severity of CTLN1 correlates with residual enzyme function: nearly absent activity leads to severe neonatal presentations, while partial function results in milder forms. The increasing identification of patients with mild citrullinemia highlights the need for a deeper understanding of its natural history, genotype-phenotype correlations, and long-term management strategies. This study aims to characterize the clinical and molecular features of mild citrullinemia and explore its implications for long-term management. We conducted a retrospective analysis of six pediatric patients diagnosed with mild CTLN1, examining their clinical presentations, biochemical parameters, and long-term outcomes. We present a case series of six patients (three males, three females; median age at presentation 0.5 years, median follow-up 8.5 years) identified through newborn screening (66.7 %), cascade testing (16.7 %), or symptomatic presentation (16.7 %). Consanguinity was present in half of the patients, including one sibling pair. None experienced metabolic decompensation. Baseline citrulline levels were mildly elevated (median 294 μmol/L) and ammonia levels ranged from mild to moderate (median 101 μmol/L; range 51-154 μmol/L). Arginine supplementation was administered to all patients at various stages without dietary protein restriction. Ammonia scavengers were used in three cases - two during the neonatal period and one at age 14 following neurological symptoms. Despite biochemical stability, half of patients had neurocognitive or psychiatric symptoms, including learning disabilities, obsessive compulsive disorder, attention deficit and hyperactivity disorder, and global developmental delay. Our findings indicate that, despite its classification as &#34;mild&#34;, citrullinemia may involve underrecognized neurological risks, reflecting an incompletely understood pathophysiology. This underscores the importance of individualized treatment and long-term care.</p>
+      
+      
+      <!-- Interaction buttons -->
+      <div style="margin-top: 10px; display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
+        <button class="like-btn" data-pmid="42190069" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👍 Like (<span class="like-count">0</span>)
+        </button>
+        <button class="dislike-btn" data-pmid="42190069" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👎 Dislike (<span class="dislike-count">0</span>)
+        </button>
+        <button class="comment-btn" data-pmid="42190069" 
+                style="padding: 5px 12px; background-color: #284b63; color: white; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          💬 Comment (<span class="comment-count">0</span>)
+        </button>
+      </div>
+      
+      <!-- Comments section (hidden by default) -->
+      <div class="comments-section" id="comments-42190069" style="display: none; margin-top: 15px; padding: 10px; background-color: #f9f9f9; border-radius: 4px;">
+        <h5 style="margin-top: 0;">Comments:</h5>
+        <div class="comments-list" id="comments-list-42190069">
+          <!-- Comments will be loaded here -->
+        </div>
+        <div style="margin-top: 10px;">
+          <textarea class="comment-input" data-pmid="42190069" 
+                    placeholder="Add a comment..." 
+                    style="width: 100%; min-height: 60px; padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; font-size: 14px;"></textarea>
+          <button class="submit-comment-btn" data-pmid="42190069" 
+                  style="margin-top: 5px; padding: 6px 12px; background-color: #284b63; color: white; 
+                         border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+            Submit Comment
+          </button>
+        </div>
+      </div>
+    </li>
+  
+    <li style="margin-bottom: 1.5em; padding-bottom: 1em; border-bottom: 1px solid #eee;">
+      <strong>
+        <a href="https://pubmed.ncbi.nlm.nih.gov/42308225/" target="_blank" style="text-decoration: none; color: #003366;">
+          Functional profiling of 2,193 ASS1 missense variants: Insights into variant pathogenicity and epistatic interactions in citrullinemia type I.
+        </a>
+      </strong><br>
+      <em>PLoS genetics</em>, Jun 2026, Vol. 22, pp. e1012167<br>
+      <small>
+        PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/42308225/" target="_blank">42308225</a> |
+        PMCID: PMC13289927
+      </small>
+      <p>Sequence variants in the urea cycle gene argininosuccinate synthase (ASS1) cause Citrullinemia type 1 (CTLN1), a rare autosomal recessive disease. Mechanistically, reduction in argininosuccinate synthetase (ASS) enzyme activity impairs the urea cycle, leading to an accumulation of citrulline and neurotoxic ammonia. Disease severity varies according to the degree of enzyme impairment, ranging from severe neonatal forms (classic citrullinemia) to milder, late-onset forms that may manifest in childhood or adulthood. We established a high-throughput yeast functional assay of human ASS and individually measured the impact of 2,193 amino acid substitutions, representing 90% of all single nucleotide variant (SNV)-accessible substitutions. When benchmarked against existing clinical variant annotation, our assay distinguishes known benign variants from strong loss of function pathogenic variants, enabling identification of a functional score threshold below which variants show clinically relevant impairment of ASS activity. Using the ACMG OddsPath framework, our assay meets PS3_supporting criteria for pathogenicity classification and achieves full PS3-level strength when variants observed as homozygotes in other primates are used as benign proxies for calibration. These results provide direct functional evidence to inform reclassification of ASS1 missense variants. Under the current ACMG guidelines, inclusion of our data yielded definitive classifications (pathogenic or likely pathogenic) for all 25 ClinVar VUS falling in the functionally impaired range of our assay. Mapping functional scores onto the protein structure, we confirmed that residues involved in catalysis are highly sensitive to substitution. In addition, we identified residues from adjacent subunits of the ASS homotetramer that form compound active sites. Assaying these positions revealed a capacity for intragenic complementation consistent with a variant sequestration model: a form of positive epistasis in which deleterious variants from different subunits are sequestered into only a subset of active sites, restoring function in the remaining variant-free sites. The discovery of intragenic complementation in ASS reveals a novel mode of functional interaction with clinical implications for interpreting variant combinations in heterozygous individuals.</p>
+      
+      
+      <!-- Interaction buttons -->
+      <div style="margin-top: 10px; display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
+        <button class="like-btn" data-pmid="42308225" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👍 Like (<span class="like-count">0</span>)
+        </button>
+        <button class="dislike-btn" data-pmid="42308225" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👎 Dislike (<span class="dislike-count">0</span>)
+        </button>
+        <button class="comment-btn" data-pmid="42308225" 
+                style="padding: 5px 12px; background-color: #284b63; color: white; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          💬 Comment (<span class="comment-count">0</span>)
+        </button>
+      </div>
+      
+      <!-- Comments section (hidden by default) -->
+      <div class="comments-section" id="comments-42308225" style="display: none; margin-top: 15px; padding: 10px; background-color: #f9f9f9; border-radius: 4px;">
+        <h5 style="margin-top: 0;">Comments:</h5>
+        <div class="comments-list" id="comments-list-42308225">
+          <!-- Comments will be loaded here -->
+        </div>
+        <div style="margin-top: 10px;">
+          <textarea class="comment-input" data-pmid="42308225" 
+                    placeholder="Add a comment..." 
+                    style="width: 100%; min-height: 60px; padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; font-size: 14px;"></textarea>
+          <button class="submit-comment-btn" data-pmid="42308225" 
+                  style="margin-top: 5px; padding: 6px 12px; background-color: #284b63; color: white; 
+                         border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+            Submit Comment
+          </button>
+        </div>
+      </div>
+    </li>
+  
+    <li style="margin-bottom: 1.5em; padding-bottom: 1em; border-bottom: 1px solid #eee;">
+      <strong>
+        <a href="https://pubmed.ncbi.nlm.nih.gov/42299908/" target="_blank" style="text-decoration: none; color: #003366;">
+          Dysregulation of the urea cycle - potential targets for treatment and diagnosis in prostate cancer.
+        </a>
+      </strong><br>
+      <em>Expert reviews in molecular medicine</em>, Jun 16 2026, Vol. 28, pp. e30<br>
+      <small>
+        PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/42299908/" target="_blank">42299908</a> |
+        PMCID: PMC13472223
+      </small>
+      <p>Prostate cancer (PCa) exhibits profound metabolic reprogramming, including dysregulation of the urea cycle (UC), an emerging driver of tumour growth, therapy resistance, and immune modulation. In normal physiology, the UC detoxifies ammonia via urea production. In PCa cells, however, altered expression of UC enzymes such as argininosuccinate synthase 1 (ASS1), arginase (ARG) and ornithine decarboxylase (ODC1) reroutes metabolites towards other pathways, including polyamine and nucleotide synthesis. These changes enhance proliferation, facilitate metabolic plasticity and influence the tumour microenvironment. This review summarises mechanistic insights into UC dysregulation in PCa, with emphasis on its interplay with the tricarboxylic acid (TCA) cycle, choline metabolism, and polyamine synthesis. We critically evaluate current therapeutic strategies such as arginine deprivation (PEGylated arginine deiminase, ADI-PEG 20, PEGylated recombinant human arginase 1, PEG-BCT-100), ODC1 inhibition (α-difluoromethylornithine, DFMO), and glutaminase blockade (CB-839) and discuss their integration with other therapies, including androgen deprivation. Furthermore, we explore the challenges and the usefulness of UC metabolites as diagnostic and prognostic biomarkers for early detection of PCa as well as for a follow-up of patients during therapy. We conclude that UC dysregulation represents a targetable metabolic vulnerability in PCa. However, successful translation will require combinatorial therapeutic approaches and rigorous validation of UC-based biomarkers in prospective clinical trials.</p>
+      
+      
+      <!-- Interaction buttons -->
+      <div style="margin-top: 10px; display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
+        <button class="like-btn" data-pmid="42299908" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👍 Like (<span class="like-count">0</span>)
+        </button>
+        <button class="dislike-btn" data-pmid="42299908" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👎 Dislike (<span class="dislike-count">0</span>)
+        </button>
+        <button class="comment-btn" data-pmid="42299908" 
+                style="padding: 5px 12px; background-color: #284b63; color: white; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          💬 Comment (<span class="comment-count">0</span>)
+        </button>
+      </div>
+      
+      <!-- Comments section (hidden by default) -->
+      <div class="comments-section" id="comments-42299908" style="display: none; margin-top: 15px; padding: 10px; background-color: #f9f9f9; border-radius: 4px;">
+        <h5 style="margin-top: 0;">Comments:</h5>
+        <div class="comments-list" id="comments-list-42299908">
+          <!-- Comments will be loaded here -->
+        </div>
+        <div style="margin-top: 10px;">
+          <textarea class="comment-input" data-pmid="42299908" 
+                    placeholder="Add a comment..." 
+                    style="width: 100%; min-height: 60px; padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; font-size: 14px;"></textarea>
+          <button class="submit-comment-btn" data-pmid="42299908" 
+                  style="margin-top: 5px; padding: 6px 12px; background-color: #284b63; color: white; 
+                         border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+            Submit Comment
+          </button>
+        </div>
+      </div>
+    </li>
+  
+    <li style="margin-bottom: 1.5em; padding-bottom: 1em; border-bottom: 1px solid #eee;">
+      <strong>
+        <a href="https://pubmed.ncbi.nlm.nih.gov/42127219/" target="_blank" style="text-decoration: none; color: #003366;">
+          RNA-LNP-mediated in vivo prime editing corrects disease phenotypes in a mouse model of citrullinemia type I.
+        </a>
+      </strong><br>
+      <em>Science translational medicine</em>, May 13 2026, Vol. 18, pp. eaec7274<br>
+      <small>
+        PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/42127219/" target="_blank">42127219</a> |
+        PMCID: PMC7619498
+      </small>
+      <p>Citrullinemia type I (CTLN1) is a severe urea cycle disorder caused by pathogenic variants in the &lt;i&gt;ASS1&lt;/i&gt; (argininosuccinate synthetase 1) gene, for which liver transplantation remains the only curative option. Here, we used prime editing to correct the &lt;i&gt;Ass1&lt;sup&gt;fold&lt;/sup&gt;&lt;/i&gt; mouse model of CTLN1. Adeno-associated virus (AAV)-mediated delivery of the PE7 prime editor with an optimized prime editing guide RNA (pegRNA) achieved 71 and 54% correction of the pathogenic &lt;i&gt;Ass1&lt;/i&gt; mutation in hepatocytes of neonates and juveniles, respectively. Delivery of mRNA-encoded PE7 and synthetic pegRNA via lipid nanoparticles (LNPs) resulted in 24% correction after a single 3 mg kg&lt;sup&gt;-1&lt;/sup&gt; dose in neonates and 13% after three 4 mg kg&lt;sup&gt;-1&lt;/sup&gt; doses in juveniles. All treated groups showed full normalization of survival and of blood citrulline and ammonia concentrations, with restored urea cycle function and correction of natural behavior defects. Consistent with these findings, immunostaining demonstrated restoration of wild-type-like ASS1 protein localization in functionally relevant periportal and intermediate-zone hepatocytes. Editing was confined to the liver, with minimal indel formation and off-target activity and only transient elevations in liver enzymes. In a cellular reporter system, 6 of 15 recurrent human pathogenic &lt;i&gt;ASS1&lt;/i&gt; mutations studied, including the most common &lt;i&gt;ASS1&lt;sup&gt;G390R&lt;/sup&gt;&lt;/i&gt; variant, were corrected with similar or higher efficiencies than &lt;i&gt;Ass1&lt;sup&gt;fold&lt;/sup&gt;&lt;/i&gt;. These findings highlight prime editing as a precise and potentially curative treatment strategy for individuals with CTLN1 and other genetic liver diseases.</p>
+      
+      
+      <!-- Interaction buttons -->
+      <div style="margin-top: 10px; display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
+        <button class="like-btn" data-pmid="42127219" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👍 Like (<span class="like-count">0</span>)
+        </button>
+        <button class="dislike-btn" data-pmid="42127219" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👎 Dislike (<span class="dislike-count">0</span>)
+        </button>
+        <button class="comment-btn" data-pmid="42127219" 
+                style="padding: 5px 12px; background-color: #284b63; color: white; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          💬 Comment (<span class="comment-count">0</span>)
+        </button>
+      </div>
+      
+      <!-- Comments section (hidden by default) -->
+      <div class="comments-section" id="comments-42127219" style="display: none; margin-top: 15px; padding: 10px; background-color: #f9f9f9; border-radius: 4px;">
+        <h5 style="margin-top: 0;">Comments:</h5>
+        <div class="comments-list" id="comments-list-42127219">
+          <!-- Comments will be loaded here -->
+        </div>
+        <div style="margin-top: 10px;">
+          <textarea class="comment-input" data-pmid="42127219" 
+                    placeholder="Add a comment..." 
+                    style="width: 100%; min-height: 60px; padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; font-size: 14px;"></textarea>
+          <button class="submit-comment-btn" data-pmid="42127219" 
+                  style="margin-top: 5px; padding: 6px 12px; background-color: #284b63; color: white; 
+                         border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+            Submit Comment
+          </button>
+        </div>
+      </div>
+    </li>
+  
+    <li style="margin-bottom: 1.5em; padding-bottom: 1em; border-bottom: 1px solid #eee;">
+      <strong>
+        <a href="https://pubmed.ncbi.nlm.nih.gov/42032990/" target="_blank" style="text-decoration: none; color: #003366;">
+          [Therapeutic efficacy of ASS1 combined with LOLA in the treatment of hyperammonemia in mice].
+        </a>
+      </strong><br>
+      <em>Zhong nan da xue xue bao. Yi xue ban = Journal of Central South University. Medical sciences</em>, Dec 28 2025, Vol. 50, pp. 2290-2300<br>
+      <small>
+        PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/42032990/" target="_blank">42032990</a> |
+        PMCID: PMC12989415
+      </small>
+      <p>Argininosuccinate synthase 1 (ASS1) is a key rate-limiting enzyme in the urea cycle and is highly conserved at the protein level. Its catalytic activity directly determines the efficiency of ammonia clearance. Hyperammonemia is a clinical syndrome caused by abnormally elevated blood ammonia levels and is characterized mainly by central nervous system dysfunction, with neurotoxicity and a high mortality rate. When liver function is impaired or key enzymes of the urea cycle are deficient, ammonia clearance is reduced, leading to ammonia accumulation and passage across the blood-brain barrier, resulting in disturbances of consciousness, coma, or even death. Among currently used ammonia-lowering agents, &lt;i&gt;L&lt;/i&gt;-ornithine-&lt;i&gt;L&lt;/i&gt;-aspartate (LOLA) can promote the urea cycle to reduce blood ammonia levels and protect the liver; however, high doses are prone to gastrointestinal adverse effects, limiting its clinical application. This study obtained biologically active human ASS1 protein through prokaryotic expression and analyzed its enzymatic kinetic properties, aiming to explore the ammonia-lowering effect of ASS1 combined with LOLA and to provide new ideas and potential enzymatic intervention strategies for the clinical treatment of hyperammonemia. The full-length open reading frame of human ASS1 was amplified by reverse transcription polymerase chain reaction (RT-PCR), and both the PCR product and the pET-28a vector were digested with restriction enzymes. After purification by agarose gel electrophoresis, the pET-28a-&lt;i&gt;ASS1&lt;/i&gt; prokaryotic expression vector was successfully constructed using homologous recombination technology. The recombinant plasmid was transformed into &lt;i&gt;Escherichia coli&lt;/i&gt;, and expression of the 6×His-ASS1 recombinant protein was induced by isopropyl β-D-thiogalactopyranoside (IPTG). The protein was purified by nickel-nitrilotriacetic acid (Ni-NTA) affinity chromatography. In vitro enzyme activity assays were performed to verify the biological activity of the recombinant protein. An enzymatic reaction system using citrulline (Cit) and aspartate (Asp) as substrates was established to determine the optimal temperature and pH conditions for ASS1 activity and to further analyze its enzymatic kinetic parameters. A hyperammonemia mouse model was established in C57BL/6 mice by intraperitoneal injection of NH&lt;sub&gt;4&lt;/sub&gt;Cl (400 mg/kg). The ammonia-lowering effects of ASS1 combined with LOLA were evaluated. Mice were randomly grouped, and 4 hours after modeling, ASS1, LOLA, or combined treatment was administered via the tail vein for 4 hours, followed by measurement of blood ammonia and urea levels. In addition, normal C57BL/6 mice were treated with combined ASS1 and LOLA for 24 hours, after which liver and renal function indices were assessed. The pET28a-ASS1 vector was successfully constructed using homologous recombination, and soluble recombinant ASS1 protein was obtained in a prokaryotic expression system. After purification and concentration by Ni-NTA affinity chromatography, the protein purity reached 95.4%±1.2%, with a concentration of (10.5± 0.8) mg/mL. In vitro enzyme activity assays systematically characterized the enzymatic properties of ASS1, showing an optimal reaction temperature of 37 ℃ and an optimal pH of 8.0. Using Asp and Cit as substrates, the enzymatic kinetic parameters were determined. The &lt;i&gt;K&lt;/i&gt;&lt;sub&gt;m&lt;/sub&gt; and &lt;i&gt;k&lt;/i&gt;&lt;sub&gt;cat&lt;/sub&gt;/&lt;i&gt;K&lt;/i&gt;&lt;sub&gt;m&lt;/sub&gt; values of ASS1 for Asp and Cit were (31.00±1.24) μmol/L and 2.07 L/(μmol·s), and (46.53±2.75) μmol/L and 1.35 L/(μmol·s), respectively. In vivo experiments showed that in an acute hyperammonemia mouse model induced by intraperitoneal injection of NH&lt;sub&gt;4&lt;/sub&gt;Cl (400 mg/kg), ASS1 (50 mg/kg) reduced blood ammonia levels by 48.86% by accelerating the urea cycle. When ASS1 (50 mg/kg) was combined with low-dose LOLA (50 mg/kg), the ammonia-lowering efficiency was further enhanced, with a reduction of 76.31%, restoring blood ammonia levels to the normal range in hyperammonemic mice. Recombinant ASS1 protein obtained by prokaryotic expression exhibits stable and well-defined biological activity, with catalytic function significantly influenced by temperature and pH and displaying clear enzymatic kinetic characteristics. In an NH4Cl-induced mouse model of hyperammonemia, combined application of ASS1 and LOLA showed a more stable and effective ammonia-lowering effect than monotherapy, demonstrating good synergistic effects. These findings provide a new enzymatic intervention strategy for the treatment of hyperammonemia, lay a theoretical foundation for the development of combination ammonia-lowering therapies, and indicate potential application prospects.</p>
+      
+      
+      <!-- Interaction buttons -->
+      <div style="margin-top: 10px; display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
+        <button class="like-btn" data-pmid="42032990" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👍 Like (<span class="like-count">0</span>)
+        </button>
+        <button class="dislike-btn" data-pmid="42032990" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👎 Dislike (<span class="dislike-count">0</span>)
+        </button>
+        <button class="comment-btn" data-pmid="42032990" 
+                style="padding: 5px 12px; background-color: #284b63; color: white; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          💬 Comment (<span class="comment-count">0</span>)
+        </button>
+      </div>
+      
+      <!-- Comments section (hidden by default) -->
+      <div class="comments-section" id="comments-42032990" style="display: none; margin-top: 15px; padding: 10px; background-color: #f9f9f9; border-radius: 4px;">
+        <h5 style="margin-top: 0;">Comments:</h5>
+        <div class="comments-list" id="comments-list-42032990">
+          <!-- Comments will be loaded here -->
+        </div>
+        <div style="margin-top: 10px;">
+          <textarea class="comment-input" data-pmid="42032990" 
+                    placeholder="Add a comment..." 
+                    style="width: 100%; min-height: 60px; padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; font-size: 14px;"></textarea>
+          <button class="submit-comment-btn" data-pmid="42032990" 
+                  style="margin-top: 5px; padding: 6px 12px; background-color: #284b63; color: white; 
+                         border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+            Submit Comment
+          </button>
+        </div>
+      </div>
+    </li>
+  
+    <li style="margin-bottom: 1.5em; padding-bottom: 1em; border-bottom: 1px solid #eee;">
+      <strong>
+        <a href="https://pubmed.ncbi.nlm.nih.gov/41216870/" target="_blank" style="text-decoration: none; color: #003366;">
+          ZFPL1 Promotes Colorectal Cancer Progression by Stabilizing ASS1 to Drive the Urea Cycle and M2 Macrophage-Mediated Metastatic Colonization.
+        </a>
+      </strong><br>
+      <em>Advanced science (Weinheim, Baden-Wurttemberg, Germany)</em>, Dec 2025, Vol. 12, pp. e05291<br>
+      <small>
+        PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/41216870/" target="_blank">41216870</a> |
+        PMCID: PMC12697865
+      </small>
+      <p>Colorectal cancer (CRC) progression is driven by diverse molecular mechanisms, underscoring the urgent need for novel therapeutic strategies, especially for liver metastases. Through an integrated analysis of multiple single-cell RNA sequencing databases, zinc finger protein-like 1 (ZFPL1) is identified as a gene specifically enriched in malignant cells from both primary and metastatic CRC. Multi-omics investigations demonstrate that high ZFPL1 expression correlates with aggressive clinicopathological features and poor survival. Functionally, ZFPL1 promotes tumor proliferation, invasion, and migration both in vivo and in vitro. Mechanistically, ZFPL1 directly binds argininosuccinate synthase 1 (ASS1), shielding its K57 residue from tripartite motif containing 33-mediated ubiquitination to prevent proteasomal degradation. This stabilization activates urea cycle metabolism, driving CRC progression. Crucially, ZFPL1 deficiency remodels the tumor microenvironment by reducing immunosuppressive populations-M2 macrophages, and promoting pro-inflammatory M1 polarization. Virtual screening identifies Salvianolic acid B (Sal B) as a ZFPL1 inhibitor, which disrupts ZFPL1-ASS1 binding, triggering ASS1 ubiquitination and degradation. In vivo, Sal B synergized with anti-PD-1 therapy, significantly reducing tumor burden versus monotherapy. These findings establish ZFPL1 as a key regulator of CRC progression through ASS1-dependent urea cycle activation and immunomodulation, nominating the ZFPL1-ASS1 axis as a therapeutic target, with Sal B demonstrating combinatorial potential with immunotherapy.</p>
+      
+      
+      <!-- Interaction buttons -->
+      <div style="margin-top: 10px; display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
+        <button class="like-btn" data-pmid="41216870" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👍 Like (<span class="like-count">0</span>)
+        </button>
+        <button class="dislike-btn" data-pmid="41216870" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👎 Dislike (<span class="dislike-count">0</span>)
+        </button>
+        <button class="comment-btn" data-pmid="41216870" 
+                style="padding: 5px 12px; background-color: #284b63; color: white; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          💬 Comment (<span class="comment-count">0</span>)
+        </button>
+      </div>
+      
+      <!-- Comments section (hidden by default) -->
+      <div class="comments-section" id="comments-41216870" style="display: none; margin-top: 15px; padding: 10px; background-color: #f9f9f9; border-radius: 4px;">
+        <h5 style="margin-top: 0;">Comments:</h5>
+        <div class="comments-list" id="comments-list-41216870">
+          <!-- Comments will be loaded here -->
+        </div>
+        <div style="margin-top: 10px;">
+          <textarea class="comment-input" data-pmid="41216870" 
+                    placeholder="Add a comment..." 
+                    style="width: 100%; min-height: 60px; padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; font-size: 14px;"></textarea>
+          <button class="submit-comment-btn" data-pmid="41216870" 
+                  style="margin-top: 5px; padding: 6px 12px; background-color: #284b63; color: white; 
+                         border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+            Submit Comment
+          </button>
+        </div>
+      </div>
+    </li>
+  
+</ol>
+
+<div style="text-align:center; margin-top:1rem;">
+  <button id="load-more" style="padding:8px 16px; background-color:#284b63; color:white; border:none; border-radius:5px;">
+    Show More
+  </button>
+  <button id="show-all" style="padding:6px 14px; background-color:#999; color:white; border:none; border-radius:5px;">
+    Show All
+  </button>
+</div>
+
+
+
+<div id="loading-text" class="loading-text" style="display:none;">Fetching papers...</div>
+
+
+  </main>
+
+  <footer>
+    <p>© 2025 Urea Cycle Research Hub</p>
+  </footer>
+  
+<script src="/urea-cycle/ucrh/static/js/script.js"></script>
+
+</body>
+</html>

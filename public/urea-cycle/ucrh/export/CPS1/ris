@@ -1,0 +1,1006 @@
+TY  - JOUR
+TI  - A deep intronic CPS1 variant causing pseudo-exon activation identified in an adult with molecularly unconfirmed urea cycle disorder.
+AB  - Diagnosing proximal urea cycle disorders (UCDs) remains challenging due to the lack of definitive diagnostic biochemical markers, which can lead to delayed or missed diagnosis. Although molecular genetic testing has improved diagnostic accuracy, some patients still harbor only a single detectable pathogenic variant or no identifiable variants in known disease genes. Here, we report a late-onset adult Japanese patient who remained undiagnosed despite strong clinical suspicion of a UCD. Targeted gene panel sequencing for UCD-associated genes was performed using genomic DNA from the proband. To evaluate potential splicing abnormalities, reverse transcription PCR was performed using blood-derived cDNA to analyze CPS1 transcripts. Functional validation of the candidate splicing variant was conducted using a minigene splicing assay in cultured HEK293T cells. Targeted gene panel analysis identified a heterozygous CPS1 variant, c.840G>C (p.Val278_Lys280del), inherited from his father. cDNA analysis revealed an aberrant transcript containing a 121-bp pseudo-exon between exons 3 and 4 in CPS1. Subsequent genomic analysis identified a deep intronic variant, c.381+178A>C, located 15 bp upstream of the pseudo-exon acceptor site. A minigene splicing assay confirmed that this variant induces pseudo-exon inclusion. We identified a novel deep intronic CPS1 variant that causes aberrant splicing through pseudo-exon activation. Partial splicing defects associated with this variant may contribute to the relatively mild clinical phenotype, highlighting the importance of transcript-level analyses for achieving accurate molecular diagnosis of UCD.
+PY  - 2026
+JO  - Biochemical and biophysical research communications
+VL  - 831
+SP  - 154313
+PMID  - 42485798
+UR  - https://pubmed.ncbi.nlm.nih.gov/42485798/
+ER  - 
+TY  - JOUR
+TI  - Mechanism of Jianpi Qinghua granule in ameliorating metabolic dysfunction-associated fatty liver disease by targeting the DNMT-urea cycle axis.
+AB  - Jianpi Qinghua Granule (JPQH) is a hospital-prepared traditional Chinese medicine formula used for insulin resistance and related metabolic disorders. However, its pharmacodynamic basis and epigenetic mechanisms in metabolic dysfunction-associated fatty liver disease (MAFLD) remain unclear. This study aimed to evaluate the therapeutic effects of JPQH on high-fat diet (HFD)-induced MAFLD and determine whether its action involves regulation of DNMT-mediated DNA methylation and hepatic urea cycle metabolism. HFD-induced MAFLD mice were treated with JPQH for 4 weeks. Blood-absorbed constituents were identified by UHPLC-Q Exactive Orbitrap MS/MS. Network pharmacology, liver transcriptomics, and targeted metabolomics were integrated to explore mechanisms. Pyrosequencing, RT-qPCR, Western blotting, molecular docking, and molecular dynamics simulations were used for validation. JPQH ameliorated glucose-lipid metabolic disorders and liver injury, as indicated by reduced serum TC, TG, ALT, and AST levels (P < 0.05), decreased hepatic MDA levels (P < 0.01), improved OGTT/ITT responses (P < 0.001), restored GSH/GSSG ratio (P < 0.05), and downregulation of inflammatory- and fibrosis-related gene expression (P < 0.05). A total of 44 blood-absorbed constituents and 87 JPQH-MAFLD overlapping targets were identified. Integrated analyses highlighted nitrogen metabolism and arginine and proline metabolism. JPQH restored urea cycle intermediates, upregulated CPS1, OTC, ASS1, ASL, and ARG1 expression (P < 0.01), and reduced hepatic ammonia accumulation (P < 0.01). Mechanistically, JPQH reduced DNMT1/DNMT3A expression, attenuated promoter hypermethylation of urea cycle enzyme genes, and restored their transcriptional and protein expression. Core flavonoids, including genistein, baicalein, nepetin, hispidulin, and quercetin 3,4'-dimethylether, exhibited stable binding to DNMT1 and DNMT3A in silico. JPQH exerts protective effects against MAFLD by restoring hepatic nitrogen metabolism and ammonia detoxification via epigenetic regulation of the DNMT-urea cycle axis.
+PY  - 2026
+JO  - Journal of ethnopharmacology
+VL  - 368
+SP  - 121846
+PMID  - 42107753
+UR  - https://pubmed.ncbi.nlm.nih.gov/42107753/
+ER  - 
+TY  - JOUR
+TI  - CPS1: a multipurpose mitochondrial enzyme, bile protein, acute liver injury biomarker, and cytokine.
+AB  - Carbamoyl phosphate synthetase 1 (CPS1) is primarily expressed in hepatocytes as a highly abundant mitochondrial matrix enzyme that catalyses the first step of the urea cycle that leads to renal nitrogen disposal. CPS1 is a member of the CPS family that manifests broad evolutionary expression from bacteria to humans. CPS1 expression and enzyme activity are highly regulated transcriptionally and post-translationally. Its autosomal recessive mutation leads to CPS1 deficiency, which causes encephalopathy and coma, typically neonatally, due to severe hyperammonaemia. CPS1 is physiologically secreted, apically, into bile likely via mitochondria-derived vesicles. Normally absent from serum, it is released by basolateral mistargeting and cellular injury and becomes readily detectable in serum during acute liver failure (ALF). Injury-triggered CPS1 release into blood, or media in cultured hepatocytes, is selective as compared with other mitochondrial proteins. This, coupled with its abundance and short (1-2 hours) serum half-life, renders it a prognostic serum biomarker, particularly in human acetaminophen-related ALF. Its rapid turnover is explained by its non-enzymatic role as an immune modulator via its uptake by circulating monocytes leading to differentiation of anti-inflammatory cells that home to, and protect, the injured liver. CPS1 also plays a growing role in several cancers, by CPS1 upregulation or downregulation, particularly via metabolic reprogramming which alters the tumour microenvironment and impacts cancer growth and progression. Therefore, CPS1 has multiple enzymatic and non-enzymatic touch points spanning a wide range of cellular and extracellular functions and roles, with important physiological, homoeostatic, genetic disease, diagnostic and potential therapeutic clinical implications.
+PY  - 2026
+JO  - Gut
+VL  - 75
+SP  - 2055
+EP  - 2068
+PMID  - 41629147
+UR  - https://pubmed.ncbi.nlm.nih.gov/41629147/
+ER  - 
+TY  - JOUR
+TI  - Genipin induces liver injury by disrupting the CPS1-regulated urea cycle and redox homeostasis.
+AB  - Genipin (GP) is the key metabolite of geniposide (GE), the primary active component of the traditional Chinese medicine Gardeniae Fructus. Its hepatotoxicity poses a potential risk to safe clinical administration, while its core pathophysiological mechanism remains unclear. This study systematically elucidated the molecular mechanisms of GP-induced hepatotoxicity through integrated multi-omics and functional validation. GP treatment induced significant liver damage and oxidative stress in rats, characterized by elevated serum transaminases (alanine aminotransferase (ALT) increased by approximately 63.5-fold; aspartate aminotransferase (AST) by 18.6-fold), an approximately 1.8-fold decrease in superoxide dismutase (SOD) activity, and an approximately 10-fold accumulation of malondialdehyde (MDA) (all <i>P</i> < 0.001). Metabolomic and proteomic analyses revealed that GP binds to carbamoyl phosphate synthetase 1 (CPS1), triggering urea cycle dysfunction marked by citrulline depletion and significant downregulation of its downstream product fumarate. <i>In vitro</i> experiments confirmed that disrupting CPS1 impairs the urea cycle and induces oxidative stress, while CPS1 overexpression or exogenous fumarate supplementation significantly reversed oxidative stress. Clinical sample analysis revealed similar urea cycle metabolic disturbances, characterized by citrulline depletion and reduced fumarate levels, in plasma from patients with liver injury due to inappropriate use of Gardeniae Fructus-containing formulas, confirming clinical relevance. This study reveals a novel hepatotoxic mechanism whereby GP targets CPS1 to disrupt the urea cycle, reducing fumarate production and impairing nuclear factor erythroid 2-related factor 2 (Nrf2)-mediated antioxidant defense, thereby inducing oxidative stress. These findings provide a scientific basis for improving the safety evaluation and rational clinical use of Gardeniae Fructus-containing preparations.
+PY  - 2026
+JO  - Journal of pharmaceutical analysis
+VL  - 16
+SP  - 101647
+PMID  - 42787309
+UR  - https://pubmed.ncbi.nlm.nih.gov/42787309/
+ER  - 
+TY  - JOUR
+TI  - Growth-mode-independent glutamine/glutamate/aspartate metabolic shift and urea cycle remodeling driven by FOXA1 in benzo[a]pyrene-transformed human bronchial epithelial cells.
+AB  - To characterize the amino acid metabolic remodeling in THBEc1 cells malignantly transformed by benzo[a]pyrene (BaP) relative to parental human bronchial epithelial HBE cells, and to delineate the role of FOXA1 in this remodeling, the amino acid metabolic phenotypes and gene expression patterns of HBE, THBEc1, THBEc1-ctrl (knockout control), and THBEc1-FOXA1 KO (FOXA1 knockout) cells were profiled under 2D, 3D spheroid, and in vivo conditions. Differential metabolic amino acids across these growth modes were identified. THBEc1 cells exhibited a glutamine/glutamate/aspartate metabolic shift and urea cycle remodeling that were conserved across all growth modes, representing key metabolic features of BaP-induced malignant transformation. FOXA1 knockout partially reversed these metabolic alterations across growth modes. Mechanistically, FOXA1 transcriptionally regulated GLUL, SLC6A14, CPS1, and SLC7A2 in a growth-mode-independent manner. These findings establish FOXA1 as a key mediator of the glutamine/glutamate/aspartate metabolic shift and urea cycle remodeling during BaP-induced malignant transformation, with GLUL, SLC6A14, CPS1, and SLC7A2 as critical downstream targets. This work advances the understanding of amino acid metabolic reprogramming in BaP-induced lung carcinogenesis.
+PY  - 2026
+JO  - Toxicology and applied pharmacology
+VL  - 514
+SP  - 117919
+PMID  - 42303052
+UR  - https://pubmed.ncbi.nlm.nih.gov/42303052/
+ER  - 
+TY  - JOUR
+TI  - Metabolic checkpoint CPS1 sustains TCA anaplerosis via urea cycle in IDH-mutant gliomas.
+AB  - Isocitrate dehydrogenase-mutant (IDH-MUT) gliomas exhibit distinct metabolic profile marked by 2-hydroxyglutarate (2-HG) accumulation at the expense of α-ketoglutarate. How these tumors maintain the tricarboxylic acid (TCA) cycle, however, remained unclear. We conducted comprehensive metabolomic profiling using clinical cohorts, cell lines, and patient-derived organoids (PDOs). The metabolic dynamics of TCA and urea cycles were interrogated using stable isotope tracing with <sup>13</sup>C-aspartate, U5-<sup>13</sup>C-<sup>15</sup>N-aspartate, <sup>15</sup>NH<sub>4</sub>Cl and <sup>15</sup>N-glutamate. The functional role of carbamoyl-phosphate synthase 1 (CPS1), the key enzyme of the urea cycle, was validated through inhibition experiments in vitro, in vivo and in PDO model, followed by seahorse respirometry and electron microscopy. Metabolomic profiling of two glioma cohorts consistently showed elevated urea cycle metabolites in IDH-MUT tumors. We identified CPS1 as a metabolic checkpoint sustaining TCA cycle through half urea cycle (from ammonia to arginine). Of note, CPS1 upregulation drove fumarate anaplerosis to sustain TCA flux in IDH-MUT gliomas. Thus, CPS1 inhibition not only reduced fumarate levels but also decreased oncometabolite 2-HG both in vitro and in vivo. Consistently, CPS1 inhibition impaired mitochondrial respiration and suppressed tumor growth in vitro, in vivo and in PDOs. Taken together, metabolic checkpoint CPS1 orchestrates half urea cycle to replenish the TCA cycle in IDH-MUT gliomas. Targeting CPS1 represents a promising metabolic therapeutic target for this glioma subtype.
+PY  - 2026
+JO  - Cancer letters
+VL  - 654
+SP  - 218606
+PMID  - 42173273
+UR  - https://pubmed.ncbi.nlm.nih.gov/42173273/
+ER  - 
+TY  - JOUR
+TI  - CPS1 promotes colorectal cancer progression by inducing EMT and activating TGF-β/Smad signaling pathway.
+AB  - Colorectal cancer (CRC) is a highly lethal digestive malignancy, particularly in metastatic cases. Carbamoyl-phosphate synthase 1 (CPS1), a key mitochondrial enzyme involved in the urea cycle, has been implicated in multiple cancers. However, its role in CRC remains poorly understood. This study demonstrated that CPS1 expression was significantly upregulated in CRC tissues and was associated with aggressive clinicopathological characteristics and poor prognosis. Functional experiments revealed that CPS1 knockdown markedly suppressed CRC cell proliferation, migration, invasion, and tumorigenicity, whereas CPS1 overexpression exerted opposite effects. Mechanistically, CPS1 downregulation increased E-cadherin expression and decreased the expression of ZEB1, slug, N-cadherin, vimentin, MMP2, and <i>p</i>-SMAD2/3, while CPS1 overexpression reversed these changes, suggesting that CPS1 may contribute to the malignant progression and metastasis of CRC, potentially through involvement in the epithelial-mesenchymal transition (EMT) process and TGF-β signaling pathway. Collectively, our findings identify CPS1 as a potential prognostic biomarker and therapeutic target in CRC.
+PY  - 2026
+JO  - iScience
+VL  - 29
+SP  - 117129
+PMID  - 42621110
+UR  - https://pubmed.ncbi.nlm.nih.gov/42621110/
+ER  - 
+TY  - JOUR
+TI  - In Vivo Base Editing for Neonatal Inborn Errors of Metabolism: Clinical Progress, N-of-1 Therapy, and the Ethics of Bespoke Genetic Medicine.
+AB  - Severe neonatal-onset inborn errors of metabolism (IEMs), such as urea cycle disorders including carbamoyl phosphate synthetase 1 (CPS1) deficiency and the classic organic acidemias, present within days of birth with metabolic decompensation that carries high early mortality and, in survivors, a substantial burden of neurologic injury despite optimal medical management. Because most cases arise from defined point mutations, these disorders are conceptually well suited to one-time genetic correction. Base editing, which installs precise single-base changes without generating double-strand DNA breaks, and its companion technology, prime editing, have moved rapidly from laboratory description to in vivo demonstration in animals and, most recently, to a single human patient. In 2025, an infant with CPS1 deficiency ('KJ') received a bespoke lipid nanoparticle-delivered base-editing therapy designed and manufactured for that individual's specific variant, becoming the first reported recipient of a customized in vivo gene-editing medicine. This review synthesizes the clinical rationale for genetic correction of neonatal IEMs, the mechanistic basis and delivery strategies (lipid nanoparticles and adeno-associated virus) that make in vivo base editing feasible, and the preclinical evidence that preceded the first human case. We then examine the ethical dimensions of bespoke 'N-of-1' genetic medicine: the somatic versus germline distinction; consent for a non-autonomous neonate; equity, cost, and scalability; and the evolving regulatory pathway for individualized therapies. We conclude by distinguishing what has been proven in a single patient and in preclinical models from what remains speculative and by outlining what would need to generalize for a single case to become a platform.
+PY  - 2026
+JO  - Cureus
+VL  - 18
+SP  - e114354
+PMID  - 42583353
+UR  - https://pubmed.ncbi.nlm.nih.gov/42583353/
+ER  - 
+TY  - JOUR
+TI  - Urea cycle dysregulation and arginine pathways in the pathogenesis of NAFLD and NASH (Review).
+AB  - Non‑alcoholic fatty liver disease (NAFLD) and its advanced form, non‑alcoholic steatohepatitis (NASH), are now leading causes of chronic liver disease worldwide. Recent evidence highlights the central role of urea cycle and arginine metabolism dysregulation in NAFLD/NASH pathogenesis. Downregulation of key urea cycle enzymes, such as carbamoyl phosphate synthetase 1, ornithine transcarbamylase and argininosuccinate synthase, impairs ammonia detoxification, leading to hyperammonemia, mitochondrial dysfunction and oxidative stress. Epigenetic modifications, notably DNA methylation and histone changes, contribute to this metabolic reprogramming. Aberrant arginine metabolism, particularly the imbalance between urea and nitric oxide (NO) pathways, exacerbates liver inflammation and fibrosis through increased inducible nitric oxide synthase (NOS) activity in macrophages and hepatic stellate cells, driving excessive NO and polyamine production. In contrast, physiological NO signaling via endothelial NOS supports mitochondrial health and metabolic homeostasis. Clinically, urea cycle and arginine metabolites, including blood ammonia and urea cycle metabolites, serve as potential biomarkers for disease severity. Restoring urea cycle function and rebalancing arginine‑NO metabolism through targeted interventions, such as citrulline/arginine supplementation or enzyme modulation, are promising strategies.
+PY  - 2026
+JO  - International journal of molecular medicine
+VL  - 58
+PMID  - 42272250
+UR  - https://pubmed.ncbi.nlm.nih.gov/42272250/
+ER  - 
+TY  - JOUR
+TI  - Clinical, Biochemical, and Molecular Analyses of Three Patients with Urea Cycle Disorders in China.
+AB  - Urea cycle disorders (UCDs) are rare inherited metabolic diseases that can cause severe hyperammonemia and neurological damage. This study aimed to characterize the clinical, biochemical, and molecular features of three Chinese patients with UCDs and identify pathogenic variants through genetic analysis. Blood tandem mass spectrometry and urinary gas chromatography-mass spectrometry were performed on three children diagnosed with UCDs. Next-generation sequencing and Sanger sequencing were performed on blood samples from the probands and their parents. Clinical data and other laboratory results were retrospectively collected from medical records. In silico and structural analyses were performed for three of the five identified variants. The three probands exhibited clinical and biochemical features characteristic of UCDs. Genetic analysis confirmed five diagnostic variants, including two novel variants. These variants caused three types of UCDs: ornithine transcarbamylase deficiency (OTCD), carbamoyl phosphate synthase 1 deficiency, and argininosuccinate lyase deficiency (ASLD). In silico and structural analyses of three variants (<i>OTC</i>:c.1006-1G>T, <i>CPS1</i>:c.729+1G>A, and <i>ASL</i>:c.370T>C) suggested that all three may impair enzyme function or stability, although experimental validation is required. We characterized the clinical, biochemical, and molecular features of three Chinese patients with UCDs. Two novel variants expand the known mutational spectra of OTCD and ASLD.
+PY  - 2026
+JO  - Annals of clinical and laboratory science
+VL  - 56
+SP  - 512
+EP  - 522
+PMID  - 42790946
+UR  - https://pubmed.ncbi.nlm.nih.gov/42790946/
+ER  - 
+TY  - JOUR
+TI  - Post-meal loss of consciousness in an adult patient with carbamoyl phosphate synthetase 1 deficiency and two newly identified heterozygous variants: a case report.
+AB  - Carbamoyl phosphate synthetase 1 deficiency (CPS1D) is a rare autosomal recessive disorder characterized by urea cycle dysfunction and secondary hyperammonemia. Although primarily observed in neonates, adult cases are exceedingly rare and warrant reporting due to their novelty and potential for misdiagnosis. We present a case of a 34-year-old male who presented with post-meal loss of consciousness, a symptom atypical of the disease's usual manifestation. A 34-year-old man was admitted with a 2-day history of general fatigue that escalated to unconsciousness over half a day. He also experienced vomiting, bilateral limb convulsions, and a history of epilepsy. Upon admission, he exhibited coma with a Glasgow Coma Scale score of 5/15. Biochemical investigations revealed normal liver and kidney function but a significantly elevated blood ammonia concentration of 597.6 µmol/L. Cranial imaging showed diffuse swelling of the brain parenchyma indicative of encephalopathy. Gene sequencing identified three heterozygous variants in theCPS1 gene, including two novel variants sites. Despite ammonia-lowering treatments, his condition rapidly deteriorated, and he succumbed to hyperammonemia-induced encephalopathy on day 9 of admission. This case highlights the importance of recognizing CPS1D as a potential diagnosis in adults presenting with neurological symptoms, particularly those involving consciousness changes. The rarity and atypical presentation of adult CPS1D underscore the need for early diagnosis through comprehensive evaluation, including blood ammonia measurement and genetic analysis. This case expands the spectrum of clinical manifestations and genetic variants associated with CPS1D and emphasizes the urgency of ammonia-lowering therapy and consideration for liver transplantation in eligible patients.
+PY  - 2026
+JO  - BMC neurology
+VL  - 26
+PMID  - 42310598
+UR  - https://pubmed.ncbi.nlm.nih.gov/42310598/
+ER  - 
+TY  - JOUR
+TI  - Ammonia storm: unmasking a suspected rare proximal urea cycle disorder in adulthood.
+AB  - Hyperammonaemia is a medical emergency which is mostly associated with liver dysfunction. However, in the absence of hepatic disease, rare inborn errors of metabolism such as urea cycle disorders (UCDs) must be considered. While UCDs typically present in the neonatal period, partial enzyme deficiencies may remain clinically silent until adulthood and present abruptly with life-threatening hyperammonaemia encephalopathy. Among these, late-onset carbamoyl phosphate synthetase I (CPS-I) deficiency is exceedingly rare and often underdiagnosed. We report a 32-year-old male who presented with acute onset altered sensorium progressing to coma over 12 h. The neurological decline was preceded by two to three episodes of vomiting on the day of admission and a recent history of a five-to-six-day febrile illness accompanied by gastrointestinal symptoms. On admission, the patient had a Glasgow Coma Scale score of 7/15 and required endotracheal intubation with ventilatory support. Routine laboratory investigations, including liver and renal function tests, were within normal limits. Neuroimaging studies (CT and MRI brain) showed no abnormalities. Plasma ammonia was markedly elevated at 397 µg/dL (Normal: <50 µg/dL), which rapidly escalated to 804 µg/dL within 24 h despite initial pharmacological intervention. Further metabolic evaluation revealed low plasma citrulline, elevated glutamine levels, and low urinary orotic acid, suggestive of a proximal urea cycle defect such as carbamoyl phosphate synthetase I (CPS-I) or N-acetylglutamate synthase (NAGS) deficiency. A significant family history of consanguinity and unexplained neonatal death, further supported a genetic etiology. The patient underwent urgent haemodialysis for ammonia clearance and was treated with protein restriction, dextrose-based intravenous fluids, and ammonia-lowering agents including sodium benzoate. His neurological status improved progressively, allowing successful extubation after three days. He was later discharged on oral L-citrulline supplementation and dietary protein restriction. At two-week follow-up, he was clinically stable with normalized plasma ammonia levels. This case highlights the importance of considering late-onset urea cycle disorders in adults presenting with unexplained hyperammonaemia encephalopathy. Early recognition and prompt aggressive management can be lifesaving and lead to complete neurological recovery.
+PY  - 2026
+JO  - BMC neurology
+VL  - 26
+PMID  - 42286544
+UR  - https://pubmed.ncbi.nlm.nih.gov/42286544/
+ER  - 
+TY  - JOUR
+TI  - A Four-Year Prospective Pilot Study of Newborn Screening for Late-Onset Proximal Urea-Cycle Disorders in Hyogo Prefecture in Japan.
+AB  - Proximal urea-cycle disorders (PUCDs), including N-acetylglutamate synthase deficiency (NAGSD), ornithine transcarbamylase deficiency (OTCD), and carbamoyl phosphate synthase 1 deficiency (CPS1D), cause hyperammonemia and impair neurological outcomes. Early detection of late-onset forms allows presymptomatic intervention to prevent hyperammonemia; however, reliable newborn screening (NBS) markers are lacking. This prospective pilot study in Hyogo Prefecture, Japan, evaluated hypocitrullinemia as a screening marker for late-onset PUCDs. Newborns with citrulline levels below the 0.05th percentile on NBS between June 2020 and May 2024 were enrolled in the study. Confirmatory diagnosis of PUCDs was performed using plasma amino acids, urinary organic acids, and genetic testing. During the first period (101,172 newborns), 11 newborns exhibited hypocitrullinemia; 10 underwent further evaluation. One newborn was diagnosed with CPS1D (compound heterozygous <i>CPS1</i> variants); another was later diagnosed with Leigh syndrome. The remaining eight cases were false positives, often associated with prematurity, poor feeding, or gastrointestinal disorders. A second dried blood spot (DBS) card protocol was introduced in the second period (34,694 newborns), reducing false positives. One neonatal-onset OTCD case was detected, and citrulline levels were normalized in six of the seven other cases. In summary, hypocitrullinemia can identify presymptomatic PUCDs, and requesting a second DBS card reduces false positives, supporting its feasibility for incorporation into NBS programs.
+PY  - 2026
+JO  - International journal of neonatal screening
+VL  - 12
+PMID  - 42346728
+UR  - https://pubmed.ncbi.nlm.nih.gov/42346728/
+ER  - 
+TY  - JOUR
+TI  - Quantitative acetylomic analysis reveals a key role of acetylation site 1168K in carbamoyl-phosphate synthase 1 (CPS1) following exposure to PFOA and PFO4DA in mouse liver.
+AB  - Hepatotoxicity induced by environmental pollutants can be regulated at the transcriptional, translational, and post-translational levels. However, few studies have investigated the changes in liver acetylomics caused by pollutant exposure. In the present study, we demonstrated that perfluorooctanoate (PFOA) and its potential alternative, perfluoro-(3,5,7,9-tetraoxadecanoic) acid (PFO4DA), modified the liver acetylation profile in male mice exposed to 10 mg/kg/d PFOA or PFO4DA for 28 days. Relative to the control group, liver proteins in the exposed mice exhibited altered acetylation patterns, with 1508 and 498 differentially acetylated sites identified in the PFOA- and PFO4DA-exposed groups, respectively. These modifications were not confined to lipid metabolism, but also extended to the urea cycle and hyperammonemia. Furthermore, in vitro and in silico experiments revealed that mutation of CPS1-1168K to CPS1-1168R restored enzymatic activity under PFOA/PFO4DA exposure, while mutation to CPS1-1168Kac reduced the adenosine triphosphate (ATP) binding capacity, suggesting that CPS1-1168K may be a key acetylation site for PFOA and PFO4DA disruption of the urea cycle. Additionally, both chemicals exhibited the potential to compete with ATP for the ATP-binding site, which is essential for CPS1 activity. These findings contribute to understanding the mechanisms underlying PFAS toxicity and support the establishment of an adverse outcome pathway framework.
+PY  - 2026
+JO  - Environmental pollution (Barking, Essex : 1987)
+VL  - 396
+SP  - 127842
+PMID  - 41720236
+UR  - https://pubmed.ncbi.nlm.nih.gov/41720236/
+ER  - 
+TY  - JOUR
+TI  - Activation of mitochondrial CPS1 promotes dormant ovarian follicle activation via arginine elevation and the mTORC1 pathway.
+AB  - Carbamoyl phosphate synthetase 1 (CPS1) is a mitochondrial ligase essential for urea production, catalyzing the formation of carbamoyl phosphate from ammonia in a reaction requiring the allosteric activator N acetyl L glutamate (NAG). Through the urea cycle, CPS1 activity ultimately contributes to arginine synthesis, a known activator of mTOR. The NAG analogue N-carbamoyl-L-glutamate (NCG) has been shown to promote follicle development in several species, potentially via mTOR signaling; however, its specific role in folliculogenesis remains unclear. Cultured murine ovaries and human ovarian cortical tissue fragments were treated with NCG to assess its effects on primordial follicle activation. Human granulosa like KGN cells were used to evaluate NCG induced changes in proliferation, arginine levels, and mTOR pathway activation. Mechanistic studies examined the interaction between CASTOR1 and GATOR2 in response to NCG supplementation. NCG mediated activation of CPS1 promoted the awakening of dormant (primordial) follicles in both mouse ovaries and human ovarian cortical tissues. In KGN cells, NCG enhanced cell proliferation and increased intracellular arginine levels, accompanied by an elevated pS6K/S6K ratio, consistent with mTORC1 activation. Mechanistically, NCG induced arginine accumulation reduced CASTOR1 binding to its inhibitor GATOR2, thereby facilitating S6K phosphorylation and activation of the mTORC1 signaling cascade. siRNA-mediated knockdown reduced CPS1 protein levels, which eliminated NCG's effect on arginine levels and the phosphorylation of S6K. NCG activates CPS1 to elevate arginine levels, relieve CASTOR1 mediated inhibition of GATOR2, and stimulate mTORC1 signaling. This pathway promotes primordial follicle activation and supports follicle development, highlighting NCG as a potential modulator of ovarian folliculogenesis.
+PY  - 2026
+JO  - Frontiers in cell and developmental biology
+VL  - 14
+SP  - 1787020
+PMID  - 42111264
+UR  - https://pubmed.ncbi.nlm.nih.gov/42111264/
+ER  - 
+TY  - JOUR
+TI  - Nitrogen Isotope Effects in Urea Metabolism: From Biochemistry to <sup>15</sup>N Natural Abundance in Cancer.
+AB  - The urea cycle (UC) is usually described as the hepatic metabolic pathway responsible for ammonia detoxification, but its role extends far beyond nitrogen (N) elimination to include cellular biosynthesis and metabolic signalling. In cancer cells, the UC is reconfigured/reorchestrated to support high anabolic demand, often involving the dysregulation of key enzymes such as ASS1, ASL, OTC and CPS1. While these changes support biomass production and stress resistance, they also generate measurable biochemical signatures through kinetic and thermodynamic isotope effects (<sup>14</sup>N/<sup>15</sup>N). In this review, we summarise UC biochemistry and recall key enzymatic mechanisms. Together, these elements provide a mechanistic framework to interpret changes in <sup>15</sup>N abundance observed in tumour tissues and cells. We discuss how the redirection of N flux toward nucleotide and polyamine synthesis, coupled with partial excretion of <sup>15</sup>N-depleted urea, may shape the isotopic composition of cancer cells. By integrating molecular oncology with stable isotope analysis, this review highlights the potential of natural isotope abundance as a functional readout of tumour metabolism and supports further investigation of its translational relevance in cancer phenotyping and monitoring.
+PY  - 2026
+JO  - International journal of molecular sciences
+VL  - 27
+PMID  - 42074106
+UR  - https://pubmed.ncbi.nlm.nih.gov/42074106/
+ER  - 
+TY  - JOUR
+TI  - Neonatal carbamoyl phosphate synthetase I deficiency with severe hyperammonemic coma: the first report from Palestine.
+AB  - BACKGROUND: Carbamoyl phosphate synthetase I deficiency (CPS1D) is the most proximal and severe urea cycle disorder, often presenting in the neonatal period with rapidly progressive hyperammonemia. Early symptoms are often nonspecific, posing significant diagnostic challenges and contributing to delays in targeted management. CASE PRESENTATION: We report a term female neonate (37 + 6 weeks, 2600 g) who initially presented with transient tachypnea of the newborn and was managed with continuous positive airway pressure. At 36 h of life, she developed sudden desaturation and bradycardia requiring emergent intubation, and laboratory evaluation revealed severe hyperammonemia. Plasma amino acid analysis demonstrated markedly elevated glutamine and alanine with severely reduced citrulline, and urine organic acid analysis revealed undetectable orotic acid—a biochemical profile consistent with a proximal urea cycle defect. Despite immediate initiation of intravenous sodium benzoate and arginine at guideline-recommended doses, serum ammonia escalated to a peak of approximately 3300 µmol/L. Peritoneal dialysis was initiated as the sole available extracorporeal modality, given the absence of neonatal hemodialysis capacity within the regional healthcare network, and achieved a gradual biochemical reduction; however, no neurological recovery occurred. Whole-exome sequencing identified a previously unreported homozygous likely pathogenic CPS1D variant (NM_001875.5:c.4172 C > A; p.Thr1391Lys). The patient progressed to multiorgan failure and died on day six of life. CONCLUSION: This case illustrates the fulminant course of neonatal-onset CPS1D and the diagnostic difficulty posed by an initial nonspecific respiratory presentation. Notably, despite early ammonia detection and prompt initiation of guideline-directed management, the outcome was fatal—reflecting the intrinsic biological severity of the disorder and the absence of access to high-efficiency extracorporeal clearance and liver transplantation rather than a failure of timely recognition alone. A high index of suspicion for urea cycle disorders in neonates with unexplained encephalopathy or sudden decompensation, early metabolic evaluation, and rapid genomic testing remain essential components of management, even where definitive therapeutic options are limited. To our knowledge, this is the first report of CPS1D from Palestine, and it expands the global mutational spectrum by identifying a previously unreported homozygous CPS1 variant via whole-exome sequencing.
+PY  - 2026
+JO  - BMC pediatrics
+VL  - 26
+PMID  - 41917863
+UR  - https://pubmed.ncbi.nlm.nih.gov/41917863/
+ER  - 
+TY  - JOUR
+TI  - Gestational low carbamoyl phosphate suppresses TET2-mediated DNA demethylation and induces congenital heart disease in offspring.
+AB  - Congenital heart disease (CHD) is the most common birth defect worldwide, with over half of cases lacking a defined etiology. Maternal metabolic dysregulation has been implicated in CHD risk, but the specific metabolites and mechanisms involved in embryonic heart development remain poorly understood. Carbamoyl phosphate (CP), a key urea cycle intermediate, has not previously been linked to cardiac morphogenesis. This study aimed to identify maternal metabolites associated with offspring CHD risk and to elucidate the role of CP in regulating cardiac development. Untargeted metabolomic profiling was performed on early-pregnancy serum from 98 mothers of CHD offspring and 50 age-matched controls. Functional validation was performed using two pregnant mouse models: pharmacological inhibition of glutamine metabolism via BPTES and Cps1 heterozygous knockout (Cps1<sup>+/-</sup>). Rescue experiments were performed with the CPS1 activator N-carbamylglutamate (NCG). Epigenetic mechanisms were investigated by assessing TET2 carbamylation, DNA hydroxymethylation, and cardiogenic gene expression in embryonic hearts. Maternal serum CP levels were significantly reduced in CHD cases and negatively correlated with upstream nutrient levels. In mice, both BPTES treatment and maternal Cps1 knockdown increased CHD incidence in offspring. Conversely, NCG supplementation reduced CHD risk in Cps1<sup>+/-</sup> pregnant mice. Mechanistically, CP depletion impaired TET2 lysine carbamylation at residues K1339 and K1509, decreasing its DNA demethylation activity without affecting protein expression. This resulted in reduced global 5hmC levels and aberrant expression of cardiogenic genes in embryonic hearts. Maternal CP deficiency increases offspring CHD risk by disrupting TET2-mediated DNA demethylation through impaired lysine carbamylation. These findings highlight maternal CP and TET2 carbamylation as potential metabolic-epigenetic targets for CHD prevention.
+PY  - 2026
+JO  - Journal of advanced research
+PMID  - 41707959
+UR  - https://pubmed.ncbi.nlm.nih.gov/41707959/
+ER  - 
+TY  - JOUR
+TI  - From consanguinity to crisis: a rare cause of neonatal encephalopathy.
+AB  - Carbamoyl phosphate synthetase 1 (CPS-1) deficiency is a rare autosomal recessive disorder that disrupts the proximal mitochondrial phase of the urea cycle, resulting in impaired ureagenesis, hyperammonaemia and metabolic decompensation during the neonatal period. This condition is linked to significant neurological impairment and poses a considerable risk of mortality, especially in newborns. This case underscores the importance of recognising urgent clinical presentation and the intricate management challenges encountered in the treatment of early-onset CPS-1 deficiency.
+PY  - 2026
+JO  - BMJ case reports
+VL  - 19
+PMID  - 41667206
+UR  - https://pubmed.ncbi.nlm.nih.gov/41667206/
+ER  - 
+TY  - JOUR
+TI  - Construction of Artificial Cells with Urea Cycle Pathway for Ammonia Detoxification.
+AB  - The bottom-up construction of artificial cells helps to understand cell working mechanisms. It is a great challenge to build artificial cells capable of detoxification. Herein, the urea cycle pathway is reconstituted inside artificial cells for ammonium detoxification. The urea cycle pathway involves carbamoyl phosphate synthetase, ornithine transcarbamylase, argininosuccinate synthetase, argininosuccinate lyase, and arginase, which converts NH<sub>4</sub>HCO<sub>3</sub> to urea using a cyclic metabolic pathway. The urea is produced in a stepwise manner with the addition of NH<sub>4</sub>HCO<sub>3</sub> when the cyclic metabolic reaction reaches equilibrium. The urea cycle pathway and NH<sub>4</sub>HCO<sub>3</sub> are encapsulated into giant unilamellar vesicles to construct artificial cells capable of ammonium detoxification. The urea is produced inside artificial cells with the conversion rate of 61.9%. The concentration of extracellular NH<sub>4</sub>HCO<sub>3</sub> is decreased from 20.0 to 2.3 mM with the addition of 1.5×10<sup>6</sup> mL<sup>-1</sup> artificial cells, due to the inflow of NH<sub>4</sub>HCO<sub>3</sub> through melittin pores in the membrane and subsequently metabolized by urea cycle pathway. It indicates the ammonium detoxification ability of artificial cells containing urea cycle pathway, which is further proved by rescuing Schwann cells in high concentration of NH<sub>4</sub>HCO<sub>3</sub>. This work paves a path to build functional artificial cells with more complicated metabolic networks for their biomedical applications.
+PY  - 2026
+JO  - Angewandte Chemie (International ed. in English)
+VL  - 65
+SP  - e16955
+PMID  - 41243768
+UR  - https://pubmed.ncbi.nlm.nih.gov/41243768/
+ER  - 
+TY  - JOUR
+TI  - Targeting CPS1 attenuates lung cancer metastasis by regulating EMT through an epigenetic mechanism.
+AB  - <b>Background:</b> Metastasis is the primary cause of cancer-related mortality, and targeting the drivers of this process is a promising strategy to improve patient outcomes. Recent studies have highlighted a role of Carbamoyl Phosphate Synthetase 1 (CPS1), the urea cycle's rate-limiting enzyme, in tumor development. However, its involvement in tumor spreading and metastasis remains unclear. <b>Methods:</b> Transwell assay, wound healing assay and a range of lung cancer metastasis animal models were employed to investigate the impact of genetic knockdown and pharmacological inhibition of CPS1 on lung cancer metastasis both <i>in vitro</i> and <i>in vivo</i>. Quantitative proteomic analysis, RNA sequencing, untargeted metabolomics and targeted metabolomics to urea cycle were conducted to elucidate the underlying mechanisms of CPS1 inhibition. <b>Results:</b> CPS1 was overexpressed in a subset of patients with metastatic lung cancer, and this increased expression correlated with decreased patient survival. Genetic knockdown and pharmacological inhibition of CPS1 significantly reduced the tumor burden and metastasis in mice with the spontaneous (<i>Kras</i> <sup>G12D/+</sup>; <i>p53</i> <sup>-/-</sup>) and induced metastatic lung cancer. Mechanistically, CPS1 overexpression in metastatic cancer cells resulted in excessive fumarate production, an intermediate metabolite in the urea cycle. Fumarate accumulation inhibited TET2 activity and altered <i>miR200a</i> gene methylation to drive epithelial-to-mesenchymal transition (EMT), thereby enhancing cell migration and invasion. Notably, CPS1 inhibition reduced fumarate accumulation and enhanced TET2 activity, which epigenetically upregulated PD-L1 expression. This activation contributed to impaired CD8⁺ T cell function and ultimately promoted tumor immune evasion. To overcome immune evasion, we investigated a combination therapy. Combining a CPS1 inhibitor with an anti-PD-1 antibody demonstrated a synergistic and potent effect, significantly inhibiting both lung tumor growth and metastasis. <b>Conclusions:</b> These findings define a crucial role for CPS1 in lung cancer metastasis. Targeting CPS1 may offer a valuable therapeutic intervention strategy against metastatic lung cancer.
+PY  - 2026
+JO  - Theranostics
+VL  - 16
+SP  - 1740
+EP  - 1761
+PMID  - 41356199
+UR  - https://pubmed.ncbi.nlm.nih.gov/41356199/
+ER  - 
+TY  - JOUR
+TI  - A case of late-onset carbamoyl phosphate synthetase 1 deficiency: diagnostic challenges and management in a low-resource setting.
+AB  - This study aimed to analyze the clinical features, genetic basis, and management of late-onset carbamoyl phosphate synthetase 1 deficiency (CPS1D) through a pediatric case report and literature review, highlighting diagnostic challenges and therapeutic strategies. We present a 19-year-old female with recurrent neurological symptoms since age 8. She underwent comprehensive metabolic screening, neuroimaging, and whole-exome sequencing of theCPS1gene. Identified variants were assessed for pathogenicity using multiple orthogonalin silicoprediction tools. The patient's initial hyperammonemic crisis at age 8 was misdiagnosed as encephalitis. Workup at age 13 confirmed hyperammonemia (peak 168 µmol/L), hypocitrullinemia, and elevated glutamine. Genetic analysis identified compound heterozygousCPS1variants: a novel c.1058 T > C (p.F353S) and known pathogenic c.1145C > T (p.P382L). A self-selected low-protein diet controlled acute crises but led to severe growth failure (height 145 cm, weight 30 kg). Late-onset CPS1D's nonspecific neurological symptoms often lead to misdiagnosis. Diagnosis requires a high index of suspicion, integrating metabolic profiling with genetic confirmation. This case expands the pathogenic genotypic spectrum of CPS1D. It crucially highlights that while dietary management is life-saving, it requires expert multidisciplinary oversight to prevent devastating consequences like growth failure, especially in resource-limited settings. Routine ammonia testing in unexplained encephalopathy is paramount.
+PY  - 2026
+JO  - Clinical biochemistry
+VL  - 141
+SP  - 111041
+PMID  - 41242372
+UR  - https://pubmed.ncbi.nlm.nih.gov/41242372/
+ER  - 
+TY  - JOUR
+TI  - Whole exome sequencing in pediatric hyperammonemia: significant diagnostic yield and identification of three novel variants.
+AB  - BACKGROUND: Hyperammonemia, not a disorder, but an outcome of a disorder marked by elevated ammonia levels in the blood, is a serious medical condition that makes accurate diagnosis based on clinical and laboratory findings challenging. In this scenario, employing advanced genetic tests like whole exome sequencing can provide crucial insights that help clinicians better manage the disease. Also, identifying disease-causing variants provides conditions for genetic counseling and subsequent preventive measures, including prenatal diagnosis. METHODS: This study was conducted at the Comprehensive Genetic Services Center (CGSC) of Shahid Beheshti University of Medical Sciences (SBMU), Iran, from 2020 to 2024, involving 20 pediatric patients with clinically suspected hyperammonemia due to inborn errors of metabolism (IEMs). All patients underwent biochemical testing, including plasma amino acid (PAA). Whole-exome sequencing (WES) was performed for molecular diagnosis, and identified variants were interpreted according to ACMG/AMP guidelines. The identified variants were confirmed by Sanger sequencing in all the probands. No additional in vitro functional assays were performed. RESULTS: Among the twelve genetically confirmed cases, pathogenic or likely pathogenic variants were identified in genes related to urea cycle disorders (CPS1, OTC, ASS1), organic acidemias (MMUT, PCCB, HMGCL), amino acid transport defects (SLC7A7), and mitochondrial disorders (PDHA1). Patients with CPS1 variants (P2 and P3) presented with hyperammonemia, seizures, and developmental delay, with distinct biochemical profiles reflecting different degrees of enzyme deficiency. The patient with MMUT variant (P10) showed marked metabolic acidosis, consistent with methylmalonic aciduria. Variants in OTC (P4, P5) and ASS1 (P6) were associated with urea cycle dysfunction with hyperammonemia, but the elevated plasma citrulline level was a significant biochemical finding in the patient (P6). Patients with HMGCL (P7), SLC7A7 (P8), and PCCB (P11) variants exhibited organic aciduria patterns compatible with their respective enzymatic defects. In addition, a hemizygous variant in PDHA1 (P12) was identified in a male patient with increased lactate and microcephaly. Detailed clinical, biochemical, and molecular features of all confirmed cases are summarized in Table 3. CONCLUSION: This study highlights the efficacy of whole exome sequencing in diagnosing genetically heterogeneous conditions like hyperammonemia, with implications for treatment optimization and genetic counseling. The identification of novel variants enhances understanding of the genetic landscape in populations with high rates of consanguinity. Future research should focus on expanding genetic databases and exploring the functional impacts of newly discovered variants.
+PY  - 2025
+JO  - BMC medical genomics
+VL  - 18
+SP  - 193
+PMID  - 41402828
+UR  - https://pubmed.ncbi.nlm.nih.gov/41402828/
+ER  - 
+TY  - JOUR
+TI  - Branched-chain amino acids induce hyperammonemia via gut-liver axis-mediated ammonia overproduction in laying hens.
+AB  - Gut microbiota not only biosynthesizes branched-chain amino acids (BCAA) but also catabolizes and utilizes them, while the effects of dietary BCAA supplementation on intestinal microbiota and metabolism remain largely elusive. Therefore, the present study aimed to investigate the impacts of dietary BCAA supplementation on productive performance, egg quality, gut microbiota and metabolism in laying hens. A total of 180 Fengda No.1 laying hens aged 41 weeks were randomly assigned to five groups, with each group consisting of six replicates of six hens, and the experiment lasted for 8 weeks. The control group (Ctrl AA) was fed a basal diet, while the other four groups were supplemented with 67% leucine (High Leu), isoleucine (High Ile), both leucine and isoleucine (High Leu + Ile), or a combination of the three BCAA (High BCAA), respectively, based on the Ctrl AA. The results demonstrated that compared with Ctrl AA, both High Ile and High BCAA significantly decreased egg mass and laying rate (<i>P</i> < 0.05); High Ile also decreased egg weight (<i>P</i> < 0.001) while increasing the broken egg rate (<i>P</i> = 0.020); only High BCAA significantly increased egg yolk color (<i>P</i> < 0.001). Compared with Ctrl AA, serum arginine was dramatically decreased by High BCAA (<i>P</i> = 0.005), whereas serum ammonia level was significantly elevated by High Ile, High Leu + Ile, and High BCAA (<i>P</i> = 0.002). Hepatic transcriptome analysis found that the expression of <i>SLC7A2</i>, <i>CPS1</i>, and <i>ARG2</i> were downregulated in High BCAA group (<i>P</i> < 0.05), which was accompanied by inhibition of the urea cycle and upregulation of <i>SCAP</i> expression (<i>P</i> = 0.024) compared with Ctrl AA. Compared with Ctrl AA, High BCAA significantly increased the relative abundance of ammonia-producing microbiota, including <i>g__norank_f__Muribaculaceae</i>, f__Muribaculaceae, <i>g__Bifidobacterium</i>, f__Oxalobacteraceae, <i>g__Oxalobacter</i>, and <i>g__Eubacterium_hallii_group</i> (<i>P</i> < 0.05), which were positively associated with increased serum ammonia levels. Untargeted metabolomics revealed High BCAA enhanced intestinal urea metabolism and glutamic acid production compared with Ctrl AA, leading to ammonia release and subsequent serum ammonia accumulation. In summary, High BCAA promoted ammonia-producing microbiota proliferation, resulting in increased ammonia overproduction. Excessive ammonia cannot be entirely detoxified through the hepatic urea cycle; instead, it stimulates SCAP to dissociate ammonia contributing to hyperammonemia and resulting in decreased productive performance.
+PY  - 2025
+JO  - Animal nutrition (Zhongguo xu mu shou yi xue hui)
+VL  - 22
+SP  - 384
+EP  - 401
+PMID  - 40896500
+UR  - https://pubmed.ncbi.nlm.nih.gov/40896500/
+ER  - 
+TY  - JOUR
+TI  - ASS1 inhibits liver cancer by promoting CAD ubiquitination and reversing the urea cycle and pyrimidine synthesis imbalance.
+AB  - The urea cycle and pyrimidine synthesis occur mainly in the liver and undergo opposite changes during hepatocarcinogenesis. Argininosuccinate synthase 1 (ASS1) and carbamoyl-phosphate synthetase 2, aspartate transcarbamylase, and dihydroorotase (CAD) are key enzymes in the urea cycle and pyrimidine synthesis, respectively, and compete for the common substrate, aspartate. Moreover, ASS1 is lowly expressed in certain cancers, while CAD is highly expressed. However, the role of ASS1 and CAD in liver cancer still remains unclear. ASS1 and CAD expression in liver cancer were detected by tissue microarrays. Overexpression of ASS1 and CAD was achieved via lentivirus methods. All in vitro experiments were conducted in cells. The interactions of ASS1 and CAD were detected by co-immunoprecipitation (Co-IP) and GST-pull down. The in vivo study was conducted in a BALB/c nude mouse model. Intracellular metabolites were detected by LC-MS/MS. ASS1 was lowly expressed in liver cancer, while CAD was highly expressed. In patients with recurrent liver cancer, ASS1 and CAD were significantly negatively correlated. Moreover, liver cancer patients with low ASS1 expression and high CAD expression had a poor prognosis. ASS1 and CAD interacted directly and promoted CAD ubiquitination through STUB1. In addition, Overexpression of CAD attenuated the tumor-suppressive effect of ASS1 in liver cancer cells. Pyrimidine supplementation enhanced the growth of liver cancer cells with ASS1 overexpression. ASS1 deficiency causes an imbalance in the urea cycle and pyrimidine synthesis in liver cancer. ASS1 directly controls the ubiquitination of CAD via STUB1, rather than just competing with aspartate, thereby suppressing liver cancer. Thus, ASS1 has potential as a druggable target in liver cancer.
+PY  - 2025
+JO  - Hepatology communications
+VL  - 9
+PMID  - 40824254
+UR  - https://pubmed.ncbi.nlm.nih.gov/40824254/
+ER  - 
+TY  - JOUR
+TI  - The current social status in adult patients with urea cycle disorders in Japan.
+AB  - Urea cycle disorders (UCDs) are inherited metabolic conditions that lead to inadequate nitrogen detoxification due to defects in urea cycle enzymes or transporters. The severity of UCDs is classified into two types: neonatal onset (severe) and late onset (often milder). This cross-sectional study aimed to assess the levels of intelligence, developmental disabilities, and social functioning in adult patients with UCDs in Japan. A total of 116 adult patients with UCDs were enrolled in the study, including 10 with carbamoyl phosphate synthetase 1 deficiency, 69 with ornithine transcarbamylase deficiency (OTCD), 17 with argininosuccinate synthetase deficiency, 9 with argininosuccinate lyase deficiency, 4 with arginase 1 deficiency, and 7 with Hyperornithinemia-Hyperammonemia-Homocitrullinuria syndrome. Of these, 25 (21.6 %) developed symptoms during the neonatal period (within 28 days after birth), while 86 (74.1 %) presented with symptoms after 28 days of age. The age of onset was unknown in 5 patients. This study included 111 surviving patients and 5 deceased patients (3 with OTCD and 2 with CPS1D). Fifty-three patients (45.7 %) experienced intellectual disabilities, while 48 (41.4 %) had non-intellectual disabilities. Additionally, learning disorders and communication disorders were common among many of the study participants. Sixty patients (51.7 %) graduated from regular high school, and most patients with intellectual disabilities graduated from special education schools. Almost half of the patients (51, 44.0 %) were able to obtain jobs, including simple tasks in supported workplaces, and received compensation for their work. Notably, more patients with OTCD could demonstrate higher social performance including experience of higher education and marriage. However, even OTCD patients without intellectual disabilities often struggled with specific neurobehavioral issues. This study provides information on the social situation of adult UCD patients and underlines the importance for clinicians, as well as society and communities, to understand the ongoing challenges faced by patients with UCDs in order to provide better support.
+PY  - 2025
+JO  - Molecular genetics and metabolism
+VL  - 145
+SP  - 109185
+PMID  - 40618446
+UR  - https://pubmed.ncbi.nlm.nih.gov/40618446/
+ER  - 
+TY  - JOUR
+TI  - A hypomorphic model of CPS1 deficiency for investigating the effects of hyperammonemia on the developing nervous system.
+AB  - Carbamoyl phosphate synthetase 1 (CPS1) deficiency is a rare metabolic disorder that, in neonatal onset, is typically characterized by severe life-threatening and neurologically injuring hyperammonemic episodes with high unmet patient need. Patients that retain limited enzyme activity may present later in life with less severe hyperammonemia. CPS1 drives the first step in the urea cycle, the pathway terrestrial mammals utilize to metabolize nitrogen. In order to probe the effect of hyperammonemia on the developing nervous system and explore new therapies, a murine Cps1 exon 3-4 mutant was previously generated. However, these mice die within 24 h of birth, limiting study capabilities. Herein, we developed a novel Cps1 hypomorphic murine model with residual enzyme activity that maintains survival, but with dysfunction of Cps1 that could be detected biochemically. Characterization, based on the orthologous human variant Asn674Ile, revealed that the variant is reproducible, 100% penetrant and biochemically phenocopies the human disorder. The hypomorph presents with elevated ammonia and glutamate, and reduced citrulline, and with an impaired rate of ureagenesis, providing a novel platform to study and develop therapies for CPS1 deficiency.
+PY  - 2025
+JO  - Disease models & mechanisms
+VL  - 18
+PMID  - 40421838
+UR  - https://pubmed.ncbi.nlm.nih.gov/40421838/
+ER  - 
+TY  - JOUR
+TI  - Identification of novel variants in carbamoyl phosphate synthetase 1 gene and comparative pathogenicity assessments of CPS1 missense variants following ACMG/AMP-ClinGen recommendation for computational tools.
+AB  - Carbamoyl phosphate synthetase I (CPS1) deficiency is a rare autosomal recessive metabolic abnormality cause by dysfunctionality of CPS1 and often result in unfavorable outcome. In this study, we presented the detailed laboratory features and genetic analysis of two patients with heterozygous variants of CPS1, c.1927 A > G (p.Asn643Asp), c.2375 T > G (p.Met792Arg), c.3443 T > A (p.Met1148Lys) in patient 1; c.3784C > T (p.Arg1262Ter), c.3734 T > A (p.Leu1245His) in patient 2, respectively. c.1927 A > G (p.Asn643Asp) and c.2375 T > G (p.Met792Arg) are novel out of 5 variants and classified as variants of uncertain significance (VUS) under the guidelines of ACMG/AMP-ClinGen. Structure-based analysis of 4 missense variants indicates deleterious alterations to the protein. Since the employment of genetic testing as a clinical diagnostic tool, distinguishing pathogenic from polymorphic changes poses significant problems for geneticists. As recommendation for PP3/BP4, the computational tools for missense variant have been published, we performed a comparative evaluation for pathogenicity interpretation in our patients and in ClinVar database regarding CPS1 missense variants under the updated guidelines of ACMG/AMP-ClinGen. The application of computational tools under the ACMG/AMP-ClinGen criteria revealed an increased sensitivity for pathogenicity evaluation, from variants of uncertain significance (VUS) to likely pathogenic (LP) in previously reported cases; while for variants without clinic information in the ClinVar database, the pathogenicity assessment of VUS remained, and shows a more optimistic and reliable clinical application in molecular diagnosis.
+PY  - 2025
+JO  - Molecular genetics and metabolism reports
+VL  - 43
+SP  - 101208
+PMID  - 40212732
+UR  - https://pubmed.ncbi.nlm.nih.gov/40212732/
+ER  - 
+TY  - JOUR
+TI  - Carbamoyl phosphate synthetase 1 deficiency manifested in an adult treated with prednisone for polymyositis, and cured by live-donor liver transplantation.
+AB  - Carbamoyl phosphate synthetase 1 (CPS1) deficiency (OMIM#237300) is a rare inherited disorder due to complete or partial lack of the CPS1 enzyme. Polymyositis is a relatively rare systemic inflammatory autoimmune disease. Here, we report a 59-year-old Japanese woman diagnosed with late-onset CPS1 deficiency during polymyositis treatment. The polymyositis appeared two years before the diagnosis of CPS1 deficiency. Prednisolone (PSL) at 35 mg/day initial dosage, promptly alleviated the symptoms. However, the patient, without apparent cause, suddenly developed confusion progressing to unconsciousness and coma. Upon admission, the patient's plasma ammonia levels were 458 μg/dL (269 μM). Plasma amino acid analysis revealed decreased citrulline levels and elevated glutamine levels. Genetic analysis of <i>CPS1</i> (OMIM *608307) showed homozygosity for the likely pathogenic variant c.2397G > A (p.Met799Ile), leading to the diagnosis of CPS1 deficiency. The patient responded to pharmacotherapy and continuous hemodialysis. However, the patient experienced hyperammonemia decompensation events while on pharmacotherapy at home, which were successfully managed with emergency treatment and/or hemodialysis. Subsequently, after liver transplantation, the patient's plasma ammonia levels consistently remained at normal. This case illustrates late-onset CPS1 deficiency manifested in an adult treated with PSL for polymyositis, and the cure of its enzyme deficiency by live-donor liver transplantation.
+PY  - 2025
+JO  - Molecular genetics and metabolism reports
+VL  - 43
+SP  - 101200
+PMID  - 40125546
+UR  - https://pubmed.ncbi.nlm.nih.gov/40125546/
+ER  - 
+TY  - JOUR
+TI  - APE1 promotes lung adenocarcinoma through G4-mediated transcriptional reprogramming of urea cycle metabolism.
+AB  - Lung adenocarcinoma (LUAD) remains the leading cause of cancer deaths worldwide. Apurinic/apyrimidinic endonuclease 1 (APE1), an enzyme integral to DNA repair and redox signaling, is notably upregulated in LUAD. Here we reveal that APE1 amplification, primarily via allele duplication, strongly correlates with poor prognosis in LUAD patients. Using human LUAD cell lines and a <i>KRAS</i>-driven mouse model, we showed that <i>APE1</i> deletion hampered cell proliferation and tumor growth, highlighting its role in tumorigenesis. Mechanistically, APE1 promoted the transcription of urea cycle genes <i>CPS1</i> and <i>ARG2</i> by modulating the presence of G-quadruplex (G4) structures in their promoter regions. APE1 loss disrupted the urea cycle and pyrimidine metabolism, inducing metabolic reprogramming and growth arrest, which could be rescued by CPS1 or pyrimidine restoration. These findings uncover APE1's role in transcriptional regulation of urea cycle metabolic reprogramming via G4 structure, providing a potential therapeutic target LUAD patients with elevated APE1 expression.
+PY  - 2025
+JO  - iScience
+VL  - 28
+SP  - 112275
+PMID  - 40276763
+UR  - https://pubmed.ncbi.nlm.nih.gov/40276763/
+ER  - 
+TY  - JOUR
+TI  - Integrative metabolomics and genomics reveal molecular signatures for type 2 diabetes and its cardiovascular complications.
+AB  - Metabolites are pivotal in the biological process underlying type 2 diabetes (T2D) and its cardiovascular complications. Nevertheless, their contributions to these diseases have not been comprehensively evaluated, particularly in East Asian ancestry. This study aims to elucidate the metabolic underpinnings of T2D and its cardiovascular complications and leverage multi-omics integration to uncover the molecular pathways involved. This study included 1180 Chinese participants from the Zhejiang Metabolic Syndrome Cohort (ZMSC). A total of 1912 metabolites were profiled using high-coverage widely targeted and non-targeted metabolic techniques. Multivariable logistic regression models and orthogonal partial least squares discriminant analysis were used to identify T2D-related metabolites. A metabolome-wide genome-wide association study (GWAS) in ZMSC, followed by two-sample Mendelian randomization (MR) analyses, was conducted to explore potential causal metabolite-T2D associations. To enhance cross-ancestry generalizability, MR analyses were conducted in European ancestry to explore the potential causal effects of serum metabolites on T2D and its cardiovascular complications. Furthermore, multi-omics evidence was integrated to explore the underlying molecular mechanisms. We identified six metabolites associated with T2D in Chinese, supported by metabolome analysis and genetic-informed causal inference. These included two potential protective factors (PC [O-16:0/0:0] and its derivative LPC [O-16:0]) and four potential risk factors ([R]-2-hydroxybutyric acid, 2-methyllactic acid, eplerenone, and rauwolscine). Cross-ancestry metabolome-wide analysis further revealed four shared potential causal metabolites, highlighting the potential protective role of creatine for T2D. Through multi-omics integration, we revealed a potential regulatory path initialized by a genetic variant near CPS1 (coding for a urea cycle-related mitochondrial enzyme) influencing serum creatine levels and subsequently modulating the risk of T2D. MR analyses further demonstrated that nine urea cycle-related metabolites significantly influence cardiovascular complications of T2D. Our study provides novel insights into the metabolic underpinnings of T2D and its cardiovascular complications, emphasizing the role of urea cycle-related metabolites in disease risk and progression. These findings advance our understanding of circulating metabolites in the etiology of T2D, offering potential biomarkers and therapeutic targets for future research. WHAT IS CURRENTLY KNOWN ABOUT THIS TOPIC?: Metabolites are crucial for understanding diabetes biology.Multi-omics integration aids in revealing complex mechanisms. WHAT IS THE KEY RESEARCH QUESTION?: How do serum metabolites affect diabetes and its cardiovascular outcomes? WHAT IS NEW?: Novel diabetes-related metabolites identified in Chinese populations.Consistent metabolites associated with diabetes and glycemic traits in East Asians and Europeans.Emphasizing the role of urea cycle pathway in cardiometabolic disease. HOW MIGHT THIS STUDY INFLUENCE CLINICAL PRACTICE?: Findings could guide diabetes prevention and personalized management strategies.
+PY  - 2025
+JO  - Cardiovascular diabetology
+VL  - 24
+SP  - 166
+PMID  - 40241080
+UR  - https://pubmed.ncbi.nlm.nih.gov/40241080/
+ER  - 
+TY  - JOUR
+TI  - Understanding the Natural History and the Effects of Current Therapeutic Strategies on Urea Cycle Disorders: Insights from the UCD Spanish Registry.
+AB  - <b>Background/Objectives</b>: The present study updates the Spanish registry of patients with urea cycle disorders (UCD), originally established in 2013, to provide comprehensive epidemiological data and evaluate the impact of therapeutic strategies and newborn screening (NBS) on clinical outcomes. <b>Methods</b>: This retrospective, multicenter study focuses on 255 Spanish UCD patients. It includes all living and deceased cases up to February 2024, analyzing demographic, clinical, and biochemical variables. <b>Results</b>: The incidence of UCD in Spain over the past decade was 1:36,063 births. The most common defects were ornithine transcarbamylase deficiency (OTCD) and argininosuccinate synthetase deficiency. Early-onset (EO) cases comprised 32.7%, and 10.6% were diagnosed through NBS. Global mortality was 14.9%, higher in carbamoylphosphate synthetase 1 deficiency (36.8%) and male OTCD patients (32.1%) compared to other defects (<i>p</i> = 0.013). EO cases presented a higher mortality rate (35.8%) than late-onset (LO) cases (7.1%) (<i>p</i> < 0.0001). The median ammonia level in deceased patients was higher at 1058 µmol/L (IQR 410-1793) than in survivors at 294 µmol/L (IQR 71-494) (<i>p</i> < 0.0001). Diagnosis through NBS improved survival and reduced neurological impairment compared to symptomatic diagnosis. Neurological impairment occurred in 44% of patients, with worse neurological outcomes observed in patients with argininosuccinate lyase deficiency, arginase 1 deficiency, hyperornithinemia-hyperammonemia-homocitrullinuria, EO presentations, pre-2014 diagnosis, and patients with higher levels of ammonia at diagnosis. Among transplanted patients (20.6%), survival was 95.2%, with no significant neurological differences compared to non-transplanted patients. <b>Conclusions</b>: This updated analysis highlights the positive impact of NBS and advanced treatments on mortality and neurologic outcomes. Persistent neurological challenges underscore the need for further therapeutic strategies.
+PY  - 2025
+JO  - Nutrients
+VL  - 17
+PMID  - 40218931
+UR  - https://pubmed.ncbi.nlm.nih.gov/40218931/
+ER  - 
+TY  - JOUR
+TI  - Use of an oversized AAV8 vector for CPS1 deficiency results in long-term survival and ammonia control.
+AB  - Carbamoyl phosphate synthetase 1 (CPS1) deficiency, a urea-cycle disorder, results in hyperammonemia initiating a sequence of adverse events that can lead to coma and death if not treated rapidly. There is a high unmet need for an effective therapeutic for this disorder, especially in early neonatal patients where mortality is excessive. However, development of an adeno-associated virus (AAV)-based approach is hampered by large cDNA size and high protein requirement. We developed an oversized AAV vector as a gene therapy to treat <i>CPS1</i> deficiency. In order to constrain genome size, we utilized small liver-specific promoter/enhancers and a minimal polyadenylation signal. Long-term survival (9 months, end of study) with ammonia control was achieved in AAV8.CPS1-administered Cps1<sup>flox/flox</sup> mice, while all null vector-injected controls died with marked hyperammonemia; female mice demonstrated improved survival over treated males. While glutamine remained elevated compared to controls, ammonia was controlled in surviving animals. Mice maintained their weights and were not sarcopenic. While drinking water did contain carglumic acid, no nitrogen scavengers were administered. Although there were concerns with vector genomic integrity, these findings demonstrate proof of concept for an oversized gene-therapy approach for a challenging urea-cycle disorder where high-level hepatic protein is essential for survival.
+PY  - 2025
+JO  - Molecular therapy. Nucleic acids
+VL  - 36
+SP  - 102470
+PMID  - 40083646
+UR  - https://pubmed.ncbi.nlm.nih.gov/40083646/
+ER  - 
+TY  - JOUR
+TI  - Comparative Analysis of the Total Proteome in Nonalcoholic Steatohepatitis: Identification of Potential Biomarkers.
+AB  - Nonalcoholic fatty liver disease is a hepatic condition characterized by excessive fat accumulation in the liver with advanced stage nonalcoholic steatohepatitis (NASH), potentially leading to liver fibrosis, cirrhosis, and cancer. Currently, the identification and classification of NASH require invasive liver biopsy, which has certain limitations. Mass spectrometry-based proteomics can detect crucial proteins and pathways implicated in NASH development and progression. We collected the liver and serum samples from choline-deficient, L-amino acid-defined high-fat diet fed NASH C57BL/6J mice and human serum samples to examine proteomic alterations and identify early biomarkers for NASH diagnosis. In-depth targeted multiple reaction monitoring scanning and immunoblotting assays were used to verify the biomarker candidates from mouse liver and serum samples, and enzyme-linked immunosorbent assay (ELISA) was employed to analyze human serum samples. The multiple reaction monitoring analysis of NASH liver revealed 50 proteins with altered expression (21 upregulated and 29 downregulated) that are involved in biological processes such as detoxification, fibrosis, inflammation, and fatty acid metabolism. Ingenuity pathway analysis identified impaired protein synthesis, cellular stress and defense, cellular processes and communication, and metabolism in NASH mouse liver. Immunoblotting analysis confirmed that the expression of proteins associated with fatty acid metabolism (Aldo B and Fasn) and urea cycle (Arg1, Cps1, and Otc) was altered in the mouse liver and serum. Further analysis on human serum samples using ELISA confirmed the increased expression of multiple proteins, including Aldo B, Asl, and Lgals3, demonstrating values of 0.917, 0.979, and 0.965 of area under the curve in NASH diagnosis. These findings offer valuable insights into the molecular mechanisms of NASH and possible diagnostic biomarkers for early detection.
+PY  - 2025
+JO  - Molecular & cellular proteomics : MCP
+VL  - 24
+SP  - 100921
+PMID  - 39894410
+UR  - https://pubmed.ncbi.nlm.nih.gov/39894410/
+ER  - 
+TY  - JOUR
+TI  - Farnesoid X receptor agonist accelerates ammonium metabolism of mesenchymal stem cell-derived hepatocyte-like cells.
+AB  - Accelerating ammonium metabolism of hepatocyte like cells (HLCs) is critical for various functions of hepatocytes. The aim of the present study was to investigate whether Farnesoid X receptor (FXR) agonist, obeticholic acid (OCA), accelerated ammonium metabolism of HLCs, which was derived from adipose derived mesenchymal stem cells (ADSCs). Human ADSCs were seed in flat bottom plate, then our differentiation protocol was used for 21 days. OCA treatment had been performed in Step3 for 10days. Then, 1) hepatic maturation, 2) urea cycle genes, 3) urea production, and 4) ammonium metabolism was compared depend on the presence or absence of OCA. HLCs had been successfully produced for 21 days. HLCs with OCA showed significantly higher mRNA expressions of AAT than those without OCA. HLCs with OCA showed significantly higher mRNA expressions of urea cycle genes such as SLC25A13, CPS1, and OTC. Urea production was also tended to be upregulated by OCA addition. HLCs with OCA showed significantly higher clearance of NH4Cl at 6hr and 24 hr after addition of NH4Cl. FXR agonist, OCA, accelerates ammonium metabolism of ADSCs derived HLCs. HLCs could be one of treatment options of hepatic encephalopathy of patients with liver failure or urea cycle disorder in the future. J. Med. Invest. 72 : 54-59, February, 2025.
+PY  - 2025
+JO  - The journal of medical investigation : JMI
+VL  - 72
+SP  - 54
+EP  - 59
+PMID  - 40268456
+UR  - https://pubmed.ncbi.nlm.nih.gov/40268456/
+ER  - 
+TY  - JOUR
+TI  - Glucose and Insulin Differently Regulate Gluconeogenic and Ureagenic Gene Expression.
+AB  - Glucose and insulin positively regulate glycolysis and lipogenesis through the activation of carbohydrate response element-binding protein (ChREBP) and sterol regulatory element-binding protein 1c (SREBP1c), but their respective roles in the regulation of gluconeogenic and ureagenic genes remain unclear. We compared the effects of the insulin antagonist S961 and Chrebp deletion on hepatic glycolytic, lipogenic, gluconeogenic, and ureagenic gene expression in mice. S961 markedly increased the plasma glucose, insulin, and 3-OH-butyrate concentrations and reduced the hepatic triglyceride content, but Chrebp deletion had no additive effect. We subsequently estimated the expression of genes involved in the pathways of glycolysis, gluconeogenesis, and lipogenesis. S961 potently decreased both Chrebp and Srebf1c, but Chrebp deletion weakly decreased Srebf1c mRNA expression. Both the S961 and Chrebp deletion caused decreases in glycolytic (Gck and Pklr) and lipogenic (Fasn, Scd1, Me1, Spot14, Elovl6) gene expression. S961 increased the expression of many gluconeogenic genes (G6pc, Fbp1, Aldob, Slc37a4, Pck), whereas Chrebp deletion reduced the expression of gluconeogenic genes other than Pck1. Finally, we checked the metabolites and gene expression in the ureagenesis pathway. S961 increased ureagenic gene (Arg1, Asl, Ass1, Cps1, Otc) expression, which was consistent with the metabolite data: there were reductions in the concentrations of glutamate and aspartate and increases in those of citrulline, ornithine, urea, and proline. However, Chrebp deletion had no additive effect on ureagenesis. In conclusion, insulin rather than glucose regulate ureagenic gene expression, whereas glucose and insulin regulate gluconegenic gene expression in opposite directions.
+PY  - 2025
+JO  - Journal of nutritional science and vitaminology
+VL  - 71
+SP  - 46
+EP  - 54
+PMID  - 40024748
+UR  - https://pubmed.ncbi.nlm.nih.gov/40024748/
+ER  - 
+TY  - JOUR
+TI  - Role of carglumic acid in the long-term management of propionic and methylmalonic acidurias.
+AB  - Propionic aciduria (PA) and methylmalonic aciduria (MMA) are rare inherited disorders caused by defects in the propionate metabolic pathway. PA due to propionyl coenzyme A carboxylase deficiency results in accumulation of propionic acid, while in MMA, deficiency in methylmalonyl coenzyme A mutase leads to accumulation of methylmalonic acid. Hyperammonemia is related to a secondary deficiency of N-acetylglutamate (NAG), the activator of carbamoyl phosphate synthetase 1, which is an irreversible rate-limiting enzyme in the urea cycle. Carglumic acid (CGA) is a synthetic structural analog of human NAG and is approved for the treatment of patients with hyperammonemia due to PA or MMA. CGA is well tolerated and its use in normalizing ammonia levels during acute hyperammonemic episodes in patients with PA and MMA is well established. This expert opinion analyzed clinical evidence for CGA and discussed its place, along with other management strategies, in the long-term management of PA or MMA. A literature search of PubMed was undertaken to identify publications related to the chronic use of CGA, transplantation, dietary management, ammonia scavengers, and gene therapy for treatment of patients with PA or MMA. The authors selected the most relevant studies for inclusion. Four clinical studies, one single center case series, and three case reports show that CGA is safe and effective in the chronic treatment of PA and MMA. In particular, the addition of CGA is associated with a reduction in hyperammonemic decompensation episodes and admission to hospital, compared with conventional dietary treatment alone. Current treatment guidelines and recommendations include the use of CGA mainly in acute decompensation, however, lag in considering the benefits of long-term CGA treatment on clinical and biochemical outcomes in patients with PA or MMA. CGA is safe and effective in the chronic treatment of PA and MMA and may help to resolve some of the issues associated with other strategies used to treat these disorders. Thus, CGA appears to have potential for the chronic management of patients with PA and MMA and should be recommended for inclusion in the chronic treatment of these disorders.
+PY  - 2024
+JO  - Orphanet journal of rare diseases
+VL  - 19
+SP  - 464
+PMID  - 39695809
+UR  - https://pubmed.ncbi.nlm.nih.gov/39695809/
+ER  - 
+TY  - JOUR
+TI  - Carbamoly-phosphate synthetase 1 (CPS1) deficiency: A tertiary center retrospective cohort study and literature review.
+AB  - Protein metabolism and urea production maintain protein and amino acid homeostasis in normal status. Ammonia results from amino acid turnover and is produced by intestinal urease-positive bacteria. Ammonia must be detoxified, and the urea cycle converts ammonia into urea. CPS1 is an enzyme in the urea cycle that catalyzes ammonia and bicarbonate condensation. CPS1 deficiency presents in the neonatal period with hyperammonemia, resulting in death or neurological sequelae if patients survive. To share the experience of patients with CPS1 deficiency from Tawam Hospital and to shed light on the spectrum of variants found in those patients. A retrospective chart review was done. All patients with CPS1 deficiency admitted to Tawam Hospital from 2010 to 2023 were included. Collected data included age and ammonia level at presentation, the time needed to drop ammonia level below 100 μmol/L, acute management modality provided, long-term neurological sequelae, sequence variants, severity, and duration of hyperammonemia encephalopathy, age at last follow-up, and, if applicable, survival for at least six months. Only five patients with CPS1 deficiency over 13 years were found; two males and three females. Three patients are doing relatively well at 18 months, 7, and 9 years of age. The presented age was in the neonatal period except in one patient. One patient was found to have frameshift, resulting in a premature stop codon in the <i>CPS1</i> gene, had a devastating course that ended with death. One patient had recurrent hyperammonemia episodes in her first year of life, which led to microcephaly and global developmental delay. One patient underwent hemodialysis, and one patient underwent peritoneal dialysis. All patients except one were on Carglumic acid which could contribute to their survival and disease control. All variants reported here are novel except one. Although the presentation was different in severity, three patients are doing relatively well and approaching their developmental milestones. Thus, early recognition, prompt actions to drop high ammonia level, and good follow-up plans are emphasized. Further studies are needed to correlate the genotype-phenotype of reported variants here, which can help predict the severity of CPS1 deficiency.
+PY  - 2024
+JO  - Molecular genetics and metabolism reports
+VL  - 41
+SP  - 101156
+PMID  - 39469307
+UR  - https://pubmed.ncbi.nlm.nih.gov/39469307/
+ER  - 
+TY  - JOUR
+TI  - Loss of Carbamoyl Phosphate Synthetase 1 Potentiates Hepatocellular Carcinoma Metastasis by Reducing Aspartate Level.
+AB  - Hepatocellular carcinoma (HCC) is one of the most lethal cancers worldwide. Numerous studies have shown that metabolic reprogramming is crucial for the development of HCC. Carbamoyl phosphate synthase 1 (CPS1), a rate-limiting enzyme in urea cycle, is an abundant protein in normal hepatocytes, however, lacking systemic research in HCC. It is found that CPS1 is low-expressed in HCC tissues and circulating tumor cells, negatively correlated with HCC stage and prognosis. Further study reveals that CPS1 is a double-edged sword. On the one hand, it inhibits the activity of phosphatidylcholine-specific phospholipase C to block the biosynthesis of diacylglycerol (DAG), leading to the downregulation of the DAG/protein kinase C pathway to inhibit invasion and metastasis of cancer cells. On the other hand, CPS1 promotes cell proliferation by increasing intracellular S-adenosylmethionin to enhance the m6A modification of solute carrier family 1 member 3 mRNA, a key transporter for aspartate intake. Finally, CPS1 overexpressing adeno-associated virus can dampen HCC progression. Collectively, this results uncovered that CPS1 is a switch between HCC proliferation and metastasis by increasing intracellular aspartate level.
+PY  - 2024
+JO  - Advanced science (Weinheim, Baden-Wurttemberg, Germany)
+VL  - 11
+SP  - e2402703
+PMID  - 39387452
+UR  - https://pubmed.ncbi.nlm.nih.gov/39387452/
+ER  - 
+TY  - JOUR
+TI  - Use of pure recombinant human enzymes to assess the disease-causing potential of missense mutations in urea cycle disorders, applied to N-acetylglutamate synthase deficiency.
+AB  - N-acetylglutamate synthase (NAGS) makes acetylglutamate, the essential activator of the first, regulatory enzyme of the urea cycle, carbamoyl phosphate synthetase 1 (CPS1). NAGS deficiency (NAGSD) and CPS1 deficiency (CPS1D) present identical phenotypes. However, they must be distinguished, because NAGSD is cured by substitutive therapy with the N-acetyl-L-glutamate analogue N-carbamyl-L-glutamate, while curative therapy of CPS1D requires liver transplantation. Since their differentiation is done genetically, it is important to ascertain the disease-causing potential of CPS1 and NAGS genetic variants. With this goal, we previously carried out site-directed mutagenesis studies with pure recombinant human CPS1. We could not do the same with human NAGS (HuNAGS) because of enzyme instability, leading to our prior utilization of a bacterial NAGS as an imperfect surrogate of HuNAGS. We now use genuine HuNAGS, stabilized as a chimera of its conserved domain (cHuNAGS) with the maltose binding protein (MBP), and produced in Escherichia coli. MBP-cHuNAGS linker cleavage allowed assessment of the enzymatic properties and thermal stability of cHuNAGS, either wild-type or hosting each one of 23 nonsynonymous single-base changes found in NAGSD patients. For all but one change, disease causation was accounted by the enzymatic alterations identified, including, depending on the variant, loss of arginine activation, increased K<sub>m</sub> <sup>Glutamate</sup>, active site inactivation, decreased thermal stability, and protein misfolding. Our present approach outperforms experimental in vitro use of bacterial NAGS or in silico utilization of prediction servers (including AlphaMissense), illustrating with HuNAGS the value for UCDs of using recombinant enzymes for assessing disease-causation and molecular pathogenesis, and for therapeutic guidance.
+PY  - 2024
+JO  - Journal of inherited metabolic disease
+VL  - 47
+SP  - 1194
+EP  - 1212
+PMID  - 38740568
+UR  - https://pubmed.ncbi.nlm.nih.gov/38740568/
+ER  - 
+TY  - JOUR
+TI  - A successful liver transplantation in a patient with neonatal-onset carbamoyl phosphate synthetase-1 deficiency.
+AB  - Carbamoyl phosphate synthetase 1 (CPS-1) deficiency is a rare urea cycle disorder with an estimated prevalence of one in 150,000-200,000 live births. Patients often present with hyperammonemia shortly after protein feeding in the early days of life, and early-onset type is associated with high mortality rate. We present here a case of a newborn male with a history of two deceased siblings whose ammonium level exceeded 200 μmol/L on the first day after birth, and who was started on dextrose infusion and ammonia-scavenging therapy after oral feeding was discontinued. Peritoneal dialysis was initiated after the patient's ammonia level exceeded 500 μmol/L. At the age of five months, the patient underwent hemodialysis due to elevated ammonia levels accompanied by lethargy. The patient's ammonia levels were successfully brought under control, and the patient underwent a liver transplantation at the age of six month, donated by the father. We present this case to emphasize the efficacy of liver transplantation from a parent carrying a CPS-1 deficiency. The authors believe that, with further support from future studies, the use of carglumic acid can improve the prognosis in the chronic management of CPS-1 deficiency.
+PY  - 2024
+JO  - Journal of pediatric endocrinology & metabolism : JPEM
+VL  - 37
+SP  - 924
+EP  - 929
+PMID  - 39158197
+UR  - https://pubmed.ncbi.nlm.nih.gov/39158197/
+ER  - 
+TY  - JOUR
+TI  - Clinical features and CPS1 variants in Chinese patients with carbamoyl phosphate synthetase 1 deficiency.
+AB  - Carbamoyl phosphate synthetase 1 (CPS1) deficiency (OMIM 237300), an autosomal recessive rare and severe urea cycle disorder, is associated with hyperammonemia and high mortality. Herein we present 12 genetic variants identified in seven clinically well-characterized Chinese patients with CPS1 deficiency who were admitted to the Children's Medical Center of Peking University First Hospital from September 2014 to August 2023. Seven patients (two male and five female patients including two sisters) experienced symptoms onset between 2 days and 13 years of age, and they were diagnosed with CPS1 deficiency between 2 months and 20 years. Peak blood ammonia levels ranged from 160 to 1,000 µmol/L. Three patients showed early-onset CPS1 deficiency, with only one surviving after treatment with sodium phenylbutyrate, N-carbamoyl-L-glutamate, and liver transplantation at 4 months, showing a favorable outcome. The remaining four patients had late-onset CPS1 deficiency, presenting with mental retardation, psychiatric symptoms, and self-selected low-protein diets. Among the 12 CPS1 variants identified in these patients, 10 were novel, with all patients exhibiting compound heterozygosity for CPS1 mutant alleles. Seven variants (c.149T > C, c.616 A > T, c.1145 C > T, c.1294G > A, c.3029 C > T, c.3503 A > T, and c.3793 C > T) resulted in single amino acid substitutions. Three frameshift variations (c.2493del, c.3067dup, and c.3241del) were identified, leading to enzyme truncation. One mutation (c.3506_3508del) caused an in-frame single amino acid deletion, while another (c.2895 + 2T > C) resulted in aberrant splicing. Except for two known variants, all other variants were identified as novel. No hotspot variants were observed among the patients. Our data contribute to expanding the mutation spectrum of CPS1.
+PY  - 2024
+JO  - BMC pediatrics
+VL  - 24
+SP  - 539
+PMID  - 39174957
+UR  - https://pubmed.ncbi.nlm.nih.gov/39174957/
+ER  - 
+TY  - JOUR
+TI  - CPS1 augments hepatic glucagon response through CaMKII/FOXO1 pathway.
+AB  - <b>Introduction:</b> Elevated glucagon levels are a characteristic feature of type 2 diabetes. This abnormal increase in glucagon can lead to an accelerated rate of gluconeogenesis. Glucagon also stimulates hepatic metabolism of amino acids, particularly promoting the formation of urea. The specific role of carbamoyl phosphate synthetase 1 (CPS1), a rate-limiting enzyme in the urea cycle, in the development versus the persistence of glucagon-induced hyperglycemia has not been previously established. <b>Methods:</b> The study employed both <i>in vivo</i> and <i>in vitro</i> approaches to assess the impact of CPS1 modulation on glucagon response. CPS1 was knockdown or overexpression to evaluate its influence on hepatic gluconeogenesis. In addition, an <i>in-silico</i> strategy was employed to identify a potential CPS1 inhibitor. <b>Results:</b> Knockdown of CPS1 significantly reduced the glucagon response both <i>in vivo</i> and <i>in vitro</i>. Conversely, overexpression of CPS1 resulted in an overactive hepatic gluconeogenic response. Mechanistically, CPS1 induced the release of calcium ions from the endoplasmic reticulum, which in turn triggered the phosphorylation of CaMKII. The activation of CaMKII then facilitated the dephosphorylation and nuclear translocation of FOXO1, culminating in the enhancement of hepatic gluconeogenesis. Furthermore, cynarin, a natural CPS1 inhibitor derived from the artichoke plant, had the capacity to attenuate the hepatic glucagon response in a CPS1-dependent manner. <b>Discussion:</b> CPS1 played a pivotal role in mediating glucagon-induced hepatic gluconeogenesis. The discovery of cynarin as a natural inhibitor of CPS1 suggested its potential as a therapeutic agent for diabetes treatment.
+PY  - 2024
+JO  - Frontiers in pharmacology
+VL  - 15
+SP  - 1437738
+PMID  - 39193349
+UR  - https://pubmed.ncbi.nlm.nih.gov/39193349/
+ER  - 
+TY  - JOUR
+TI  - The metabolic fuel of paroxysmal nocturnal haemoglobinuria.
+AB  - Metabolic reprogramming has been investigated in haematological malignancies. To date, a few studies have analysed the metabolic profile of paroxysmal nocturnal haemoglobinuria (PNH). The study by Chen and colleagues sheds light on the involvement of metabolic changes in the proliferation of PNH clones. Commentary on: Chen et al. The histone demethylase JMJD1C regulates CPS1 expression and promotes the proliferation of PNH clones through cell metabolic reprogramming. Br J Haematol 2024;204:2468-2479.
+PY  - 2024
+JO  - British journal of haematology
+VL  - 204
+SP  - 2162
+EP  - 2164
+PMID  - 38719212
+UR  - https://pubmed.ncbi.nlm.nih.gov/38719212/
+ER  - 
+TY  - JOUR
+TI  - Urea cycle promotion via ammonia-upregulated CPS1 is involved in arsenite-induced pulmonary fibrosis through enhancing collagen synthesis.
+AB  - Arsenic exposure is connected with lung toxicity and is related to lung fibrotic changes. Idiopathic pulmonary fibrosis (IPF) is characterized by extracellular matrix (ECM) deposition. Various genetic mechanisms and environmental factors induce or exacerbate pulmonary fibrosis. Collagen synthesis induced by sodium arsenite (NaAsO<sub>2</sub>) is closely associated with IPF. Fibroblasts tend to fine-tune their metabolic networks to support their synthetic requirements in response to environmental stimuli. Alterations in metabolism have an influential role in the pathogenesis of IPF. However, it is unclear how arsenic affects the metabolism in IPF. The urea cycle (UC) is needed for collagen formation, which provides adequate levels of proline (Pro) for biosynthesis of collagen. Carbamoyl phosphate synthetase 1 (CPS1) converts the ammonia to carbamoyl phosphate, which controls the first reaction of the UC. We show that, in arsenite-exposed mice, high amounts of ammonia in the lung microenvironment promotes the expression levels of CPS1 and the Pro metabolism. Reduction of ammonia and CPS1 ablation inhibit collagen synthesis and ameliorate IPF phenotypes induced by arsenite. This work takes advantage of multi-omics data to enhance understanding of the underlying pathogenic mechanisms, the key molecules and the complicated cellular responses to this pollutant, which provide a target for the prevention of pulmonary fibrosis caused by arsenic.
+PY  - 2024
+JO  - Chemico-biological interactions
+VL  - 396
+SP  - 111029
+PMID  - 38703806
+UR  - https://pubmed.ncbi.nlm.nih.gov/38703806/
+ER  - 
+TY  - JOUR
+TI  - Potential role of the P2X7 receptor in the proliferation of human diffused large B-cell lymphoma.
+AB  - Diffuse large B-cell lymphoma (DLBCL) is the most common subtype of invasive non-Hodgkin lymphoma. 60-70% of patients are curable with current chemoimmunotherapy, whereas the rest are refractory or relapsed. Understanding of the interaction between DLBCL cells and tumor microenvironment raises the hope of improving overall survival of DLBCL patients. P2X7, a member of purinergic receptors P2X family, is activated by extracellular ATP and subsequently promotes the progression of various malignancies. However, its role in DLBCL has not been elucidated. In this study, the expression level of P2RX7 in DLBCL patients and cell lines was analyzed. MTS assay and EdU incorporation assay were carried out to study the effect of activated/inhibited P2X7 signaling on the proliferation of DLBCL cells. Bulk RNAseq was performed to explore potential mechanism. The results demonstrated high level expression of P2RX7 in DLBCL patients, typically in patients with relapse DLBCL. 2'(3')-O-(4-benzoylbenzoyl) adenosine 5-triphosphate (Bz-ATP), an agonist of P2X7, significantly accelerated the proliferation of DLBCL cells, whereas delayed proliferation was detected when administrated with antagonist A740003. Furthermore, a urea cycle enzyme named CPS1 (carbamoyl phosphate synthase 1), which up-regulated in P2X7-activated DLBCL cells while down-regulated in P2X7-inhibited group, was demonstrated to involve in such process. Our study reveals the role of P2X7 in the proliferation of DLBCL cells and implies that P2X7 may serve as a potential molecular target for the treatment of DLBCL.
+PY  - 2024
+JO  - Purinergic signalling
+VL  - 20
+SP  - 273
+EP  - 284
+PMID  - 37222921
+UR  - https://pubmed.ncbi.nlm.nih.gov/37222921/
+ER  - 
+TY  - JOUR
+TI  - The efficacy of Carbamylglutamate impacts the nutritional management of patients with N-Acetylglutamate synthase deficiency.
+AB  - The autosomal recessive disorder N-acetylglutamate synthase (NAGS) deficiency is the rarest defect of the urea cycle, with an incidence of less than one in 2,000,000 live births. Hyperammonemic crises can be avoided in individuals with NAGS deficiency by the administration of carbamylglutamate (also known as carglumic acid), which activates carbamoyl phosphatase synthetase 1 (CPS1). The aim of this case series was to introduce additional cases of NAGS deficiency to the literature as well as to assess the role of nutrition management in conjunction with carbamylglutamate therapy across new and existing cases. We conducted retrospective chart reviews of seven cases of NAGS deficiency in the US and Canada, focusing on presentation, diagnosis, medication management, nutrition management, and outcomes. Five new and two previously published cases were included. Presenting symptoms were consistent with previous reports. Diagnostic confirmation via molecular testing varied in protocol across cases, with consecutive single gene tests leading to long delays in diagnosis in some cases. All patients responded well to carbamylglutamate therapy, as indicated by normalization of plasma ammonia and citrulline, as well as urine orotic acid in patients with abnormal levels at baseline. Although protein restriction was not prescribed in any cases after carbamylglutamate initiation, two patients continued to self-restrict protein intake. One patient experienced two episodes of hyperammonemia that resulted in poor long-term outcomes. Both episodes occurred after a disruption in access to carbamylglutamate, once due to insurance prior authorization requirements and language barriers and once due to seizure activity limiting the family's ability to administer carbamylglutamate. Follow-up of patients with NAGS deficiency should include plans for illness and for disruption of carbamylglutamate access, including nutrition management strategies such as protein restriction. Carbamylglutamate can help patients with NAGS deficiency to liberalize their diets, but the maximum safe level of protein intake to prevent hyperammonemia is not yet known. Patients using this medication should still monitor their diet closely and be prepared for any disruptions in medication access, which might require immediate dietary adjustments or medical intervention to prevent hyperammonemia.
+PY  - 2024
+JO  - Orphanet journal of rare diseases
+VL  - 19
+SP  - 168
+PMID  - 38637895
+UR  - https://pubmed.ncbi.nlm.nih.gov/38637895/
+ER  - 
+TY  - JOUR
+TI  - l-Ornithine-l-Aspartate (LOLA) Normalizes Metabolic Parameters in Models of Steatosis, Insulin Resistance and Metabolic Syndrome.
+AB  - l-Ornithine- l-aspartate (LOLA) reduces toxic ammonium (NH<sub>3</sub>) plasma levels in hepatic encephalopathy. NH<sub>3</sub> detoxification/excretion is achieved by its incorporation into urea and glutamine via activation of carbamoyl phosphate synthetase 1 (CSP1) by l-ornithine and stimulation of arginase by l-aspartate. We aimed at identifying additional molecular targets of LOLA as a potential treatment option for non-alcoholic fatty liver disease (NAFLD). In primary hepatocytes from NAFLD patients, urea cycle enzymes CSP1 and ornithine transcarbamylase (OTC) increase, while the catabolism of branched-chain amino acids (BCAAs) decreases with disease severity. In contrast, LOLA increased the expression rates of the BCAA enzyme transcripts <i>bcat2</i>, <i>bckdha</i>, and <i>bckdk</i>. In untreated HepG2 hepatoblastoma cells and HepG2-based models of steatosis, insulin resistance, and metabolic syndrome (the latter for the first time established herein), LOLA reduced the release of NH<sub>3</sub>; beneficially modulated the expression of genes related to fatty acid import/transport (<i>cd36</i>, <i>cpt1</i>), synthesis (<i>fasn</i>, <i>scd1</i>, ACC1), and regulation (<i>srbf1</i>); reduced cellular ATP and acetyl-CoA; and favorably modulated the expression of master regulators/genes of energy balance/mitochondrial biogenesis (AMPK-α, <i>pgc1α</i>). Moreover, LOLA reconstituted the depolarized mitochondrial membrane potential, while retaining mitochondrial integrity and avoiding induction of superoxide production. Most effects were concentration-dependent at ≤40 mM LOLA. We demonstrate for l-ornithine-l-aspartate a broad range of reconstituting effects on metabolic carriers and targets of catabolism/energy metabolism impaired in NAFLD. These findings strongly advocate further investigations to establish LOLA as a safe, efficacious, and cost-effective basic medication for preventing and/or alleviating NAFLD.
+PY  - 2024
+JO  - Pharmaceutics
+VL  - 16
+PMID  - 38675168
+UR  - https://pubmed.ncbi.nlm.nih.gov/38675168/
+ER  - 
+TY  - JOUR
+TI  - Hyperammonemic encephalopathy after tyrosine kinase inhibitors: A literature review and a case example.
+AB  - To review the evidence of uncommon but fatal adverse event of hyperammonemic encephalopathy by tyrosine kinase inhibitors (TKI) and the possible mechanisms underlying this condition and to describe the case of a patient that developed drug-induced hyperammonemic encephalopathy related to TKI. Literature search of different databases was performed for studies published from 1 January 1992 to 7 May 2023. The search terms utilized were hyperammonemic encephalopathy, TKI, apatinib, pazopanib, sunitinib, imatinib, sorafenib, regorafenib, trametinib, urea cycle regulation, sorafenib, carbamoyl-phosphate synthetase 1, ornithine transcarbamylase, argininosuccinate synthetase, argininosuccinate lyase, arginase 1, Mitogen activated protein kinases (MAPK) pathway and mTOR pathway, were used individually search or combined. Thirty-seven articles were included. The articles primarily focused in hyperammonemic encephalopathy case reports, management of hyperammonemic encephalopathy, urea cycle regulation, autophagy, mTOR and MAPK pathways, and TKI. Eighteen cases of hyperammonemic encephalopathy were reported in the literature from various multitargeted TKI. The mechanism of this event is not well-understood but some authors have hypothesized vascular causes since some of TKI are antiangiogenic, however our literature review shows a possible relationship between the urea cycle and the molecular inhibition exerted by TKI. More preclinical evidence is required to unveil the biochemical mechanisms responsible involved in this process and clinical studies are necessary to shed light on the prevalence, risk factors, management and prevention of this adverse event. It is important to monitor neurological symptoms and to measure ammonia levels when manifestations are detected.
+PY  - 2024
+JO  - Journal of oncology pharmacy practice : official publication of the International Society of Oncology Pharmacy Practitioners
+VL  - 30
+SP  - 576
+EP  - 583
+PMID  - 38258317
+UR  - https://pubmed.ncbi.nlm.nih.gov/38258317/
+ER  - 
+TY  - JOUR
+TI  - Farnesoid X receptor agonist tropifexor detoxifies ammonia by regulating the glutamine metabolism and urea cycles in cholestatic livers.
+AB  - Hyperammonemia refers to elevated levels of ammonia in the blood, which is an important pathological feature of liver cirrhosis and hepatic failure. Preclinical studies suggest tropifexor (TXR), a novel non-bile acid agonist of Farnesoid X Receptor (FXR), has shown promising effects on reducing hepatic steatosis, inflammation, and fibrosis. This study evaluates the impact of TXR on hyperammonemia in a piglet model of cholestasis. We here observed blood ammonia significantly elevated in patients with biliary atresia (BA) and was positively correlated with liver injury. Targeted metabolomics and immunblotting showed glutamine metabolism and urea cycles were impaired in BA patients. Next, we observed that TXR potently suppresses bile duct ligation (BDL)-induced injuries in liver and brain with improving the glutamine metabolism and urea cycles. Within the liver, TXR enhances glutamine metabolism and urea cycles by up-regulation of key regulatory enzymes, including glutamine synthetase (GS), carbamoyl-phosphate synthetase 1 (CPS1), argininosuccinate synthetase (ASS1), argininosuccinate lyase (ASL), and arginase 1 (ARG1). In primary mice hepatocytes, TXR detoxified ammonia via increasing ureagenesis. Mechanically, TXR activating FXR to increase express enzymes that regulating ureagenesis and glutamine synthesis through a transcriptional approach. Together, these results suggest that TXR may have therapeutic implications for hyperammonemic conditions in cholestatic livers.
+PY  - 2024
+JO  - European journal of pharmacology
+VL  - 966
+SP  - 176334
+PMID  - 38286357
+UR  - https://pubmed.ncbi.nlm.nih.gov/38286357/
+ER  - 
+TY  - JOUR
+TI  - Impact of citrulline substitution on clinical outcome after liver transplantation in carbamoyl phosphate synthetase 1 and ornithine transcarbamylase deficiency.
+AB  - Carbamoyl phosphate synthetase 1 (CPS1) and ornithine transcarbamylase (OTC) deficiencies are rare urea cycle disorders, which can lead to life-threatening hyperammonemia. Liver transplantation (LT) provides a cure and offers an alternative to medical treatment and life-long dietary restrictions with permanent impending risk of hyperammonemia. Nevertheless, in most patients, metabolic aberrations persist after LT, especially low plasma citrulline levels, with questionable clinical impact. So far, little is known about these alterations and there is no consensus, whether l-citrulline substitution after LT improves patients' symptoms and outcomes. In this multicentre, retrospective, observational study of 24 patients who underwent LT for CPS1 (n = 11) or OTC (n = 13) deficiency, 25% did not receive l-citrulline or arginine substitution. Correlation analysis revealed no correlation between substitution dosage and citrulline levels (CPS1, p = 0.8 and OTC, p = 1). Arginine levels after liver transplantation were normal after LT independent of citrulline substitution. Native liver survival had no impact on mental impairment (p = 0.67). Regression analysis showed no correlation between l-citrulline substitution and failure to thrive (p = 0.611) or neurological outcome (p = 0.701). Peak ammonia had a significant effect on mental impairment (p = 0.017). Peak plasma ammonia levels correlate with mental impairment after LT in CPS1 and OTC deficiency. Growth and intellectual impairment after LT are not significantly associated with l-citrulline substitution.
+PY  - 2024
+JO  - Journal of inherited metabolic disease
+VL  - 47
+SP  - 220
+EP  - 229
+PMID  - 38375550
+UR  - https://pubmed.ncbi.nlm.nih.gov/38375550/
+ER  - 
+TY  - JOUR
+TI  - Hepatic Gene Expression of Angiogenic and Regeneration Markers in Cats with Congenital Portosystemic Shunts (CPSS).
+AB  - Congenital portosystemic shunts (CPSS) are vascular anomalies resulting in liver hypoplasia and hepatic insufficiency. Cats with CPSS typically show signs of hepatic encephalopathy associated with increased ammonia, inflammatory cytokines, and oxidative stress. Surgical attenuation of the CPSS results in improved liver function, resolution of clinical signs, and increased portal blood flow. Hepatic gene expression has not previously been investigated in cats with CPSS. Here, we compared the hepatic expression of genes involved in the urea cycle (<i>CPS1</i>, <i>NAGS</i>), angiogenesis (<i>VEGFR2</i>, <i>NPPA</i>, <i>NPR1</i>, <i>NPPC</i>, <i>NPR2</i>, <i>HIF1a</i>), liver regeneration (<i>SERPINB1</i>, <i>HGF</i>, <i>TGFβ</i>), and metabolism (<i>FGF21</i>) from a small series of cats (<i>n</i> = 18) with CPSS to that of control cats (<i>n</i> = 10). The expression of <i>TGFβ</i>, <i>VEGFR2</i>, <i>HGF</i>, <i>FGF21</i>, and <i>CPS1</i> was significantly elevated in liver biopsies from cats with CPSS. Cats that could only tolerate partial closure of their CPSS had increased hepatic expression of <i>SERPINB1</i>, <i>HIF1a</i>, and <i>NPR2</i> compared with those that could tolerate complete ligation. Furthermore, there were no significant correlations between gene expression and pre-operative plasma ammonia concentrations in cats with CPSS. The changes in hepatic gene expression in cats with CPSS are in direct contrast to those seen in dogs with CPSS, suggesting alternative mechanisms may be involved in mediating hepatic changes in cats with CPSS.
+PY  - 2024
+JO  - Veterinary sciences
+VL  - 11
+PMID  - 38535834
+UR  - https://pubmed.ncbi.nlm.nih.gov/38535834/
+ER  - 
+TY  - JOUR
+TI  - Genetic variants and effect modifiers of QT interval prolongation in patients with sickle cell disease.
+AB  - Sickle cell disease (SCD) is a common inherited blood disorder among African Americans (AA), with premature mortality which has been associated with prolongation of the heart rate-corrected QT interval (QTc), a known risk factor for sudden cardiac death. Although numerous genetic variants have been identified as contributors to QT interval prolongation in the general population, their impact on SCD patients remains unclear. This study used an unweighted polygenic risk score (PRS) to validate the previously identified associations between SNPs and QTc interval in SCD patients, and to explore possible interactions with other factors that prolong QTc interval in AA individuals with SCD. In SCD patients, candidate genetic variants associated with the QTc interval were genotyped. To identify any risk SNPs that may be correlated with QTc interval prolongation, linear regression was employed, and an unweighted PRS was subsequently constructed. The effect of PRS on the QTc interval was evaluated using linear regression, while stratification analysis was used to assess the influence of serum alanine transaminase (ALT), a biomarker for liver disease, on the PRS effect. We also evaluated the PRS with the two subcomponents of QTc, the QRS and JTc intervals. Out of 26 candidate SNPs, five risk SNPs were identified for QTc duration under the recessive model. For every unit increase in PRS, the QTc interval prolonged by 4.0 ms (95% CI: [2.0, 6.1]; p-value: <0.001) in the additive model and 9.4 ms in the recessive model (95% CI: [4.6, 14.1]; p-value: <0.001). Serum ALT showed a modification effect on PRS-QTc prolongation under the recessive model. In the normal ALT group, each PRS unit increased QTc interval by 11.7 ms (95% CI: [6.3, 17.1]; p-value: 2.60E-5), whereas this effect was not observed in the elevated ALT group (0.9 ms; 95% CI: [-7.0, 8.8]; p-value: 0.823). Several candidate genetic variants are associated with QTc interval prolongation in SCD patients, and serum ALT acts as a modifying factor. The association of a CPS1 gene variant in both QTc and JTc duration adds to NOS1AP as evidence of involvement of the urea cycle and nitric oxide metabolism in cardiac repolarization in SCD. Larger replication studies are needed to confirm these findings and elucidate the underlying mechanisms.
+PY  - 2024
+JO  - Gene
+VL  - 890
+SP  - 147824
+PMID  - 37741592
+UR  - https://pubmed.ncbi.nlm.nih.gov/37741592/
+ER  - 
+TY  - JOUR
+TI  - Inhibition of the urea cycle by the environmental contaminant 2,3,7,8-tetrachlorodibenzo-p-dioxin increases serum ammonia levels in mice.
+AB  - The aryl hydrocarbon receptor is a ligand-activated transcription factor known for mediating the effects of 2,3,7,8-tetrachlorodibenzo-p-dioxin (TCDD) and related compounds. TCDD induces nonalcoholic fatty liver disease (NAFLD)-like pathologies including simple steatosis that can progress to steatohepatitis with fibrosis and bile duct proliferation in male mice. Dose-dependent progression of steatosis to steatohepatitis with fibrosis by TCDD has been associated with metabolic reprogramming, including the disruption of amino acid metabolism. Here, we used targeted metabolomic analysis to reveal dose-dependent changes in the level of ten serum and eleven hepatic amino acids in mice upon treatment with TCDD. Bulk RNA-seq and protein analysis showed TCDD repressed CPS1, OTS, ASS1, ASL, and GLUL, all of which are associated with the urea cycle and glutamine biosynthesis. Urea and glutamine are end products of the detoxification and excretion of ammonia, a toxic byproduct of amino acid catabolism. Furthermore, we found that the catalytic activity of OTC, a rate-limiting step in the urea cycle was also dose dependently repressed. These results are consistent with an increase in circulating ammonia. Collectively, the repression of the urea and glutamate-glutamine cycles increased circulating ammonia levels and the toxicity of TCDD.
+PY  - 2024
+JO  - The Journal of biological chemistry
+VL  - 300
+SP  - 105500
+PMID  - 38013089
+UR  - https://pubmed.ncbi.nlm.nih.gov/38013089/
+ER  - 
+TY  - JOUR
+TI  - Hyperammonemia in a carbamoyl-phosphate synthetase 1 deficiency recipient after living-donor liver transplantation from a carrier donor: a case report.
+AB  - Carbamoyl-phosphate synthetase 1 (CPS1) deficiency is an autosomal recessive congenital urea cycle disorder (UCD) characterized by hyperammonemia. The recipients of liver transplantation (LT) for UCD are often children, and the potential donors are often the parents. Hereditary congenital diseases involving UCD entail the possibility of both parents being genetically heterozygous. Herein, we describe the case of a 12-year-old girl with CPS1 deficiency receiving a liver transplant (soon after birth) from her father, who had a heterozygous <i>CPS1</i> mutation. She was referred to our hospital with respiratory distress after contracting two infections (respiratory syncytial virus and human metapneumovirus) within a short period, both of which presented with hyperammonemia. Medication for hyperammonemia quickly lowered the ammonia levels. The hyperammonemia was thought to be caused by the heterozygous mutation in the donor liver; moreover, it is likely that the low enzyme activity in the patient's liver was increased due to the infections. This is the first study to report hyperammonemia in a CPS1 deficiency patient due to an infection after LT. Thus, patients with CPS1 deficiency should be aware of the development of hyperammonemia after LT.
+PY  - 2023
+JO  - Frontiers in medicine
+VL  - 10
+SP  - 1327854
+PMID  - 38235270
+UR  - https://pubmed.ncbi.nlm.nih.gov/38235270/
+ER  - 
+TY  - JOUR
+TI  - Sericin enhances ammonia detoxification by promotes urea cycle enzyme genes and activates hepatic autophagy in relation to CARD-9/MAPK pathway.
+AB  - Urea cycle is an important metabolic process that initiates in liver mitochondria and converts ammonia to urea. The impairment of ammonia detoxification, both primary and secondary causes, lead to hyperammonemia, a life-threatening condition affecting to the brain. Current treatments are not enough effective. In addition, our recent proteomics study in hypercholesterolemic rat model demonstrated that sericin enhances hepatic nitrogenous waste removal through carbamoyl-phosphate synthase 1 (CPS-1), aldehyde dehydrogenase-2 (ALDH-2), and uricase proteins. However, the underlining mechanisms regard to this property is not clarified yet. Therefore, the present study aims to examine the effect of sericin on urea cycle enzyme genes (CPS-1 and ornithine transcarbamylase; OTC) and proteins (mitogen-activated protein kinase; MAPK, caspase recruitment domain-containing protein 9; CARD-9, Microtubule-associated protein light chain 3; LC-3), which relate to urea production and liver homeostasis in hepatic cell line (HepG2) and hypercholesterolemic rat treated with or without sericin. qRT-PCR, immunohistochemistry, and electron microscopy techniques were performed. <i>In vitro</i> study determined that high dose of sericin at 1 mg/ml increased liver detoxification enzyme (Cytochrome P450 1A2; CYP1A2 and ALDH-2) and urea cycle enzyme (CPS-1 and OTC) genes. Both in HepG2 cell and rat liver mitochondria, sericin significantly downregulated CARD-9 (apoptotic protein) expression while upregulated MAPK (hepatic homeostasis protein) and LC-3 (autophagic protein) expressions. Hence, it might be concluded that sericin promotes ammonia detoxification by both increases urea cycle enzyme genes and enhances hepatic autophagy in associated with CARD-9/MAPK pathway (as shown by their own negative relationship). This study presents another beneficial property of sericin to develop an upcoming candidate for ammonia toxicity alleviation and liver function improvement.
+PY  - 2023
+JO  - Heliyon
+VL  - 9
+SP  - e21563
+PMID  - 38027599
+UR  - https://pubmed.ncbi.nlm.nih.gov/38027599/
+ER  - 
+TY  - JOUR
+TI  - Partial N-acetyl glutamate synthase deficiency presenting as postpartum hyperammonemia: Diagnosis and subsequent pregnancy management.
+AB  - N-acetyl glutamate synthase (NAGS) deficiency (OMIM #: 237310) is a rare urea cycle disorder that usually presents early in life with hyperammonemia. NAGS catalyzes the synthesis of N-acetyl glutamate (NAG) which functions as an activator of the carbamoyl phosphate synthetase-1 mediated conversion of ammonia to carbamoyl phosphate. The absence of NAG results in a proximal urea cycle disorder which can result in severe neurologic sequelae secondary to hyperammonemia and even death. Unlike the other urea cycle disorders, a specific pharmacological treatment for NAGS deficiency exists in the form of carglumic acid, an analog of NAG. Here we present a 29-year-old previously healthy female who presented with hyperammonemia and obtundation just after the birth of her first child. Exome sequencing revealed two novel variants in the <i>NAGS</i> gene, and plasma metabolomics revealed extremely low levels of NAG. Carglumic acid treatment led to prompt resolution of her biochemical abnormalities and symptoms. She tolerated two subsequent pregnancies, 2 years and 6 years after her initial presentation, while taking carglumic acid, and breastfed her third child, all without complications in the mother or children. This case report emphasizes the importance of considering urea cycle disorders in previously-healthy adults presenting with neurological symptoms during periods of metabolic stress, including the postpartum period. It also highlights the efficacious and safe use of carglumic acid during pregnancy and while breastfeeding.
+PY  - 2023
+JO  - JIMD reports
+VL  - 64
+SP  - 403
+EP  - 409
+PMID  - 37927481
+UR  - https://pubmed.ncbi.nlm.nih.gov/37927481/
+ER  - 
+TY  - JOUR
+TI  - The Role of Carbamoyl Phosphate Synthetase 1 as a Prognostic Biomarker in Patients With Acetaminophen-induced Acute Liver Failure.
+AB  - Carbamoyl phosphate synthetase 1 (CPS1) is a highly abundant mitochondrial urea cycle enzyme that is expressed primarily in hepatocytes. CPS1 is constitutively and physiologically secreted into bile but is released into the bloodstream upon acute liver injury (ALI). Given its abundance and known short half-life, we tested the hypothesis that it may serve as a prognostic serum biomarker in the setting of acute liver failure (ALF). CPS1 levels were determined using enzyme-linked immunosorbent assay and immunoblotting of sera collected by the ALF Study Group (ALFSG) from patients with ALI and ALF (103 patients with acetaminophen and 167 non-acetaminophen ALF etiologies). A total of 764 serum samples were examined. The inclusion of CPS1 was compared with the original ALFSG Prognostic Index by area under the receiver operating characteristic curve analysis. CPS1 values for acetaminophen-related patients were significantly higher than for non-acetaminophen patients (P < .0001). Acetaminophen-related patients who received a liver transplant or died within 21 days of hospitalization exhibited higher CPS1 levels than patients who spontaneously survived (P = .01). Logistic regression and area under the receiver operating characteristic analysis of CPS1 enzyme-linked immunosorbent assay values improved the accuracy of the ALFSG Prognostic Index, which performed better than the Model for End-Stage Liver Disease, in predicting 21-day transplant-free survival for acetaminophen- but not non-acetaminophen-related ALF. An increase of CPS1 but not alanine transaminase or aspartate transaminase, when comparing day 3 with day 1 levels was found in a higher percentage of acetaminophen transplanted/dead patients (P < .05). Serum CPS1 determination provides a new potential prognostic biomarker to assess patients with acetaminophen-induced ALF.
+PY  - 2023
+JO  - Clinical gastroenterology and hepatology : the official clinical practice journal of the American Gastroenterological Association
+VL  - 21
+SP  - 3060
+EP  - 3069.e8
+PMID  - 37054752
+UR  - https://pubmed.ncbi.nlm.nih.gov/37054752/
+ER  - 
+TY  - JOUR
+TI  - Expression of enzymes involved in the urea cycle and muscle and mammary gland development of Holstein × Gyr heifers in a rotational grazing system supplemented with increasing protein levels.
+AB  - Studies evaluating the crude protein (CP) supplementation strategies across the year for grazing cattle and its association with the enzymes involved in the urea cycle and muscle and mammary gland developments are scarce. Thus, we aimed to evaluate the effect of supplementation with different levels of CP on the expression of genes involved in the urea cycle and muscle and mammary gland development of Holstein × Gyr crossbreed heifers grazing intensively managed Brachiaria decumbens throughout the year. Thirty-eight heifers with average initial BW of 172.5 ± 11.15 kg (mean ± SE) and 8.2 ± 0.54 mo of age were randomly assigned to 1 of 4 treatments: 3 protein supplements (SUP) fed at 5g/kg of body weight, plus a control group (CON, non-supplemented animals). The supplement CP levels evaluated were: 12, 24, and 36%. The study was divided into 4 seasons: rainy, dry, rainy-dry transition (RDT), and dry-rainy transition (DRT). On the penultimate day of each season, ultrasound images of the carcass and mammary gland were taken. Five animals from each treatment were randomly chosen on the last day of each season, and liver and muscle tissue biopsies were performed. The target genes were the mammalian target of rapamycin (mTOR) and adenosine monophosphate-activated protein kinase (AMPK) in the muscle samples. Carbamoyl phosphate synthetase (CPS), ornithine transcarbamylase (OTC), argininosuccinate synthetase (ASS), arginosuccinate lyase (ASL), and arginase (ARG) were evaluated in the liver samples. Data were analyzed using PROC GLIMMIX of the SAS with repeated measures. We observed a greater rib eye area (cm<sup>2</sup>) and fat thickness (mm) in SUP animals than in non-supplemented animals. However, we did not observe differences among SUP levels for both variables. No effects of supplementation were detected on mammary gland development. Nevertheless, seasonal effects were observed, where the RDT and dry season had the most and least accumulated fat in the mammary gland. In muscle, we observed greater expression of AMPK in non-supplemented animals than SUP animals. On the other hand, no differences were observed in gene expression between SUP and non-supplemented animals and among SUP animals for mTOR. Season affected both AMPK and mTOR; heifers had a greater AMPK gene expression on rainy than RDT. For mTOR, we observed greater gene expression in RDT and DRT than in rainy. No differences were observed among RDT, dry, and DRT, and between dry and rainy seasons for mTOR. We observed greater CPS, ASL, and ARG gene expression in SUP animals than in non-supplemented animals. Among SUP animals, supplement CP linearly affected CPS. In conclusion, the supplementation strategy did not affect mammary gland development and mTOR expression in muscle tissue. However, we observed a seasonal effect on mammary gland development and AMPK and mTOR expression. The CP supplementation increased the rib eye area and fat thickness, directly affecting AMPK expression in the muscle. Moreover, the CP supplementation increased urea cycle enzyme expression, indicating greater urea production in the liver.
+PY  - 2023
+JO  - Journal of dairy science
+VL  - 106
+SP  - 6951
+EP  - 6960
+PMID  - 37500437
+UR  - https://pubmed.ncbi.nlm.nih.gov/37500437/
+ER  - 
+TY  - JOUR
+TI  - Hypoosmosis alters hepatocyte mitochondrial morphology and induces selective release of carbamoyl phosphate synthetase 1.
+AB  - Carbamoyl phosphate synthetase 1 (CPS1) is the most abundant hepatocyte mitochondrial matrix protein. Hypoosmotic stress increases CPS1 release in isolated mouse hepatocytes without cell death. We hypothesized that increased CPS1 release during hypoosmosis is selective and associates with altered mitochondrial morphology. Both ex vivo and in vivo models were assessed. Mouse hepatocytes and livers were challenged with isotonic or hypoosmotic (35 mosM) buffer. Mice were injected intraperitoneally with water (10% body weight) with or without an antidiuretic. Mitochondrial and cytosolic fractions were isolated using differential centrifugation, then analyzed by immunoblotting to assess subcellular redistribution of four mitochondrial proteins: CPS1, ornithine transcarbamylase (OTC), pyrroline-5-carboxylate reductase 1 (PYCR1), and cytochrome c. Mitochondrial morphology alterations were examined using electron microscopy. Hypoosmotic treatment of whole livers or hepatocytes led to preferential or increased mitochondrial release, respectively, of CPS1 as compared with two mitochondrial matrix proteins (OTC/PYCR1) and with the intermembrane space protein, cytochrome c. Mitochondrial apoptosis-induced channel opening using staurosporine in hepatocytes led to preferential CPS1 and cytochrome c release. The CPS1-selective changes were accompanied by dramatic alterations in ultrastructural mitochondrial morphology. In mice, hypoosmosis/hyponatremia led to increased liver vascular congestion and increased CPS1 in bile but not blood, coupled with mitochondrial structural alterations. In contrast, isotonic increase of intravascular volume led to a decrease in mitochondrial size with limited change in bile CPS1 compared with hypoosmotic conditions and absence of the hypoosmosis-associated histological alterations. Taken together, hepatocyte CPS1 is selectively released in response to hypoosmosis/hyponatremia and provides a unique biomarker of mitochondrial injury.<b>NEW & NOTEWORTHY</b> Exposure of isolated mouse livers, primary cultured hepatocytes, or mice to hypoosmosis/hyponatremia conditions induces significant mitochondrial shape alterations accompanied by preferential release of the mitochondrial matrix protein CPS1, a urea cycle enzyme. In contrast, the intermembrane space protein, cytochrome c, and two other matrix proteins, including the urea cycle enzyme ornithine transcarbamylase, remain preferentially retained in mitochondria. Therefore, hepatocyte CPS1 manifests unique mitochondrial stress response compartmentalization and is a sensitive sensor of mitochondrial hypoosmotic/hyponatremic injury.
+PY  - 2023
+JO  - American journal of physiology. Gastrointestinal and liver physiology
+VL  - 325
+SP  - G334
+EP  - G346
+PMID  - 37489865
+UR  - https://pubmed.ncbi.nlm.nih.gov/37489865/
+ER  - 
+TY  - JOUR
+TI  - Variant in the allosteric domain of CPS1 protein associated with effectiveness of N-carbamoyl glutamate therapy in neonatal onset CPS1 deficiency.
+AB  - Carbamoyl phosphate synthetase 1 (CPS1) deficiency is a severe urea cycle disorder. Patients can present with hyperammonemic coma in the first days of life. Treatment includes nitrogen scavengers, reduced protein intake and supplementation with L-arginine and/or L-citrulline. N-carbamoyl glutamate (NCG) has been hypothesized to stimulate the residual CPS1 function, although only few patients are reported. We report a patient with neonatal-onset CPS1 deficiency who received NCG in association with nitrogen scavenger and L-citrulline. The patient carried the novel variants <i>CPS1</i>-c.2447A>G p.(Gln816Arg) and <i>CPS1</i>-c.4489T>C p.(Tyr1497His). The latter is localized in the C-terminal allosteric domain of the protein, and is implicated in the binding of the natural activator N-acetyl-L-glutamate. NCG therapy was effective in controlling ammonia levels, allowing to increase the protein intake. Our data show that the response to NCG can be indicated based on the protein structure. We hypothesize that variants in the C-terminal domain may be responsive to NCG therapy.
+PY  - 2023
+JO  - Journal of pediatric endocrinology & metabolism : JPEM
+VL  - 36
+SP  - 873
+EP  - 878
+PMID  - 37427576
+UR  - https://pubmed.ncbi.nlm.nih.gov/37427576/
+ER  - 
+TY  - JOUR
+TI  - Clinical experience with glycerol phenylbutyrate in 20 patients with urea cycle disorders at a UK paediatric centre.
+AB  - In urea cycle disorders (UCDs) ammonia scavenger drugs, usually sodium-based, have been the mainstay of treatment. Increasingly, glycerol phenylbutyrate (GPB, Ravicti®) is being used but scant real-world data exist regarding clinical outcomes. A retrospective study of UCD patients initiated on or switched to GPB was performed at a UK centre. Data on population characteristics, treatment aspects, laboratory measurements, and clinical outcomes were collected before and after patients started GPB with a sub-group analysis undertaken for patients with ≥12 months of data before and after starting GPB. UCDs included arginosuccinate synthetase deficiency (<i>n</i> = 8), arginosuccinate lyase deficiency (<i>n</i> = 6), ornithine carbamoyltransferase deficiency (<i>n</i> = 3), and carbamoyl phosphate synthetase 1 deficiency (<i>n</i> = 3). In the sub-group analysis (<i>n</i> = 11), GPB resulted in lower plasma ammonia (31 vs. 41 μmol/L, <i>p</i> = 0.037), glutamine (670 vs. 838 μmol/L, <i>p</i> = 0.002), annualised hyperammonaemic episodes (0.2 vs. 1.9, <i>p</i> = 0.020), hospitalisations (0.5 vs. 2.2, <i>p</i> = 0.010), and hyperammonaemic episodes resulting in hospitalisation (0.2 vs. 1.6, <i>p</i> = 0.035) reflecting changes seen in the whole group. Overall, patients exposed to sodium and propylene glycol levels above UK daily limits reduced by 78% and 83% respectively. Mean levels of branched chain amino acids, haemoglobin, and white cell count were unchanged. Two adverse drug reactions (pancytopenia, fatigue/appetite loss) resolved without GPB discontinuation. Patients/families preferred GPB for its lower volume, greater palatability and easier administration. GPB appeared to improve biochemical measures and clinical outcomes. The causes are multi-factorial and are likely to include prolonged action of GPB and its good tolerability, even at higher doses, facilitating tighter control of ammonia.
+PY  - 2023
+JO  - JIMD reports
+VL  - 64
+SP  - 317
+EP  - 326
+PMID  - 37701329
+UR  - https://pubmed.ncbi.nlm.nih.gov/37701329/
+ER  - 
+TY  - JOUR
+TI  - Coma With Hyperammonemia in a Patient With Kwashiorkor.
+AB  - We describe a case of coma-related hyperammonemia in a woman presenting with severe edematous malnutrition (Kwashiorkor-like), without underlying hepatic disease. Our main hypothesis is that the patient developed a functional urea cycle disorder, due to the inability to synthesize N-acetylglutamate which is the activator of the first enzymes (carbamoyl phosphate synthetase) of urea cycle, in a context of severe deficiency of essential amino acids and of acetyl-CoA. Severe hyperammonemia is a medical emergency exposing to the risk of cerebral edema. Urgent treatment should interrupt protein intake, stimulate protein anabolism, and remove ammonia from the blood using renal replacement therapy and ammonia scavengers. Hyperammonemia should be searched in case of unexplained coma, even among patients without hepatic disorder, in particular among young patients. Hyperammonemia should also be searched among patients with severe protein-calorie malnutrition.
+PY  - 2023
+JO  - Gastroenterology research
+VL  - 16
+SP  - 244
+EP  - 248
+PMID  - 37691748
+UR  - https://pubmed.ncbi.nlm.nih.gov/37691748/
+ER  - 
+TY  - JOUR
+TI  - Citrulline in the management of patients with urea cycle disorders.
+AB  - Treatment recommendations for urea cycle disorders (UCDs) include supplementation with amino acids involved in the urea cycle (arginine and/or citrulline, depending on the enzyme deficiency), to maximize ammonia excretion through the urea cycle, but limited data are available regarding the use of citrulline. This study retrospectively reviewed clinical and biological data from patients with UCDs treated with citrulline and/or arginine at a reference center since 1990. The aim was to describe the prescription, impact, and safety of these therapies. Data collection included patient background, treatment details, changes in biochemical parameters (plasma ammonia and amino acids concentrations), decompensations, and patient outcomes. Overall, 79 patients (median age at diagnosis, 0.9 months) received citrulline and/or arginine in combination with a restricted protein diet, most with ornithine transcarbamylase (n = 57, 73%) or carbamoyl phosphate synthetase 1 (n = 15, 19%) deficiencies. Most patients also received ammonium scavengers. Median follow-up was 9.5 years and median exposure to first treatment with arginine + citrulline, citrulline monotherapy, or arginine monotherapy was 5.5, 2.5, or 0.3 years, respectively. During follow-up, arginine or citrulline was administered at least once (as monotherapy or in combination) in the same proportion of patients (86.1%); the overall median duration of exposure was 5.9 years for arginine + citrulline, 3.1 years for citrulline monotherapy, and 0.6 years for arginine monotherapy. The most common switch was from monotherapy to combination therapy (41 of 75 switches, 54.7%). During treatment, mean ammonia concentrations were 35.9 µmol/L with citrulline, 49.8 µmol/L with arginine, and 53.0 µmol/L with arginine + citrulline. Mean plasma arginine concentrations increased significantly from the beginning to the end of citrulline treatment periods (from 67.6 µmol/L to 84.9 µmol/L, P < 0.05). At last evaluation, mean height and weight for age were normal and most patients showed normal or adapted behavior (98.7%) and normal social life (79.0%). Two patients (2.5%) experienced three treatment-related gastrointestinal adverse reactions. This study underlines the importance of citrulline supplementation, either alone or together with arginine, in the management of patients with UCDs. When a monotherapy is considered, citrulline would be the preferred option in terms of increasing plasma arginine concentrations.
+PY  - 2023
+JO  - Orphanet journal of rare diseases
+VL  - 18
+SP  - 207
+PMID  - 37480106
+UR  - https://pubmed.ncbi.nlm.nih.gov/37480106/
+ER  - 
+TY  - JOUR
+TI  - Underexpression of Carbamoyl Phosphate Synthetase I as Independent Unfavorable Prognostic Factor in Intrahepatic Cholangiocarcinoma: A Potential Theranostic Biomarker.
+AB  - Intrahepatic cholangiocarcinoma (IHCC) is the second most common malignant neoplasm of the liver. In spite of the increasing incidence worldwide, it is relatively rare in Western countries. IHCC is relatively common in Eastern and Southeastern Asia. Patients with IHCC are usually diagnosed at an advanced stage, therefore, the clinical outcome is dismal. Dysregulation of urea cycle metabolic enzyme expression is found in different types of cancers. Nevertheless, a comprehensive evaluation of genes related to the urea cycle (i.e., GO:0000050) has not been conducted in IHCC. By performing a comparative analysis of gene expression profiles, we specifically examined genes associated with the urea cycle (GO:0000050) in a publicly accessible transcriptomic dataset (GSE26566). Interestingly, <i>CPS1</i> was identified as the second most prominently down-regulated gene in this context. Tumor tissues of 182 IHCC patients who underwent curative-intent hepatectomy were enrolled. The expression level of CPS1 protein in our IHCC cohort was assessed by immunohistochemical study. Subsequent to that, statistical analyses were carried out to examine the expression of CPS1 in relation to various clinicopathological factors, as well as to assess its impact on survival outcomes. We noticed that lower immunoreactivity of CPS1 in IHCC was associated with tumor progression (pT status) with statistical significance (<i>p</i> = 0.003). CPS1 underexpression was not only negatively correlated to overall survival (OS), disease-specific survival (DSS), local recurrence-free survival (LRFS) and metastasis-free survival (MeFS) in univariate analysis but also an independent prognosticator to forecast poorer clinical outcome for all prognostic indices (OS, DSS, LRFS and MeFs) in patients with IHCC (all <i>p</i> ≤ 0.001). These results support that CPS1 may play a crucial role in IHCC oncogenesis and tumor progression and serve as a novel prognostic factor and a potential diagnostic and theranostic biomarker.
+PY  - 2023
+JO  - Diagnostics (Basel, Switzerland)
+VL  - 13
+PMID  - 37443694
+UR  - https://pubmed.ncbi.nlm.nih.gov/37443694/
+ER  - 
+TY  - JOUR
+TI  - Clinical and genetic analysis of a case of late onset carbamoyl phosphate synthase I deficiency caused by CPS1 mutation and literature review.
+AB  - Carbamoyl phosphate synthetase I defect (CPS1D) is a rare disease with clinical case reports mainly in early neonates or adults, with few reports of first onset in late neonatal to childhood. We studied the clinical and genotypic characteristics of children with childhood onset CPS1D caused by two loci mutations (one of these is a rarely reported non-frame shift mutation) in the CPS1. We present a rare case of adolescent-onset CPS1D that had been misdiagnosed due to atypical clinical features, and further investigations revealed severe hyperammonemia (287µmol/L; reference range 11.2 ~ 48.2umol/L). MRI of the brain showed diffuse white matter lesions. Blood genetic metabolic screening showed elevated blood alanine (757.06umol/L; reference range 148.8 ~ 739.74umol/L) and decreased blood citrulline (4.26umol/L; reference range 5.45 ~ 36.77umol/L). Urine metabolic screening showed normal whey acids and uracil. Whole-exome sequencing revealed compound heterozygous mutations in the CPS1, a missense mutation (c.1145 C > T) and an unreported de novo non-frame shift mutation (c.4080_c.4091delAGGCATCCTGAT), respectively, which provided a clinical diagnosis. A comprehensive description of the clinical and genetic features of this patient, who has a rare age of onset and a relatively atypical clinical presentation, will facilitate the early diagnosis and management of this type of late onset CPS1D and reduce misdiagnosis, thus helping to reduce mortality and improve prognosis. It also provides a preliminary understanding of the relationship between genotype and phenotype, based on a summary of previous studies, which reminds us that it may help to explore the pathogenesis of the disease and contribute to genetic counselling and prenatal diagnosis.
+PY  - 2023
+JO  - BMC medical genomics
+VL  - 16
+SP  - 145
+PMID  - 37365635
+UR  - https://pubmed.ncbi.nlm.nih.gov/37365635/
+ER  - 
+TY  - JOUR
+TI  - The remarkable journey of one female individual with ornithine transcarbamylase deficiency diagnosed post-mortem.
+AB  - Urea cycle disorders (UCDs) comprise a group of inborn errors of metabolism with impaired ammonia clearance and an incidence of ~1:35 000 individuals. First described in the 1970s, the diagnosis and management of these disorders has evolved dramatically. We report on a 59-year-old woman with a UCD who contributed to advances in the understanding and treatment of this group of disorders. This individual was diagnosed with carbamoyl phosphate synthetase 1 deficiency based on a biochemical assay under a research context predating genetic sequencing, treated longitudinally as having this metabolic disorder, and was among the first participants to trial UCD pharmaceutical therapies. She ultimately succumbed to a SARS-CoV-2 infection while maintaining unexpectedly normal ammonium levels. Postmortem genetic testing revealed ornithine transcarbamylase deficiency. This individual's contributions to the field of UCDs is discussed herein.
+PY  - 2023
+JO  - JIMD reports
+VL  - 64
+SP  - 233
+EP  - 237
+PMID  - 37151362
+UR  - https://pubmed.ncbi.nlm.nih.gov/37151362/
+ER  - 
+TY  - JOUR
+TI  - <i>NAGS</i>, <i>CPS1</i>, and <i>SLC25A13</i> (Citrin) at the Crossroads of Arginine and Pyrimidines Metabolism in Tumor Cells.
+AB  - Urea cycle enzymes and transporters collectively convert ammonia into urea in the liver. Aberrant overexpression of carbamylphosphate synthetase 1 (<i>CPS1</i>) and <i>SLC25A13</i> (citrin) genes has been associated with faster proliferation of tumor cells due to metabolic reprogramming that increases the activity of the CAD complex and pyrimidine biosynthesis. N-acetylglutamate (NAG), produced by NAG synthase (NAGS), is an essential activator of CPS1. Although NAGS is expressed in lung cancer derived cell lines, expression of the <i>NAGS</i> gene and its product was not evaluated in tumors with aberrant expression of <i>CPS1</i> and citrin. We used data mining approaches to identify tumor types that exhibit aberrant overexpression of <i>NAGS</i>, <i>CPS1</i>, and citrin genes, and evaluated factors that may contribute to increased expression of the three genes and their products in tumors. Median expression of <i>NAGS</i>, <i>CPS1</i>, and citrin mRNA was higher in glioblastoma multiforme (GBM), glioma, and stomach adenocarcinoma (STAD) samples compared to the matched normal tissue. Median expression of <i>CPS1</i> and citrin mRNA was higher in the lung adenocarcinoma (LUAD) sample while expression of <i>NAGS</i> mRNA did not differ. High <i>NAGS</i> expression was associated with an unfavorable outcome in patients with glioblastoma and GBM. Low <i>NAGS</i> expression was associated with an unfavorable outcome in patients with LUAD. Patterns of DNase hypersensitive sites and histone modifications in the upstream regulatory regions of <i>NAGS</i>, <i>CPS1</i>, and citrin genes were similar in liver tissue, lung tissue, and A549 lung adenocarcinoma cells despite different expression levels of the three genes in the liver and lung. Citrin gene copy numbers correlated with its mRNA expression in glioblastoma, GBM, LUAD, and STAD samples. There was little overlap between <i>NAGS</i>, <i>CPS1,</i> and citrin sequence variants found in patients with respective deficiencies, tumor samples, and individuals without known rare genetic diseases. The correlation between <i>NAGS</i>, <i>CPS1</i>, and citrin mRNA expression in the individual glioblastoma, GBM, LUAD, and STAD samples was very weak. These results suggest that the increased cytoplasmic supply of either carbamylphosphate, produced by CPS1, or aspartate may be sufficient to promote tumorigenesis, as well as the need for an alternative explanation of CPS1 activity in the absence of <i>NAGS</i> expression and NAG.
+PY  - 2023
+JO  - International journal of molecular sciences
+VL  - 24
+PMID  - 37047726
+UR  - https://pubmed.ncbi.nlm.nih.gov/37047726/
+ER  - 
+TY  - JOUR
+TI  - p53 inhibits the Urea cycle and represses polyamine biosynthesis in glioma cell lines.
+AB  - Glioma is the most common malignant tumor of the central nervous system. The urea cycle (UC) is an essential pathway to convert excess nitrogen and ammonia into the less toxic urea in humans. However, less is known about the functional significance of the urea cycle in glioma. p53 functions as a tumor suppressor and modulates several cellular functions and disease processes. In the present study, we aimed to explore whether p53 influences glioma progression by regulating the urea cycle. Here, we demonstrated the inhibitory impact of p53 on the expression of urea cycle enzymes and urea genesis in glioma cells. The level of polyamine, a urea cycle metabolite, was also regulated by p53 in glioma cells. Carbamoyl phosphate synthetase-1 (CPS1) is the first key enzyme involved in the urea cycle. Functionally, we demonstrated that CPS1 knockdown suppressed glioma cell proliferation, migration and invasion. Mechanistically, we demonstrated that the expression of ornithine decarboxylase (ODC), which determines the generation of polyamine, was regulated by CPS1. In addition, the impacts of p53 knockdown on ODC expression, glioma cell growth and aggressive phenotypes were significantly reversed by CPS1 inhibition. In conclusion, these results demonstrated that p53 inhibits polyamine metabolism by suppressing the urea cycle, which inhibits glioma progression.
+PY  - 2023
+JO  - Metabolic brain disease
+VL  - 38
+SP  - 1143
+EP  - 1153
+PMID  - 36745250
+UR  - https://pubmed.ncbi.nlm.nih.gov/36745250/
+ER  - 
+TY  - JOUR
+TI  - Deficiency of Carbamoyl Phosphate Synthetase 1 Engenders Radioresistance in Hepatocellular Carcinoma via Deubiquitinating c-Myc.
+AB  - Tumor radiation resistance is the main obstacle to effective radiation therapy for patients with hepatocellular carcinoma (HCC). We identified the role of urea cycle key enzyme carbamoyl phosphate synthetase 1 (CPS1) in radioresistance of HCC and explored its mechanism, aiming to provide a novel radiosensitization strategy for the CPS1-deficiency HCC subtype. The expression of CPS1 was measured by western blot and immunohistochemistry. Cell growth assay, EdU assay, cell apoptosis assay, cell cycle assay, clone formation assay, and subcutaneous tumor assay were performed to explore the relationship between CPS1 and radioresistance of HCC cells. Lipid metabonomic analysis was used for investigating the effects of CPS1 on lipid synthesis of HCC cells. RNA sequencing and coimmunoprecipitation assay were carried out to reveal the mechanism of CPS1 participating in the regulation of HCC radiation therapy resistance. Furthermore, 10074-G5, the specific inhibitor of c-Myc, was administered to HCC cells to investigate the role of c-Myc in CPS1-deficiency HCC cells. We found that urea cycle key enzyme CPS1 was frequently lower in human HCC samples and positively associated with the patient's prognosis. Functionally, the present study proved that CPS1 depletion could accelerate the development of HCC and induce radiation resistance of HCC in vitro and in vivo, and deficiency of CPS1 promoted the synthesis of some lipid molecules. Regarding the mechanism, we uncovered that inhibition of CPS1 upregulated CyclinA2 and CyclinD1 by stabilizing oncoprotein c-Myc at the posttranscriptional level and generated radioresistance of HCC cells. Moreover, inactivation of c-Myc using 10074-G5, a specific c-Myc inhibitor, could partially attenuate the proliferation and radioresistance induced by depletion of CPS1. Our results recapitulated that silencing CPS1 could promote HCC progression and radioresistance via c-Myc stability mediated by the ubiquitin-proteasome system, suggesting that targeting c-Myc in CPS1-deficiency HCC subtype may be a valuable radiosensitization strategy in the treatment of HCC.
+PY  - 2023
+JO  - International journal of radiation oncology, biology, physics
+VL  - 115
+SP  - 1244
+EP  - 1256
+PMID  - 36423742
+UR  - https://pubmed.ncbi.nlm.nih.gov/36423742/
+ER  - 
+TY  - JOUR
+TI  - Urea cycle disorders and indications for liver transplantation.
+AB  - Urea cycle disorders (UCD) are inborn errors of metabolism caused by deficiency of enzymes required to convert nitrogen from ammonia into urea. Current paradigms of treatment focus on dietary manipulations, ammonia scavenger drugs, and liver transplantation. The aim of this study was to describe the characteristics and indication of liver transplantation in UCD in a tertiary hospital. We performed a retrospective study of children with UCD seen in the period 2000-2021. Data was collected on clinical onset, hyperammonemia severity, evolution and liver transplantation. There were 33 patients in the study period, whose diagnosis were: ornithine transcarbamylase (OTC, <i>n</i> = 20, 10 females), argininosuccinate synthetase (ASS, <i>n</i> = 6), carbamylphosphate synthetase 1 (CPS1, <i>n</i> = 4), argininosuccinate lyase (ASL, <i>n</i> = 2) and N-acetylglutamate synthetase (NAGS, <i>n</i> = 1) deficiency. Thirty one were detected because of clinical symptoms (45% with neonatal onset). The other 2 were diagnosed being presymptomatic, by neonatal/family screening. Neonatal forms (<i>n</i> = 14) were more severe, all of them presented during the first week of life as severe hyperammonemia (mean peak 1,152 µmol/L). Seven patients died (6 at debut) and all survivors received transplantation. There was no mortality among the late forms. Of the 27 patients who did not die in the neonatal period, 16 (59%) received liver transplantationwith 100% survival, normal protein tolerance and usual need of citrulline supplementation. The transplant's metabolic success was accompanied by neurologic sequelae in 69%, but there was no progression of brain damage. Decision of continuous medical treatment in 11 patients appeared to be related with preserved neurodevelopment and fewer metabolic crises.
+PY  - 2023
+JO  - Frontiers in pediatrics
+VL  - 11
+SP  - 1103757
+PMID  - 36937980
+UR  - https://pubmed.ncbi.nlm.nih.gov/36937980/
+ER  - 
+TY  - JOUR
+TI  - Evaluation of oxidative damage to biomolecules and inflammation in patients with urea cycle disorders.
+AB  - Urea cycle disorders (UCD) are inborn errors of metabolism that occur due to a loss of function in enzymes and transporters involved in the urea cycle, causing an intoxication by hyperammonemia and accumulation of metabolites. Patients can develop hepatic encephalopathy (HE), severe neurological and motor disabilities, and often death. The mechanisms involved in the pathophysiology of UCD are many and complex, but there are strong indications that oxidative stress and inflammation are present, being responsible for at least part of the cellular damage that occurs in these diseases. The aim of this study was to evaluate oxidative and nitrosative damage and inflammation in UCD, to better understand the pathophysiology mechanisms of these diseases. We evaluated the nitrite and nitrate content, thiobarbituric acid-reactive substances (TBARS), carbonyl protein content and a panel of cytokines in plasma sample of 14 patients. The UCD patients group consisted of individuals affected with ornithine transcarbamylase deficiency (n = 8), carbamoyl phosphate synthetase deficiency (n = 2), argininosuccinate synthetase deficiency (n = 2); arginase 1 deficiency (n = 1) and argininosuccinate lyase deficiency (n = 1). Patients mean age at diagnosis was 5.25 ± 9.86 years-old and mean concentrations were compared with healthy individuals of matched age and gender. We found a significant reduction in nitrogen reactive species in patients when compared to controls. TBARS was increased in patients, indicating lipid peroxidation. To evaluate protein oxidative damage in UCD, the carbonyl content was measured, and the results also demonstrated an increase in this biomarker. Finally, we found that UCD patients have enhanced concentrations of cytokines, with pro-inflammatory interleukins IL-6, IL-8, interferon-γ and TNF-α, and anti-inflammatory IL-10 being increased when compared to the control group. In conclusion, our results demonstrate that oxidative stress and inflammation occurs in UCD and probably contribute to the severe brain damage present in patients.
+PY  - 2023
+JO  - Archives of biochemistry and biophysics
+VL  - 736
+SP  - 109526
+PMID  - 36702451
+UR  - https://pubmed.ncbi.nlm.nih.gov/36702451/
+ER  - 
+TY  - JOUR
+TI  - Dietary Isoleucine and Valine: Effects on Lipid Metabolism and Ureagenesis in Pigs Fed with Protein Restricted Diets.
+AB  - A mixture of valine (Val) and isoleucine (Ile) not only decreases the negative impact of very low protein (VLP) diets on the growth of pigs, but also influences the nitrogen (N) balance and lipid metabolism; however, the underlying pathways are not well understood. This study aimed to investigate the effect of dietary Val and Ile on lipogenesis, lipolysis, and ureagenesis under protein restriction. After one week of acclimation, forty three-week-old pigs were randomly assigned to following dietary treatments (<i>n</i> = 8/group) for 5 weeks: positive control (PC): normal protein diet; negative control (NC): VLP diet; HV: NC supplemented with Val; HI: NC supplemented with Ile; and HVI: NC supplemented with both Val and Ile. HVI partially improved the body weight and completely recovered the feed intake (FI) of pigs fed with NC. HVI increased thermal radiation and improved the glucose clearance. HVI had a lower blood triglyceride than PC and blood urea N than NC. NC and HV promoted lipogenesis by increasing the transcript of <i>fatty acid synthase</i> (<i>FAS</i>) in the liver and <i>lipoprotein lipase</i> (<i>LPL</i>) in adipose tissue but reducing <i>hormone-sensitive lipase</i> (<i>HSL</i>) in the liver. HVI reduced the increased rate of lipogenesis induced by the NC group through normalizing the mRNA abundance of hepatic <i>FAS</i>, <i>sterol regulatory element binding transcription factor 1</i>, and <i>HSL</i> and <i>LPL</i> in adipose tissue. NC, HV, HI, and HVI reduced the ureagenesis by decreasing the protein abundance of <i>carbamoyl phosphate synthetase I, ornithine transcarboxylase</i>, and <i>arginosuccinate lyase</i> in the liver. Overall, HVI improved the growth, FI, and glucose clearance, and decreased the rate of lipogenesis induced by VLP diets.
+PY  - 2023
+JO  - Metabolites
+VL  - 13
+PMID  - 36677013
+UR  - https://pubmed.ncbi.nlm.nih.gov/36677013/
+ER  - 
+TY  - JOUR
+TI  - Simultaneous activation of genes encoding urea cycle enzymes and gluconeogenetic enzymes coincides with a corticosterone surge period before metamorphosis in Xenopus laevis.
+AB  - Amphibian tadpoles are postulated to excrete ammonia as nitrogen metabolites but to shift from ammonotelism to ureotelism during metamorphosis. However, it is unknown whether ureagenesis occurs or plays a functional role before metamorphosis. Here, the mRNA-expression levels of two urea cycle enzymes (carbamoyl phosphate synthetase I [CPSI] and ornithine transcarbamylase [OTC]) were measured beginning with stage-47 Xenopus tadpoles at 5 days post-fertilization (dpf), between the onset of feeding (stage 45, 4 dpf) and metamorphosis (stage 55, 32 dpf). CPSI and OTC expression levels increased significantly from stage 49 (12 dpf). Urea excretion was also detected at stage 47. A transient corticosterone surge peaking at stage 48 was previously reported, supporting the hypothesis that corticosterone can induce CPSI expression in tadpoles, as found in adult frogs and mammals. Stage-46 tadpoles were exposed to a synthetic glucocorticoid, dexamethasone (Dex, 10-500 nM) for 3 days. CPSI mRNA expression was significantly higher in tadpoles exposed to Dex than in tadpoles exposed to the vehicle control. Furthermore, glucocorticoid receptor mRNA expression increased during the pre-metamorphic period. In addition to CPSI and OTC mRNA upregulation, the expression levels of three gluconeogenic enzyme genes (glucose 6-phosphatase, phosphoenolpyruvate carboxykinase, and fructose-1,6-bisphosphatase 1) increased with the onset of urea synthesis and excretion. These results suggest that simultaneous induction of the urea cycle and gluconeogenic enzymes coincided with a corticosterone surge occurring prior to metamorphosis. These metabolic changes preceding metamorphosis may be closely related to the onset of feeding and nutrient accumulation required for metamorphosis.
+PY  - 2023
+JO  - Development, growth & differentiation
+VL  - 65
+SP  - 6
+EP  - 15
+PMID  - 36527293
+UR  - https://pubmed.ncbi.nlm.nih.gov/36527293/
+ER  - 
+TY  - JOUR
+TI  - Unraveling the therapeutic potential of carbamoyl phosphate synthetase 1 (CPS1) in human diseases.
+AB  - CPS1, the rate-limiting enzyme that controls the first reaction of the urea cycle, is responsible for converting toxic ammonia into non-toxic urea in mammals. While disruption of the functions of CPS1 leads to elevated ammonia and nerve damage in the body, mainly manifested as urea cycle disorder. Moreover, accumulating evidence has recently revealed that CPS1 is involved in a variety of human diseases, including CPS1D, cardiovascular disease, cancers, and others. In particular, CPS1 expression varies among cancers, being overexpressed in some cancers and downregulated in others, suggesting that CPS1 may be a promising cancer therapeutic target. In addition, some small-molecule inhibitors of CPS1 have been reported, which have not been confirmed experimentally in malignancies, meaning their future role is far from certain. In this review, we describe the structure and function of CPS1, highlight its important roles in various human diseases, and further discuss the potential diagnostic and therapeutic implications of small molecule compounds targeting CPS1.
+PY  - 2023
+JO  - Bioorganic chemistry
+VL  - 130
+SP  - 106253
+PMID  - 36356370
+UR  - https://pubmed.ncbi.nlm.nih.gov/36356370/
+ER  - 
+TY  - JOUR
+TI  - Novel compound heterozygote variants: c.4193_4206delinsG (p.Leu1398Argfs*25), c.793C > A (p.Pro265Thr), in the CPS1 gene (NM_001875.4) causing late onset carbamoyl phosphate synthetase 1 deficiency-Lessons learned.
+AB  - Carbamoyl phosphate synthetase 1 (CPS1) deficiency is an autosomal recessive urea cycle disorder with varying presentations. Patients with a neonatal-onset phenotype are initially healthy but develop severe hyperammonemia days after birth and often have poor or lethal outcomes, while patients who present later in life may exhibit less severe clinical manifestations. CPS1 deficiency is rarely found on newborn screening because most states do not screen for this disease due to the technical difficulties. We report a case of an 11-year-old, previously healthy girl who presented with hyperammonemia and acute psychosis after eating large amounts of meat at summer camp. A diagnosis of carbamoyl phosphate synthetase type 1 deficiency was suspected by biochemical profiles and confirmed by molecular analysis. Subsequent follow up lab results revealed ammonia to be only 25-39 μmol/L shortly after glutamine reached levels as high as 770-1432 μmol/L with concurrent alanine elevations, highlighting the compensating mechanisms of the human body. Her initial hospital course also demonstrated the importance of continuous renal replacement therapy (CRRT) in avoiding rebound hyperammonemia and high glutamine and the benefits of intracranial pressure (ICP) monitoring, providing 3% hypertonic saline and temperature control to avoid fever in treating cerebral edema. Carglumic acid was not considered helpful in this case, with BUN levels ranging between 2 and 4 mg/dL after administration.
+PY  - 2022
+JO  - Molecular genetics and metabolism reports
+VL  - 33
+SP  - 100942
+PMID  - 36466970
+UR  - https://pubmed.ncbi.nlm.nih.gov/36466970/
+ER  - 
+TY  - JOUR
+TI  - Clinical findings of patients with hyperammonemia affected by urea cycle disorders with hepatic encephalopathy.
+AB  - Urea cycle disorders (UCD) are a group of genetic diseases caused by deficiencies in the enzymes and transporters involved in the urea cycle. The impairment of the cycle results in ammonia accumulation, leading to neurological dysfunctions and poor outcomes to affected patients. The aim of this study is to investigate and describe UCD patients' principal clinical and biochemical presentations to support professionals on urgent diagnosis and quick management, aiming better outcomes for patients. We explored medical records of 30 patients diagnosed in a referral center from Brazil to delineate UCD clinical and biochemical profile. Patients demonstrated a range of signs and symptoms, such as altered levels of consciousness, acute encephalopathy, seizures, progressive loss of appetite, vomiting, coma, and respiratory distress, in most cases combined with high levels of ammonia, which is an immediate biomarker, leading to a UCD suspicion. The most prevalent UCD detected were ornithine transcarbamylase deficiency, followed by citrullinemia type 1, hyperargininemia, carbamoyl phosphate synthase 1 deficiency, and argininosuccinic aciduria. Clinical symptoms were highly severe, being the majority developmental and neurological disabilities, with 20% of death rate. Laboratory analysis revealed high levels of ammonia (mean ± SD: 860 ± 470 μmol/L; reference value: ≤80 μmol/L), hypoglycemia, metabolic acidosis, and high excretion of orotic acid in the urine (except in carbamoyl phosphate synthetase 1 [CPS1] deficiency). We emphasize the need of urgent identification of UCD clinical and biochemical conditions, and immediate measurement of ammonia, to enable the correct diagnosis and increase the chances of patients' survival, minimizing neurological and psychomotor damage caused by hepatic encephalopathy.
+PY  - 2022
+JO  - International journal of developmental neuroscience : the official journal of the International Society for Developmental Neuroscience
+VL  - 82
+SP  - 772
+EP  - 788
+PMID  - 36129623
+UR  - https://pubmed.ncbi.nlm.nih.gov/36129623/
+ER  - 
+TY  - JOUR
+TI  - Opposing effects of chronic glucagon receptor agonism and antagonism on amino acids, hepatic gene expression, and alpha cells.
+AB  - The pancreatic hormone, glucagon, is known to regulate hepatic glucose production, but recent studies suggest that its regulation of hepatic amino metabolism is equally important. Here, we show that chronic glucagon receptor activation with a long-acting glucagon analog increases amino acid catabolism and ureagenesis and causes alpha cell hypoplasia in female mice. Conversely, chronic glucagon receptor inhibition with a glucagon receptor antibody decreases amino acid catabolism and ureagenesis and causes alpha cell hyperplasia and beta cell loss. These effects were associated with the transcriptional regulation of hepatic genes related to amino acid uptake and catabolism and by the non-transcriptional modulation of the rate-limiting ureagenesis enzyme, carbamoyl phosphate synthetase-1. Our results support the importance of glucagon receptor signaling for amino acid homeostasis and pancreatic islet integrity in mice and provide knowledge regarding the long-term consequences of chronic glucagon receptor agonism and antagonism.
+PY  - 2022
+JO  - iScience
+VL  - 25
+SP  - 105296
+PMID  - 36325048
+UR  - https://pubmed.ncbi.nlm.nih.gov/36325048/
+ER  - 
+TY  - JOUR
+TI  - Novel pathogenic variant (c.2947C > T) of the carbamoyl phosphate synthetase 1 gene in neonatal-onset deficiency.
+AB  - Carbamoyl phosphate synthetase 1 deficiency (CPS1D) is a rare autosomal recessive urea cycle disorder characterized by hyperammonaemia. The biochemical measurement of the intermediate metabolites is helpful for CPS1D diagnosis; it however cannot distinguish CPS1D from N-acetylglutamate synthetase deficiency. Therefore, next-generation sequencing (NGS) is often essential for the accurate diagnosis of CPS1D. NGS was performed to identify candidate gene variants of CPS1D in a Asian neonatal patient presented with poor feeding, reduced activity, tachypnea, lethargy, and convulsions. The potential pathogenicity of the identified variants was predicted by various types of bioinformatical analyses, including evolution conservation, domain and 3D structure simulations. Compound heterozygosity of CPS1D were identified. One was in exon 24 with a novel heterozygous missense variant c.2947C > T (p.P983S), and another was previously reported in exon 20 with c.2548C > T (p.R850C). Both variants were predicted to be deleterious. Conservation analysis and structural modeling showed that the two substituted amino acids were highly evolutionarily conserved, resulting in potential decreases of the binding pocket stability and the partial loss of enzyme activity. In this study, two pathogenic missense variants were identified with NGS, expanding the variants pectrum of the <i>CPS1</i> gene. The variants and related structural knowledge of CPS enzyme demonstrate the applicability for the accurate diagnosis of CPS1D.
+PY  - 2022
+JO  - Frontiers in neuroscience
+VL  - 16
+SP  - 1025572
+PMID  - 36340787
+UR  - https://pubmed.ncbi.nlm.nih.gov/36340787/
+ER  - 
+TY  - JOUR
+TI  - Pathogenic variants of ornithine transcarbamylase deficiency: Nation-wide study in Japan and literature review.
+AB  - Ornithine transcarbamylase deficiency (OTCD) is an X-linked disorder. Several male patients with OTCD suffer from severe hyperammonemic crisis in the neonatal period, whereas others develop late-onset manifestations, including hyperammonemic coma. Females with heterozygous pathogenic variants in the <i>OTC</i> gene may develop a variety of clinical manifestations, ranging from asymptomatic conditions to severe hyperammonemic attacks, owing to skewed lyonization. We reported the variants of <i>CPS1</i>, <i>ASS</i>, <i>ASL</i> and <i>OTC</i> detected in the patients with urea cycle disorders through a nation-wide survey in Japan. In this study, we updated the variant data of <i>OTC</i> in Japanese patients and acquired information regarding genetic variants of <i>OTC</i> from patients with OTCD through an extensive literature review. The 523 variants included 386 substitution (330 missense, 53 nonsense, and 3 silent), eight deletion, two duplication, one deletion-insertion, 55 frame shift, two extension, and 69 no category (1 regulatory and 68 splice site error) mutations. We observed a genotype-phenotype relation between the onset time (neonatal onset or late onset), the severity, and genetic mutation in male OTCD patients because the level of deactivation of <i>OTC</i> significantly depends on the pathogenic OTC variants. In conclusion, genetic information about <i>OTC</i> may help to predict long-term outcomes and determine specific treatment strategies, such as liver transplantation, in patients with OTCD.
+PY  - 2022
+JO  - Frontiers in genetics
+VL  - 13
+SP  - 952467
+PMID  - 36303552
+UR  - https://pubmed.ncbi.nlm.nih.gov/36303552/
+ER  - 
+TY  - JOUR
+TI  - Anesthesia management in living-donor liver transplantation in a patient with carbamoyl phosphate synthetase deficiency: a case report.
+AB  - Carbamoyl phosphate synthetase deficiency (CPS1D) is a urea-cycle disorder (UCD). We report successful perioperative management of pediatric living donor liver transplantation (LDLT) in a CPS1D patient. A 10-year-old female patient with CPS1D underwent LDLT. Proper administration of dextrose 50% and 60 kcal/kg/day with L-arginine and L-carnitine resulted in the avoidance of intraoperative hyperammonemia induced by hypercatabolism. Serum ammonia level transiently increased to 61 mmol/L in the anhepatic phase and decreased to 44 mmol/L after reperfusion. We suggest anesthesia management with administration of dextrose to avoid hyperammonemia during LDLT in patients with CPS1D.
+PY  - 2022
+JO  - JA clinical reports
+VL  - 8
+SP  - 71
+PMID  - 36070152
+UR  - https://pubmed.ncbi.nlm.nih.gov/36070152/
+ER  - 
+TY  - JOUR
+TI  - O-GlcNAcylation enhances CPS1 catalytic efficiency for ammonia and promotes ureagenesis.
+AB  - Life-threatening hyperammonemia occurs in both inherited and acquired liver diseases affecting ureagenesis, the main pathway for detoxification of neurotoxic ammonia in mammals. Protein O-GlcNAcylation is a reversible and nutrient-sensitive post-translational modification using as substrate UDP-GlcNAc, the end-product of hexosamine biosynthesis pathway. Here we show that increased liver UDP-GlcNAc during hyperammonemia increases protein O-GlcNAcylation and enhances ureagenesis. Mechanistically, O-GlcNAcylation on specific threonine residues increased the catalytic efficiency for ammonia of carbamoyl phosphate synthetase 1 (CPS1), the rate-limiting enzyme in ureagenesis. Pharmacological inhibition of O-GlcNAcase, the enzyme removing O-GlcNAc from proteins, resulted in clinically relevant reductions of systemic ammonia in both genetic (hypomorphic mouse model of propionic acidemia) and acquired (thioacetamide-induced acute liver failure) mouse models of liver diseases. In conclusion, by fine-tuned control of ammonia entry into ureagenesis, hepatic O-GlcNAcylation of CPS1 increases ammonia detoxification and is a novel target for therapy of hyperammonemia in both genetic and acquired diseases.
+PY  - 2022
+JO  - Nature communications
+VL  - 13
+SP  - 5212
+PMID  - 36064721
+UR  - https://pubmed.ncbi.nlm.nih.gov/36064721/
+ER  - 
+TY  - JOUR
+TI  - N-acetylglutamate synthase deficiency with associated 3-methylglutaconic aciduria: A case report.
+AB  - N-acetylglutamate synthase (NAGS) deficiency is a rare autosomal recessive disorder, which results in the inability to activate the key urea cycle enzyme, carbamoylphosphate synthetase 1 (CPS1). Patients often suffer life-threatening episodes of hyperammonaemia, both in the neonatal period and also at subsequent times of catabolic stress. Because NAGS generates the cofactor for CPS1, these two disorders are difficult to distinguish biochemically. However, there have now been numerous case reports of 3-methylglutaconic aciduria (3-MGA), a marker seen in mitochondrial disorders, occurring in CPS1 deficiency. Previously, this had not been reported in NAGS deficiency. We report a four-day-old neonate who was noted to have 3-MGA at the time of significant hyperammonaemia and lactic acidosis. Low plasma citrulline and borderline orotic aciduria were additional findings that suggested a proximal urea cycle disorder. Subsequent molecular testing identified bi-allelic pathogenic variants in <i>NAGS</i>. The 3-MGA was present at the time of persistent lactic acidosis, but improved with normalization of serum lactate, suggesting that it may reflect secondary mitochondrial dysfunction. NAGS deficiency should therefore also be considered in patients with hyperammonaemia and 3-MGA. Studies in larger numbers of patients are required to determine whether it could be a biomarker for severe decompensations.
+PY  - 2022
+JO  - JIMD reports
+VL  - 63
+SP  - 420
+EP  - 424
+PMID  - 36101823
+UR  - https://pubmed.ncbi.nlm.nih.gov/36101823/
+ER  - 
+TY  - JOUR
+TI  - Hyperuricemia induces liver injury by upregulating HIF-1α and inhibiting arginine biosynthesis pathway in mouse liver and human L02 hepatocytes.
+AB  - The molecular mechanisms of uric acid (UA)-induced liver injury has not been clearly elucidated. In this study, we aimed to investigate the effect and action mechanisms of UA in liver injury. We analyzed the damaging effect of UA on mouse liver and L02 cells and subsequently performed metabolomics studies on L02 cells to identify abnormal metabolic pathways. Finally, we verified transcription factors that regulate related metabolic enzymes. UA directly activated the hepatic NLRP3 inflammasome and Bax apoptosis pathway invivo and invitro. Related metabolites in the arginine biosynthesis pathway (or urea cycle), l-arginine and l-argininosuccinate were decreased, and ammonia was increased in UA-stimulated L02 cells, which was mediated by carbamoyl phosphate synthase 1 (CPS1), argininosuccinate synthase (ASS) and argininosuccinate lyase (ASL) downregulation. UA upregulated hypoxia inducible factor-1alpha (HIF-1α) invivo and invitro, and HIF-1α inhibition alleviated the UA-induced ASS downregulation and hepatocyte injury. In conclusion, UA upregulates HIF-1α and inhibits urea cycle enzymes (UCEs). This leads to liver injury, with evidence of hepatocyte inflammation, apoptosis and oxidative stress.
+PY  - 2022
+JO  - Biochemical and biophysical research communications
+VL  - 617
+SP  - 55
+EP  - 61
+PMID  - 35696777
+UR  - https://pubmed.ncbi.nlm.nih.gov/35696777/
+ER  - 
+TY  - JOUR
+TI  - Regulation of the urea cycle by CPS1 O-GlcNAcylation in response to dietary restriction and aging.
+AB  - O-linked N-acetyl-glucosamine glycosylation (O-GlcNAcylation) of intracellular proteins is a dynamic process broadly implicated in age-related disease, yet it remains uncharacterized whether and how O-GlcNAcylation contributes to the natural aging process. O-GlcNAc transferase (OGT) and the opposing enzyme O-GlcNAcase (OGA) control this nutrient-sensing protein modification in cells. Here, we show that global O-GlcNAc levels are increased in multiple tissues of aged mice. In aged liver, carbamoyl phosphate synthetase 1 (CPS1) is among the most heavily O-GlcNAcylated proteins. CPS1 O-GlcNAcylation is reversed by calorie restriction and is sensitive to genetic and pharmacological manipulations of the O-GlcNAc pathway. High glucose stimulates CPS1 O-GlcNAcylation and inhibits CPS1 activity. Liver-specific deletion of OGT potentiates CPS1 activity and renders CPS1 irresponsive to further stimulation by a prolonged fasting. Our results identify CPS1 O-GlcNAcylation as a key nutrient-sensing regulatory step in the urea cycle during aging and dietary restriction, implying a role for mitochondrial O-GlcNAcylation in nutritional regulation of longevity.
+PY  - 2022
+JO  - Journal of molecular cell biology
+VL  - 14
+PMID  - 35285892
+UR  - https://pubmed.ncbi.nlm.nih.gov/35285892/
+ER  - 
+TY  - JOUR
+TI  - Activation of VIPR1 suppresses hepatocellular carcinoma progression by regulating arginine and pyrimidine metabolism.
+AB  - <b>Background and aims:</b> Vasoactive intestinal polypeptide type-I receptor (VIPR1) overexpression has been reported in numerous types of malignancies and utilized to develop novel target therapeutics and radiolabeled VIP analogue-based tumor imaging technology, but its role in liver carcinogenesis has not been explored. In the current study, we investigated the role of the VIP/VIPR1 signaling in controlling hepatocellular carcinoma (HCC) progression. <b>Approach and results:</b> By analyzing clinical samples, we found the expression level of VIPR1 was downregulated in human HCC tissues, which was correlated with advanced clinical stages, tumor growth, recurrence, and poor outcomes of HCC clinically. <i>In vitro</i> and in <i>vivo</i> studies revealed that activation of VIPR1 by VIP markedly inhibited HCC growth and metastasis. Intriguingly, transcriptome sequencing analyses revealed that activation of VIPR1 by VIP regulated arginine biosynthesis. Mechanistical studies in cultured HCC cells demonstrated that VIP treatment partially restored the expression of arginine anabolic key enzyme argininosuccinate synthase (ASS1), and to some extent, inhibited <i>de novo</i> pyrimidine synthetic pathway by downregulating the activation of CAD (carbamoyl-phosphate synthetase 2, aspartate transcarbamylase, and dihydroorotase). VIP treatment upregulated ASS1 and subsequently suppressed CAD phosphorylation in an mTOR/p70S6K signaling dependent manner. Clinically, we found human HCC samples were associated with downregulation of ASS1 but upregulation of CAD phosphorylation, and that VIPR1 levels positively correlated with ASS1 levels and serum levels of urea, the end product of the urea cycle and arginine metabolism in HCC. <b>Conclusions:</b> Loss of VIPR1 expression in HCC facilitates CAD phosphorylation and tumor progression, and restoration of VIPR1 and treatment with the VIPR1 agonist may be a promising approach for HCC treatment.
+PY  - 2022
+JO  - International journal of biological sciences
+VL  - 18
+SP  - 4341
+EP  - 4356
+PMID  - 35864952
+UR  - https://pubmed.ncbi.nlm.nih.gov/35864952/
+ER  - 
+TY  - JOUR
+TI  - Hepatocyte-Specific Knock-Out of Nfib Aggravates Hepatocellular Tumorigenesis via Enhancing Urea Cycle.
+AB  - Nuclear Factor I B (NFIB) has been reported to promote tumor growth, metastasis, and liver regeneration, but its mechanism in liver cancer is not fully elucidated. The present study aims to reveal the role of NFIB in hepatocellular carcinogenesis. In our study, we constructed hepatocyte-specific NFIB gene knockout mice with CRISPR/Cas9 technology (Nfib<sup>-/-</sup>; Alb-cre), and induced liver cancer mouse model by intraperitoneal injection of DEN/CCl<sub>4</sub>. First, we found that Nfib<sup>-/-</sup> mice developed more tumor nodules and had heavier livers than wild-type mice. H&E staining indicated that the liver histological severity of Nfib<sup>-/-</sup> group was more serious than that of WT group. Then we found that the differentially expressed genes in the tumor tissue between Nfib<sup>-/-</sup> mice and wild type mice were enriched in urea cycle. Furthermore, ASS1 and CPS1, the core enzymes of the urea cycle, were significantly upregulated in Nfib<sup>-/-</sup> tumors. Subsequently, we validated that the expression of ASS1 and CPS1 increased after knockdown of NFIB by lentivirus in normal hepatocytes and also promoted cell proliferation <i>in vitro</i>. In addition, ChIP assay confirmed that NFIB can bind with promoter region of both ASS1 and CPS1 gene. Our study reveals for the first time that hepatocyte-specific knock-out of Nfib aggravates hepatocellular tumor development by enhancing the urea cycle.
+PY  - 2022
+JO  - Frontiers in molecular biosciences
+VL  - 9
+SP  - 875324
+PMID  - 35655758
+UR  - https://pubmed.ncbi.nlm.nih.gov/35655758/
+ER  - 
+TY  - JOUR
+TI  - A 36-year-old Man with Repeated Short-term Transient Hyperammonemia and Impaired Consciousness with a Confirmed Carbamoyl Phosphate Synthase 1 Gene Monoallelic Mutation.
+AB  - A 36-year-old man experienced severely impaired consciousness twice after drinking because of hyperammonemia. No abnormal blood tests were found other than ammonia levels. However, magnetic resonance imaging (MRI) showed atrophy of the brain parenchyma. One the second occasion, the patient suffered severe impairment of consciousness, and because of seizures and glossoptosis, mechanical ventilation was started. Urea cycle disorders (UCDs) were assumed to be involved. Genetic testing revealed a monoallelic mutation of the carbamoyl phosphate synthase 1 (CPS1) gene. When transient hyperammonemia of unknown cause occurs repeatedly in adults, an active investigation for UCDs should be conducted.
+PY  - 2022
+JO  - Internal medicine (Tokyo, Japan)
+VL  - 61
+SP  - 1387
+EP  - 1392
+PMID  - 34670888
+UR  - https://pubmed.ncbi.nlm.nih.gov/34670888/
+ER  - 
+TY  - JOUR
+TI  - Direct replacement of oral sodium benzoate with glycerol phenylbutyrate in children with urea cycle disorders.
+AB  - Long-term management of urea cycle disorders (UCDs) often involves unlicensed oral sodium benzoate (NaBz) which has a high volume and unpleasant taste. A more palatable treatment is licenced and available (glycerol phenylbutyrate [GPB], Ravicti) but guidance on how to transition patients from NaBz is lacking. A retrospective analysis of clinical and biochemical data was performed for eight children who transitioned from treatment with a single ammonia scavenger, NaBz, to GPB at a single metabolic centre; UCDs included arginosuccinic aciduria (ASA) (<i>n</i> = 5), citrullinaemia type 1 (<i>n</i> = 2) and carbamoyl phosphate synthetase I deficiency (CPS1) (<i>n</i> = 1). Patients transitioned either by gradual transition over 1-2 weeks (<i>n</i> = 3) or direct replacement of NaBz with GPB (<i>n</i> = 5). Median initial dose of GPB was 8.5 mL/m<sup>2</sup>/day based on published product information; doses were revisited subsequently in clinic and titrated individually (range 4.5-11 mL/m<sup>2</sup>/day). Pre-transition and post-transition mean ammonia levels were 37 μmol/L (SD 28 μmol/L) and 29 μmol/L (SD 22 μmol/L), respectively (<i>p</i> = 0.09), and mean glutamine levels were 664 μmol/L (SD 225 μmol/L) and 598 μmol/L (SD 185 μmol/L), respectively (<i>p</i> = 0.24). There were no reductions in levels of branched chain amino acids. No related adverse drug reactions were reported. Patients preferred GPB because of its lower volume and greater palatability. Direct replacement of NaBz with GPB maintained metabolic control and was simple for the health service and patients to manage. A more cautious approach with additional monitoring would be warranted in brittle patients and patients whose ammonia levels are difficult to control.
+PY  - 2022
+JO  - JIMD reports
+VL  - 63
+SP  - 137
+EP  - 145
+PMID  - 35281661
+UR  - https://pubmed.ncbi.nlm.nih.gov/35281661/
+ER  - 
+TY  - JOUR
+TI  - Liver injury in non-alcoholic fatty liver disease is associated with urea cycle enzyme dysregulation.
+AB  - The main aim was to evaluate changes in urea cycle enzymes in NAFLD patients and in two preclinical animal models mimicking this entity. Seventeen liver specimens from NAFLD patients were included for immunohistochemistry and gene expression analyses. Three-hundred-and-eighty-two biopsy-proven NAFLD patients were genotyped for rs1047891, a functional variant located in carbamoyl phosphate synthetase-1 (CPS1) gene. Two preclinical models were employed to analyse CPS1 by immunohistochemistry, a choline deficient high-fat diet model (CDA-HFD) and a high fat diet LDLr knockout model (LDLr -/-). A significant downregulation in mRNA was observed in CPS1 and ornithine transcarbamylase (OTC1) in simple steatosis and NASH-fibrosis patients versus controls. Further, age, obesity (BMI > 30 kg/m<sup>2</sup>), diabetes mellitus and ALT were found to be risk factors whereas A-allele from CPS1 was a protective factor from liver fibrosis. CPS1 hepatic expression was diminished in parallel with the increase of fibrosis, and its levels reverted up to normality after changing diet in CDA-HFD mice. In conclusion, liver fibrosis and steatosis were associated with a reduction in both gene and protein expression patterns of mitochondrial urea cycle enzymes. A-allele from a variant on CPS1 may protect from fibrosis development. CPS1 expression is restored in a preclinical model when the main trigger of the liver damage disappears.
+PY  - 2022
+JO  - Scientific reports
+VL  - 12
+SP  - 3418
+PMID  - 35232986
+UR  - https://pubmed.ncbi.nlm.nih.gov/35232986/
+ER  - 
+TY  - JOUR
+TI  - iTRAQ-based quantitative proteomics analysis of Sprague-Dawley rats liver reveals perfluorooctanoic acid-induced lipid metabolism and urea cycle dysfunction.
+AB  - Perfluorooctanoic acid (PFOA) is a typical C8 representative compound of perfluoroalkyl and polyfluoroalkyl substances (PFAS) widely used in industrial and domestic products. It is a persistent organic pollutant found in the environment as well as in the tissues of humans and wildlife. Despite emerging scientific and public interest, the precise mechanisms of PFOA toxicity remain unclear. In this study, male rats were exposed to 1.25, 5, and 20 mg PFOA/kg body weight/day for 14 days by gavage; food intake and bodyweight changes were recorded every day. After 14 days, blood was collected for sera biochemistry, livers were quickly stripped and weighed after execution. Part of the liver tissue was frozen by liquid nitrogen for iTRAQ-Based Quantitative Proteomics Analysis; and some was fixed in 4% paraformaldehyde (PFA) for histological section and hematoxylin-eosin (HE) staining. Urine samples were also collected and monitored by raising rats in metabolic cages. Real-time quantitative PCR and western blot was used to validate the proteomics assay after bioinformatics analysis. The results demonstrate that 20 mg/kg/d PFOA exposure cause body weight loss and significant liver swelling and reduced urea metabolism. The sera biochemistry assay shows that ALT, GGT, BILD and UREA levels have significant changes compared with normal control group and reference range of rat sera. The subsequent iTRAQ-based quantitative proteomics analysis of rat livers identified 3,327 non-redundant proteins of which 112 proteins were significantly upregulated and 80 proteins were downregulated. Gene ontology analysis revealed proteins are primarily involved in cellular, metabolic and single-organism processes. Among them, eight proteins (ACOX1, ACOX2, ACOX3, ACSL1, EHHADH, GOT2, MTOR and ACAA1) were related to oxidation of fatty acids and two proteins (ASS1 and CPS1) were found to be associated with urea cycle disorder. The downregulation of urea synthesis proteins ASS1 and CPS1 after exposure to PFOA was then confirmed through qPCR and western blot analysis. Together, these data demonstrate that PFOA exposure directly influences urea metabolism and provides insight into specific mechanisms of hepatotoxicity as a result of PFOA exposure.
+PY  - 2022
+JO  - Toxicology letters
+VL  - 357
+SP  - 20
+EP  - 32
+PMID  - 34958885
+UR  - https://pubmed.ncbi.nlm.nih.gov/34958885/
+ER  - 
+TY  - JOUR
+TI  - Maternal Nutrient Restriction Disrupts Gene Expression and Metabolites Associated with Urea Cycle, Steroid Synthesis, Glucose Homeostasis, and Glucuronidation in Fetal Calf Liver.
+AB  - This study aimed to understand the mechanisms underlying the effects of maternal undernutrition (MUN) on liver growth and metabolism in Japanese Black fetal calves (8.5 months in utero) using an approach that integrates metabolomics and transcriptomics. Dams were fed 60% (low-nutrition; LN) or 120% (high-nutrition; HN) of their overall nutritional requirements during gestation. We found that MUN markedly decreased the body and liver weights of the fetuses; metabolomic analysis revealed that aspartate, glycerol, alanine, gluconate 6-phosphate, and ophthalmate levels were decreased, whereas UDP-glucose, UDP-glucuronate, octanoate, and 2-hydroxybutyrate levels were decreased in the LN fetal liver (<i>p</i> ≤ 0.05). According to metabolite set enrichment analysis, the highly different metabolites were associated with metabolisms including the arginine and proline metabolism, nucleotide and sugar metabolism, propanoate metabolism, glutamate metabolism, porphyrin metabolism, and urea cycle. Transcriptomic and qPCR analyses revealed that MUN upregulated <i>QRFPR</i> and downregulated genes associated with the glucose homeostasis (<i>G6PC</i>, <i>PCK1</i>, <i>DPP4</i>), ketogenesis (<i>HMGCS2</i>), glucuronidation (<i>UGT1A1</i>, <i>UGT1A6</i>, <i>UGT2A1</i>), lipid metabolism (<i>ANGPTL4</i>, <i>APOA5</i>, <i>FADS2</i>), cholesterol and steroid homeostasis (<i>FDPS</i>, <i>HSD11B1</i>, <i>HSD17B6</i>), and urea cycle (<i>CPS1</i>, <i>ASS1</i>, <i>ASL</i>, <i>ARG2</i>). These metabolic pathways were extracted as relevant terms in subsequent gene ontology/pathway analyses. Collectively, these results indicate that the citrate cycle was maintained at the expense of activities of the energy metabolism, glucuronidation, steroid hormone homeostasis, and urea cycle in the liver of MUN fetuses.
+PY  - 2022
+JO  - Metabolites
+VL  - 12
+PMID  - 35323646
+UR  - https://pubmed.ncbi.nlm.nih.gov/35323646/
+ER  - 
+TY  - JOUR
+TI  - Influence of Liver Extracellular Matrix in Predicting Drug-Induced Liver Injury: An Alternate Paradigm.
+AB  - <i>In vitro</i> drug-induced liver injury (DILI) models are promising tools for drug development to predict adverse events during clinical usage. However, the currently available DILI models are not specific or not able to predict the injury accurately. This is believed to be mainly because of failure to conserve the hepatocyte phenotype, lack of longevity, and difficulty in maintaining the tissue-specific microenvironment. In this study, we have assessed the potential of decellularized liver extracellular matrix (DLM) in retaining the hepatic cellular phenotype and functionality in the presence of a tissue-specific microenvironment along with its role in influencing the effect of the drug on hepatic cells. We show that DLM helps maintain the phenotype of the hepatic cell line HepG2, a well-known cell line for secretion of human proteins that is easily available. Also, the DLM enhanced the expression of a metabolic marker carbamoyl phosphate synthetase I (CPS1), a regulator of urea cycle, and bile salt export pump (BSEP), a marker of hepatocyte polarity. We further validated the DLM for its influence on the sensitivity of cells toward different classes of drugs. Interestingly, the coculture model, in the presence of endothelial cells and stellate cells, exhibited a higher sensitivity for both acetaminophen and trovafloxacin, a toxic compound that does not show any toxicity on preclinical screening. Thus, our results demonstrate for the first time that a multicellular combination along with DLM can be a potential and reliable DILI model to screen multiple drugs.
+PY  - 2022
+JO  - ACS biomaterials science & engineering
+VL  - 8
+SP  - 834
+EP  - 846
+PMID  - 34978414
+UR  - https://pubmed.ncbi.nlm.nih.gov/34978414/
+ER  - 
+TY  - JOUR
+TI  - Unfavorable clinical outcomes in patients with carbamoyl phosphate synthetase 1 deficiency.
+AB  - Carbamoyl phosphate synthetase 1 (CPS1) deficiency affects the first step of urea cycle and is a severe form of urea cycle disorder (UCD). The severity of hyperammonemic encephalopathy determines the clinical course of UCDs. Here, we describe the genetic and clinical characteristics of CPS1 deficiency in Korea. This study included seven patients with CPS1 deficiency genetically confirmed from January 1992 to September 2020. The peak ammonia level during the first crisis, the half time of peak ammonia level, the initial plasma amino acid levels, and neurological outcomes were compared between CPS1 deficiency and two common UCDs (i.e., 17 patients with argininosuccinate synthetase 1 deficiency and 24 patients with ornithine transcarbamylase deficiency). Eleven CPS1 mutations were identified, including 10 novel mutations. Eight mutations were missense. Six patients with CPS1 deficiency had neonatal type. The peak ammonia level, initial glutamate level, and accompanying rate of irreversible neurological damages were highest in patients with CPS1 deficiency. The patient with late-onset CPS1 deficiency responded dramatically to N-carbamylglutamate treatment. The clinical manifestations of CPS1 deficiency were the most severe among UCDs. Considering the high proportion of missense mutations, responsiveness to N-carbamylglutamate would be evaluated in a future study.
+PY  - 2022
+JO  - Clinica chimica acta; international journal of clinical chemistry
+VL  - 526
+SP  - 55
+EP  - 61
+PMID  - 34973183
+UR  - https://pubmed.ncbi.nlm.nih.gov/34973183/
+ER  - 
+TY  - JOUR
+TI  - Proteomics-Based Identification of Interaction Partners of the Xenobiotic Detoxification Enzyme FMO3 Reveals Involvement in Urea Cycle.
+AB  - The hepatic xenobiotic metabolizing enzyme flavin-containing monooxygenase 3 (FMO3) has been implicated in the development of cardiometabolic disease primarily due to its enzymatic product trimethylamine-N oxide (TMAO), which has recently been shown to be associated with multiple chronic diseases, including kidney and coronary artery diseases. Although TMAO may have causative roles as a pro-inflammatory mediator, the possibility for roles in metabolic disease for FMO3, irrespective of TMAO formation, does exist. We hypothesized that FMO3 may interact with other proteins known to be involved in cardiometabolic diseases and that modulating the expression of FMO3 may impact on these interaction partners. Here, we combine a co-immunoprecipitation strategy coupled to unbiased proteomic workflow to report a novel protein:protein interaction network for FMO3. We identified 51 FMO3 protein interaction partners, and through gene ontology analysis, have identified urea cycle as an enriched pathway. Using mice deficient in FMO3 on two separate backgrounds, we validated and further investigated expressional and functional associations between FMO3 and the identified urea cycle genes. FMO3-deficient mice showed hepatic overexpression of carbamoylphosphate synthetase (CPS1), the rate-limiting gene of urea cycle, and increased hepatic urea levels, especially in mice of FVB (Friend leukemia virus B strain) background. Finally, overexpression of FMO3 in murine AML12 hepatocytes led to downregulation of CPS1. Although there is past literature linking TMAO to urea cycle, this is the first published work showing that FMO3 and CPS1 may directly interact, implicating a role for FMO3 in chronic kidney disease irrespective of TMAO formation.
+PY  - 2022
+JO  - Toxics
+VL  - 10
+PMID  - 35202247
+UR  - https://pubmed.ncbi.nlm.nih.gov/35202247/
+ER  - 
+TY  - JOUR
+TI  - Ammonia induces changes in carbamoyl phosphate synthetase I and its regulation of glutamine synthesis and urea cycle in yellow catfish Pelteobagrus fulvidraco.
+AB  - Fishes can adapt to certain levels of environmental ammonia in water, but the strategies utilized to defend against ammonia toxicity are not exactly the same. The carbamyl phosphate synthase I (CPS I) plays an important role in the regulation of glutamine synthesis and urea cycle, which are the most common strategies for ammonia detoxification. In this study, CPS I was cloned from the yellow catfish. The full-length cDNAs of the CPS I was 5 034 bp, with open reading frames of 4 461 bp. Primary amino acid sequence alignment of CPS I revealed conserved similarity between the functional domains of the yellow catfish CPS I protein with CPS I proteins of other animals. The mRNA expression of CPS I was significantly up-regulated in liver and kidney tissues after acute ammonia stress. The CPS I RNA interference (RNAi) down-regulated the mRNA expressions of CPS I and ornithine transcarbamylase (OTC), but up-regulated glutamine synthetase (GS) and glutamate dehydrogenase (GDH) expressions in primary culture of liver cell after acute ammonia stress. Similarly, the activity of enzymes related to urea cycle decreased significantly, while the activity of enzymes related to glutamine synthesis increased significantly. The results of RNAi in vitro suggested that when the urea cycle is disturbed, the glutamine synthesis will be activated to cope with ammonia toxicity.
+PY  - 2022
+JO  - Fish & shellfish immunology
+VL  - 120
+SP  - 242
+EP  - 251
+PMID  - 34856372
+UR  - https://pubmed.ncbi.nlm.nih.gov/34856372/
+ER  - 
+TY  - JOUR
+TI  - CRISPR-Mediated Genomic Addition to CPS1 Deficient iPSCs is Insufficient to Restore Nitrogen Homeostasis.
+AB  - CPS1 deficiency is an inborn error of metabolism caused by loss-of-function mutations in the <i>CPS1</i> gene, catalyzing the initial reaction of the urea cycle. Deficiency typically leads to toxic levels of plasma ammonia, cerebral edema, coma, and death, with the only curative treatment being liver transplantation; due to limited donor availability and the invasiveness and complications of the procedure, however, alternative therapies are needed. Induced pluripotent stem cells offer an alternative cell source to partial or whole liver grafts that theoretically would not require immune suppression regimens and additionally are amenable to genetic modifications. Here, we genetically modified CPS1 deficient patient-derived stem cells to constitutively express human codon optimized CPS1 from the <i>AAVS1</i> safe harbor site. While edited stem cells efficiently differentiated to hepatocyte-like cells, they failed to metabolize ammonia more efficiently than their unedited counterparts. This unexpected result appears to have arisen in part due to transgene promoter methylation, and thus transcriptional silencing, in undifferentiated cells, impacting their capacity to restore the complete urea cycle function upon differentiation. As pluripotent stem cell strategies are being expanded widely for potential cell therapies, these results highlight the need for strict quality control and functional analysis to ensure the integrity of cell products.
+PY  - 2021
+JO  - The Yale journal of biology and medicine
+VL  - 94
+SP  - 545
+EP  - 557
+PMID  - 34970092
+UR  - https://pubmed.ncbi.nlm.nih.gov/34970092/
+ER  - 
+TY  - JOUR
+TI  - Noncoding sequence variants define a novel regulatory element in the first intron of the N-acetylglutamate synthase gene.
+AB  - N-acetylglutamate synthase deficiency is an autosomal recessive urea cycle disorder caused either by decreased expression of the NAGS gene or defective NAGS enzyme resulting in decreased production of N-acetylglutamate (NAG), an allosteric activator of carbamylphosphate synthetase 1 (CPS1). NAGSD is the only urea cycle disorder that can be effectively treated with a single drug, N-carbamylglutamate (NCG), a stable NAG analog, which activates CPS1 to restore ureagenesis. We describe three patients with NAGSD due to four novel noncoding sequence variants in the NAGS regulatory regions. All three patients had hyperammonemia that resolved upon treatment with NCG. Sequence variants NM_153006.2:c.427-222G>A and NM_153006.2:c.427-218A>C reside in the 547 bp-long first intron of NAGS and define a novel NAGS regulatory element that binds retinoic X receptor α. Sequence variants NC_000017.10:g.42078967A>T (NM_153006.2:c.-3065A>T) and NC_000017.10:g.42078934C>T (NM_153006.2:c.-3098C>T) reside in the NAGS enhancer, within known HNF1 and predicted glucocorticoid receptor binding sites, respectively. Reporter gene assays in HepG2 and HuH-7 cells demonstrated that all four substitutions could result in reduced expression of NAGS. These findings show that analyzing noncoding regions of NAGS and other urea cycle genes can reveal molecular causes of disease and identify novel regulators of ureagenesis.
+PY  - 2021
+JO  - Human mutation
+VL  - 42
+SP  - 1624
+EP  - 1636
+PMID  - 34510628
+UR  - https://pubmed.ncbi.nlm.nih.gov/34510628/
+ER  - 
+TY  - JOUR
+TI  - Discovery of a Carbamoyl Phosphate Synthetase 1-Deficient HCC Subtype With Therapeutic Potential Through Integrative Genomic and Experimental Analysis.
+AB  - Metabolic reprogramming plays an important role in tumorigenesis. However, the metabolic types of different tumors are diverse and lack in-depth study. Here, through analysis of big databases and clinical samples, we identified a carbamoyl phosphate synthetase 1 (CPS1)-deficient hepatocellular carcinoma (HCC) subtype, explored tumorigenesis mechanism of this HCC subtype, and aimed to investigate metabolic reprogramming as a target for HCC prevention. A pan-cancer study involving differentially expressed metabolic genes of 7,764 tumor samples in 16 cancer types provided by The Cancer Genome Atlas (TCGA) demonstrated that urea cycle (UC) was liver-specific and was down-regulated in HCC. A large-scale gene expression data analysis including 2,596 HCC cases in 7 HCC cohorts from Database of HCC Expression Atlas and 17,444 HCC cases from in-house hepatectomy cohort identified a specific CPS1-deficent HCC subtype with poor clinical prognosis. In vitro and in vivo validation confirmed the crucial role of CPS1 in HCC. Liquid chromatography-mass spectrometry assay and Seahorse analysis revealed that UC disorder (UCD) led to the deceleration of the tricarboxylic acid cycle, whereas excess ammonia caused by CPS1 deficiency activated fatty acid oxidation (FAO) through phosphorylated adenosine monophosphate-activated protein kinase. Mechanistically, FAO provided sufficient ATP for cell proliferation and enhanced chemoresistance of HCC cells by activating forkhead box protein M1. Subcutaneous xenograft tumor models and patient-derived organoids were employed to identify that blocking FAO by etomoxir may provide therapeutic benefit to HCC patients with CPS1 deficiency. In conclusion, our results prove a direct link between UCD and cancer stemness in HCC, define a CPS1-deficient HCC subtype through big-data mining, and provide insights for therapeutics for this type of HCC through targeting FAO.
+PY  - 2021
+JO  - Hepatology (Baltimore, Md.)
+VL  - 74
+SP  - 3249
+EP  - 3268
+PMID  - 34343359
+UR  - https://pubmed.ncbi.nlm.nih.gov/34343359/
+ER  - 

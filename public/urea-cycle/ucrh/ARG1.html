@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><link rel="stylesheet" href="/urea-cycle/ucrh/_snapshot/snapshot.css"><script src="/urea-cycle/ucrh/_snapshot/shim.js"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ARG1 - Arginase 1</title>
+  <link rel="icon" type="image/jpeg" href="/urea-cycle/ucrh/static/images/favicon.jpeg">
+  <link rel="stylesheet" href="/urea-cycle/ucrh/static/css/styles.css">
+</head>
+<body><div class="ucrh-snapshot-bar">Read-only snapshot of the Urea Cycle Research Hub, taken Oct 14, 2026. Live PubMed search, accounts, comments and email digests are off. <a href="/urea-cycle/">Paper and poster</a> · <a href="/">karansadiora.com</a></div>
+  
+  <header>
+    <a href="/urea-cycle/ucrh/" class="header-home-link">Home</a>
+    <div class="header-top-right">
+      
+        
+        
+      
+    </div>
+    <div style="display: flex; align-items: center; justify-content: center; margin-bottom: 1rem; position: relative;">
+      <h1><a href="/urea-cycle/ucrh/" class="site-title-link">Urea Cycle Research Hub</a></h1>
+    </div>
+    <nav>
+      <a href="/urea-cycle/ucrh/OTC" class="">OTC</a>  
+      <a href="/urea-cycle/ucrh/CPS1" class="">CPS1</a>
+      <a href="/urea-cycle/ucrh/NAGS" class="">NAGS</a>
+      <a href="/urea-cycle/ucrh/ASS" class="">ASS</a>
+      <a href="/urea-cycle/ucrh/ARG1" class="active">ARG1</a>
+      <a href="/urea-cycle/ucrh/ASL" class="">ASL</a>
+      <a href="/urea-cycle/ucrh/ORNT1" class="">ORNT1</a>
+      <a href="/urea-cycle/ucrh/CITRIN" class="">CITRIN</a>
+      <a href="/urea-cycle/ucrh/variants" class="">Variants</a>
+      
+      
+      
+    </nav>
+  </header>
+
+  <main>
+    
+
+
+<!-- Sidebar panel -->
+<div id="keywords-panel" style="display:none; position: fixed; right:0; top:0; height:100%; width:250px; background:#f7f7f7; border-left:1px solid #ccc; padding:15px; padding-top: 80px; box-shadow: -2px 0 5px rgba(0,0,0,0.1); overflow-y:auto; z-index: 1001;">
+  <button id="close-keywords" style="position: absolute; top: 15px; right: 15px; background: #C8102E; color: white; border: none; border-radius: 50%; width: 30px; height: 30px; cursor: pointer; font-size: 18px; line-height: 1; display: flex; align-items: center; justify-content: center;">×</button>
+  <h4>Current Keywords</h4>
+  <ul id="current-keywords">
+    
+      <li>urea cycle</li>
+    
+      <li>ureagenesis</li>
+    
+      <li>arginase</li>
+    
+      <li>ARG1</li>
+    
+    
+  </ul>
+
+  <h5 style="margin-top: 1rem;">Add Keywords (comma-separated)</h5>
+  <input type="text" id="new-keywords" placeholder="e.g., mitochondrial" style="width:100%; padding:5px;">
+  <button id="add-keywords" style="margin-top:5px; padding:6px 10px; background-color:#003366; color:white; border:none; border-radius:4px;">Add</button>
+</div>
+
+<div style="margin-bottom: 1rem;">
+  <h2 style="margin: 0 0 0.5rem 0;">Arginase 1 (ARG1)</h2>
+  <p style="margin: 0;">ARG1 is a cytosolic enzyme that catalyzes the final step of the urea cycle, hydrolyzing arginine to produce urea and ornithine.</p>
+</div>
+
+<h4 style="color:#284b63; margin-top:1rem;"><a href="#" id="new-papers-link" data-since="" style="color:#284b63; text-decoration: underline; cursor: pointer;">
+  0 Publications Since Last Visit
+</a></h4>
+
+<!-- Modal for new papers -->
+<div id="new-papers-modal" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.5); z-index: 2000; overflow-y: auto;">
+  <div style="position: relative; background: white; margin: 50px auto; max-width: 900px; padding: 30px; border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.3); max-height: 90vh; overflow-y: auto;">
+    <button id="close-modal" style="position: absolute; top: 15px; right: 15px; background: #C8102E; color: white; border: none; border-radius: 50%; width: 35px; height: 35px; cursor: pointer; font-size: 20px; line-height: 1; display: flex; align-items: center; justify-content: center;">×</button>
+    <h2 style="margin-top: 0; color: #284b63;">New Publications Since Last Visit</h2>
+    <div id="new-papers-content">
+      <div style="text-align: center; padding: 40px;">
+        <p>Loading new publications...</p>
+      </div>
+    </div>
+  </div>
+</div>
+<hr>
+<div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 1rem;">
+  <h3 style="margin: 0;">Recent Publications</h3>
+  <div style="display: flex; gap: 10px; align-items: center;">
+    <select id="sort-select" style="padding: 6px 10px; background-color:#fff; border:1px solid #ccc; border-radius:4px; font-size:14px;">
+      <option value="date" selected>Sort by Date</option>
+      <option value="popularity" >Sort by Popularity</option>
+    </select>
+    <div style="position: relative; display: inline-block;">
+      <button id="export-btn" style="padding: 6px 10px; background-color:#284b63; color:white; border:none; border-radius:4px; cursor: pointer; display: inline-flex; align-items: center; gap: 4px;">
+        Export<span style="display: inline-block;">▼</span>
+      </button>
+      <div id="export-menu" style="display: none; position: absolute; top: 100%; right: 0; margin-top: 5px; background: white; border: 1px solid #ccc; border-radius: 4px; box-shadow: 0 2px 5px rgba(0,0,0,0.2); z-index: 1000; min-width: 150px;">
+        <a href="#" id="export-ris" style="display: block; padding: 8px 12px; text-decoration: none; color: #333; border-bottom: 1px solid #eee;">Export as RIS</a>
+        <a href="#" id="export-pmid" style="display: block; padding: 8px 12px; text-decoration: none; color: #333;">Export as PMID list</a>
+      </div>
+    </div>
+    <button id="toggle-keywords" style="padding: 6px 10px; background-color:#C8102E; color:white; border:none; border-radius:4px;">
+      Keywords
+    </button>
+  </div>
+</div>
+
+
+<ol id="papers-list">
+  
+    <li style="margin-bottom: 1.5em; padding-bottom: 1em; border-bottom: 1px solid #eee;">
+      <strong>
+        <a href="https://pubmed.ncbi.nlm.nih.gov/42107753/" target="_blank" style="text-decoration: none; color: #003366;">
+          Mechanism of Jianpi Qinghua granule in ameliorating metabolic dysfunction-associated fatty liver disease by targeting the DNMT-urea cycle axis.
+        </a>
+      </strong><br>
+      <em>Journal of ethnopharmacology</em>, Sep 15 2026, Vol. 368, pp. 121846<br>
+      <small>
+        PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/42107753/" target="_blank">42107753</a> |
+        PMCID: N/A
+      </small>
+      <p>Jianpi Qinghua Granule (JPQH) is a hospital-prepared traditional Chinese medicine formula used for insulin resistance and related metabolic disorders. However, its pharmacodynamic basis and epigenetic mechanisms in metabolic dysfunction-associated fatty liver disease (MAFLD) remain unclear. This study aimed to evaluate the therapeutic effects of JPQH on high-fat diet (HFD)-induced MAFLD and determine whether its action involves regulation of DNMT-mediated DNA methylation and hepatic urea cycle metabolism. HFD-induced MAFLD mice were treated with JPQH for 4 weeks. Blood-absorbed constituents were identified by UHPLC-Q Exactive Orbitrap MS/MS. Network pharmacology, liver transcriptomics, and targeted metabolomics were integrated to explore mechanisms. Pyrosequencing, RT-qPCR, Western blotting, molecular docking, and molecular dynamics simulations were used for validation. JPQH ameliorated glucose-lipid metabolic disorders and liver injury, as indicated by reduced serum TC, TG, ALT, and AST levels (P &lt; 0.05), decreased hepatic MDA levels (P &lt; 0.01), improved OGTT/ITT responses (P &lt; 0.001), restored GSH/GSSG ratio (P &lt; 0.05), and downregulation of inflammatory- and fibrosis-related gene expression (P &lt; 0.05). A total of 44 blood-absorbed constituents and 87 JPQH-MAFLD overlapping targets were identified. Integrated analyses highlighted nitrogen metabolism and arginine and proline metabolism. JPQH restored urea cycle intermediates, upregulated CPS1, OTC, ASS1, ASL, and ARG1 expression (P &lt; 0.01), and reduced hepatic ammonia accumulation (P &lt; 0.01). Mechanistically, JPQH reduced DNMT1/DNMT3A expression, attenuated promoter hypermethylation of urea cycle enzyme genes, and restored their transcriptional and protein expression. Core flavonoids, including genistein, baicalein, nepetin, hispidulin, and quercetin 3,4&#39;-dimethylether, exhibited stable binding to DNMT1 and DNMT3A in silico. JPQH exerts protective effects against MAFLD by restoring hepatic nitrogen metabolism and ammonia detoxification via epigenetic regulation of the DNMT-urea cycle axis.</p>
+      
+      
+      <!-- Interaction buttons -->
+      <div style="margin-top: 10px; display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
+        <button class="like-btn" data-pmid="42107753" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👍 Like (<span class="like-count">0</span>)
+        </button>
+        <button class="dislike-btn" data-pmid="42107753" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👎 Dislike (<span class="dislike-count">0</span>)
+        </button>
+        <button class="comment-btn" data-pmid="42107753" 
+                style="padding: 5px 12px; background-color: #284b63; color: white; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          💬 Comment (<span class="comment-count">0</span>)
+        </button>
+      </div>
+      
+      <!-- Comments section (hidden by default) -->
+      <div class="comments-section" id="comments-42107753" style="display: none; margin-top: 15px; padding: 10px; background-color: #f9f9f9; border-radius: 4px;">
+        <h5 style="margin-top: 0;">Comments:</h5>
+        <div class="comments-list" id="comments-list-42107753">
+          <!-- Comments will be loaded here -->
+        </div>
+        <div style="margin-top: 10px;">
+          <textarea class="comment-input" data-pmid="42107753" 
+                    placeholder="Add a comment..." 
+                    style="width: 100%; min-height: 60px; padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; font-size: 14px;"></textarea>
+          <button class="submit-comment-btn" data-pmid="42107753" 
+                  style="margin-top: 5px; padding: 6px 12px; background-color: #284b63; color: white; 
+                         border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+            Submit Comment
+          </button>
+        </div>
+      </div>
+    </li>
+  
+    <li style="margin-bottom: 1.5em; padding-bottom: 1em; border-bottom: 1px solid #eee;">
+      <strong>
+        <a href="https://pubmed.ncbi.nlm.nih.gov/42731550/" target="_blank" style="text-decoration: none; color: #003366;">
+          A brief history of gene therapy for ornithine transcarbamylase deficiency.
+        </a>
+      </strong><br>
+      <em>Molecular genetics and metabolism</em>, 2026, Vol. 149, pp. 110257<br>
+      <small>
+        PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/42731550/" target="_blank">42731550</a> |
+        PMCID: N/A
+      </small>
+      <p>Gene therapy encompasses the use of nucleic acids, including DNA and RNA, as therapeutic agents. This broad category includes approaches that permanently modify the genome to correct pathogenic variants, as well as strategies that restore gene expression without altering genomic DNA. In ornithine transcarbamylase (OTC) deficiency, the most common urea cycle disorder, the goal of somatic gene therapy is to restore hepatic expression of functional OTC enzyme and thereby reestablish urea cycle activity. Both viral and non-viral delivery platforms have been investigated in preclinical models and clinical studies to achieve therapeutic OTC expression. Despite contemporary medical therapy, individuals with OTC deficiency (OTCD) remain at risk for recurrent hyperammonemia which may result in neurocognitive impairment and reduced quality of life. Novel therapy that restores liver OTC expression and lessens chronic disease burden is highly desired. In this manuscript, we summarize the history of gene therapy development for OTC deficiency, spanning early preclinical investigations to contemporary clinical trials. Although a definitive cure through gene therapy has not yet been achieved, substantial progress has been made toward the development of safe and effective liver-directed nucleic acid therapeutics for this disorder.</p>
+      
+      
+      <!-- Interaction buttons -->
+      <div style="margin-top: 10px; display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
+        <button class="like-btn" data-pmid="42731550" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👍 Like (<span class="like-count">0</span>)
+        </button>
+        <button class="dislike-btn" data-pmid="42731550" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👎 Dislike (<span class="dislike-count">0</span>)
+        </button>
+        <button class="comment-btn" data-pmid="42731550" 
+                style="padding: 5px 12px; background-color: #284b63; color: white; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          💬 Comment (<span class="comment-count">0</span>)
+        </button>
+      </div>
+      
+      <!-- Comments section (hidden by default) -->
+      <div class="comments-section" id="comments-42731550" style="display: none; margin-top: 15px; padding: 10px; background-color: #f9f9f9; border-radius: 4px;">
+        <h5 style="margin-top: 0;">Comments:</h5>
+        <div class="comments-list" id="comments-list-42731550">
+          <!-- Comments will be loaded here -->
+        </div>
+        <div style="margin-top: 10px;">
+          <textarea class="comment-input" data-pmid="42731550" 
+                    placeholder="Add a comment..." 
+                    style="width: 100%; min-height: 60px; padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; font-size: 14px;"></textarea>
+          <button class="submit-comment-btn" data-pmid="42731550" 
+                  style="margin-top: 5px; padding: 6px 12px; background-color: #284b63; color: white; 
+                         border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+            Submit Comment
+          </button>
+        </div>
+      </div>
+    </li>
+  
+    <li style="margin-bottom: 1.5em; padding-bottom: 1em; border-bottom: 1px solid #eee;">
+      <strong>
+        <a href="https://pubmed.ncbi.nlm.nih.gov/42537577/" target="_blank" style="text-decoration: none; color: #003366;">
+          Relationship between elevated arginine and pathophysiology of progressive disease in arginase 1 deficiency.
+        </a>
+      </strong><br>
+      <em>Molecular genetics and metabolism</em>, 2026, Vol. 149, pp. 110205<br>
+      <small>
+        PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/42537577/" target="_blank">42537577</a> |
+        PMCID: N/A
+      </small>
+      <p>Arginase 1 deficiency (ARG1-D; OMIM #207800) is a rare urea cycle disorder caused by loss of arginase activity, preventing the hydrolysis of arginine to ornithine and urea. The resulting hyperargininaemia leads to accumulation of neurotoxic metabolites including guanidino compounds and nitric oxide in the central nervous system. Nervous system structures are affected, including the corticospinal tracts, cerebral and cerebellar white matter, basal ganglia, hippocampus, and corpus callosum. Clinically, patients present with developmental and neurological impairment, including growth delay, spasticity, balance and coordination challenges, seizures, and cognitive dysfunction. Without effective treatment, symptoms worsen, leading to disability, reduced quality of life, and risk of premature death. Persistent elevation of arginine and its metabolites drives pathology. Unlike other urea cycle disorders, neurological damage in ARG1-D is largely independent of hyperammonaemia. Excess arginine increases nitric oxide production and formation of peroxynitrite, promoting oxidative stress, mitochondrial dysfunction, and reduced ATP availability. These effects impair oligodendrocyte maturation and myelination, affecting corticospinal tracts. Supraphysiologic concentrations of arginine also result in accumulation of neurotoxic metabolites including guanidino compounds which in vitro inhibit Na&lt;sup&gt;+&lt;/sup&gt;/K&lt;sup&gt;+&lt;/sup&gt;-ATPase activity, disrupt membrane stability, and impair inhibitory neurotransmission. The resulting hyperexcitability contributes to seizures and progressive neuromotor decline. Structural imaging demonstrates cerebral and cerebellar atrophy, white matter dysmyelination, and thinning of the corpus callosum. Electrophysiological studies show slowed neural conduction. Notably, neurological manifestations often occur despite normal ammonia concentrations, supporting hyperargininaemia and its metabolites as the primary driver of progression. Chronic neurotoxicity from elevated arginine and its derivatives drives the progressive neurological decline in ARG1-D. Until recently, liver transplantation was the only intervention to halt progression of the disease, but it is not available to the majority of patients, is high risk, and resource intensive. In recently conducted clinical studies, enzyme therapy with pegzilarginase has demonstrated substantial reductions in arginine and its derivatives with improved clinical outcomes.</p>
+      
+      
+      <!-- Interaction buttons -->
+      <div style="margin-top: 10px; display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
+        <button class="like-btn" data-pmid="42537577" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👍 Like (<span class="like-count">0</span>)
+        </button>
+        <button class="dislike-btn" data-pmid="42537577" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👎 Dislike (<span class="dislike-count">0</span>)
+        </button>
+        <button class="comment-btn" data-pmid="42537577" 
+                style="padding: 5px 12px; background-color: #284b63; color: white; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          💬 Comment (<span class="comment-count">0</span>)
+        </button>
+      </div>
+      
+      <!-- Comments section (hidden by default) -->
+      <div class="comments-section" id="comments-42537577" style="display: none; margin-top: 15px; padding: 10px; background-color: #f9f9f9; border-radius: 4px;">
+        <h5 style="margin-top: 0;">Comments:</h5>
+        <div class="comments-list" id="comments-list-42537577">
+          <!-- Comments will be loaded here -->
+        </div>
+        <div style="margin-top: 10px;">
+          <textarea class="comment-input" data-pmid="42537577" 
+                    placeholder="Add a comment..." 
+                    style="width: 100%; min-height: 60px; padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; font-size: 14px;"></textarea>
+          <button class="submit-comment-btn" data-pmid="42537577" 
+                  style="margin-top: 5px; padding: 6px 12px; background-color: #284b63; color: white; 
+                         border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+            Submit Comment
+          </button>
+        </div>
+      </div>
+    </li>
+  
+    <li style="margin-bottom: 1.5em; padding-bottom: 1em; border-bottom: 1px solid #eee;">
+      <strong>
+        <a href="https://pubmed.ncbi.nlm.nih.gov/42640396/" target="_blank" style="text-decoration: none; color: #003366;">
+          ODC1-associated astrocytic urea cycle dysregulation in age-related memory impairment.
+        </a>
+      </strong><br>
+      <em>Biogerontology</em>, Aug 25 2026, Vol. 27, pp. N/A<br>
+      <small>
+        PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/42640396/" target="_blank">42640396</a> |
+        PMCID: N/A
+      </small>
+      <p>Aging is an inevitable physiological process characterized by progressive functional decline and degenerative alterations across organ systems. Metabolic disturbance, particularly the disruption of substance and energy metabolism, is increasingly recognized as a central hallmark of aging. Emerging evidence suggests that dysregulation of the urea cycle (UC) contributes to aging-related pathological processes, including cognitive impairment; however, its role in astrocyte-mediated brain aging remains unclear. In this study, we used a D-galactose-induced mouse aging model to investigate the involvement of UC activation in age-related cognitive decline. Aging mice exhibited marked cognitive impairment, accompanied by an increased proportion of reactive astrocytes in the hippocampus, a key pathological feature of brain aging. Metabolic analysis and molecular validation revealed enhanced UC activity and increased urea production in aging mice. Inhibition of UC activation reduced urea production and decreased the proportion of hippocampal reactive astrocytes. Mechanistically, the expression of key UC-related enzymes, including ornithine decarboxylase 1 (ODC1) and arginase 1 (ARG1), was significantly downregulated, accompanied by improved mitochondrial dynamics, particularly the restoration of mitochondrial fusion and fission balance. Furthermore, ODC1 knockdown confirmed its critical role in mediating UC activation in astrocytes and significantly alleviated aging-like cellular phenotypes. Notably, Ganoderma lucidum polysaccharide peptides (GLPs) effectively suppressed UC activation in aging astrocytes by downregulating ODC1 and ARG1. Collectively, this study identifies dysregulated astrocytic UC activity as a novel metabolic mechanism linking astrocyte reactivity, mitochondrial dysfunction, and age-related cognitive decline, suggesting that targeting ODC1-mediated UC activation and mitochondrial dynamics may provide a promising dual strategy for combating brain aging.</p>
+      
+      
+      <!-- Interaction buttons -->
+      <div style="margin-top: 10px; display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
+        <button class="like-btn" data-pmid="42640396" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👍 Like (<span class="like-count">0</span>)
+        </button>
+        <button class="dislike-btn" data-pmid="42640396" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👎 Dislike (<span class="dislike-count">0</span>)
+        </button>
+        <button class="comment-btn" data-pmid="42640396" 
+                style="padding: 5px 12px; background-color: #284b63; color: white; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          💬 Comment (<span class="comment-count">0</span>)
+        </button>
+      </div>
+      
+      <!-- Comments section (hidden by default) -->
+      <div class="comments-section" id="comments-42640396" style="display: none; margin-top: 15px; padding: 10px; background-color: #f9f9f9; border-radius: 4px;">
+        <h5 style="margin-top: 0;">Comments:</h5>
+        <div class="comments-list" id="comments-list-42640396">
+          <!-- Comments will be loaded here -->
+        </div>
+        <div style="margin-top: 10px;">
+          <textarea class="comment-input" data-pmid="42640396" 
+                    placeholder="Add a comment..." 
+                    style="width: 100%; min-height: 60px; padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; font-size: 14px;"></textarea>
+          <button class="submit-comment-btn" data-pmid="42640396" 
+                  style="margin-top: 5px; padding: 6px 12px; background-color: #284b63; color: white; 
+                         border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+            Submit Comment
+          </button>
+        </div>
+      </div>
+    </li>
+  
+    <li style="margin-bottom: 1.5em; padding-bottom: 1em; border-bottom: 1px solid #eee;">
+      <strong>
+        <a href="https://pubmed.ncbi.nlm.nih.gov/42050931/" target="_blank" style="text-decoration: none; color: #003366;">
+          A hybrid piggyBac AAV-transposon and LNP-transposase for treating arginase deficiency: A 100-fold dose reduction compared to AAV alone.
+        </a>
+      </strong><br>
+      <em>Molecular therapy : the journal of the American Society of Gene Therapy</em>, Aug 05 2026, Vol. 34, pp. 4449-4465<br>
+      <small>
+        PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/42050931/" target="_blank">42050931</a> |
+        PMCID: PMC13464163
+      </small>
+      <p>Arginase deficiency, a rare urea cycle disorder, causes progressive neurological impairment and spastic diplegia. Traditional adeno-associated virus (AAV) gene therapy can prevent disease in murine models but requires high doses associated with potential dose-dependent clinical toxicity and may exhibit waning durability when administered early in life. To enhance potency and persistence, we applied piggyBac-mediated transposition to integrate a functional synthetic copy of the human arginase 1 gene (hARG1) into the genome. A hybrid system was developed using AAV9 to deliver the piggyBac transposon carrying this hARG1 expression cassette, paired with a lipid nanoparticle (LNP) delivering mRNA for the super piggyBac (SPB) transposase. Adult conditional Arg1 knockout mice received the hARG1 transposon AAV and catalytically active or inactive SPB mRNA-LNPs, while a traditional non-integrating AAV served as the control. Following disease induction on day 24, all vehicle-treated mice perished by day 50. Mice treated with catalytically active hybrid vectors at doses of 5 × 10&lt;sup&gt;11&lt;/sup&gt;-1 × 10&lt;sup&gt;13&lt;/sup&gt; genome copies/kg (gc/kg) survived for 9 months, maintained stable arginine, ammonia, and guanidinoacetic acid, and exhibited normalized ureagenesis. Comparable correction was only observed with traditional AAV at 5 × 10&lt;sup&gt;13&lt;/sup&gt; gc/kg-100-fold higher. These findings demonstrate that transient LNP-mediated transposase delivery combined with AAV-transposon vectors enables durable hepatic correction and markedly improves the therapeutic index for systemic gene transfer.</p>
+      
+      
+      <!-- Interaction buttons -->
+      <div style="margin-top: 10px; display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
+        <button class="like-btn" data-pmid="42050931" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👍 Like (<span class="like-count">0</span>)
+        </button>
+        <button class="dislike-btn" data-pmid="42050931" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👎 Dislike (<span class="dislike-count">0</span>)
+        </button>
+        <button class="comment-btn" data-pmid="42050931" 
+                style="padding: 5px 12px; background-color: #284b63; color: white; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          💬 Comment (<span class="comment-count">0</span>)
+        </button>
+      </div>
+      
+      <!-- Comments section (hidden by default) -->
+      <div class="comments-section" id="comments-42050931" style="display: none; margin-top: 15px; padding: 10px; background-color: #f9f9f9; border-radius: 4px;">
+        <h5 style="margin-top: 0;">Comments:</h5>
+        <div class="comments-list" id="comments-list-42050931">
+          <!-- Comments will be loaded here -->
+        </div>
+        <div style="margin-top: 10px;">
+          <textarea class="comment-input" data-pmid="42050931" 
+                    placeholder="Add a comment..." 
+                    style="width: 100%; min-height: 60px; padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; font-size: 14px;"></textarea>
+          <button class="submit-comment-btn" data-pmid="42050931" 
+                  style="margin-top: 5px; padding: 6px 12px; background-color: #284b63; color: white; 
+                         border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+            Submit Comment
+          </button>
+        </div>
+      </div>
+    </li>
+  
+    <li style="margin-bottom: 1.5em; padding-bottom: 1em; border-bottom: 1px solid #eee;">
+      <strong>
+        <a href="https://pubmed.ncbi.nlm.nih.gov/42404437/" target="_blank" style="text-decoration: none; color: #003366;">
+          Efficacy and safety of pegzilarginase in patients below 2 years of age with arginase 1 deficiency: a phase 3, open-label, multi-centre study.
+        </a>
+      </strong><br>
+      <em>EClinicalMedicine</em>, Jul 2026, Vol. 97, pp. 104021<br>
+      <small>
+        PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/42404437/" target="_blank">42404437</a> |
+        PMCID: PMC13331784
+      </small>
+      <p>Arginase 1 Deficiency (ARG1-D) is a rare metabolic disorder characterized by marked hyperargininaemia and progressive neurological impairment. Dietary protein restriction alone is often insufficient to normalize plasma arginine (pArg) or prevent disease progression. Pegzilarginase, a recombinant human ARG1 enzyme therapy, has demonstrated pArg normalization and improved clinical outcomes in patients ≥2 years. This study evaluated safety, pharmacokinetics (PK), and activity of pegzilarginase in patients &lt;2 years. In this phase 3, open-label, single-arm study (NCT06582524, EU CT 2024-510797-25), conducted in United Kingdom, Austria and Portugal, patients received once-weekly subcutaneous pegzilarginase. As primary endpoint, change in pArg at 12 weeks was assessed. Secondary endpoints included safety, PK, plasma ornithine and Gross Motor Function Measure (GMFM-66). Descriptive analyses were performed on the Full Analysis Set. Three patients (mean age 20.3 months) were included between 30 August 2024 and 17 June 2025. After 12 weeks, mean (SD) pArg decreased by 221.5 (81.3) μmol/L, a 70.6% (4.3) reduction, reaching normal range by Visit 4 (114.1 [68.4] μmol/L). Plasma ornithine increased and plasma ammonia remained largely normal. GMFM-66 total scores improved by 21.0 (13.9) points (18.1% [5.8%]). Pegzilarginase exposure was consistent with previous studies; AUC and half-life were similar, whereas clearance and volume of distribution were lower, as expected in infants. No new safety findings were observed. In patients with ARG1-D &lt;2 years of age, pegzilarginase demonstrated pharmacokinetic and pharmacodynamic responses comparable to older children and a favourable safety profile. Immedica Pharma AB.</p>
+      
+      
+      <!-- Interaction buttons -->
+      <div style="margin-top: 10px; display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
+        <button class="like-btn" data-pmid="42404437" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👍 Like (<span class="like-count">0</span>)
+        </button>
+        <button class="dislike-btn" data-pmid="42404437" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👎 Dislike (<span class="dislike-count">0</span>)
+        </button>
+        <button class="comment-btn" data-pmid="42404437" 
+                style="padding: 5px 12px; background-color: #284b63; color: white; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          💬 Comment (<span class="comment-count">0</span>)
+        </button>
+      </div>
+      
+      <!-- Comments section (hidden by default) -->
+      <div class="comments-section" id="comments-42404437" style="display: none; margin-top: 15px; padding: 10px; background-color: #f9f9f9; border-radius: 4px;">
+        <h5 style="margin-top: 0;">Comments:</h5>
+        <div class="comments-list" id="comments-list-42404437">
+          <!-- Comments will be loaded here -->
+        </div>
+        <div style="margin-top: 10px;">
+          <textarea class="comment-input" data-pmid="42404437" 
+                    placeholder="Add a comment..." 
+                    style="width: 100%; min-height: 60px; padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; font-size: 14px;"></textarea>
+          <button class="submit-comment-btn" data-pmid="42404437" 
+                  style="margin-top: 5px; padding: 6px 12px; background-color: #284b63; color: white; 
+                         border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+            Submit Comment
+          </button>
+        </div>
+      </div>
+    </li>
+  
+    <li style="margin-bottom: 1.5em; padding-bottom: 1em; border-bottom: 1px solid #eee;">
+      <strong>
+        <a href="https://pubmed.ncbi.nlm.nih.gov/42252709/" target="_blank" style="text-decoration: none; color: #003366;">
+          Prevalence, Disease Onset and Clinical Outcome in Arginase 1 Deficiency: Cross-Border Surveillance in Germany, Austria, and Switzerland.
+        </a>
+      </strong><br>
+      <em>Journal of inherited metabolic disease</em>, Jul 2026, Vol. 49, pp. e70210<br>
+      <small>
+        PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/42252709/" target="_blank">42252709</a> |
+        PMCID: PMC13243979
+      </small>
+      <p>Arginase 1 deficiency (ARG1-D) is an ultra-rare urea cycle disorder characterized by progressive spastic paraplegia, developmental delay, epilepsy, and episodic hyperammonemia. Evidence on prevalence and clinical presentation is scarce. Therefore, epidemiology and the phenotypical spectrum were assessed in Germany, Austria, and Switzerland (DACH region). We conducted a questionnaire-based, cross-sectional study of confirmed ARG1-D patients in the DACH region. Patients were stratified into early-diagnosed (newborn screening [NBS] or high-risk family screening [HR]) and diagnosed after symptom onset. We evaluated clinical, biochemical, and therapeutic characteristics of individuals with confirmed ARG1-D. Epidemiological prevalence estimates were derived using national population data. A total of 20 patients were identified (Germany: 12, Austria: 7, Switzerland: 1). Eight were diagnosed early (NBS: 4, HR: 4) and 12 after symptom onset. Symptomatically diagnosed patients (median age 11 years) presented with a broad range of clinical manifestations, specifically progressive spastic paraplegia (67%), epilepsy (58%), dystonia (46%), developmental delay (58%), and hepatopathy (50%). Median age at diagnosis was 35 months in symptomatic patients versus 1 month in early-diagnosed patients (p = 0.03). Estimated pediatric prevalence was 1:1042080 in the DACH region, with high regional differences. Hyperammonemia was reported in 72%. Enzyme therapy had been initiated in 21%; 2 patients underwent liver transplantation. ARG1-D is a rare disease with a prevalence of approximately 1:1000000 individuals, and a complex and progressive clinical phenotype. Detection via NBS or HR allows early diagnosis and treatment initiation, potentially altering the clinical outcome.</p>
+      
+      
+      <!-- Interaction buttons -->
+      <div style="margin-top: 10px; display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
+        <button class="like-btn" data-pmid="42252709" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👍 Like (<span class="like-count">0</span>)
+        </button>
+        <button class="dislike-btn" data-pmid="42252709" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👎 Dislike (<span class="dislike-count">0</span>)
+        </button>
+        <button class="comment-btn" data-pmid="42252709" 
+                style="padding: 5px 12px; background-color: #284b63; color: white; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          💬 Comment (<span class="comment-count">0</span>)
+        </button>
+      </div>
+      
+      <!-- Comments section (hidden by default) -->
+      <div class="comments-section" id="comments-42252709" style="display: none; margin-top: 15px; padding: 10px; background-color: #f9f9f9; border-radius: 4px;">
+        <h5 style="margin-top: 0;">Comments:</h5>
+        <div class="comments-list" id="comments-list-42252709">
+          <!-- Comments will be loaded here -->
+        </div>
+        <div style="margin-top: 10px;">
+          <textarea class="comment-input" data-pmid="42252709" 
+                    placeholder="Add a comment..." 
+                    style="width: 100%; min-height: 60px; padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; font-size: 14px;"></textarea>
+          <button class="submit-comment-btn" data-pmid="42252709" 
+                  style="margin-top: 5px; padding: 6px 12px; background-color: #284b63; color: white; 
+                         border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+            Submit Comment
+          </button>
+        </div>
+      </div>
+    </li>
+  
+    <li style="margin-bottom: 1.5em; padding-bottom: 1em; border-bottom: 1px solid #eee;">
+      <strong>
+        <a href="https://pubmed.ncbi.nlm.nih.gov/42299908/" target="_blank" style="text-decoration: none; color: #003366;">
+          Dysregulation of the urea cycle - potential targets for treatment and diagnosis in prostate cancer.
+        </a>
+      </strong><br>
+      <em>Expert reviews in molecular medicine</em>, Jun 16 2026, Vol. 28, pp. e30<br>
+      <small>
+        PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/42299908/" target="_blank">42299908</a> |
+        PMCID: PMC13472223
+      </small>
+      <p>Prostate cancer (PCa) exhibits profound metabolic reprogramming, including dysregulation of the urea cycle (UC), an emerging driver of tumour growth, therapy resistance, and immune modulation. In normal physiology, the UC detoxifies ammonia via urea production. In PCa cells, however, altered expression of UC enzymes such as argininosuccinate synthase 1 (ASS1), arginase (ARG) and ornithine decarboxylase (ODC1) reroutes metabolites towards other pathways, including polyamine and nucleotide synthesis. These changes enhance proliferation, facilitate metabolic plasticity and influence the tumour microenvironment. This review summarises mechanistic insights into UC dysregulation in PCa, with emphasis on its interplay with the tricarboxylic acid (TCA) cycle, choline metabolism, and polyamine synthesis. We critically evaluate current therapeutic strategies such as arginine deprivation (PEGylated arginine deiminase, ADI-PEG 20, PEGylated recombinant human arginase 1, PEG-BCT-100), ODC1 inhibition (α-difluoromethylornithine, DFMO), and glutaminase blockade (CB-839) and discuss their integration with other therapies, including androgen deprivation. Furthermore, we explore the challenges and the usefulness of UC metabolites as diagnostic and prognostic biomarkers for early detection of PCa as well as for a follow-up of patients during therapy. We conclude that UC dysregulation represents a targetable metabolic vulnerability in PCa. However, successful translation will require combinatorial therapeutic approaches and rigorous validation of UC-based biomarkers in prospective clinical trials.</p>
+      
+      
+      <!-- Interaction buttons -->
+      <div style="margin-top: 10px; display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
+        <button class="like-btn" data-pmid="42299908" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👍 Like (<span class="like-count">0</span>)
+        </button>
+        <button class="dislike-btn" data-pmid="42299908" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👎 Dislike (<span class="dislike-count">0</span>)
+        </button>
+        <button class="comment-btn" data-pmid="42299908" 
+                style="padding: 5px 12px; background-color: #284b63; color: white; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          💬 Comment (<span class="comment-count">0</span>)
+        </button>
+      </div>
+      
+      <!-- Comments section (hidden by default) -->
+      <div class="comments-section" id="comments-42299908" style="display: none; margin-top: 15px; padding: 10px; background-color: #f9f9f9; border-radius: 4px;">
+        <h5 style="margin-top: 0;">Comments:</h5>
+        <div class="comments-list" id="comments-list-42299908">
+          <!-- Comments will be loaded here -->
+        </div>
+        <div style="margin-top: 10px;">
+          <textarea class="comment-input" data-pmid="42299908" 
+                    placeholder="Add a comment..." 
+                    style="width: 100%; min-height: 60px; padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; font-size: 14px;"></textarea>
+          <button class="submit-comment-btn" data-pmid="42299908" 
+                  style="margin-top: 5px; padding: 6px 12px; background-color: #284b63; color: white; 
+                         border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+            Submit Comment
+          </button>
+        </div>
+      </div>
+    </li>
+  
+    <li style="margin-bottom: 1.5em; padding-bottom: 1em; border-bottom: 1px solid #eee;">
+      <strong>
+        <a href="https://pubmed.ncbi.nlm.nih.gov/42194135/" target="_blank" style="text-decoration: none; color: #003366;">
+          Pegzilarginase in Arginase 1 Deficiency: Clinical and Biochemical Effects of Treatment Initiation, Discontinuation and Re-Initiation.
+        </a>
+      </strong><br>
+      <em>Children (Basel, Switzerland)</em>, Apr 28 2026, Vol. 13, pp. N/A<br>
+      <small>
+        PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/42194135/" target="_blank">42194135</a> |
+        PMCID: PMC13204039
+      </small>
+      <p>Arginase 1 deficiency (ARG1-D) is an ultra-rare urea cycle disorder characterized by hyperargininemia and progressive neurological impairment, including spasticity, loss of motor function, and reduced quality of life. Conventional management based on dietary protein restriction and ammonia scavengers rarely achieves adequate metabolic control or prevents neurological deterioration. Pegzilarginase, a recombinant human arginase 1 enzyme, is the first disease-modifying therapy for ARG1-D. We report the first Italian real-world experience with pegzilarginase in three pediatric patients with genetically confirmed ARG1-D enrolled in the phase 3 PEACE trial. Clinical, biochemical, functional, nutritional and quality-of-life data were retrospectively collected over a long-term follow-up (2003-2025). Outcomes were evaluated across three phases: treatment initiation (Start), a 13-month treatment interruption due to trial closure (Stop), and therapy re-initiation through an early access program (Restart). Pegzilarginase rapidly normalized plasma arginine levels and was associated with improvements in motor function, spasticity, walking endurance, dietary protein tolerance, bone mineral density, and quality of life. During treatment interruption, all patients experienced biochemical worsening and clinical deterioration, including increased spasticity, reduced mobility, and emotional distress. Re-initiation of pegzilarginase restored metabolic control and led to progressive neurological and functional recovery, including partial reversal of long-standing motor deficits. This real-world experience supports pegzilarginase as a disease-modifying therapy for ARG1-D. Sustained normalization of plasma arginine, rather than subthreshold biochemical control, correlates with functional and neurological improvement and may partially reverse non-lesional metabolic brain injury. Early initiation of pegzilarginase, including in newborn-screened patients, may further modify the natural history of ARG1-D.</p>
+      
+      
+      <!-- Interaction buttons -->
+      <div style="margin-top: 10px; display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
+        <button class="like-btn" data-pmid="42194135" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👍 Like (<span class="like-count">0</span>)
+        </button>
+        <button class="dislike-btn" data-pmid="42194135" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👎 Dislike (<span class="dislike-count">0</span>)
+        </button>
+        <button class="comment-btn" data-pmid="42194135" 
+                style="padding: 5px 12px; background-color: #284b63; color: white; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          💬 Comment (<span class="comment-count">0</span>)
+        </button>
+      </div>
+      
+      <!-- Comments section (hidden by default) -->
+      <div class="comments-section" id="comments-42194135" style="display: none; margin-top: 15px; padding: 10px; background-color: #f9f9f9; border-radius: 4px;">
+        <h5 style="margin-top: 0;">Comments:</h5>
+        <div class="comments-list" id="comments-list-42194135">
+          <!-- Comments will be loaded here -->
+        </div>
+        <div style="margin-top: 10px;">
+          <textarea class="comment-input" data-pmid="42194135" 
+                    placeholder="Add a comment..." 
+                    style="width: 100%; min-height: 60px; padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; font-size: 14px;"></textarea>
+          <button class="submit-comment-btn" data-pmid="42194135" 
+                  style="margin-top: 5px; padding: 6px 12px; background-color: #284b63; color: white; 
+                         border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+            Submit Comment
+          </button>
+        </div>
+      </div>
+    </li>
+  
+    <li style="margin-bottom: 1.5em; padding-bottom: 1em; border-bottom: 1px solid #eee;">
+      <strong>
+        <a href="https://pubmed.ncbi.nlm.nih.gov/42123371/" target="_blank" style="text-decoration: none; color: #003366;">
+          Extracellular Vesicles Delivered a Functional ARG1 Enzyme and Restored Its Activity in a Mouse Model of ARG1-D Resulting in Improved Lifespan.
+        </a>
+      </strong><br>
+      <em>International journal of molecular sciences</em>, Apr 24 2026, Vol. 27, pp. N/A<br>
+      <small>
+        PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/42123371/" target="_blank">42123371</a> |
+        PMCID: PMC13164535
+      </small>
+      <p>Arginase 1 (ARG1) deficiency (ARG1-D) is a rare genetic disorder due to loss of ARG1, the final enzyme in the urea cycle. ARG1-D hepatocytes are impaired in converting arginine into urea, resulting in elevated peripheral arginine and ammonia, which leads to progressive neurological symptoms. Current therapeutic strategies mainly focus on managing plasma arginine and ammonia level, but long-term outcomes remain poor. While no approved treatment specific for ARG1-D is available in the United States, a recombinant protein-based enzyme replacement therapy is available in Europe. Recently, extracellular vesicles (EVs) are emerging as a powerful therapeutic vehicle. By using Capricor&#39;s StealthX&lt;sup&gt;TM&lt;/sup&gt; platform, EVs were engineered to express human ARG1 on their surface or encapsulated within. Regardless of their localization on the EV membrane, nanograms of ARG1 carried by EVs were biologically active and able to convert arginine into urea as potent as micrograms of human recombinant ARG1 (rHuArg1). Furthermore, ARG1-encapsulating EVs (STX-Arg1-in) were able to deliver ARG1 intracellularly but not EVs carrying ARG1 on their surface or rHuArg1. STX-Arg1-in EVs were further evaluated in a series of in vivo studies, and the results showed that STX-Arg1-in EVs were non-toxic and able to restore arginase activities in the liver of Arg1&lt;sup&gt;-/-&lt;/sup&gt; mice, which led to a lowered plasma arginine concentration similar to that in wild-type mice. Most importantly, Arg1-in EVs expanded the lifespan of the lethal neonatal Arg1 deficiency mouse model. Taken together, our data suggested StealthX&lt;sup&gt;TM&lt;/sup&gt;-engineered STX-Arg1-in EVs have a better safety profile due to the extremely low dosage and have great potential as a novel enzyme replacement strategy for patients suffering from ARG1-D. Significance statement: Intracellular delivery of recombinant protein and improved llifespanare endpoints of successful enzyme replacement therapy for the treatment of ARG1-D. Using the StealthX platform, a fully functional ARG1 enzyme was engineered to be carried inside of the extracellular vesicles, which allowed for the intracellular delivery of ARG1 protein in vitro and in vivo, with an improvement of lifespan in a lethal neonatal mouse model of Arg1 deficiency. More importantly, no toxicity was observed, and efficacy was achieved with a low dose, setting the base for an improved therapeutic approach.</p>
+      
+      
+      <!-- Interaction buttons -->
+      <div style="margin-top: 10px; display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
+        <button class="like-btn" data-pmid="42123371" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👍 Like (<span class="like-count">0</span>)
+        </button>
+        <button class="dislike-btn" data-pmid="42123371" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👎 Dislike (<span class="dislike-count">0</span>)
+        </button>
+        <button class="comment-btn" data-pmid="42123371" 
+                style="padding: 5px 12px; background-color: #284b63; color: white; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          💬 Comment (<span class="comment-count">0</span>)
+        </button>
+      </div>
+      
+      <!-- Comments section (hidden by default) -->
+      <div class="comments-section" id="comments-42123371" style="display: none; margin-top: 15px; padding: 10px; background-color: #f9f9f9; border-radius: 4px;">
+        <h5 style="margin-top: 0;">Comments:</h5>
+        <div class="comments-list" id="comments-list-42123371">
+          <!-- Comments will be loaded here -->
+        </div>
+        <div style="margin-top: 10px;">
+          <textarea class="comment-input" data-pmid="42123371" 
+                    placeholder="Add a comment..." 
+                    style="width: 100%; min-height: 60px; padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; font-size: 14px;"></textarea>
+          <button class="submit-comment-btn" data-pmid="42123371" 
+                  style="margin-top: 5px; padding: 6px 12px; background-color: #284b63; color: white; 
+                         border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+            Submit Comment
+          </button>
+        </div>
+      </div>
+    </li>
+  
+</ol>
+
+<div style="text-align:center; margin-top:1rem;">
+  <button id="load-more" style="padding:8px 16px; background-color:#284b63; color:white; border:none; border-radius:5px;">
+    Show More
+  </button>
+  <button id="show-all" style="padding:6px 14px; background-color:#999; color:white; border:none; border-radius:5px;">
+    Show All
+  </button>
+</div>
+
+
+
+<div id="loading-text" class="loading-text" style="display:none;">Fetching papers...</div>
+
+
+  </main>
+
+  <footer>
+    <p>© 2025 Urea Cycle Research Hub</p>
+  </footer>
+  
+<script src="/urea-cycle/ucrh/static/js/script.js"></script>
+
+</body>
+</html>

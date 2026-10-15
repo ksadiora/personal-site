@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><link rel="stylesheet" href="/urea-cycle/ucrh/_snapshot/snapshot.css"><script src="/urea-cycle/ucrh/_snapshot/shim.js"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CPS1 - Carbamoyl Phosphate Synthetase 1</title>
+  <link rel="icon" type="image/jpeg" href="/urea-cycle/ucrh/static/images/favicon.jpeg">
+  <link rel="stylesheet" href="/urea-cycle/ucrh/static/css/styles.css">
+</head>
+<body><div class="ucrh-snapshot-bar">Read-only snapshot of the Urea Cycle Research Hub, taken Oct 14, 2026. Live PubMed search, accounts, comments and email digests are off. <a href="/urea-cycle/">Paper and poster</a> · <a href="/">karansadiora.com</a></div>
+  
+  <header>
+    <a href="/urea-cycle/ucrh/" class="header-home-link">Home</a>
+    <div class="header-top-right">
+      
+        
+        
+      
+    </div>
+    <div style="display: flex; align-items: center; justify-content: center; margin-bottom: 1rem; position: relative;">
+      <h1><a href="/urea-cycle/ucrh/" class="site-title-link">Urea Cycle Research Hub</a></h1>
+    </div>
+    <nav>
+      <a href="/urea-cycle/ucrh/OTC" class="">OTC</a>  
+      <a href="/urea-cycle/ucrh/CPS1" class="active">CPS1</a>
+      <a href="/urea-cycle/ucrh/NAGS" class="">NAGS</a>
+      <a href="/urea-cycle/ucrh/ASS" class="">ASS</a>
+      <a href="/urea-cycle/ucrh/ARG1" class="">ARG1</a>
+      <a href="/urea-cycle/ucrh/ASL" class="">ASL</a>
+      <a href="/urea-cycle/ucrh/ORNT1" class="">ORNT1</a>
+      <a href="/urea-cycle/ucrh/CITRIN" class="">CITRIN</a>
+      <a href="/urea-cycle/ucrh/variants" class="">Variants</a>
+      
+      
+      
+    </nav>
+  </header>
+
+  <main>
+    
+
+
+<!-- Sidebar panel -->
+<div id="keywords-panel" style="display:none; position: fixed; right:0; top:0; height:100%; width:250px; background:#f7f7f7; border-left:1px solid #ccc; padding:15px; padding-top: 80px; box-shadow: -2px 0 5px rgba(0,0,0,0.1); overflow-y:auto; z-index: 1001;">
+  <button id="close-keywords" style="position: absolute; top: 15px; right: 15px; background: #C8102E; color: white; border: none; border-radius: 50%; width: 30px; height: 30px; cursor: pointer; font-size: 18px; line-height: 1; display: flex; align-items: center; justify-content: center;">×</button>
+  <h4>Current Keywords</h4>
+  <ul id="current-keywords">
+    
+      <li>urea cycle</li>
+    
+      <li>ureagenesis</li>
+    
+      <li>carbamoyl phosphate synthetase</li>
+    
+      <li>CPS1</li>
+    
+    
+  </ul>
+
+  <h5 style="margin-top: 1rem;">Add Keywords (comma-separated)</h5>
+  <input type="text" id="new-keywords" placeholder="e.g., mitochondrial" style="width:100%; padding:5px;">
+  <button id="add-keywords" style="margin-top:5px; padding:6px 10px; background-color:#003366; color:white; border:none; border-radius:4px;">Add</button>
+</div>
+
+<div style="margin-bottom: 1rem;">
+  <h2 style="margin: 0 0 0.5rem 0;">Carbamoyl Phosphate Synthetase 1 (CPS1)</h2>
+  <p style="margin: 0;">CPS1 is a mitochondrial enzyme that catalyzes the first step of the urea cycle, producing carbamoyl phosphate from ammonia, bicarbonate, and ATP.</p>
+</div>
+
+<h4 style="color:#284b63; margin-top:1rem;"><a href="#" id="new-papers-link" data-since="" style="color:#284b63; text-decoration: underline; cursor: pointer;">
+  0 Publications Since Last Visit
+</a></h4>
+
+<!-- Modal for new papers -->
+<div id="new-papers-modal" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.5); z-index: 2000; overflow-y: auto;">
+  <div style="position: relative; background: white; margin: 50px auto; max-width: 900px; padding: 30px; border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.3); max-height: 90vh; overflow-y: auto;">
+    <button id="close-modal" style="position: absolute; top: 15px; right: 15px; background: #C8102E; color: white; border: none; border-radius: 50%; width: 35px; height: 35px; cursor: pointer; font-size: 20px; line-height: 1; display: flex; align-items: center; justify-content: center;">×</button>
+    <h2 style="margin-top: 0; color: #284b63;">New Publications Since Last Visit</h2>
+    <div id="new-papers-content">
+      <div style="text-align: center; padding: 40px;">
+        <p>Loading new publications...</p>
+      </div>
+    </div>
+  </div>
+</div>
+<hr>
+<div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 1rem;">
+  <h3 style="margin: 0;">Recent Publications</h3>
+  <div style="display: flex; gap: 10px; align-items: center;">
+    <select id="sort-select" style="padding: 6px 10px; background-color:#fff; border:1px solid #ccc; border-radius:4px; font-size:14px;">
+      <option value="date" selected>Sort by Date</option>
+      <option value="popularity" >Sort by Popularity</option>
+    </select>
+    <div style="position: relative; display: inline-block;">
+      <button id="export-btn" style="padding: 6px 10px; background-color:#284b63; color:white; border:none; border-radius:4px; cursor: pointer; display: inline-flex; align-items: center; gap: 4px;">
+        Export<span style="display: inline-block;">▼</span>
+      </button>
+      <div id="export-menu" style="display: none; position: absolute; top: 100%; right: 0; margin-top: 5px; background: white; border: 1px solid #ccc; border-radius: 4px; box-shadow: 0 2px 5px rgba(0,0,0,0.2); z-index: 1000; min-width: 150px;">
+        <a href="#" id="export-ris" style="display: block; padding: 8px 12px; text-decoration: none; color: #333; border-bottom: 1px solid #eee;">Export as RIS</a>
+        <a href="#" id="export-pmid" style="display: block; padding: 8px 12px; text-decoration: none; color: #333;">Export as PMID list</a>
+      </div>
+    </div>
+    <button id="toggle-keywords" style="padding: 6px 10px; background-color:#C8102E; color:white; border:none; border-radius:4px;">
+      Keywords
+    </button>
+  </div>
+</div>
+
+
+<ol id="papers-list">
+  
+    <li style="margin-bottom: 1.5em; padding-bottom: 1em; border-bottom: 1px solid #eee;">
+      <strong>
+        <a href="https://pubmed.ncbi.nlm.nih.gov/42485798/" target="_blank" style="text-decoration: none; color: #003366;">
+          A deep intronic CPS1 variant causing pseudo-exon activation identified in an adult with molecularly unconfirmed urea cycle disorder.
+        </a>
+      </strong><br>
+      <em>Biochemical and biophysical research communications</em>, Sep 17 2026, Vol. 831, pp. 154313<br>
+      <small>
+        PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/42485798/" target="_blank">42485798</a> |
+        PMCID: N/A
+      </small>
+      <p>Diagnosing proximal urea cycle disorders (UCDs) remains challenging due to the lack of definitive diagnostic biochemical markers, which can lead to delayed or missed diagnosis. Although molecular genetic testing has improved diagnostic accuracy, some patients still harbor only a single detectable pathogenic variant or no identifiable variants in known disease genes. Here, we report a late-onset adult Japanese patient who remained undiagnosed despite strong clinical suspicion of a UCD. Targeted gene panel sequencing for UCD-associated genes was performed using genomic DNA from the proband. To evaluate potential splicing abnormalities, reverse transcription PCR was performed using blood-derived cDNA to analyze CPS1 transcripts. Functional validation of the candidate splicing variant was conducted using a minigene splicing assay in cultured HEK293T cells. Targeted gene panel analysis identified a heterozygous CPS1 variant, c.840G&gt;C (p.Val278_Lys280del), inherited from his father. cDNA analysis revealed an aberrant transcript containing a 121-bp pseudo-exon between exons 3 and 4 in CPS1. Subsequent genomic analysis identified a deep intronic variant, c.381+178A&gt;C, located 15 bp upstream of the pseudo-exon acceptor site. A minigene splicing assay confirmed that this variant induces pseudo-exon inclusion. We identified a novel deep intronic CPS1 variant that causes aberrant splicing through pseudo-exon activation. Partial splicing defects associated with this variant may contribute to the relatively mild clinical phenotype, highlighting the importance of transcript-level analyses for achieving accurate molecular diagnosis of UCD.</p>
+      
+      
+      <!-- Interaction buttons -->
+      <div style="margin-top: 10px; display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
+        <button class="like-btn" data-pmid="42485798" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👍 Like (<span class="like-count">0</span>)
+        </button>
+        <button class="dislike-btn" data-pmid="42485798" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👎 Dislike (<span class="dislike-count">0</span>)
+        </button>
+        <button class="comment-btn" data-pmid="42485798" 
+                style="padding: 5px 12px; background-color: #284b63; color: white; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          💬 Comment (<span class="comment-count">0</span>)
+        </button>
+      </div>
+      
+      <!-- Comments section (hidden by default) -->
+      <div class="comments-section" id="comments-42485798" style="display: none; margin-top: 15px; padding: 10px; background-color: #f9f9f9; border-radius: 4px;">
+        <h5 style="margin-top: 0;">Comments:</h5>
+        <div class="comments-list" id="comments-list-42485798">
+          <!-- Comments will be loaded here -->
+        </div>
+        <div style="margin-top: 10px;">
+          <textarea class="comment-input" data-pmid="42485798" 
+                    placeholder="Add a comment..." 
+                    style="width: 100%; min-height: 60px; padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; font-size: 14px;"></textarea>
+          <button class="submit-comment-btn" data-pmid="42485798" 
+                  style="margin-top: 5px; padding: 6px 12px; background-color: #284b63; color: white; 
+                         border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+            Submit Comment
+          </button>
+        </div>
+      </div>
+    </li>
+  
+    <li style="margin-bottom: 1.5em; padding-bottom: 1em; border-bottom: 1px solid #eee;">
+      <strong>
+        <a href="https://pubmed.ncbi.nlm.nih.gov/42107753/" target="_blank" style="text-decoration: none; color: #003366;">
+          Mechanism of Jianpi Qinghua granule in ameliorating metabolic dysfunction-associated fatty liver disease by targeting the DNMT-urea cycle axis.
+        </a>
+      </strong><br>
+      <em>Journal of ethnopharmacology</em>, Sep 15 2026, Vol. 368, pp. 121846<br>
+      <small>
+        PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/42107753/" target="_blank">42107753</a> |
+        PMCID: N/A
+      </small>
+      <p>Jianpi Qinghua Granule (JPQH) is a hospital-prepared traditional Chinese medicine formula used for insulin resistance and related metabolic disorders. However, its pharmacodynamic basis and epigenetic mechanisms in metabolic dysfunction-associated fatty liver disease (MAFLD) remain unclear. This study aimed to evaluate the therapeutic effects of JPQH on high-fat diet (HFD)-induced MAFLD and determine whether its action involves regulation of DNMT-mediated DNA methylation and hepatic urea cycle metabolism. HFD-induced MAFLD mice were treated with JPQH for 4 weeks. Blood-absorbed constituents were identified by UHPLC-Q Exactive Orbitrap MS/MS. Network pharmacology, liver transcriptomics, and targeted metabolomics were integrated to explore mechanisms. Pyrosequencing, RT-qPCR, Western blotting, molecular docking, and molecular dynamics simulations were used for validation. JPQH ameliorated glucose-lipid metabolic disorders and liver injury, as indicated by reduced serum TC, TG, ALT, and AST levels (P &lt; 0.05), decreased hepatic MDA levels (P &lt; 0.01), improved OGTT/ITT responses (P &lt; 0.001), restored GSH/GSSG ratio (P &lt; 0.05), and downregulation of inflammatory- and fibrosis-related gene expression (P &lt; 0.05). A total of 44 blood-absorbed constituents and 87 JPQH-MAFLD overlapping targets were identified. Integrated analyses highlighted nitrogen metabolism and arginine and proline metabolism. JPQH restored urea cycle intermediates, upregulated CPS1, OTC, ASS1, ASL, and ARG1 expression (P &lt; 0.01), and reduced hepatic ammonia accumulation (P &lt; 0.01). Mechanistically, JPQH reduced DNMT1/DNMT3A expression, attenuated promoter hypermethylation of urea cycle enzyme genes, and restored their transcriptional and protein expression. Core flavonoids, including genistein, baicalein, nepetin, hispidulin, and quercetin 3,4&#39;-dimethylether, exhibited stable binding to DNMT1 and DNMT3A in silico. JPQH exerts protective effects against MAFLD by restoring hepatic nitrogen metabolism and ammonia detoxification via epigenetic regulation of the DNMT-urea cycle axis.</p>
+      
+      
+      <!-- Interaction buttons -->
+      <div style="margin-top: 10px; display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
+        <button class="like-btn" data-pmid="42107753" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👍 Like (<span class="like-count">0</span>)
+        </button>
+        <button class="dislike-btn" data-pmid="42107753" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👎 Dislike (<span class="dislike-count">0</span>)
+        </button>
+        <button class="comment-btn" data-pmid="42107753" 
+                style="padding: 5px 12px; background-color: #284b63; color: white; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          💬 Comment (<span class="comment-count">0</span>)
+        </button>
+      </div>
+      
+      <!-- Comments section (hidden by default) -->
+      <div class="comments-section" id="comments-42107753" style="display: none; margin-top: 15px; padding: 10px; background-color: #f9f9f9; border-radius: 4px;">
+        <h5 style="margin-top: 0;">Comments:</h5>
+        <div class="comments-list" id="comments-list-42107753">
+          <!-- Comments will be loaded here -->
+        </div>
+        <div style="margin-top: 10px;">
+          <textarea class="comment-input" data-pmid="42107753" 
+                    placeholder="Add a comment..." 
+                    style="width: 100%; min-height: 60px; padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; font-size: 14px;"></textarea>
+          <button class="submit-comment-btn" data-pmid="42107753" 
+                  style="margin-top: 5px; padding: 6px 12px; background-color: #284b63; color: white; 
+                         border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+            Submit Comment
+          </button>
+        </div>
+      </div>
+    </li>
+  
+    <li style="margin-bottom: 1.5em; padding-bottom: 1em; border-bottom: 1px solid #eee;">
+      <strong>
+        <a href="https://pubmed.ncbi.nlm.nih.gov/41629147/" target="_blank" style="text-decoration: none; color: #003366;">
+          CPS1: a multipurpose mitochondrial enzyme, bile protein, acute liver injury biomarker, and cytokine.
+        </a>
+      </strong><br>
+      <em>Gut</em>, Sep 07 2026, Vol. 75, pp. 2055-2068<br>
+      <small>
+        PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/41629147/" target="_blank">41629147</a> |
+        PMCID: PMC13100977
+      </small>
+      <p>Carbamoyl phosphate synthetase 1 (CPS1) is primarily expressed in hepatocytes as a highly abundant mitochondrial matrix enzyme that catalyses the first step of the urea cycle that leads to renal nitrogen disposal. CPS1 is a member of the CPS family that manifests broad evolutionary expression from bacteria to humans. CPS1 expression and enzyme activity are highly regulated transcriptionally and post-translationally. Its autosomal recessive mutation leads to CPS1 deficiency, which causes encephalopathy and coma, typically neonatally, due to severe hyperammonaemia. CPS1 is physiologically secreted, apically, into bile likely via mitochondria-derived vesicles. Normally absent from serum, it is released by basolateral mistargeting and cellular injury and becomes readily detectable in serum during acute liver failure (ALF). Injury-triggered CPS1 release into blood, or media in cultured hepatocytes, is selective as compared with other mitochondrial proteins. This, coupled with its abundance and short (1-2 hours) serum half-life, renders it a prognostic serum biomarker, particularly in human acetaminophen-related ALF. Its rapid turnover is explained by its non-enzymatic role as an immune modulator via its uptake by circulating monocytes leading to differentiation of anti-inflammatory cells that home to, and protect, the injured liver. CPS1 also plays a growing role in several cancers, by CPS1 upregulation or downregulation, particularly via metabolic reprogramming which alters the tumour microenvironment and impacts cancer growth and progression. Therefore, CPS1 has multiple enzymatic and non-enzymatic touch points spanning a wide range of cellular and extracellular functions and roles, with important physiological, homoeostatic, genetic disease, diagnostic and potential therapeutic clinical implications.</p>
+      
+      
+      <!-- Interaction buttons -->
+      <div style="margin-top: 10px; display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
+        <button class="like-btn" data-pmid="41629147" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👍 Like (<span class="like-count">0</span>)
+        </button>
+        <button class="dislike-btn" data-pmid="41629147" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👎 Dislike (<span class="dislike-count">0</span>)
+        </button>
+        <button class="comment-btn" data-pmid="41629147" 
+                style="padding: 5px 12px; background-color: #284b63; color: white; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          💬 Comment (<span class="comment-count">0</span>)
+        </button>
+      </div>
+      
+      <!-- Comments section (hidden by default) -->
+      <div class="comments-section" id="comments-41629147" style="display: none; margin-top: 15px; padding: 10px; background-color: #f9f9f9; border-radius: 4px;">
+        <h5 style="margin-top: 0;">Comments:</h5>
+        <div class="comments-list" id="comments-list-41629147">
+          <!-- Comments will be loaded here -->
+        </div>
+        <div style="margin-top: 10px;">
+          <textarea class="comment-input" data-pmid="41629147" 
+                    placeholder="Add a comment..." 
+                    style="width: 100%; min-height: 60px; padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; font-size: 14px;"></textarea>
+          <button class="submit-comment-btn" data-pmid="41629147" 
+                  style="margin-top: 5px; padding: 6px 12px; background-color: #284b63; color: white; 
+                         border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+            Submit Comment
+          </button>
+        </div>
+      </div>
+    </li>
+  
+    <li style="margin-bottom: 1.5em; padding-bottom: 1em; border-bottom: 1px solid #eee;">
+      <strong>
+        <a href="https://pubmed.ncbi.nlm.nih.gov/42787309/" target="_blank" style="text-decoration: none; color: #003366;">
+          Genipin induces liver injury by disrupting the CPS1-regulated urea cycle and redox homeostasis.
+        </a>
+      </strong><br>
+      <em>Journal of pharmaceutical analysis</em>, Sep 2026, Vol. 16, pp. 101647<br>
+      <small>
+        PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/42787309/" target="_blank">42787309</a> |
+        PMCID: PMC13601060
+      </small>
+      <p>Genipin (GP) is the key metabolite of geniposide (GE), the primary active component of the traditional Chinese medicine Gardeniae Fructus. Its hepatotoxicity poses a potential risk to safe clinical administration, while its core pathophysiological mechanism remains unclear. This study systematically elucidated the molecular mechanisms of GP-induced hepatotoxicity through integrated multi-omics and functional validation. GP treatment induced significant liver damage and oxidative stress in rats, characterized by elevated serum transaminases (alanine aminotransferase (ALT) increased by approximately 63.5-fold; aspartate aminotransferase (AST) by 18.6-fold), an approximately 1.8-fold decrease in superoxide dismutase (SOD) activity, and an approximately 10-fold accumulation of malondialdehyde (MDA) (all &lt;i&gt;P&lt;/i&gt; &lt; 0.001). Metabolomic and proteomic analyses revealed that GP binds to carbamoyl phosphate synthetase 1 (CPS1), triggering urea cycle dysfunction marked by citrulline depletion and significant downregulation of its downstream product fumarate. &lt;i&gt;In vitro&lt;/i&gt; experiments confirmed that disrupting CPS1 impairs the urea cycle and induces oxidative stress, while CPS1 overexpression or exogenous fumarate supplementation significantly reversed oxidative stress. Clinical sample analysis revealed similar urea cycle metabolic disturbances, characterized by citrulline depletion and reduced fumarate levels, in plasma from patients with liver injury due to inappropriate use of Gardeniae Fructus-containing formulas, confirming clinical relevance. This study reveals a novel hepatotoxic mechanism whereby GP targets CPS1 to disrupt the urea cycle, reducing fumarate production and impairing nuclear factor erythroid 2-related factor 2 (Nrf2)-mediated antioxidant defense, thereby inducing oxidative stress. These findings provide a scientific basis for improving the safety evaluation and rational clinical use of Gardeniae Fructus-containing preparations.</p>
+      
+      
+      <!-- Interaction buttons -->
+      <div style="margin-top: 10px; display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
+        <button class="like-btn" data-pmid="42787309" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👍 Like (<span class="like-count">0</span>)
+        </button>
+        <button class="dislike-btn" data-pmid="42787309" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👎 Dislike (<span class="dislike-count">0</span>)
+        </button>
+        <button class="comment-btn" data-pmid="42787309" 
+                style="padding: 5px 12px; background-color: #284b63; color: white; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          💬 Comment (<span class="comment-count">0</span>)
+        </button>
+      </div>
+      
+      <!-- Comments section (hidden by default) -->
+      <div class="comments-section" id="comments-42787309" style="display: none; margin-top: 15px; padding: 10px; background-color: #f9f9f9; border-radius: 4px;">
+        <h5 style="margin-top: 0;">Comments:</h5>
+        <div class="comments-list" id="comments-list-42787309">
+          <!-- Comments will be loaded here -->
+        </div>
+        <div style="margin-top: 10px;">
+          <textarea class="comment-input" data-pmid="42787309" 
+                    placeholder="Add a comment..." 
+                    style="width: 100%; min-height: 60px; padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; font-size: 14px;"></textarea>
+          <button class="submit-comment-btn" data-pmid="42787309" 
+                  style="margin-top: 5px; padding: 6px 12px; background-color: #284b63; color: white; 
+                         border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+            Submit Comment
+          </button>
+        </div>
+      </div>
+    </li>
+  
+    <li style="margin-bottom: 1.5em; padding-bottom: 1em; border-bottom: 1px solid #eee;">
+      <strong>
+        <a href="https://pubmed.ncbi.nlm.nih.gov/42303052/" target="_blank" style="text-decoration: none; color: #003366;">
+          Growth-mode-independent glutamine/glutamate/aspartate metabolic shift and urea cycle remodeling driven by FOXA1 in benzo[a]pyrene-transformed human bronchial epithelial cells.
+        </a>
+      </strong><br>
+      <em>Toxicology and applied pharmacology</em>, Sep 2026, Vol. 514, pp. 117919<br>
+      <small>
+        PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/42303052/" target="_blank">42303052</a> |
+        PMCID: N/A
+      </small>
+      <p>To characterize the amino acid metabolic remodeling in THBEc1 cells malignantly transformed by benzo[a]pyrene (BaP) relative to parental human bronchial epithelial HBE cells, and to delineate the role of FOXA1 in this remodeling, the amino acid metabolic phenotypes and gene expression patterns of HBE, THBEc1, THBEc1-ctrl (knockout control), and THBEc1-FOXA1 KO (FOXA1 knockout) cells were profiled under 2D, 3D spheroid, and in vivo conditions. Differential metabolic amino acids across these growth modes were identified. THBEc1 cells exhibited a glutamine/glutamate/aspartate metabolic shift and urea cycle remodeling that were conserved across all growth modes, representing key metabolic features of BaP-induced malignant transformation. FOXA1 knockout partially reversed these metabolic alterations across growth modes. Mechanistically, FOXA1 transcriptionally regulated GLUL, SLC6A14, CPS1, and SLC7A2 in a growth-mode-independent manner. These findings establish FOXA1 as a key mediator of the glutamine/glutamate/aspartate metabolic shift and urea cycle remodeling during BaP-induced malignant transformation, with GLUL, SLC6A14, CPS1, and SLC7A2 as critical downstream targets. This work advances the understanding of amino acid metabolic reprogramming in BaP-induced lung carcinogenesis.</p>
+      
+      
+      <!-- Interaction buttons -->
+      <div style="margin-top: 10px; display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
+        <button class="like-btn" data-pmid="42303052" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👍 Like (<span class="like-count">0</span>)
+        </button>
+        <button class="dislike-btn" data-pmid="42303052" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👎 Dislike (<span class="dislike-count">0</span>)
+        </button>
+        <button class="comment-btn" data-pmid="42303052" 
+                style="padding: 5px 12px; background-color: #284b63; color: white; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          💬 Comment (<span class="comment-count">0</span>)
+        </button>
+      </div>
+      
+      <!-- Comments section (hidden by default) -->
+      <div class="comments-section" id="comments-42303052" style="display: none; margin-top: 15px; padding: 10px; background-color: #f9f9f9; border-radius: 4px;">
+        <h5 style="margin-top: 0;">Comments:</h5>
+        <div class="comments-list" id="comments-list-42303052">
+          <!-- Comments will be loaded here -->
+        </div>
+        <div style="margin-top: 10px;">
+          <textarea class="comment-input" data-pmid="42303052" 
+                    placeholder="Add a comment..." 
+                    style="width: 100%; min-height: 60px; padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; font-size: 14px;"></textarea>
+          <button class="submit-comment-btn" data-pmid="42303052" 
+                  style="margin-top: 5px; padding: 6px 12px; background-color: #284b63; color: white; 
+                         border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+            Submit Comment
+          </button>
+        </div>
+      </div>
+    </li>
+  
+    <li style="margin-bottom: 1.5em; padding-bottom: 1em; border-bottom: 1px solid #eee;">
+      <strong>
+        <a href="https://pubmed.ncbi.nlm.nih.gov/42173273/" target="_blank" style="text-decoration: none; color: #003366;">
+          Metabolic checkpoint CPS1 sustains TCA anaplerosis via urea cycle in IDH-mutant gliomas.
+        </a>
+      </strong><br>
+      <em>Cancer letters</em>, Aug 28 2026, Vol. 654, pp. 218606<br>
+      <small>
+        PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/42173273/" target="_blank">42173273</a> |
+        PMCID: N/A
+      </small>
+      <p>Isocitrate dehydrogenase-mutant (IDH-MUT) gliomas exhibit distinct metabolic profile marked by 2-hydroxyglutarate (2-HG) accumulation at the expense of α-ketoglutarate. How these tumors maintain the tricarboxylic acid (TCA) cycle, however, remained unclear. We conducted comprehensive metabolomic profiling using clinical cohorts, cell lines, and patient-derived organoids (PDOs). The metabolic dynamics of TCA and urea cycles were interrogated using stable isotope tracing with &lt;sup&gt;13&lt;/sup&gt;C-aspartate, U5-&lt;sup&gt;13&lt;/sup&gt;C-&lt;sup&gt;15&lt;/sup&gt;N-aspartate, &lt;sup&gt;15&lt;/sup&gt;NH&lt;sub&gt;4&lt;/sub&gt;Cl and &lt;sup&gt;15&lt;/sup&gt;N-glutamate. The functional role of carbamoyl-phosphate synthase 1 (CPS1), the key enzyme of the urea cycle, was validated through inhibition experiments in vitro, in vivo and in PDO model, followed by seahorse respirometry and electron microscopy. Metabolomic profiling of two glioma cohorts consistently showed elevated urea cycle metabolites in IDH-MUT tumors. We identified CPS1 as a metabolic checkpoint sustaining TCA cycle through half urea cycle (from ammonia to arginine). Of note, CPS1 upregulation drove fumarate anaplerosis to sustain TCA flux in IDH-MUT gliomas. Thus, CPS1 inhibition not only reduced fumarate levels but also decreased oncometabolite 2-HG both in vitro and in vivo. Consistently, CPS1 inhibition impaired mitochondrial respiration and suppressed tumor growth in vitro, in vivo and in PDOs. Taken together, metabolic checkpoint CPS1 orchestrates half urea cycle to replenish the TCA cycle in IDH-MUT gliomas. Targeting CPS1 represents a promising metabolic therapeutic target for this glioma subtype.</p>
+      
+      
+      <!-- Interaction buttons -->
+      <div style="margin-top: 10px; display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
+        <button class="like-btn" data-pmid="42173273" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👍 Like (<span class="like-count">0</span>)
+        </button>
+        <button class="dislike-btn" data-pmid="42173273" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👎 Dislike (<span class="dislike-count">0</span>)
+        </button>
+        <button class="comment-btn" data-pmid="42173273" 
+                style="padding: 5px 12px; background-color: #284b63; color: white; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          💬 Comment (<span class="comment-count">0</span>)
+        </button>
+      </div>
+      
+      <!-- Comments section (hidden by default) -->
+      <div class="comments-section" id="comments-42173273" style="display: none; margin-top: 15px; padding: 10px; background-color: #f9f9f9; border-radius: 4px;">
+        <h5 style="margin-top: 0;">Comments:</h5>
+        <div class="comments-list" id="comments-list-42173273">
+          <!-- Comments will be loaded here -->
+        </div>
+        <div style="margin-top: 10px;">
+          <textarea class="comment-input" data-pmid="42173273" 
+                    placeholder="Add a comment..." 
+                    style="width: 100%; min-height: 60px; padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; font-size: 14px;"></textarea>
+          <button class="submit-comment-btn" data-pmid="42173273" 
+                  style="margin-top: 5px; padding: 6px 12px; background-color: #284b63; color: white; 
+                         border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+            Submit Comment
+          </button>
+        </div>
+      </div>
+    </li>
+  
+    <li style="margin-bottom: 1.5em; padding-bottom: 1em; border-bottom: 1px solid #eee;">
+      <strong>
+        <a href="https://pubmed.ncbi.nlm.nih.gov/42621110/" target="_blank" style="text-decoration: none; color: #003366;">
+          CPS1 promotes colorectal cancer progression by inducing EMT and activating TGF-β/Smad signaling pathway.
+        </a>
+      </strong><br>
+      <em>iScience</em>, Aug 21 2026, Vol. 29, pp. 117129<br>
+      <small>
+        PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/42621110/" target="_blank">42621110</a> |
+        PMCID: PMC13486773
+      </small>
+      <p>Colorectal cancer (CRC) is a highly lethal digestive malignancy, particularly in metastatic cases. Carbamoyl-phosphate synthase 1 (CPS1), a key mitochondrial enzyme involved in the urea cycle, has been implicated in multiple cancers. However, its role in CRC remains poorly understood. This study demonstrated that CPS1 expression was significantly upregulated in CRC tissues and was associated with aggressive clinicopathological characteristics and poor prognosis. Functional experiments revealed that CPS1 knockdown markedly suppressed CRC cell proliferation, migration, invasion, and tumorigenicity, whereas CPS1 overexpression exerted opposite effects. Mechanistically, CPS1 downregulation increased E-cadherin expression and decreased the expression of ZEB1, slug, N-cadherin, vimentin, MMP2, and &lt;i&gt;p&lt;/i&gt;-SMAD2/3, while CPS1 overexpression reversed these changes, suggesting that CPS1 may contribute to the malignant progression and metastasis of CRC, potentially through involvement in the epithelial-mesenchymal transition (EMT) process and TGF-β signaling pathway. Collectively, our findings identify CPS1 as a potential prognostic biomarker and therapeutic target in CRC.</p>
+      
+      
+      <!-- Interaction buttons -->
+      <div style="margin-top: 10px; display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
+        <button class="like-btn" data-pmid="42621110" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👍 Like (<span class="like-count">0</span>)
+        </button>
+        <button class="dislike-btn" data-pmid="42621110" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👎 Dislike (<span class="dislike-count">0</span>)
+        </button>
+        <button class="comment-btn" data-pmid="42621110" 
+                style="padding: 5px 12px; background-color: #284b63; color: white; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          💬 Comment (<span class="comment-count">0</span>)
+        </button>
+      </div>
+      
+      <!-- Comments section (hidden by default) -->
+      <div class="comments-section" id="comments-42621110" style="display: none; margin-top: 15px; padding: 10px; background-color: #f9f9f9; border-radius: 4px;">
+        <h5 style="margin-top: 0;">Comments:</h5>
+        <div class="comments-list" id="comments-list-42621110">
+          <!-- Comments will be loaded here -->
+        </div>
+        <div style="margin-top: 10px;">
+          <textarea class="comment-input" data-pmid="42621110" 
+                    placeholder="Add a comment..." 
+                    style="width: 100%; min-height: 60px; padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; font-size: 14px;"></textarea>
+          <button class="submit-comment-btn" data-pmid="42621110" 
+                  style="margin-top: 5px; padding: 6px 12px; background-color: #284b63; color: white; 
+                         border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+            Submit Comment
+          </button>
+        </div>
+      </div>
+    </li>
+  
+    <li style="margin-bottom: 1.5em; padding-bottom: 1em; border-bottom: 1px solid #eee;">
+      <strong>
+        <a href="https://pubmed.ncbi.nlm.nih.gov/42583353/" target="_blank" style="text-decoration: none; color: #003366;">
+          In Vivo Base Editing for Neonatal Inborn Errors of Metabolism: Clinical Progress, N-of-1 Therapy, and the Ethics of Bespoke Genetic Medicine.
+        </a>
+      </strong><br>
+      <em>Cureus</em>, Aug 2026, Vol. 18, pp. e114354<br>
+      <small>
+        PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/42583353/" target="_blank">42583353</a> |
+        PMCID: PMC13460412
+      </small>
+      <p>Severe neonatal-onset inborn errors of metabolism (IEMs), such as urea cycle disorders including carbamoyl phosphate synthetase 1 (CPS1) deficiency and the classic organic acidemias, present within days of birth with metabolic decompensation that carries high early mortality and, in survivors, a substantial burden of neurologic injury despite optimal medical management. Because most cases arise from defined point mutations, these disorders are conceptually well suited to one-time genetic correction. Base editing, which installs precise single-base changes without generating double-strand DNA breaks, and its companion technology, prime editing, have moved rapidly from laboratory description to in vivo demonstration in animals and, most recently, to a single human patient. In 2025, an infant with CPS1 deficiency (&#39;KJ&#39;) received a bespoke lipid nanoparticle-delivered base-editing therapy designed and manufactured for that individual&#39;s specific variant, becoming the first reported recipient of a customized in vivo gene-editing medicine. This review synthesizes the clinical rationale for genetic correction of neonatal IEMs, the mechanistic basis and delivery strategies (lipid nanoparticles and adeno-associated virus) that make in vivo base editing feasible, and the preclinical evidence that preceded the first human case. We then examine the ethical dimensions of bespoke &#39;N-of-1&#39; genetic medicine: the somatic versus germline distinction; consent for a non-autonomous neonate; equity, cost, and scalability; and the evolving regulatory pathway for individualized therapies. We conclude by distinguishing what has been proven in a single patient and in preclinical models from what remains speculative and by outlining what would need to generalize for a single case to become a platform.</p>
+      
+      
+      <!-- Interaction buttons -->
+      <div style="margin-top: 10px; display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
+        <button class="like-btn" data-pmid="42583353" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👍 Like (<span class="like-count">0</span>)
+        </button>
+        <button class="dislike-btn" data-pmid="42583353" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👎 Dislike (<span class="dislike-count">0</span>)
+        </button>
+        <button class="comment-btn" data-pmid="42583353" 
+                style="padding: 5px 12px; background-color: #284b63; color: white; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          💬 Comment (<span class="comment-count">0</span>)
+        </button>
+      </div>
+      
+      <!-- Comments section (hidden by default) -->
+      <div class="comments-section" id="comments-42583353" style="display: none; margin-top: 15px; padding: 10px; background-color: #f9f9f9; border-radius: 4px;">
+        <h5 style="margin-top: 0;">Comments:</h5>
+        <div class="comments-list" id="comments-list-42583353">
+          <!-- Comments will be loaded here -->
+        </div>
+        <div style="margin-top: 10px;">
+          <textarea class="comment-input" data-pmid="42583353" 
+                    placeholder="Add a comment..." 
+                    style="width: 100%; min-height: 60px; padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; font-size: 14px;"></textarea>
+          <button class="submit-comment-btn" data-pmid="42583353" 
+                  style="margin-top: 5px; padding: 6px 12px; background-color: #284b63; color: white; 
+                         border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+            Submit Comment
+          </button>
+        </div>
+      </div>
+    </li>
+  
+    <li style="margin-bottom: 1.5em; padding-bottom: 1em; border-bottom: 1px solid #eee;">
+      <strong>
+        <a href="https://pubmed.ncbi.nlm.nih.gov/42272250/" target="_blank" style="text-decoration: none; color: #003366;">
+          Urea cycle dysregulation and arginine pathways in the pathogenesis of NAFLD and NASH (Review).
+        </a>
+      </strong><br>
+      <em>International journal of molecular medicine</em>, Aug 2026, Vol. 58, pp. N/A<br>
+      <small>
+        PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/42272250/" target="_blank">42272250</a> |
+        PMCID: PMC13252948
+      </small>
+      <p>Non‑alcoholic fatty liver disease (NAFLD) and its advanced form, non‑alcoholic steatohepatitis (NASH), are now leading causes of chronic liver disease worldwide. Recent evidence highlights the central role of urea cycle and arginine metabolism dysregulation in NAFLD/NASH pathogenesis. Downregulation of key urea cycle enzymes, such as carbamoyl phosphate synthetase 1, ornithine transcarbamylase and argininosuccinate synthase, impairs ammonia detoxification, leading to hyperammonemia, mitochondrial dysfunction and oxidative stress. Epigenetic modifications, notably DNA methylation and histone changes, contribute to this metabolic reprogramming. Aberrant arginine metabolism, particularly the imbalance between urea and nitric oxide (NO) pathways, exacerbates liver inflammation and fibrosis through increased inducible nitric oxide synthase (NOS) activity in macrophages and hepatic stellate cells, driving excessive NO and polyamine production. In contrast, physiological NO signaling via endothelial NOS supports mitochondrial health and metabolic homeostasis. Clinically, urea cycle and arginine metabolites, including blood ammonia and urea cycle metabolites, serve as potential biomarkers for disease severity. Restoring urea cycle function and rebalancing arginine‑NO metabolism through targeted interventions, such as citrulline/arginine supplementation or enzyme modulation, are promising strategies.</p>
+      
+      
+      <!-- Interaction buttons -->
+      <div style="margin-top: 10px; display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
+        <button class="like-btn" data-pmid="42272250" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👍 Like (<span class="like-count">0</span>)
+        </button>
+        <button class="dislike-btn" data-pmid="42272250" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👎 Dislike (<span class="dislike-count">0</span>)
+        </button>
+        <button class="comment-btn" data-pmid="42272250" 
+                style="padding: 5px 12px; background-color: #284b63; color: white; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          💬 Comment (<span class="comment-count">0</span>)
+        </button>
+      </div>
+      
+      <!-- Comments section (hidden by default) -->
+      <div class="comments-section" id="comments-42272250" style="display: none; margin-top: 15px; padding: 10px; background-color: #f9f9f9; border-radius: 4px;">
+        <h5 style="margin-top: 0;">Comments:</h5>
+        <div class="comments-list" id="comments-list-42272250">
+          <!-- Comments will be loaded here -->
+        </div>
+        <div style="margin-top: 10px;">
+          <textarea class="comment-input" data-pmid="42272250" 
+                    placeholder="Add a comment..." 
+                    style="width: 100%; min-height: 60px; padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; font-size: 14px;"></textarea>
+          <button class="submit-comment-btn" data-pmid="42272250" 
+                  style="margin-top: 5px; padding: 6px 12px; background-color: #284b63; color: white; 
+                         border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+            Submit Comment
+          </button>
+        </div>
+      </div>
+    </li>
+  
+    <li style="margin-bottom: 1.5em; padding-bottom: 1em; border-bottom: 1px solid #eee;">
+      <strong>
+        <a href="https://pubmed.ncbi.nlm.nih.gov/42790946/" target="_blank" style="text-decoration: none; color: #003366;">
+          Clinical, Biochemical, and Molecular Analyses of Three Patients with Urea Cycle Disorders in China.
+        </a>
+      </strong><br>
+      <em>Annals of clinical and laboratory science</em>, Jul 2026, Vol. 56, pp. 512-522<br>
+      <small>
+        PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/42790946/" target="_blank">42790946</a> |
+        PMCID: N/A
+      </small>
+      <p>Urea cycle disorders (UCDs) are rare inherited metabolic diseases that can cause severe hyperammonemia and neurological damage. This study aimed to characterize the clinical, biochemical, and molecular features of three Chinese patients with UCDs and identify pathogenic variants through genetic analysis. Blood tandem mass spectrometry and urinary gas chromatography-mass spectrometry were performed on three children diagnosed with UCDs. Next-generation sequencing and Sanger sequencing were performed on blood samples from the probands and their parents. Clinical data and other laboratory results were retrospectively collected from medical records. In silico and structural analyses were performed for three of the five identified variants. The three probands exhibited clinical and biochemical features characteristic of UCDs. Genetic analysis confirmed five diagnostic variants, including two novel variants. These variants caused three types of UCDs: ornithine transcarbamylase deficiency (OTCD), carbamoyl phosphate synthase 1 deficiency, and argininosuccinate lyase deficiency (ASLD). In silico and structural analyses of three variants (&lt;i&gt;OTC&lt;/i&gt;:c.1006-1G&gt;T, &lt;i&gt;CPS1&lt;/i&gt;:c.729+1G&gt;A, and &lt;i&gt;ASL&lt;/i&gt;:c.370T&gt;C) suggested that all three may impair enzyme function or stability, although experimental validation is required. We characterized the clinical, biochemical, and molecular features of three Chinese patients with UCDs. Two novel variants expand the known mutational spectra of OTCD and ASLD.</p>
+      
+      
+      <!-- Interaction buttons -->
+      <div style="margin-top: 10px; display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
+        <button class="like-btn" data-pmid="42790946" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👍 Like (<span class="like-count">0</span>)
+        </button>
+        <button class="dislike-btn" data-pmid="42790946" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👎 Dislike (<span class="dislike-count">0</span>)
+        </button>
+        <button class="comment-btn" data-pmid="42790946" 
+                style="padding: 5px 12px; background-color: #284b63; color: white; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          💬 Comment (<span class="comment-count">0</span>)
+        </button>
+      </div>
+      
+      <!-- Comments section (hidden by default) -->
+      <div class="comments-section" id="comments-42790946" style="display: none; margin-top: 15px; padding: 10px; background-color: #f9f9f9; border-radius: 4px;">
+        <h5 style="margin-top: 0;">Comments:</h5>
+        <div class="comments-list" id="comments-list-42790946">
+          <!-- Comments will be loaded here -->
+        </div>
+        <div style="margin-top: 10px;">
+          <textarea class="comment-input" data-pmid="42790946" 
+                    placeholder="Add a comment..." 
+                    style="width: 100%; min-height: 60px; padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; font-size: 14px;"></textarea>
+          <button class="submit-comment-btn" data-pmid="42790946" 
+                  style="margin-top: 5px; padding: 6px 12px; background-color: #284b63; color: white; 
+                         border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+            Submit Comment
+          </button>
+        </div>
+      </div>
+    </li>
+  
+</ol>
+
+<div style="text-align:center; margin-top:1rem;">
+  <button id="load-more" style="padding:8px 16px; background-color:#284b63; color:white; border:none; border-radius:5px;">
+    Show More
+  </button>
+  <button id="show-all" style="padding:6px 14px; background-color:#999; color:white; border:none; border-radius:5px;">
+    Show All
+  </button>
+</div>
+
+
+
+<div id="loading-text" class="loading-text" style="display:none;">Fetching papers...</div>
+
+
+  </main>
+
+  <footer>
+    <p>© 2025 Urea Cycle Research Hub</p>
+  </footer>
+  
+<script src="/urea-cycle/ucrh/static/js/script.js"></script>
+
+</body>
+</html>

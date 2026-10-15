@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><link rel="stylesheet" href="/urea-cycle/ucrh/_snapshot/snapshot.css"><script src="/urea-cycle/ucrh/_snapshot/shim.js"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ORNT1 - Ornithine Transporter 1</title>
+  <link rel="icon" type="image/jpeg" href="/urea-cycle/ucrh/static/images/favicon.jpeg">
+  <link rel="stylesheet" href="/urea-cycle/ucrh/static/css/styles.css">
+</head>
+<body><div class="ucrh-snapshot-bar">Read-only snapshot of the Urea Cycle Research Hub, taken Oct 14, 2026. Live PubMed search, accounts, comments and email digests are off. <a href="/urea-cycle/">Paper and poster</a> · <a href="/">karansadiora.com</a></div>
+  
+  <header>
+    <a href="/urea-cycle/ucrh/" class="header-home-link">Home</a>
+    <div class="header-top-right">
+      
+        
+        
+      
+    </div>
+    <div style="display: flex; align-items: center; justify-content: center; margin-bottom: 1rem; position: relative;">
+      <h1><a href="/urea-cycle/ucrh/" class="site-title-link">Urea Cycle Research Hub</a></h1>
+    </div>
+    <nav>
+      <a href="/urea-cycle/ucrh/OTC" class="">OTC</a>  
+      <a href="/urea-cycle/ucrh/CPS1" class="">CPS1</a>
+      <a href="/urea-cycle/ucrh/NAGS" class="">NAGS</a>
+      <a href="/urea-cycle/ucrh/ASS" class="">ASS</a>
+      <a href="/urea-cycle/ucrh/ARG1" class="">ARG1</a>
+      <a href="/urea-cycle/ucrh/ASL" class="">ASL</a>
+      <a href="/urea-cycle/ucrh/ORNT1" class="active">ORNT1</a>
+      <a href="/urea-cycle/ucrh/CITRIN" class="">CITRIN</a>
+      <a href="/urea-cycle/ucrh/variants" class="">Variants</a>
+      
+      
+      
+    </nav>
+  </header>
+
+  <main>
+    
+
+
+<!-- Sidebar panel -->
+<div id="keywords-panel" style="display:none; position: fixed; right:0; top:0; height:100%; width:250px; background:#f7f7f7; border-left:1px solid #ccc; padding:15px; padding-top: 80px; box-shadow: -2px 0 5px rgba(0,0,0,0.1); overflow-y:auto; z-index: 1001;">
+  <button id="close-keywords" style="position: absolute; top: 15px; right: 15px; background: #C8102E; color: white; border: none; border-radius: 50%; width: 30px; height: 30px; cursor: pointer; font-size: 18px; line-height: 1; display: flex; align-items: center; justify-content: center;">×</button>
+  <h4>Current Keywords</h4>
+  <ul id="current-keywords">
+    
+      <li>urea cycle</li>
+    
+      <li>ureagenesis</li>
+    
+      <li>ornithine transporter</li>
+    
+      <li>ORNT1</li>
+    
+    
+  </ul>
+
+  <h5 style="margin-top: 1rem;">Add Keywords (comma-separated)</h5>
+  <input type="text" id="new-keywords" placeholder="e.g., mitochondrial" style="width:100%; padding:5px;">
+  <button id="add-keywords" style="margin-top:5px; padding:6px 10px; background-color:#003366; color:white; border:none; border-radius:4px;">Add</button>
+</div>
+
+<div style="margin-bottom: 1rem;">
+  <h2 style="margin: 0 0 0.5rem 0;">Ornithine Transporter 1 (ORNT1)</h2>
+  <p style="margin: 0;">ORNT1 is a mitochondrial transporter that facilitates the exchange of ornithine and citrulline across the mitochondrial membrane in the urea cycle.</p>
+</div>
+
+<h4 style="color:#284b63; margin-top:1rem;"><a href="#" id="new-papers-link" data-since="" style="color:#284b63; text-decoration: underline; cursor: pointer;">
+  0 Publications Since Last Visit
+</a></h4>
+
+<!-- Modal for new papers -->
+<div id="new-papers-modal" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.5); z-index: 2000; overflow-y: auto;">
+  <div style="position: relative; background: white; margin: 50px auto; max-width: 900px; padding: 30px; border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.3); max-height: 90vh; overflow-y: auto;">
+    <button id="close-modal" style="position: absolute; top: 15px; right: 15px; background: #C8102E; color: white; border: none; border-radius: 50%; width: 35px; height: 35px; cursor: pointer; font-size: 20px; line-height: 1; display: flex; align-items: center; justify-content: center;">×</button>
+    <h2 style="margin-top: 0; color: #284b63;">New Publications Since Last Visit</h2>
+    <div id="new-papers-content">
+      <div style="text-align: center; padding: 40px;">
+        <p>Loading new publications...</p>
+      </div>
+    </div>
+  </div>
+</div>
+<hr>
+<div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 1rem;">
+  <h3 style="margin: 0;">Recent Publications</h3>
+  <div style="display: flex; gap: 10px; align-items: center;">
+    <select id="sort-select" style="padding: 6px 10px; background-color:#fff; border:1px solid #ccc; border-radius:4px; font-size:14px;">
+      <option value="date" selected>Sort by Date</option>
+      <option value="popularity" >Sort by Popularity</option>
+    </select>
+    <div style="position: relative; display: inline-block;">
+      <button id="export-btn" style="padding: 6px 10px; background-color:#284b63; color:white; border:none; border-radius:4px; cursor: pointer; display: inline-flex; align-items: center; gap: 4px;">
+        Export<span style="display: inline-block;">▼</span>
+      </button>
+      <div id="export-menu" style="display: none; position: absolute; top: 100%; right: 0; margin-top: 5px; background: white; border: 1px solid #ccc; border-radius: 4px; box-shadow: 0 2px 5px rgba(0,0,0,0.2); z-index: 1000; min-width: 150px;">
+        <a href="#" id="export-ris" style="display: block; padding: 8px 12px; text-decoration: none; color: #333; border-bottom: 1px solid #eee;">Export as RIS</a>
+        <a href="#" id="export-pmid" style="display: block; padding: 8px 12px; text-decoration: none; color: #333;">Export as PMID list</a>
+      </div>
+    </div>
+    <button id="toggle-keywords" style="padding: 6px 10px; background-color:#C8102E; color:white; border:none; border-radius:4px;">
+      Keywords
+    </button>
+  </div>
+</div>
+
+
+<ol id="papers-list">
+  
+    <li style="margin-bottom: 1.5em; padding-bottom: 1em; border-bottom: 1px solid #eee;">
+      <strong>
+        <a href="https://pubmed.ncbi.nlm.nih.gov/38192032/" target="_blank" style="text-decoration: none; color: #003366;">
+          Expression and function of the urea cycle in widely-used hepatic cellular models.
+        </a>
+      </strong><br>
+      <em>Journal of inherited metabolic disease</em>, Nov 2024, Vol. 47, pp. 1228-1238<br>
+      <small>
+        PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/38192032/" target="_blank">38192032</a> |
+        PMCID: N/A
+      </small>
+      <p>The group of rare metabolic defects termed urea cycle disorders (UCDs) occur within the ammonia elimination pathway and lead to significant neurocognitive sequelae for patients surviving decompensation episodes. Besides orthotopic liver transplantation, curative options are lacking for UCDs, with dietary management being the gold clinical standard. Novel therapeutic approaches are essential for UCDs; however, such effort presupposes preclinical testing in cellular models that effectively capture disease manifestation. Several cellular and animal models exist and aim to recapitulate the broad phenotypic spectrum of UCDs; however, the majority of those lack extensive molecular and biochemical characterization. The development of cellular models is emerging since animal models are extremely time and cost consuming, and subject to ethical considerations, including the 3R principle that endorses animal welfare over unchecked preclinical testing. The aim of this study was to compare the extent of expression and functionality of the urea cycle in two commercial hepatoma-derived cell lines, induced pluripotent stem cell hepatocytes (iPSC-Heps), primary human hepatocytes (PHHs) and human liver cell preparations. Using immunoblotting, immunocytochemistry, and stable isotope tracing of the urea cycle metabolites, we identified that the hepatoma-derived, 2-week differentiated HepaRG cells are urea cycle proficient and behave as cellular alternatives to PHHs. Furthermore, HepaRG cells were superior to iPSC-Heps, which are known to exhibit batch-to-batch variabilities in terms of hepatic maturity and enzyme expression. Finally, HepG2 cells lack the urea cycle enzymes ornithine transcarbamylase and arginase 1, the transporter ORNT1, which limits their suitability as model for the study of UCDs.</p>
+      
+      
+      <!-- Interaction buttons -->
+      <div style="margin-top: 10px; display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
+        <button class="like-btn" data-pmid="38192032" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👍 Like (<span class="like-count">0</span>)
+        </button>
+        <button class="dislike-btn" data-pmid="38192032" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👎 Dislike (<span class="dislike-count">0</span>)
+        </button>
+        <button class="comment-btn" data-pmid="38192032" 
+                style="padding: 5px 12px; background-color: #284b63; color: white; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          💬 Comment (<span class="comment-count">0</span>)
+        </button>
+      </div>
+      
+      <!-- Comments section (hidden by default) -->
+      <div class="comments-section" id="comments-38192032" style="display: none; margin-top: 15px; padding: 10px; background-color: #f9f9f9; border-radius: 4px;">
+        <h5 style="margin-top: 0;">Comments:</h5>
+        <div class="comments-list" id="comments-list-38192032">
+          <!-- Comments will be loaded here -->
+        </div>
+        <div style="margin-top: 10px;">
+          <textarea class="comment-input" data-pmid="38192032" 
+                    placeholder="Add a comment..." 
+                    style="width: 100%; min-height: 60px; padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; font-size: 14px;"></textarea>
+          <button class="submit-comment-btn" data-pmid="38192032" 
+                  style="margin-top: 5px; padding: 6px 12px; background-color: #284b63; color: white; 
+                         border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+            Submit Comment
+          </button>
+        </div>
+      </div>
+    </li>
+  
+    <li style="margin-bottom: 1.5em; padding-bottom: 1em; border-bottom: 1px solid #eee;">
+      <strong>
+        <a href="https://pubmed.ncbi.nlm.nih.gov/39086438/" target="_blank" style="text-decoration: none; color: #003366;">
+          A Novel Mutation of &lt;i&gt;ORNT1&lt;/i&gt; Detected in a Hyperornithinemia-Hyperammonemia-Homocitrullinuria Syndrome Child by Clinical Whole-Exome Sequencing.
+        </a>
+      </strong><br>
+      <em>Journal of pediatric genetics</em>, Sep 2024, Vol. 13, pp. 205-210<br>
+      <small>
+        PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/39086438/" target="_blank">39086438</a> |
+        PMCID: PMC11288712
+      </small>
+      <p>Hyperornithinemia-hyperammonemia-homocitrullinuria (HHH) syndrome, an inborn error of metabolism, is an inherited syndrome caused by loss-of-function mutations in the &lt;i&gt;SLC25A15,&lt;/i&gt; resulting in ornithine translocase1 (ORNT1) deficiency. Disrupted ornithine transportation in an affected individual usually manifests with the accumulation of intermediate metabolites, leading to neurological impairment, hepatitis, and/or protein intolerance at various ages of onset. In this paper, we report a compound heterozygous mutation in &lt;i&gt;SLC25A15&lt;/i&gt; from a 2-year-old girl who presented with neurological alterations and hepatic failure. Before developing neurological sequelae, she had signs of globally delayed development. The accumulation of toxic metabolites may explain these neurological consequences. After biochemical confirmation of HHH, whole-exome sequencing (WES) was performed, which identified mutations at codons 21 and 179 of &lt;i&gt;SLC25A15&lt;/i&gt; that are predicted to result in the loss of function of ORNT1. Each of the mutations was found to be inherited from one of her parents. After therapy, her toxic metabolites decreased significantly. In conclusion, HHH syndrome frequently manifests with nonspecific symptoms and unapparent biochemical profiles, which may lead to delayed diagnosis. Correction of the accumulating metabolites is necessary to prevent irreversible neurological impairment. Furthermore, performing a WES provides a shortcut for accurate diagnosis.</p>
+      
+      
+      <!-- Interaction buttons -->
+      <div style="margin-top: 10px; display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
+        <button class="like-btn" data-pmid="39086438" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👍 Like (<span class="like-count">0</span>)
+        </button>
+        <button class="dislike-btn" data-pmid="39086438" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👎 Dislike (<span class="dislike-count">0</span>)
+        </button>
+        <button class="comment-btn" data-pmid="39086438" 
+                style="padding: 5px 12px; background-color: #284b63; color: white; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          💬 Comment (<span class="comment-count">0</span>)
+        </button>
+      </div>
+      
+      <!-- Comments section (hidden by default) -->
+      <div class="comments-section" id="comments-39086438" style="display: none; margin-top: 15px; padding: 10px; background-color: #f9f9f9; border-radius: 4px;">
+        <h5 style="margin-top: 0;">Comments:</h5>
+        <div class="comments-list" id="comments-list-39086438">
+          <!-- Comments will be loaded here -->
+        </div>
+        <div style="margin-top: 10px;">
+          <textarea class="comment-input" data-pmid="39086438" 
+                    placeholder="Add a comment..." 
+                    style="width: 100%; min-height: 60px; padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; font-size: 14px;"></textarea>
+          <button class="submit-comment-btn" data-pmid="39086438" 
+                  style="margin-top: 5px; padding: 6px 12px; background-color: #284b63; color: white; 
+                         border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+            Submit Comment
+          </button>
+        </div>
+      </div>
+    </li>
+  
+    <li style="margin-bottom: 1.5em; padding-bottom: 1em; border-bottom: 1px solid #eee;">
+      <strong>
+        <a href="https://pubmed.ncbi.nlm.nih.gov/36582900/" target="_blank" style="text-decoration: none; color: #003366;">
+          Late onset hyperornithinemia, hyperammonemia, and homocitrullinuria syndrome, presenting as recurrent metabolic encephalopathy, A case report.
+        </a>
+      </strong><br>
+      <em>Annals of medicine and surgery (2012)</em>, Dec 2022, Vol. 84, pp. 104842<br>
+      <small>
+        PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/36582900/" target="_blank">36582900</a> |
+        PMCID: PMC9793129
+      </small>
+      <p>and importance: Hyperornithinemia, hyperammonemia, and homocitrullinuria (HHH) syndrome (OMIM 238970) seems to be an autosomal recessive disorder caused by a mitochondrial ornithine transporter 1 deficiency, which results in urea cycle dysfunction. HHH is the most uncommon of the urea cycle diseases, with less than 100 cases recorded. A previously healthy 29 year old male presented to the emergency department complaining of decreased level of consciousness. CT scan, Cerebro-spinal-fluid analysis and toxicology screen were non-significant. Extended serum analysis showed elevated levels of ammonia. Urgent amino acid level analysis showed elevated ornithine. Follow up genetic testing showed that the patient is homozygous for the mutation c.44delG in exon 3 of SLC25A15 gene. In this case, HHH syndrome presented as a late-onset metabolic encephalopathy. For diagnosis; elevated levels of ammonia, ornithine accompanied by the abovementioned genetic mutation confirms the diagnosis. Treatment focuses on reduction of the ammonia levels using sodium benzoat, citrulline or arginine, and low protein diet. HHH syndrome, which is a urea cycle disorder, can present as a late-onset metabolic encephalopathy. High suspicion for genetic causes of metabolic encephalopathy should be maintained even for older patients without prior diagnosis in childhood/adolescence.</p>
+      
+      
+      <!-- Interaction buttons -->
+      <div style="margin-top: 10px; display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
+        <button class="like-btn" data-pmid="36582900" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👍 Like (<span class="like-count">0</span>)
+        </button>
+        <button class="dislike-btn" data-pmid="36582900" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👎 Dislike (<span class="dislike-count">0</span>)
+        </button>
+        <button class="comment-btn" data-pmid="36582900" 
+                style="padding: 5px 12px; background-color: #284b63; color: white; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          💬 Comment (<span class="comment-count">0</span>)
+        </button>
+      </div>
+      
+      <!-- Comments section (hidden by default) -->
+      <div class="comments-section" id="comments-36582900" style="display: none; margin-top: 15px; padding: 10px; background-color: #f9f9f9; border-radius: 4px;">
+        <h5 style="margin-top: 0;">Comments:</h5>
+        <div class="comments-list" id="comments-list-36582900">
+          <!-- Comments will be loaded here -->
+        </div>
+        <div style="margin-top: 10px;">
+          <textarea class="comment-input" data-pmid="36582900" 
+                    placeholder="Add a comment..." 
+                    style="width: 100%; min-height: 60px; padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; font-size: 14px;"></textarea>
+          <button class="submit-comment-btn" data-pmid="36582900" 
+                  style="margin-top: 5px; padding: 6px 12px; background-color: #284b63; color: white; 
+                         border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+            Submit Comment
+          </button>
+        </div>
+      </div>
+    </li>
+  
+    <li style="margin-bottom: 1.5em; padding-bottom: 1em; border-bottom: 1px solid #eee;">
+      <strong>
+        <a href="https://pubmed.ncbi.nlm.nih.gov/35782604/" target="_blank" style="text-decoration: none; color: #003366;">
+          A neonate with ornithine aminotransferase deficiency; insights on the hyperammonemia-associated biochemical phenotype of gyrate atrophy.
+        </a>
+      </strong><br>
+      <em>Molecular genetics and metabolism reports</em>, Jun 2022, Vol. 31, pp. 100857<br>
+      <small>
+        PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/35782604/" target="_blank">35782604</a> |
+        PMCID: PMC9248225
+      </small>
+      <p>Gyrate atrophy of the choroid and retina (GACR) secondary to deficiency of ornithine aminotransferase (OAT) is a rare autosomal recessive metabolic disorder usually diagnosed in childhood when patients develop myopia and a characteristic retinal degeneration accompanied by hyperornithinemia. Plasma ammonia is normal or sub-normal after the neonatal period. A few GACR patients present in early infancy with hyperammonemia, encephalopathy and a biochemical profile of low plasma ornithine, citrulline and arginine, with increased urinary excretion of homocitrulline and orotic acid, resembling a primary urea cycle disorder. In these patients, ornithine levels do not increase until late infancy or following arginine or citrulline supplementation. We describe a patient with OAT deficiency who presented in the first month of life with episodes of lethargy, vomiting, and hypothermia. He had two episodes of hyperammonemia associated with subnormal levels of plasma ornithine, citrulline and arginine as well as elevated urinary excretion of homocitrulline and orotic acid. Unlike previously reported cases, intermittent hyperornithinemia was observed prior to the first hyperammonemic episode and citrulline supplementation. The latter alleviated the symptoms, normalized ammonia level, and led to increased plasma ornithine concentration. Furthermore, despite a protein restricted diet and ammonia scavenger treatment, continued supplemental citrulline was necessary to prevent hyperammonemia. Molecular analysis confirmed OAT deficiency, differentiating it from proximal urea cycle disorders and deficiency of the mitochondrial ornithine transporter, ORC1, (Hyperammonemia-Hyperornithinemia-Homocitrullinuria syndrome). Hyperornithinemia alternating with hypoornithinemia and hyperammonemia in a neonatal-onset case of gyrate atrophy with ornithine aminotransferase deficiency.</p>
+      
+      
+      <!-- Interaction buttons -->
+      <div style="margin-top: 10px; display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
+        <button class="like-btn" data-pmid="35782604" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👍 Like (<span class="like-count">0</span>)
+        </button>
+        <button class="dislike-btn" data-pmid="35782604" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👎 Dislike (<span class="dislike-count">0</span>)
+        </button>
+        <button class="comment-btn" data-pmid="35782604" 
+                style="padding: 5px 12px; background-color: #284b63; color: white; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          💬 Comment (<span class="comment-count">0</span>)
+        </button>
+      </div>
+      
+      <!-- Comments section (hidden by default) -->
+      <div class="comments-section" id="comments-35782604" style="display: none; margin-top: 15px; padding: 10px; background-color: #f9f9f9; border-radius: 4px;">
+        <h5 style="margin-top: 0;">Comments:</h5>
+        <div class="comments-list" id="comments-list-35782604">
+          <!-- Comments will be loaded here -->
+        </div>
+        <div style="margin-top: 10px;">
+          <textarea class="comment-input" data-pmid="35782604" 
+                    placeholder="Add a comment..." 
+                    style="width: 100%; min-height: 60px; padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; font-size: 14px;"></textarea>
+          <button class="submit-comment-btn" data-pmid="35782604" 
+                  style="margin-top: 5px; padding: 6px 12px; background-color: #284b63; color: white; 
+                         border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+            Submit Comment
+          </button>
+        </div>
+      </div>
+    </li>
+  
+    <li style="margin-bottom: 1.5em; padding-bottom: 1em; border-bottom: 1px solid #eee;">
+      <strong>
+        <a href="https://pubmed.ncbi.nlm.nih.gov/34471603/" target="_blank" style="text-decoration: none; color: #003366;">
+          Creatine metabolism in patients with urea cycle disorders.
+        </a>
+      </strong><br>
+      <em>Molecular genetics and metabolism reports</em>, Dec 2021, Vol. 29, pp. 100791<br>
+      <small>
+        PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/34471603/" target="_blank">34471603</a> |
+        PMCID: PMC8387902
+      </small>
+      <p>The urea cycle generates arginine that is one of the major precursors for creatine biosynthesis. Here we evaluate levels of creatine and guanidinoacetate (the precursor in the synthesis of creatine) in plasma samples (n&lt;sub&gt;s&lt;/sub&gt; = 207) of patients (n&lt;sub&gt;p&lt;/sub&gt; = 73) with different types of urea cycle disorders (ornithine transcarbamylase deficiency (n&lt;sub&gt;s&lt;/sub&gt; = 22; n&lt;sub&gt;p&lt;/sub&gt; = 7), citrullinemia type 1 (n&lt;sub&gt;s&lt;/sub&gt; = 60; n&lt;sub&gt;p&lt;/sub&gt; = 22), argininosuccinic aciduria (n&lt;sub&gt;s&lt;/sub&gt; = 81; n&lt;sub&gt;p&lt;/sub&gt; = 31), arginase deficiency (n&lt;sub&gt;s&lt;/sub&gt; = 44; n&lt;sub&gt;p&lt;/sub&gt; = 13)). The concentration of plasma guanidinoacetate positively correlated (&lt;i&gt;p&lt;/i&gt; &lt; 0.001, R&lt;sup&gt;2&lt;/sup&gt; = 0.64) with levels of arginine, but not with glycine in all patients with urea cycle defects, rising to levels above normal in most samples (34 out of 44) of patients with arginase deficiency. In contrast to patients with guanidinoacetate methyltransferase deficiency (a disorder of creatine synthesis characterized by elevated guanidinoacetate concentrations), creatine levels were normal (32 out of 44) or above normal (12 out of 44) in samples from patients with arginase deficiency. Creatine levels correlated significantly, but poorly (&lt;i&gt;p&lt;/i&gt; &lt; 0.01, R&lt;sup&gt;2&lt;/sup&gt; = 0.1) with guanidinoacetate levels and, despite being overall in the normal range in patients with all other urea cycle disorders, were occasionally below normal in some patients with argininosuccinic acid synthase and lyase deficiency. Creatine levels positively correlated with levels of methionine (&lt;i&gt;p&lt;/i&gt; &lt; 0.001, R&lt;sup&gt;2&lt;/sup&gt; = 0.16), the donor of the methyl group for creatine synthesis. The direct correlation of arginine levels with guanidinoacetate in patients with urea cycle disorders explains the increased concentration of guanidino compounds in arginase deficiency. Low creatine levels in some patients with other urea cycle defects might be explained by low protein intake (creatine is naturally present in meat) and relative or absolute intracellular arginine deficiency.</p>
+      
+      
+      <!-- Interaction buttons -->
+      <div style="margin-top: 10px; display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
+        <button class="like-btn" data-pmid="34471603" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👍 Like (<span class="like-count">0</span>)
+        </button>
+        <button class="dislike-btn" data-pmid="34471603" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👎 Dislike (<span class="dislike-count">0</span>)
+        </button>
+        <button class="comment-btn" data-pmid="34471603" 
+                style="padding: 5px 12px; background-color: #284b63; color: white; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          💬 Comment (<span class="comment-count">0</span>)
+        </button>
+      </div>
+      
+      <!-- Comments section (hidden by default) -->
+      <div class="comments-section" id="comments-34471603" style="display: none; margin-top: 15px; padding: 10px; background-color: #f9f9f9; border-radius: 4px;">
+        <h5 style="margin-top: 0;">Comments:</h5>
+        <div class="comments-list" id="comments-list-34471603">
+          <!-- Comments will be loaded here -->
+        </div>
+        <div style="margin-top: 10px;">
+          <textarea class="comment-input" data-pmid="34471603" 
+                    placeholder="Add a comment..." 
+                    style="width: 100%; min-height: 60px; padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; font-size: 14px;"></textarea>
+          <button class="submit-comment-btn" data-pmid="34471603" 
+                  style="margin-top: 5px; padding: 6px 12px; background-color: #284b63; color: white; 
+                         border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+            Submit Comment
+          </button>
+        </div>
+      </div>
+    </li>
+  
+    <li style="margin-bottom: 1.5em; padding-bottom: 1em; border-bottom: 1px solid #eee;">
+      <strong>
+        <a href="https://pubmed.ncbi.nlm.nih.gov/34014557/" target="_blank" style="text-decoration: none; color: #003366;">
+          Adult-onset diagnosis of urea cycle disorders: Results of a French cohort of 71 patients.
+        </a>
+      </strong><br>
+      <em>Journal of inherited metabolic disease</em>, Sep 2021, Vol. 44, pp. 1199-1214<br>
+      <small>
+        PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/34014557/" target="_blank">34014557</a> |
+        PMCID: N/A
+      </small>
+      <p>Urea cycle disorders (UCD) are rare diseases that usually affect neonates or young children. During decompensations, hyperammonemia is neurotoxic, leading to severe symptoms and even coma and death if not treated rapidly. The aim was to describe a cohort of patients with adult onset of UCDs in a multicentric, retrospective and descriptive study of French adult patients with a diagnosis after 16 years of age of UCDs due to a deficiency in one of the 6 enzymes (arginase, ASL, ASS, CPS1, NAGS, OTC) or the two transporters (ORNT1 or citrin). Seventy-one patients were included (68% female, 32% male). The diagnosis was made in the context of (a) a metabolic decompensation (42%), (b) family history (55%), or (c) chronic symptoms (3%). The median age at diagnosis was 33 years (range 16-86). Eighty-nine percent of patients were diagnosed with OTC deficiency, 7% CPS1 deficiency, 3% HHH syndrome and 1% argininosuccinic aciduria. For those diagnosed during decompensations (including 23 OTC cases, mostly female), 89% required an admission in intensive care units. Seven deaths were attributed to UCD-6 decompensations and 1 epilepsy secondary to inaugural decompensation. This is the largest cohort of UCDs diagnosed in adulthood, which confirms the triad of neurological, gastrointestinal and psychiatric symptoms during hyperammonemic decompensations. We stress that females with OTC deficiency can be symptomatic. With 10% of deaths in this cohort, UCDs in adults remain a life-threatening condition. Physicians working in adult care must be aware of late-onset presentations given the implications for patients and their families.</p>
+      
+      
+      <!-- Interaction buttons -->
+      <div style="margin-top: 10px; display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
+        <button class="like-btn" data-pmid="34014557" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👍 Like (<span class="like-count">0</span>)
+        </button>
+        <button class="dislike-btn" data-pmid="34014557" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👎 Dislike (<span class="dislike-count">0</span>)
+        </button>
+        <button class="comment-btn" data-pmid="34014557" 
+                style="padding: 5px 12px; background-color: #284b63; color: white; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          💬 Comment (<span class="comment-count">0</span>)
+        </button>
+      </div>
+      
+      <!-- Comments section (hidden by default) -->
+      <div class="comments-section" id="comments-34014557" style="display: none; margin-top: 15px; padding: 10px; background-color: #f9f9f9; border-radius: 4px;">
+        <h5 style="margin-top: 0;">Comments:</h5>
+        <div class="comments-list" id="comments-list-34014557">
+          <!-- Comments will be loaded here -->
+        </div>
+        <div style="margin-top: 10px;">
+          <textarea class="comment-input" data-pmid="34014557" 
+                    placeholder="Add a comment..." 
+                    style="width: 100%; min-height: 60px; padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; font-size: 14px;"></textarea>
+          <button class="submit-comment-btn" data-pmid="34014557" 
+                  style="margin-top: 5px; padding: 6px 12px; background-color: #284b63; color: white; 
+                         border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+            Submit Comment
+          </button>
+        </div>
+      </div>
+    </li>
+  
+    <li style="margin-bottom: 1.5em; padding-bottom: 1em; border-bottom: 1px solid #eee;">
+      <strong>
+        <a href="https://pubmed.ncbi.nlm.nih.gov/33314525/" target="_blank" style="text-decoration: none; color: #003366;">
+          Successful liver transplantation in hyperornithinemia-hyperammonemia-homocitrullinuria syndrome: Case report.
+        </a>
+      </strong><br>
+      <em>Pediatric transplantation</em>, Sep 2021, Vol. 25, pp. e13943<br>
+      <small>
+        PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/33314525/" target="_blank">33314525</a> |
+        PMCID: N/A
+      </small>
+      <p>HHH syndrome is a rare autosomal recessive disorder of the urea cycle, caused by a deficient mitochondrial ornithine transporter. We report the first successful liver transplantation in HHH syndrome performed in a seven-year-old boy. The patient presented at 4 weeks of age with hyperammonemic coma. The plasma amino acid profile was suggestive of HHH syndrome, and the diagnosis was confirmed when sequencing of the SLC25A15 gene identified two mutations p.R275Q and p.A76D. Although immediate intervention resulted in normalization of plasma ammonia levels within 24 hours, he developed cerebral edema, coma, convulsions, and subsequent neurological sequelae. Metabolic control was difficult requiring severe protein restriction and continued treatment with sodium benzoate and L-arginine. Despite substantial developmental delay, he was referred to our center for liver transplantation because of poor metabolic control. Following cadaveric split liver transplantation, there was complete normalization of his plasma ammonia and plasma amino acid levels under a normal protein-containing diet. This excellent metabolic control was associated with a markedly improved general condition, mood and behavior, and small developmental achievements. Twelve years after liver transplantation, the patient has a stable cognitive impairment without progression of spastic diplegia. This first case of liver transplantation in HHH syndrome demonstrates that this procedure is a therapeutic option for HHH patients with difficult metabolic control.</p>
+      
+<div class="paper-variants-mentioned" style="margin-top: 0.75rem; padding: 0.5rem 0.75rem; background: #f0f7fb; border-radius: 6px; font-size: 0.9rem;">
+  <strong>Variants mentioned:</strong>
+  
+    <a href="/urea-cycle/ucrh/variants/ORNT1/A76D" style="margin-right: 0.5rem; white-space: nowrap;">A76D</a>,
+  
+    <a href="/urea-cycle/ucrh/variants/ORNT1/R275Q" style="margin-right: 0.5rem; white-space: nowrap;">R275Q</a>
+  
+</div>
+
+      
+      <!-- Interaction buttons -->
+      <div style="margin-top: 10px; display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
+        <button class="like-btn" data-pmid="33314525" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👍 Like (<span class="like-count">0</span>)
+        </button>
+        <button class="dislike-btn" data-pmid="33314525" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👎 Dislike (<span class="dislike-count">0</span>)
+        </button>
+        <button class="comment-btn" data-pmid="33314525" 
+                style="padding: 5px 12px; background-color: #284b63; color: white; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          💬 Comment (<span class="comment-count">0</span>)
+        </button>
+      </div>
+      
+      <!-- Comments section (hidden by default) -->
+      <div class="comments-section" id="comments-33314525" style="display: none; margin-top: 15px; padding: 10px; background-color: #f9f9f9; border-radius: 4px;">
+        <h5 style="margin-top: 0;">Comments:</h5>
+        <div class="comments-list" id="comments-list-33314525">
+          <!-- Comments will be loaded here -->
+        </div>
+        <div style="margin-top: 10px;">
+          <textarea class="comment-input" data-pmid="33314525" 
+                    placeholder="Add a comment..." 
+                    style="width: 100%; min-height: 60px; padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; font-size: 14px;"></textarea>
+          <button class="submit-comment-btn" data-pmid="33314525" 
+                  style="margin-top: 5px; padding: 6px 12px; background-color: #284b63; color: white; 
+                         border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+            Submit Comment
+          </button>
+        </div>
+      </div>
+    </li>
+  
+    <li style="margin-bottom: 1.5em; padding-bottom: 1em; border-bottom: 1px solid #eee;">
+      <strong>
+        <a href="https://pubmed.ncbi.nlm.nih.gov/30977266/" target="_blank" style="text-decoration: none; color: #003366;">
+          Hyperammonemia after capecitabine associated with occult impairment of the urea cycle.
+        </a>
+      </strong><br>
+      <em>Cancer medicine</em>, May 2019, Vol. 8, pp. 1996-2004<br>
+      <small>
+        PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/30977266/" target="_blank">30977266</a> |
+        PMCID: PMC6536928
+      </small>
+      <p>Cancer patients receiving chemotherapy often complain of &#34;chemobrain&#34; or cognitive impairment, but mechanisms remain elusive. A patient with gastric cancer developed delirium and hyperammonemia after chemotherapy with the 5-fluorouracil pro-drug capecitabine. Exome sequencing facilitated a search for mutations among 43 genes associated with hyperammonemia and affecting the urea cycle directly or indirectly. The patient&#39;s urea cycle was impaired by capecitabine-induced liver steatosis, and portosystemic shunting of gut ammonia into the systemic circulation. The patient was also heterozygous for amino acid substitution mutations previously reported to create dysfunctional proteins in 2 genes, ORNT2 (ornithine transporter-2 for the urea cycle), and ETFA (electron transport flavoprotein alpha for fatty acid oxidation). The mutations explained the patient&#39;s abnormal plasma amino acid profile and exaggerated response to allopurinol challenge. Global population variations among the 43 hyperammonemia genes were assessed for inactivating mutations, and for amino acid substitutions predicted to be deleterious by complementary algorithms, SIFT and PolyPhen-2. One or 2 deleterious mutations occur among the 43 genes in 13.9% and 1% of individuals, respectively. Capecitabine and 5-fluorouracil inhibit pyrimidine biosynthesis, decreasing ammonia utilization. These drugs can induce hyperammonemia in susceptible individuals. The risk factors of hyperammonemia, gene mutations and liver dysfunction, are not rare. Diagnosis will trigger appropriate treatment and ameliorate brain toxicity.</p>
+      
+      
+      <!-- Interaction buttons -->
+      <div style="margin-top: 10px; display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
+        <button class="like-btn" data-pmid="30977266" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👍 Like (<span class="like-count">0</span>)
+        </button>
+        <button class="dislike-btn" data-pmid="30977266" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👎 Dislike (<span class="dislike-count">0</span>)
+        </button>
+        <button class="comment-btn" data-pmid="30977266" 
+                style="padding: 5px 12px; background-color: #284b63; color: white; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          💬 Comment (<span class="comment-count">0</span>)
+        </button>
+      </div>
+      
+      <!-- Comments section (hidden by default) -->
+      <div class="comments-section" id="comments-30977266" style="display: none; margin-top: 15px; padding: 10px; background-color: #f9f9f9; border-radius: 4px;">
+        <h5 style="margin-top: 0;">Comments:</h5>
+        <div class="comments-list" id="comments-list-30977266">
+          <!-- Comments will be loaded here -->
+        </div>
+        <div style="margin-top: 10px;">
+          <textarea class="comment-input" data-pmid="30977266" 
+                    placeholder="Add a comment..." 
+                    style="width: 100%; min-height: 60px; padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; font-size: 14px;"></textarea>
+          <button class="submit-comment-btn" data-pmid="30977266" 
+                  style="margin-top: 5px; padding: 6px 12px; background-color: #284b63; color: white; 
+                         border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+            Submit Comment
+          </button>
+        </div>
+      </div>
+    </li>
+  
+    <li style="margin-bottom: 1.5em; padding-bottom: 1em; border-bottom: 1px solid #eee;">
+      <strong>
+        <a href="https://pubmed.ncbi.nlm.nih.gov/31240152/" target="_blank" style="text-decoration: none; color: #003366;">
+          Hyperornithinemia-hyperammonemia-homocitrullinuria syndrome in pregnancy: Considerations for management and review of the literature.
+        </a>
+      </strong><br>
+      <em>JIMD reports</em>, Mar 2019, Vol. 46, pp. 28-34<br>
+      <small>
+        PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/31240152/" target="_blank">31240152</a> |
+        PMCID: PMC6498866
+      </small>
+      <p>Hyperornithinemia-hyperammonemia-homocitrullinuria (HHH) syndrome is a rare metabolic autosomal recessive urea cycle disorder. Only about 100 patients have been reported in the literature. As the population survives into reproductive years, pregnancy management becomes a new challenge for this clinicians. To our knowledge, there are less than three patients with successful pregnancies and deliveries found in the literature with no specific consensus on management or recommendations for HHH syndrome. We reviewed the current literature regarding pregnancy outcomes, combine it with our experience managing a patient through two successful pregnancies and identify a new concern of fetal intrauterine growth restriction. From this, recommendations for pregnancy management are made, including a detailed protocol for clinicians to use for disease management at delivery and in the post-partum period.</p>
+      
+      
+      <!-- Interaction buttons -->
+      <div style="margin-top: 10px; display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
+        <button class="like-btn" data-pmid="31240152" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👍 Like (<span class="like-count">0</span>)
+        </button>
+        <button class="dislike-btn" data-pmid="31240152" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👎 Dislike (<span class="dislike-count">0</span>)
+        </button>
+        <button class="comment-btn" data-pmid="31240152" 
+                style="padding: 5px 12px; background-color: #284b63; color: white; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          💬 Comment (<span class="comment-count">0</span>)
+        </button>
+      </div>
+      
+      <!-- Comments section (hidden by default) -->
+      <div class="comments-section" id="comments-31240152" style="display: none; margin-top: 15px; padding: 10px; background-color: #f9f9f9; border-radius: 4px;">
+        <h5 style="margin-top: 0;">Comments:</h5>
+        <div class="comments-list" id="comments-list-31240152">
+          <!-- Comments will be loaded here -->
+        </div>
+        <div style="margin-top: 10px;">
+          <textarea class="comment-input" data-pmid="31240152" 
+                    placeholder="Add a comment..." 
+                    style="width: 100%; min-height: 60px; padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; font-size: 14px;"></textarea>
+          <button class="submit-comment-btn" data-pmid="31240152" 
+                  style="margin-top: 5px; padding: 6px 12px; background-color: #284b63; color: white; 
+                         border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+            Submit Comment
+          </button>
+        </div>
+      </div>
+    </li>
+  
+    <li style="margin-bottom: 1.5em; padding-bottom: 1em; border-bottom: 1px solid #eee;">
+      <strong>
+        <a href="https://pubmed.ncbi.nlm.nih.gov/30187369/" target="_blank" style="text-decoration: none; color: #003366;">
+          Hyperornithinemia, Hyperammonemia, and Homocitrullinuria Syndrome Causing Severe Neonatal Hyperammonemia.
+        </a>
+      </strong><br>
+      <em>JIMD reports</em>, 2019, Vol. 44, pp. 103-107<br>
+      <small>
+        PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/30187369/" target="_blank">30187369</a> |
+        PMCID: PMC6323011
+      </small>
+      <p>Hyperornithinemia-hyperammonemia-homocitrullinuria (HHH) syndrome (OMIM 238970) is an autosomal recessive disorder that is caused by a deficiency of mitochondrial ornithine transporter 1, resulting in dysfunction of the urea cycle. HHH is the rarest of the urea cycle disorders, reported in fewer than 100 patients. It is characterized by extreme phenotypic variability, including diverse ages of onset and severity of phenotype. We report the first confirmed instance of HHH syndrome in a premature infant (31 2/7 weeks) with severe hyperammonemia (1,300 μmol/L).This case highlights the importance of considering HHH in the differential diagnosis for neonatal hyperammonemia. Because HHH is not detected by newborn screening, and the characteristic biochemical triad may be subtle or even absent, it has the potential to be underdiagnosed; however, making the diagnosis has critical therapeutic implications as treatment is distinct from other urea cycle defects. For instance, lysine supplementation is a beneficial treatment unique to HHH. Therefore, we present here a review of previously reported cases in order to demonstrate the full spectrum of the disease and highlight potentially diagnostic features.</p>
+      
+      
+      <!-- Interaction buttons -->
+      <div style="margin-top: 10px; display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
+        <button class="like-btn" data-pmid="30187369" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👍 Like (<span class="like-count">0</span>)
+        </button>
+        <button class="dislike-btn" data-pmid="30187369" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👎 Dislike (<span class="dislike-count">0</span>)
+        </button>
+        <button class="comment-btn" data-pmid="30187369" 
+                style="padding: 5px 12px; background-color: #284b63; color: white; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          💬 Comment (<span class="comment-count">0</span>)
+        </button>
+      </div>
+      
+      <!-- Comments section (hidden by default) -->
+      <div class="comments-section" id="comments-30187369" style="display: none; margin-top: 15px; padding: 10px; background-color: #f9f9f9; border-radius: 4px;">
+        <h5 style="margin-top: 0;">Comments:</h5>
+        <div class="comments-list" id="comments-list-30187369">
+          <!-- Comments will be loaded here -->
+        </div>
+        <div style="margin-top: 10px;">
+          <textarea class="comment-input" data-pmid="30187369" 
+                    placeholder="Add a comment..." 
+                    style="width: 100%; min-height: 60px; padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; font-size: 14px;"></textarea>
+          <button class="submit-comment-btn" data-pmid="30187369" 
+                  style="margin-top: 5px; padding: 6px 12px; background-color: #284b63; color: white; 
+                         border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+            Submit Comment
+          </button>
+        </div>
+      </div>
+    </li>
+  
+</ol>
+
+<div style="text-align:center; margin-top:1rem;">
+  <button id="load-more" style="padding:8px 16px; background-color:#284b63; color:white; border:none; border-radius:5px;">
+    Show More
+  </button>
+  <button id="show-all" style="padding:6px 14px; background-color:#999; color:white; border:none; border-radius:5px;">
+    Show All
+  </button>
+</div>
+
+
+
+<div id="loading-text" class="loading-text" style="display:none;">Fetching papers...</div>
+
+
+  </main>
+
+  <footer>
+    <p>© 2025 Urea Cycle Research Hub</p>
+  </footer>
+  
+<script src="/urea-cycle/ucrh/static/js/script.js"></script>
+
+</body>
+</html>

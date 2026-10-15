@@ -1,0 +1,49 @@
+# RIS / PMID exports from the hub snapshot (tools/ucrh_snapshot.py).
+/urea-cycle/ucrh/export/OTC/ris
+  Content-Type: application/x-research-info-systems
+  Content-Disposition: attachment; filename="OTC_papers.ris"
+/urea-cycle/ucrh/export/OTC/pmid
+  Content-Type: text/plain
+  Content-Disposition: attachment; filename="OTC_pmids.txt"
+/urea-cycle/ucrh/export/CPS1/ris
+  Content-Type: application/x-research-info-systems
+  Content-Disposition: attachment; filename="CPS1_papers.ris"
+/urea-cycle/ucrh/export/CPS1/pmid
+  Content-Type: text/plain
+  Content-Disposition: attachment; filename="CPS1_pmids.txt"
+/urea-cycle/ucrh/export/NAGS/ris
+  Content-Type: application/x-research-info-systems
+  Content-Disposition: attachment; filename="NAGS_papers.ris"
+/urea-cycle/ucrh/export/NAGS/pmid
+  Content-Type: text/plain
+  Content-Disposition: attachment; filename="NAGS_pmids.txt"
+/urea-cycle/ucrh/export/ASS/ris
+  Content-Type: application/x-research-info-systems
+  Content-Disposition: attachment; filename="ASS_papers.ris"
+/urea-cycle/ucrh/export/ASS/pmid
+  Content-Type: text/plain
+  Content-Disposition: attachment; filename="ASS_pmids.txt"
+/urea-cycle/ucrh/export/ARG1/ris
+  Content-Type: application/x-research-info-systems
+  Content-Disposition: attachment; filename="ARG1_papers.ris"
+/urea-cycle/ucrh/export/ARG1/pmid
+  Content-Type: text/plain
+  Content-Disposition: attachment; filename="ARG1_pmids.txt"
+/urea-cycle/ucrh/export/ASL/ris
+  Content-Type: application/x-research-info-systems
+  Content-Disposition: attachment; filename="ASL_papers.ris"
+/urea-cycle/ucrh/export/ASL/pmid
+  Content-Type: text/plain
+  Content-Disposition: attachment; filename="ASL_pmids.txt"
+/urea-cycle/ucrh/export/ORNT1/ris
+  Content-Type: application/x-research-info-systems
+  Content-Disposition: attachment; filename="ORNT1_papers.ris"
+/urea-cycle/ucrh/export/ORNT1/pmid
+  Content-Type: text/plain
+  Content-Disposition: attachment; filename="ORNT1_pmids.txt"
+/urea-cycle/ucrh/export/CITRIN/ris
+  Content-Type: application/x-research-info-systems
+  Content-Disposition: attachment; filename="CITRIN_papers.ris"
+/urea-cycle/ucrh/export/CITRIN/pmid
+  Content-Type: text/plain
+  Content-Disposition: attachment; filename="CITRIN_pmids.txt"

@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><link rel="stylesheet" href="/urea-cycle/ucrh/_snapshot/snapshot.css"><script src="/urea-cycle/ucrh/_snapshot/shim.js"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OTC - Ornithine Transcarbamylase</title>
+  <link rel="icon" type="image/jpeg" href="/urea-cycle/ucrh/static/images/favicon.jpeg">
+  <link rel="stylesheet" href="/urea-cycle/ucrh/static/css/styles.css">
+</head>
+<body><div class="ucrh-snapshot-bar">Read-only snapshot of the Urea Cycle Research Hub, taken Oct 14, 2026. Live PubMed search, accounts, comments and email digests are off. <a href="/urea-cycle/">Paper and poster</a> · <a href="/">karansadiora.com</a></div>
+  
+  <header>
+    <a href="/urea-cycle/ucrh/" class="header-home-link">Home</a>
+    <div class="header-top-right">
+      
+        
+        
+      
+    </div>
+    <div style="display: flex; align-items: center; justify-content: center; margin-bottom: 1rem; position: relative;">
+      <h1><a href="/urea-cycle/ucrh/" class="site-title-link">Urea Cycle Research Hub</a></h1>
+    </div>
+    <nav>
+      <a href="/urea-cycle/ucrh/OTC" class="active">OTC</a>  
+      <a href="/urea-cycle/ucrh/CPS1" class="">CPS1</a>
+      <a href="/urea-cycle/ucrh/NAGS" class="">NAGS</a>
+      <a href="/urea-cycle/ucrh/ASS" class="">ASS</a>
+      <a href="/urea-cycle/ucrh/ARG1" class="">ARG1</a>
+      <a href="/urea-cycle/ucrh/ASL" class="">ASL</a>
+      <a href="/urea-cycle/ucrh/ORNT1" class="">ORNT1</a>
+      <a href="/urea-cycle/ucrh/CITRIN" class="">CITRIN</a>
+      <a href="/urea-cycle/ucrh/variants" class="">Variants</a>
+      
+      
+      
+    </nav>
+  </header>
+
+  <main>
+    
+
+
+<!-- Sidebar panel -->
+<div id="keywords-panel" style="display:none; position: fixed; right:0; top:0; height:100%; width:250px; background:#f7f7f7; border-left:1px solid #ccc; padding:15px; padding-top: 80px; box-shadow: -2px 0 5px rgba(0,0,0,0.1); overflow-y:auto; z-index: 1001;">
+  <button id="close-keywords" style="position: absolute; top: 15px; right: 15px; background: #C8102E; color: white; border: none; border-radius: 50%; width: 30px; height: 30px; cursor: pointer; font-size: 18px; line-height: 1; display: flex; align-items: center; justify-content: center;">×</button>
+  <h4>Current Keywords</h4>
+  <ul id="current-keywords">
+    
+      <li>urea cycle</li>
+    
+      <li>ureagenesis</li>
+    
+      <li>ornithine transcarbamylase</li>
+    
+      <li>OTC</li>
+    
+    
+  </ul>
+
+  <h5 style="margin-top: 1rem;">Add Keywords (comma-separated)</h5>
+  <input type="text" id="new-keywords" placeholder="e.g., mitochondrial" style="width:100%; padding:5px;">
+  <button id="add-keywords" style="margin-top:5px; padding:6px 10px; background-color:#003366; color:white; border:none; border-radius:4px;">Add</button>
+</div>
+
+<div style="margin-bottom: 1rem;">
+  <h2 style="margin: 0 0 0.5rem 0;">Ornithine Transcarbamylase (OTC)</h2>
+  <p style="margin: 0;">OTC is a mitochondrial enzyme that catalyzes the conversion of ornithine and carbamoyl phosphate into citrulline, a key step in the urea cycle.</p>
+</div>
+
+<h4 style="color:#284b63; margin-top:1rem;">
+  <a href="#" id="new-papers-link" data-since="" style="color:#284b63; text-decoration: underline; cursor: pointer;">
+    0 Publications Since Last Visit
+  </a>
+</h4>
+
+<!-- Modal for new papers -->
+<div id="new-papers-modal" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.5); z-index: 2000; overflow-y: auto;">
+  <div style="position: relative; background: white; margin: 50px auto; max-width: 900px; padding: 30px; border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.3); max-height: 90vh; overflow-y: auto;">
+    <button id="close-modal" style="position: absolute; top: 15px; right: 15px; background: #C8102E; color: white; border: none; border-radius: 50%; width: 35px; height: 35px; cursor: pointer; font-size: 20px; line-height: 1; display: flex; align-items: center; justify-content: center;">×</button>
+    <h2 style="margin-top: 0; color: #284b63;">New Publications Since Last Visit</h2>
+    <div id="new-papers-content">
+      <div style="text-align: center; padding: 40px;">
+        <p>Loading new publications...</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<hr>
+<div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 1rem;">
+  <h3 style="margin: 0;">Recent Publications</h3>
+  <div style="display: flex; gap: 10px; align-items: center;">
+    <select id="sort-select" style="padding: 6px 10px; background-color:#fff; border:1px solid #ccc; border-radius:4px; font-size:14px;">
+      <option value="date" selected>Sort by Date</option>
+      <option value="popularity" >Sort by Popularity</option>
+    </select>
+    <div style="position: relative; display: inline-block;">
+      <button id="export-btn" style="padding: 6px 10px; background-color:#284b63; color:white; border:none; border-radius:4px; cursor: pointer; display: inline-flex; align-items: center; gap: 4px;">
+        Export<span style="display: inline-block;">▼</span>
+      </button>
+      <div id="export-menu" style="display: none; position: absolute; top: 100%; right: 0; margin-top: 5px; background: white; border: 1px solid #ccc; border-radius: 4px; box-shadow: 0 2px 5px rgba(0,0,0,0.2); z-index: 1000; min-width: 150px;">
+        <a href="#" id="export-ris" style="display: block; padding: 8px 12px; text-decoration: none; color: #333; border-bottom: 1px solid #eee;">Export as RIS</a>
+        <a href="#" id="export-pmid" style="display: block; padding: 8px 12px; text-decoration: none; color: #333;">Export as PMID list</a>
+      </div>
+    </div>
+    <button id="toggle-keywords" style="padding: 6px 10px; background-color:#C8102E; color:white; border:none; border-radius:4px;">
+      Keywords
+    </button>
+  </div>
+</div>
+
+
+<ol id="papers-list">
+  
+    <li style="margin-bottom: 1.5em; padding-bottom: 1em; border-bottom: 1px solid #eee;">
+      <strong>
+        <a href="https://pubmed.ncbi.nlm.nih.gov/42542173/" target="_blank" style="text-decoration: none; color: #003366;">
+          Clinical and genetic analysis of Liver-Predominant ornithine transcarbamylase deficiency caused by a novel de novo OTC sequence variant in a female child.
+        </a>
+      </strong><br>
+      <em>Gene</em>, Nov 15 2026, Vol. 1010, pp. 150337<br>
+      <small>
+        PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/42542173/" target="_blank">42542173</a> |
+        PMCID: N/A
+      </small>
+      <p>Ornithine transcarbamylase deficiency (OTCD) is the most common urea cycle disorder. Although the classical presentation is dominated by hyperammonemia-related neurological manifestations, some patients may present with atypical liver-predominant phenotypes, which can delay early diagnosis. Here, we identified a 3-year-6-month-old female patient who presented primarily with liver dysfunction, characterized by elevated transaminases, mild coagulation abnormalities, and increased hepatic parenchymal echogenicity, without overt jaundice or typical neurological symptoms. Metabolic mass spectrometry screening revealed elevated urinary uracil, whereas amino acid and acylcarnitine profiles were unremarkable. Trio whole-exome sequencing followed by Sanger validation identified a novel de novo heterozygous missense sequence variant in exon 6 of OTC, c.541G &gt; A (p.Glu181Lys), which was absent in both parents. According to OTC/UCD-specific curation recommendations, this sequence variant was classified as pathogenic. Structural modeling and mature-trimer molecular dynamics simulations suggested that the p.Glu181Lys substitution may modestly alter OTC conformational dynamics, including local flexibility around residues 120-150 and the variant site. Together with the liver-predominant clinical presentation and supportive metabolic screening findings, these results indicate that OTC c.541G &gt; A (p.Glu181Lys) is the most likely genetic basis of disease in this patient. This study expands the variant spectrum of OTC and highlights the importance of considering OTCD in children with otherwise unexplained liver dysfunction, even in the absence of classical hyperammonemic encephalopathy.</p>
+      
+      
+      <!-- Interaction buttons -->
+      <div style="margin-top: 10px; display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
+        <button class="like-btn" data-pmid="42542173" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👍 Like (<span class="like-count">0</span>)
+        </button>
+        <button class="dislike-btn" data-pmid="42542173" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👎 Dislike (<span class="dislike-count">0</span>)
+        </button>
+        <button class="comment-btn" data-pmid="42542173" 
+                style="padding: 5px 12px; background-color: #284b63; color: white; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          💬 Comment (<span class="comment-count">0</span>)
+        </button>
+      </div>
+      
+      <!-- Comments section (hidden by default) -->
+      <div class="comments-section" id="comments-42542173" style="display: none; margin-top: 15px; padding: 10px; background-color: #f9f9f9; border-radius: 4px;">
+        <h5 style="margin-top: 0;">Comments:</h5>
+        <div class="comments-list" id="comments-list-42542173">
+          <!-- Comments will be loaded here -->
+        </div>
+        <div style="margin-top: 10px;">
+          <textarea class="comment-input" data-pmid="42542173" 
+                    placeholder="Add a comment..." 
+                    style="width: 100%; min-height: 60px; padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; font-size: 14px;"></textarea>
+          <button class="submit-comment-btn" data-pmid="42542173" 
+                  style="margin-top: 5px; padding: 6px 12px; background-color: #284b63; color: white; 
+                         border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+            Submit Comment
+          </button>
+        </div>
+      </div>
+    </li>
+  
+    <li style="margin-bottom: 1.5em; padding-bottom: 1em; border-bottom: 1px solid #eee;">
+      <strong>
+        <a href="https://pubmed.ncbi.nlm.nih.gov/42442071/" target="_blank" style="text-decoration: none; color: #003366;">
+          Unexplained hyperammonemia in the emergency department: Late-onset ornithine transcarbamylase deficiency in a 75-year-old man.
+        </a>
+      </strong><br>
+      <em>The American journal of emergency medicine</em>, Nov 2026, Vol. 109, pp. 158-161<br>
+      <small>
+        PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/42442071/" target="_blank">42442071</a> |
+        PMCID: N/A
+      </small>
+      <p>Late-onset ornithine transcarbamylase deficiency (OTCD) is an extremely rare X-linked urea cycle disorder in the geriatric population, and its diagnosis in the emergency department (ED) is highly challenging. We report the case of a 75-year-old man who presented to the ED with acute confusion and vomiting that rapidly progressed to coma. Initial investigations revealed unexplained hyperammonemia. Despite an empiric lactulose enema, his neurological status continued to deteriorate, and his plasma ammonia level peaked at 487 μmol/L. He required endotracheal intubation, and emergent hemodialysis was initiated. A detailed family history revealed that two nephews had died from unexplained hyperammonemia, raising a high index of suspicion for an inherited metabolic disorder. Subsequent plasma amino acid analysis revealed elevated ornithine and decreased citrulline levels. The diagnosis was confirmed by next-generation sequencing, which identified a hemizygous OTC variant (c.119G &gt; A, p.Arg40His). The patient was successfully managed with hemodialysis, intravenous L-arginine, and a protein-restricted diet, and he was ultimately discharged without focal neurological sequelae. This case highlights that clinicians should consider urea cycle disorders in the differential diagnosis of unexplained hyperammonemia regardless of age, including in geriatric patients. Furthermore, it underscores the critical value of a comprehensive family history and the prompt initiation of hemodialysis-before genetic confirmation-to prevent irreversible neurological damage in atypical adult presentations.</p>
+      
+      
+      <!-- Interaction buttons -->
+      <div style="margin-top: 10px; display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
+        <button class="like-btn" data-pmid="42442071" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👍 Like (<span class="like-count">0</span>)
+        </button>
+        <button class="dislike-btn" data-pmid="42442071" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👎 Dislike (<span class="dislike-count">0</span>)
+        </button>
+        <button class="comment-btn" data-pmid="42442071" 
+                style="padding: 5px 12px; background-color: #284b63; color: white; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          💬 Comment (<span class="comment-count">0</span>)
+        </button>
+      </div>
+      
+      <!-- Comments section (hidden by default) -->
+      <div class="comments-section" id="comments-42442071" style="display: none; margin-top: 15px; padding: 10px; background-color: #f9f9f9; border-radius: 4px;">
+        <h5 style="margin-top: 0;">Comments:</h5>
+        <div class="comments-list" id="comments-list-42442071">
+          <!-- Comments will be loaded here -->
+        </div>
+        <div style="margin-top: 10px;">
+          <textarea class="comment-input" data-pmid="42442071" 
+                    placeholder="Add a comment..." 
+                    style="width: 100%; min-height: 60px; padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; font-size: 14px;"></textarea>
+          <button class="submit-comment-btn" data-pmid="42442071" 
+                  style="margin-top: 5px; padding: 6px 12px; background-color: #284b63; color: white; 
+                         border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+            Submit Comment
+          </button>
+        </div>
+      </div>
+    </li>
+  
+    <li style="margin-bottom: 1.5em; padding-bottom: 1em; border-bottom: 1px solid #eee;">
+      <strong>
+        <a href="https://pubmed.ncbi.nlm.nih.gov/42107753/" target="_blank" style="text-decoration: none; color: #003366;">
+          Mechanism of Jianpi Qinghua granule in ameliorating metabolic dysfunction-associated fatty liver disease by targeting the DNMT-urea cycle axis.
+        </a>
+      </strong><br>
+      <em>Journal of ethnopharmacology</em>, Sep 15 2026, Vol. 368, pp. 121846<br>
+      <small>
+        PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/42107753/" target="_blank">42107753</a> |
+        PMCID: N/A
+      </small>
+      <p>Jianpi Qinghua Granule (JPQH) is a hospital-prepared traditional Chinese medicine formula used for insulin resistance and related metabolic disorders. However, its pharmacodynamic basis and epigenetic mechanisms in metabolic dysfunction-associated fatty liver disease (MAFLD) remain unclear. This study aimed to evaluate the therapeutic effects of JPQH on high-fat diet (HFD)-induced MAFLD and determine whether its action involves regulation of DNMT-mediated DNA methylation and hepatic urea cycle metabolism. HFD-induced MAFLD mice were treated with JPQH for 4 weeks. Blood-absorbed constituents were identified by UHPLC-Q Exactive Orbitrap MS/MS. Network pharmacology, liver transcriptomics, and targeted metabolomics were integrated to explore mechanisms. Pyrosequencing, RT-qPCR, Western blotting, molecular docking, and molecular dynamics simulations were used for validation. JPQH ameliorated glucose-lipid metabolic disorders and liver injury, as indicated by reduced serum TC, TG, ALT, and AST levels (P &lt; 0.05), decreased hepatic MDA levels (P &lt; 0.01), improved OGTT/ITT responses (P &lt; 0.001), restored GSH/GSSG ratio (P &lt; 0.05), and downregulation of inflammatory- and fibrosis-related gene expression (P &lt; 0.05). A total of 44 blood-absorbed constituents and 87 JPQH-MAFLD overlapping targets were identified. Integrated analyses highlighted nitrogen metabolism and arginine and proline metabolism. JPQH restored urea cycle intermediates, upregulated CPS1, OTC, ASS1, ASL, and ARG1 expression (P &lt; 0.01), and reduced hepatic ammonia accumulation (P &lt; 0.01). Mechanistically, JPQH reduced DNMT1/DNMT3A expression, attenuated promoter hypermethylation of urea cycle enzyme genes, and restored their transcriptional and protein expression. Core flavonoids, including genistein, baicalein, nepetin, hispidulin, and quercetin 3,4&#39;-dimethylether, exhibited stable binding to DNMT1 and DNMT3A in silico. JPQH exerts protective effects against MAFLD by restoring hepatic nitrogen metabolism and ammonia detoxification via epigenetic regulation of the DNMT-urea cycle axis.</p>
+      
+      
+      <!-- Interaction buttons -->
+      <div style="margin-top: 10px; display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
+        <button class="like-btn" data-pmid="42107753" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👍 Like (<span class="like-count">0</span>)
+        </button>
+        <button class="dislike-btn" data-pmid="42107753" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👎 Dislike (<span class="dislike-count">0</span>)
+        </button>
+        <button class="comment-btn" data-pmid="42107753" 
+                style="padding: 5px 12px; background-color: #284b63; color: white; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          💬 Comment (<span class="comment-count">0</span>)
+        </button>
+      </div>
+      
+      <!-- Comments section (hidden by default) -->
+      <div class="comments-section" id="comments-42107753" style="display: none; margin-top: 15px; padding: 10px; background-color: #f9f9f9; border-radius: 4px;">
+        <h5 style="margin-top: 0;">Comments:</h5>
+        <div class="comments-list" id="comments-list-42107753">
+          <!-- Comments will be loaded here -->
+        </div>
+        <div style="margin-top: 10px;">
+          <textarea class="comment-input" data-pmid="42107753" 
+                    placeholder="Add a comment..." 
+                    style="width: 100%; min-height: 60px; padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; font-size: 14px;"></textarea>
+          <button class="submit-comment-btn" data-pmid="42107753" 
+                  style="margin-top: 5px; padding: 6px 12px; background-color: #284b63; color: white; 
+                         border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+            Submit Comment
+          </button>
+        </div>
+      </div>
+    </li>
+  
+    <li style="margin-bottom: 1.5em; padding-bottom: 1em; border-bottom: 1px solid #eee;">
+      <strong>
+        <a href="https://pubmed.ncbi.nlm.nih.gov/42436852/" target="_blank" style="text-decoration: none; color: #003366;">
+          Rapamycin nanoparticles mitigate anti-AAV antibody formation in a mouse model of ornithine transcarbamylase deficiency.
+        </a>
+      </strong><br>
+      <em>Molecular therapy. Advances</em>, Sep 10 2026, Vol. 34, pp. 201793<br>
+      <small>
+        PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/42436852/" target="_blank">42436852</a> |
+        PMCID: PMC13355710
+      </small>
+      <p>Adeno-associated virus (AAV) vector-based liver gene therapy for inherited diseases has demonstrated efficacy in clinical trials in adults. However, its application to pediatric patients is limited by loss of AAV genomes during hepatocyte proliferation, compromising long-term benefits. Additionally, the anti-AAV immune responses induced after the initial AAV-administration preclude vector re-dosing. One key driver of this immune response is mTOR-dependent activation of dendritic cells. Inhibition of this pathway with rapamycin can promote immune tolerance. We assessed the safety and efficacy of rapamycin-loaded synthetic nanoparticles (ImmTOR) in juvenile OTC&lt;sup&gt;Spf-Ash&lt;/sup&gt; mice, a model of ornithine transcarbamylase (OTC) deficiency (OTCD). Treatment of postnatal day 30 mice with ImmTOR alone transiently activated autophagy and reduced urinary orotic acid levels. Treatment with a liver-specific AAV8 vector encoding codon-optimized human OTC cDNA normalized urinary orotic acid levels and significantly increased ureagenesis, OTC protein expression, and enzyme activity compared with untreated controls. AAV-vector co-administration with ImmTOR prevented IgM and IgG formation and induced a dose-dependent reduction of anti-AAV neutralizing antibodies, consistent with modulation of the humoral immune response. These findings suggest that ImmTOR can mitigate humoral immune responses to AAV vectors in OTC&lt;sup&gt;Spf-Ash&lt;/sup&gt; mice and may enable AAV vector re-administration, although further optimization is required for clinical translation.</p>
+      
+      
+      <!-- Interaction buttons -->
+      <div style="margin-top: 10px; display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
+        <button class="like-btn" data-pmid="42436852" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👍 Like (<span class="like-count">0</span>)
+        </button>
+        <button class="dislike-btn" data-pmid="42436852" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👎 Dislike (<span class="dislike-count">0</span>)
+        </button>
+        <button class="comment-btn" data-pmid="42436852" 
+                style="padding: 5px 12px; background-color: #284b63; color: white; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          💬 Comment (<span class="comment-count">0</span>)
+        </button>
+      </div>
+      
+      <!-- Comments section (hidden by default) -->
+      <div class="comments-section" id="comments-42436852" style="display: none; margin-top: 15px; padding: 10px; background-color: #f9f9f9; border-radius: 4px;">
+        <h5 style="margin-top: 0;">Comments:</h5>
+        <div class="comments-list" id="comments-list-42436852">
+          <!-- Comments will be loaded here -->
+        </div>
+        <div style="margin-top: 10px;">
+          <textarea class="comment-input" data-pmid="42436852" 
+                    placeholder="Add a comment..." 
+                    style="width: 100%; min-height: 60px; padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; font-size: 14px;"></textarea>
+          <button class="submit-comment-btn" data-pmid="42436852" 
+                  style="margin-top: 5px; padding: 6px 12px; background-color: #284b63; color: white; 
+                         border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+            Submit Comment
+          </button>
+        </div>
+      </div>
+    </li>
+  
+    <li style="margin-bottom: 1.5em; padding-bottom: 1em; border-bottom: 1px solid #eee;">
+      <strong>
+        <a href="https://pubmed.ncbi.nlm.nih.gov/42698052/" target="_blank" style="text-decoration: none; color: #003366;">
+          Fulminant hyperammonemia during intensive chemotherapy in the setting of previously unrecognized partial ornithine transcarbamylase deficiency.
+        </a>
+      </strong><br>
+      <em>International journal of hematology</em>, Sep 05 2026, Vol. N/A, pp. N/A<br>
+      <small>
+        PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/42698052/" target="_blank">42698052</a> |
+        PMCID: N/A
+      </small>
+      <p>Hyperammonemic encephalopathy is a rare but often fatal complication in patients with hematological malignancies receiving intensive therapy, and its underlying mechanism is often unclear. We report the case of a woman in her 40 s with acute myeloid leukemia who developed fulminant nonhepatic hyperammonemia during high-dose cytarabine consolidation in association with previously unrecognized partial ornithine transcarbamylase (OTC) deficiency. On day 5 of consolidation, she developed rapidly progressive altered consciousness with marked hyperammonemia, preserved hepatic and renal function, and no evidence of active sepsis. Brain magnetic resonance imaging showed cortical abnormalities more consistent with metabolic encephalopathy than cytarabine-associated neurotoxicity or posterior reversible encephalopathy syndrome. Despite supportive therapy, serum ammonia increased further, followed by seizures, diffuse cerebral edema, and death. Metabolic evaluation suggested a urea cycle disorder, and genetic testing identified a heterozygous pathogenic OTC variant, indicating an underlying inherited metabolic predisposition. Reported adult cases of severe nonhepatic hyperammonemia in hematological malignancies have largely been considered idiopathic or infection-related, whereas genetically confirmed urea cycle disorders remain rare. This case expands the spectrum of chemotherapy-associated nonhepatic hyperammonemia and suggests that occult inherited metabolic predisposition may contribute to its pathogenesis, highlighting the importance of early recognition of hyperammonemia in unexplained encephalopathy during intensive chemotherapy.</p>
+      
+      
+      <!-- Interaction buttons -->
+      <div style="margin-top: 10px; display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
+        <button class="like-btn" data-pmid="42698052" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👍 Like (<span class="like-count">0</span>)
+        </button>
+        <button class="dislike-btn" data-pmid="42698052" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👎 Dislike (<span class="dislike-count">0</span>)
+        </button>
+        <button class="comment-btn" data-pmid="42698052" 
+                style="padding: 5px 12px; background-color: #284b63; color: white; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          💬 Comment (<span class="comment-count">0</span>)
+        </button>
+      </div>
+      
+      <!-- Comments section (hidden by default) -->
+      <div class="comments-section" id="comments-42698052" style="display: none; margin-top: 15px; padding: 10px; background-color: #f9f9f9; border-radius: 4px;">
+        <h5 style="margin-top: 0;">Comments:</h5>
+        <div class="comments-list" id="comments-list-42698052">
+          <!-- Comments will be loaded here -->
+        </div>
+        <div style="margin-top: 10px;">
+          <textarea class="comment-input" data-pmid="42698052" 
+                    placeholder="Add a comment..." 
+                    style="width: 100%; min-height: 60px; padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; font-size: 14px;"></textarea>
+          <button class="submit-comment-btn" data-pmid="42698052" 
+                  style="margin-top: 5px; padding: 6px 12px; background-color: #284b63; color: white; 
+                         border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+            Submit Comment
+          </button>
+        </div>
+      </div>
+    </li>
+  
+    <li style="margin-bottom: 1.5em; padding-bottom: 1em; border-bottom: 1px solid #eee;">
+      <strong>
+        <a href="https://pubmed.ncbi.nlm.nih.gov/42272103/" target="_blank" style="text-decoration: none; color: #003366;">
+          Therapeutic potential of three-dimensional hepatocyte-like cells from human adipose-derived mesenchymal stem cells in urea cycle disorders.
+        </a>
+      </strong><br>
+      <em>Molecular therapy : the journal of the American Society of Gene Therapy</em>, Sep 02 2026, Vol. 34, pp. 5127-5134<br>
+      <small>
+        PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/42272103/" target="_blank">42272103</a> |
+        PMCID: PMC13555575
+      </small>
+      <p>Three-dimensional hepatocyte-like cells (3D HLCs) derived from human adipose-derived mesenchymal stem cells (ADSCs) represent a scalable and clinically accessible cell source for metabolic liver diseases. Here, the authors demonstrate that transplantation (Tx) of ADSC-derived 3D HLCs significantly enhances ammonia detoxification in vivo across multiple urea cycle disorder (UCD) models. 3D HLC Tx attenuated hyperammonemia, accelerated ammonia clearance, and improved encephalopathy-associated behavior in wild-type, ornithine transcarbamylase-deficient, and citrin-deficient mice. Engrafted human cells persisted and contributed to metabolic improvement. These findings highlight ADSC-derived 3D HLCs as a promising, minimally invasive therapeutic strategy and support their potential as an alternative to liver Tx for UCDs.</p>
+      
+      
+      <!-- Interaction buttons -->
+      <div style="margin-top: 10px; display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
+        <button class="like-btn" data-pmid="42272103" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👍 Like (<span class="like-count">0</span>)
+        </button>
+        <button class="dislike-btn" data-pmid="42272103" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👎 Dislike (<span class="dislike-count">0</span>)
+        </button>
+        <button class="comment-btn" data-pmid="42272103" 
+                style="padding: 5px 12px; background-color: #284b63; color: white; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          💬 Comment (<span class="comment-count">0</span>)
+        </button>
+      </div>
+      
+      <!-- Comments section (hidden by default) -->
+      <div class="comments-section" id="comments-42272103" style="display: none; margin-top: 15px; padding: 10px; background-color: #f9f9f9; border-radius: 4px;">
+        <h5 style="margin-top: 0;">Comments:</h5>
+        <div class="comments-list" id="comments-list-42272103">
+          <!-- Comments will be loaded here -->
+        </div>
+        <div style="margin-top: 10px;">
+          <textarea class="comment-input" data-pmid="42272103" 
+                    placeholder="Add a comment..." 
+                    style="width: 100%; min-height: 60px; padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; font-size: 14px;"></textarea>
+          <button class="submit-comment-btn" data-pmid="42272103" 
+                  style="margin-top: 5px; padding: 6px 12px; background-color: #284b63; color: white; 
+                         border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+            Submit Comment
+          </button>
+        </div>
+      </div>
+    </li>
+  
+    <li style="margin-bottom: 1.5em; padding-bottom: 1em; border-bottom: 1px solid #eee;">
+      <strong>
+        <a href="https://pubmed.ncbi.nlm.nih.gov/42731550/" target="_blank" style="text-decoration: none; color: #003366;">
+          A brief history of gene therapy for ornithine transcarbamylase deficiency.
+        </a>
+      </strong><br>
+      <em>Molecular genetics and metabolism</em>, 2026, Vol. 149, pp. 110257<br>
+      <small>
+        PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/42731550/" target="_blank">42731550</a> |
+        PMCID: N/A
+      </small>
+      <p>Gene therapy encompasses the use of nucleic acids, including DNA and RNA, as therapeutic agents. This broad category includes approaches that permanently modify the genome to correct pathogenic variants, as well as strategies that restore gene expression without altering genomic DNA. In ornithine transcarbamylase (OTC) deficiency, the most common urea cycle disorder, the goal of somatic gene therapy is to restore hepatic expression of functional OTC enzyme and thereby reestablish urea cycle activity. Both viral and non-viral delivery platforms have been investigated in preclinical models and clinical studies to achieve therapeutic OTC expression. Despite contemporary medical therapy, individuals with OTC deficiency (OTCD) remain at risk for recurrent hyperammonemia which may result in neurocognitive impairment and reduced quality of life. Novel therapy that restores liver OTC expression and lessens chronic disease burden is highly desired. In this manuscript, we summarize the history of gene therapy development for OTC deficiency, spanning early preclinical investigations to contemporary clinical trials. Although a definitive cure through gene therapy has not yet been achieved, substantial progress has been made toward the development of safe and effective liver-directed nucleic acid therapeutics for this disorder.</p>
+      
+      
+      <!-- Interaction buttons -->
+      <div style="margin-top: 10px; display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
+        <button class="like-btn" data-pmid="42731550" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👍 Like (<span class="like-count">0</span>)
+        </button>
+        <button class="dislike-btn" data-pmid="42731550" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👎 Dislike (<span class="dislike-count">0</span>)
+        </button>
+        <button class="comment-btn" data-pmid="42731550" 
+                style="padding: 5px 12px; background-color: #284b63; color: white; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          💬 Comment (<span class="comment-count">0</span>)
+        </button>
+      </div>
+      
+      <!-- Comments section (hidden by default) -->
+      <div class="comments-section" id="comments-42731550" style="display: none; margin-top: 15px; padding: 10px; background-color: #f9f9f9; border-radius: 4px;">
+        <h5 style="margin-top: 0;">Comments:</h5>
+        <div class="comments-list" id="comments-list-42731550">
+          <!-- Comments will be loaded here -->
+        </div>
+        <div style="margin-top: 10px;">
+          <textarea class="comment-input" data-pmid="42731550" 
+                    placeholder="Add a comment..." 
+                    style="width: 100%; min-height: 60px; padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; font-size: 14px;"></textarea>
+          <button class="submit-comment-btn" data-pmid="42731550" 
+                  style="margin-top: 5px; padding: 6px 12px; background-color: #284b63; color: white; 
+                         border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+            Submit Comment
+          </button>
+        </div>
+      </div>
+    </li>
+  
+    <li style="margin-bottom: 1.5em; padding-bottom: 1em; border-bottom: 1px solid #eee;">
+      <strong>
+        <a href="https://pubmed.ncbi.nlm.nih.gov/42634231/" target="_blank" style="text-decoration: none; color: #003366;">
+          Refractory Hyperammonemic Encephalopathy as a Paraneoplastic Presentation of Fibrolamellar Hepatocellular Carcinoma: A Case Report.
+        </a>
+      </strong><br>
+      <em>The American journal of case reports</em>, Aug 24 2026, Vol. 27, pp. e952819<br>
+      <small>
+        PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/42634231/" target="_blank">42634231</a> |
+        PMCID: PMC13523675
+      </small>
+      <p>BACKGROUND Fibrolamellar hepatocellular carcinoma (FLHCC) is a rare liver malignancy affecting adolescents and young adults without underlying liver disease. Hyperammonemic encephalopathy (HAE) is an uncommon but severe complication in advanced FLHCC, resulting from progressive hepatic dysfunction or tumor-related metabolic derangements. Early recognition is essential to prevent neurologic decline and improve outcomes. CASE REPORT A 24-year-old man with metastatic FLHCC presented with worsening confusion for 1 month. His prior treatments included transarterial radioembolization, multiple resection surgeries, and multiple chemotherapies. On examination, he was oriented only to self and had asterixis. Laboratory evaluation showed severe hyperammonemia (251 µmol/L), suggesting HAE. MRI brain was unremarkable, and EEG showed moderate encephalopathy. Plasma amino acid analysis showed marked depletion of urea cycle intermediates (citrulline, arginine, ornithine) with low alanine and glutamine, and elevated urinary orotic acid, which suggests impaired ornithine transcarbamylase activity and an acquired urea cycle disorder. Treatment was initiated with rifaximin and lactulose initially, followed by ammonia scavenger therapy of sodium benzoate-sodium phenylacetate. Despite this treatment, ammonia levels remained elevated, prompting hemodialysis and continuous renal replacement therapy. However, he continued to deteriorate and eventually died of his illness. CONCLUSIONS HAE is a rare paraneoplastic manifestation of FLHCC. Conventional therapies for cirrhosis-related encephalopathy, such as lactulose and rifaximin, are often ineffective. Management instead relies on ammonia-scavenging agents and arginine supplementation, with renal replacement therapies reserved for refractory cases. Outcomes remain poor when encephalopathy persists despite dialysis, underscoring the need for multidisciplinary management and early integration of palliative care.</p>
+      
+      
+      <!-- Interaction buttons -->
+      <div style="margin-top: 10px; display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
+        <button class="like-btn" data-pmid="42634231" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👍 Like (<span class="like-count">0</span>)
+        </button>
+        <button class="dislike-btn" data-pmid="42634231" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👎 Dislike (<span class="dislike-count">0</span>)
+        </button>
+        <button class="comment-btn" data-pmid="42634231" 
+                style="padding: 5px 12px; background-color: #284b63; color: white; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          💬 Comment (<span class="comment-count">0</span>)
+        </button>
+      </div>
+      
+      <!-- Comments section (hidden by default) -->
+      <div class="comments-section" id="comments-42634231" style="display: none; margin-top: 15px; padding: 10px; background-color: #f9f9f9; border-radius: 4px;">
+        <h5 style="margin-top: 0;">Comments:</h5>
+        <div class="comments-list" id="comments-list-42634231">
+          <!-- Comments will be loaded here -->
+        </div>
+        <div style="margin-top: 10px;">
+          <textarea class="comment-input" data-pmid="42634231" 
+                    placeholder="Add a comment..." 
+                    style="width: 100%; min-height: 60px; padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; font-size: 14px;"></textarea>
+          <button class="submit-comment-btn" data-pmid="42634231" 
+                  style="margin-top: 5px; padding: 6px 12px; background-color: #284b63; color: white; 
+                         border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+            Submit Comment
+          </button>
+        </div>
+      </div>
+    </li>
+  
+    <li style="margin-bottom: 1.5em; padding-bottom: 1em; border-bottom: 1px solid #eee;">
+      <strong>
+        <a href="https://pubmed.ncbi.nlm.nih.gov/42272250/" target="_blank" style="text-decoration: none; color: #003366;">
+          Urea cycle dysregulation and arginine pathways in the pathogenesis of NAFLD and NASH (Review).
+        </a>
+      </strong><br>
+      <em>International journal of molecular medicine</em>, Aug 2026, Vol. 58, pp. N/A<br>
+      <small>
+        PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/42272250/" target="_blank">42272250</a> |
+        PMCID: PMC13252948
+      </small>
+      <p>Non‑alcoholic fatty liver disease (NAFLD) and its advanced form, non‑alcoholic steatohepatitis (NASH), are now leading causes of chronic liver disease worldwide. Recent evidence highlights the central role of urea cycle and arginine metabolism dysregulation in NAFLD/NASH pathogenesis. Downregulation of key urea cycle enzymes, such as carbamoyl phosphate synthetase 1, ornithine transcarbamylase and argininosuccinate synthase, impairs ammonia detoxification, leading to hyperammonemia, mitochondrial dysfunction and oxidative stress. Epigenetic modifications, notably DNA methylation and histone changes, contribute to this metabolic reprogramming. Aberrant arginine metabolism, particularly the imbalance between urea and nitric oxide (NO) pathways, exacerbates liver inflammation and fibrosis through increased inducible nitric oxide synthase (NOS) activity in macrophages and hepatic stellate cells, driving excessive NO and polyamine production. In contrast, physiological NO signaling via endothelial NOS supports mitochondrial health and metabolic homeostasis. Clinically, urea cycle and arginine metabolites, including blood ammonia and urea cycle metabolites, serve as potential biomarkers for disease severity. Restoring urea cycle function and rebalancing arginine‑NO metabolism through targeted interventions, such as citrulline/arginine supplementation or enzyme modulation, are promising strategies.</p>
+      
+      
+      <!-- Interaction buttons -->
+      <div style="margin-top: 10px; display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
+        <button class="like-btn" data-pmid="42272250" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👍 Like (<span class="like-count">0</span>)
+        </button>
+        <button class="dislike-btn" data-pmid="42272250" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👎 Dislike (<span class="dislike-count">0</span>)
+        </button>
+        <button class="comment-btn" data-pmid="42272250" 
+                style="padding: 5px 12px; background-color: #284b63; color: white; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          💬 Comment (<span class="comment-count">0</span>)
+        </button>
+      </div>
+      
+      <!-- Comments section (hidden by default) -->
+      <div class="comments-section" id="comments-42272250" style="display: none; margin-top: 15px; padding: 10px; background-color: #f9f9f9; border-radius: 4px;">
+        <h5 style="margin-top: 0;">Comments:</h5>
+        <div class="comments-list" id="comments-list-42272250">
+          <!-- Comments will be loaded here -->
+        </div>
+        <div style="margin-top: 10px;">
+          <textarea class="comment-input" data-pmid="42272250" 
+                    placeholder="Add a comment..." 
+                    style="width: 100%; min-height: 60px; padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; font-size: 14px;"></textarea>
+          <button class="submit-comment-btn" data-pmid="42272250" 
+                  style="margin-top: 5px; padding: 6px 12px; background-color: #284b63; color: white; 
+                         border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+            Submit Comment
+          </button>
+        </div>
+      </div>
+    </li>
+  
+    <li style="margin-bottom: 1.5em; padding-bottom: 1em; border-bottom: 1px solid #eee;">
+      <strong>
+        <a href="https://pubmed.ncbi.nlm.nih.gov/42626463/" target="_blank" style="text-decoration: none; color: #003366;">
+          Adult-Onset Hyperammonemia: Case Report and Review of Literature.
+        </a>
+      </strong><br>
+      <em>Case reports in gastroenterology</em>, 2026, Vol. 20, pp. 329-341<br>
+      <small>
+        PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/42626463/" target="_blank">42626463</a> |
+        PMCID: PMC13493119
+      </small>
+      <p>Hyperammonemia is a life-threatening condition most associated with liver disease, though non-cirrhotic causes are increasingly recognized. We report an 18-year-old female presenting with 1 week of progressive confusion, abdominal pain, and nausea. Initial evaluation showed normal routine laboratories but markedly elevated ammonia and respiratory alkalosis. She rapidly deteriorated, requiring intubation and intensive care. Ammonia peaked at 795 µg/dL and improved rapidly after urgent venous hemofiltration and medical therapy, with full neurological recovery by day 3. Further testing revealed late-onset ornithine transcarbamylase deficiency. We present an algorithm for the approach to hyperammonemia and urea cycle disorders through a comprehensive review of current diagnostic and therapeutic strategies pertaining to urea cycle disorders.</p>
+      
+      
+      <!-- Interaction buttons -->
+      <div style="margin-top: 10px; display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
+        <button class="like-btn" data-pmid="42626463" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👍 Like (<span class="like-count">0</span>)
+        </button>
+        <button class="dislike-btn" data-pmid="42626463" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👎 Dislike (<span class="dislike-count">0</span>)
+        </button>
+        <button class="comment-btn" data-pmid="42626463" 
+                style="padding: 5px 12px; background-color: #284b63; color: white; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          💬 Comment (<span class="comment-count">0</span>)
+        </button>
+      </div>
+      
+      <!-- Comments section (hidden by default) -->
+      <div class="comments-section" id="comments-42626463" style="display: none; margin-top: 15px; padding: 10px; background-color: #f9f9f9; border-radius: 4px;">
+        <h5 style="margin-top: 0;">Comments:</h5>
+        <div class="comments-list" id="comments-list-42626463">
+          <!-- Comments will be loaded here -->
+        </div>
+        <div style="margin-top: 10px;">
+          <textarea class="comment-input" data-pmid="42626463" 
+                    placeholder="Add a comment..." 
+                    style="width: 100%; min-height: 60px; padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; font-size: 14px;"></textarea>
+          <button class="submit-comment-btn" data-pmid="42626463" 
+                  style="margin-top: 5px; padding: 6px 12px; background-color: #284b63; color: white; 
+                         border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+            Submit Comment
+          </button>
+        </div>
+      </div>
+    </li>
+  
+</ol>
+
+<div style="text-align:center; margin-top:1rem;">
+  <button id="load-more" style="padding:8px 16px; background-color:#284b63; color:white; border:none; border-radius:5px;">
+    Show More
+  </button>
+  <button id="show-all" style="padding:6px 14px; background-color:#999; color:white; border:none; border-radius:5px;">
+    Show All
+  </button>
+</div>
+
+
+
+<div id="loading-text" class="loading-text" style="display:none;">Fetching papers...</div>
+
+
+  </main>
+
+  <footer>
+    <p>© 2025 Urea Cycle Research Hub</p>
+  </footer>
+  
+<script src="/urea-cycle/ucrh/static/js/script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><link rel="stylesheet" href="/urea-cycle/ucrh/_snapshot/snapshot.css"><script src="/urea-cycle/ucrh/_snapshot/shim.js"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ASL - Argininosuccinate Lyase</title>
+  <link rel="icon" type="image/jpeg" href="/urea-cycle/ucrh/static/images/favicon.jpeg">
+  <link rel="stylesheet" href="/urea-cycle/ucrh/static/css/styles.css">
+</head>
+<body><div class="ucrh-snapshot-bar">Read-only snapshot of the Urea Cycle Research Hub, taken Oct 14, 2026. Live PubMed search, accounts, comments and email digests are off. <a href="/urea-cycle/">Paper and poster</a> · <a href="/">karansadiora.com</a></div>
+  
+  <header>
+    <a href="/urea-cycle/ucrh/" class="header-home-link">Home</a>
+    <div class="header-top-right">
+      
+        
+        
+      
+    </div>
+    <div style="display: flex; align-items: center; justify-content: center; margin-bottom: 1rem; position: relative;">
+      <h1><a href="/urea-cycle/ucrh/" class="site-title-link">Urea Cycle Research Hub</a></h1>
+    </div>
+    <nav>
+      <a href="/urea-cycle/ucrh/OTC" class="">OTC</a>  
+      <a href="/urea-cycle/ucrh/CPS1" class="">CPS1</a>
+      <a href="/urea-cycle/ucrh/NAGS" class="">NAGS</a>
+      <a href="/urea-cycle/ucrh/ASS" class="">ASS</a>
+      <a href="/urea-cycle/ucrh/ARG1" class="">ARG1</a>
+      <a href="/urea-cycle/ucrh/ASL" class="active">ASL</a>
+      <a href="/urea-cycle/ucrh/ORNT1" class="">ORNT1</a>
+      <a href="/urea-cycle/ucrh/CITRIN" class="">CITRIN</a>
+      <a href="/urea-cycle/ucrh/variants" class="">Variants</a>
+      
+      
+      
+    </nav>
+  </header>
+
+  <main>
+    
+
+
+<!-- Sidebar panel -->
+<div id="keywords-panel" style="display:none; position: fixed; right:0; top:0; height:100%; width:250px; background:#f7f7f7; border-left:1px solid #ccc; padding:15px; padding-top: 80px; box-shadow: -2px 0 5px rgba(0,0,0,0.1); overflow-y:auto; z-index: 1001;">
+  <button id="close-keywords" style="position: absolute; top: 15px; right: 15px; background: #C8102E; color: white; border: none; border-radius: 50%; width: 30px; height: 30px; cursor: pointer; font-size: 18px; line-height: 1; display: flex; align-items: center; justify-content: center;">×</button>
+  <h4>Current Keywords</h4>
+  <ul id="current-keywords">
+    
+      <li>urea cycle</li>
+    
+      <li>ureagenesis</li>
+    
+      <li>argininosuccinate lyase</li>
+    
+      <li>ASL</li>
+    
+    
+  </ul>
+
+  <h5 style="margin-top: 1rem;">Add Keywords (comma-separated)</h5>
+  <input type="text" id="new-keywords" placeholder="e.g., mitochondrial" style="width:100%; padding:5px;">
+  <button id="add-keywords" style="margin-top:5px; padding:6px 10px; background-color:#003366; color:white; border:none; border-radius:4px;">Add</button>
+</div>
+
+<div style="margin-bottom: 1rem;">
+  <h2 style="margin: 0 0 0.5rem 0;">Argininosuccinate Lyase (ASL)</h2>
+  <p style="margin: 0;">ASL is a cytosolic enzyme that cleaves argininosuccinate into arginine and fumarate in the urea cycle.</p>
+</div>
+
+<h4 style="color:#284b63; margin-top:1rem;"><a href="#" id="new-papers-link" data-since="" style="color:#284b63; text-decoration: underline; cursor: pointer;">
+  0 Publications Since Last Visit
+</a></h4>
+
+<!-- Modal for new papers -->
+<div id="new-papers-modal" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.5); z-index: 2000; overflow-y: auto;">
+  <div style="position: relative; background: white; margin: 50px auto; max-width: 900px; padding: 30px; border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.3); max-height: 90vh; overflow-y: auto;">
+    <button id="close-modal" style="position: absolute; top: 15px; right: 15px; background: #C8102E; color: white; border: none; border-radius: 50%; width: 35px; height: 35px; cursor: pointer; font-size: 20px; line-height: 1; display: flex; align-items: center; justify-content: center;">×</button>
+    <h2 style="margin-top: 0; color: #284b63;">New Publications Since Last Visit</h2>
+    <div id="new-papers-content">
+      <div style="text-align: center; padding: 40px;">
+        <p>Loading new publications...</p>
+      </div>
+    </div>
+  </div>
+</div>
+<hr>
+<div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 1rem;">
+  <h3 style="margin: 0;">Recent Publications</h3>
+  <div style="display: flex; gap: 10px; align-items: center;">
+    <select id="sort-select" style="padding: 6px 10px; background-color:#fff; border:1px solid #ccc; border-radius:4px; font-size:14px;">
+      <option value="date" selected>Sort by Date</option>
+      <option value="popularity" >Sort by Popularity</option>
+    </select>
+    <div style="position: relative; display: inline-block;">
+      <button id="export-btn" style="padding: 6px 10px; background-color:#284b63; color:white; border:none; border-radius:4px; cursor: pointer; display: inline-flex; align-items: center; gap: 4px;">
+        Export<span style="display: inline-block;">▼</span>
+      </button>
+      <div id="export-menu" style="display: none; position: absolute; top: 100%; right: 0; margin-top: 5px; background: white; border: 1px solid #ccc; border-radius: 4px; box-shadow: 0 2px 5px rgba(0,0,0,0.2); z-index: 1000; min-width: 150px;">
+        <a href="#" id="export-ris" style="display: block; padding: 8px 12px; text-decoration: none; color: #333; border-bottom: 1px solid #eee;">Export as RIS</a>
+        <a href="#" id="export-pmid" style="display: block; padding: 8px 12px; text-decoration: none; color: #333;">Export as PMID list</a>
+      </div>
+    </div>
+    <button id="toggle-keywords" style="padding: 6px 10px; background-color:#C8102E; color:white; border:none; border-radius:4px;">
+      Keywords
+    </button>
+  </div>
+</div>
+
+
+<ol id="papers-list">
+  
+    <li style="margin-bottom: 1.5em; padding-bottom: 1em; border-bottom: 1px solid #eee;">
+      <strong>
+        <a href="https://pubmed.ncbi.nlm.nih.gov/42831216/" target="_blank" style="text-decoration: none; color: #003366;">
+          Dual Urea Cycle Dysfunction Caused by Coexisting Argininosuccinic Aciduria and Citrin Deficiency: Clinical, Biochemical, and Molecular Insights From an Exceptional Case.
+        </a>
+      </strong><br>
+      <em>JIMD reports</em>, Nov 2026, Vol. 67, pp. e70129<br>
+      <small>
+        PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/42831216/" target="_blank">42831216</a> |
+        PMCID: PMC13634694
+      </small>
+      <p>Dual inherited defects affecting urea cycle function are exceptionally rare. We report the first case, to our knowledge, of the coexistence of argininosuccinic aciduria (ASA) and citrin deficiency (CD). A girl born to consanguineous Tunisian parents presented at 6 months of age with recurrent seizures, vomiting, developmental delay, and severe hyperammonemic encephalopathy. Laboratory investigations revealed hyperammonemia, respiratory alkalosis, transaminitis, dyslipidemia, hyperglutaminemia, and mild hypercitrullinemia. Brain imaging showed delayed myelination and basal ganglia abnormalities. Management involved arginine supplementation, ammonia scavengers, protein restriction and antiepileptic drugs. The patient died at 33 months of age from severe hyperammonemia and lactic acidosis. Next-generation sequencing identified two homozygous variants affecting distinct urea cycle-related genes: &lt;i&gt;The known pathogenic ASL&lt;/i&gt; variant c.1153C&gt;T p.(Arg385Cys), responsible for ASA, and a previously unreported likely pathogenic &lt;i&gt;SLC25A13&lt;/i&gt; variant, c.1474C&gt;T, p.(Arg492Trp), consistent with CD. Segregation analysis confirmed biallelic inheritance of both variants. This unique association illustrates how multilocus pathogenic variation can generate an atypical phenotype. From a pathophysiological perspective, CD may aggravate urea cycle dysfunction by reducing cytosolic aspartate availability and ASS1 activity, while ASL deficiency blocks the downstream conversion of argininosuccinate, resulting in a profound impairment of ureagenesis. This dual defect creates diagnostic and therapeutic challenges, highlighting the importance of integrating comprehensive biochemical investigations with molecular testing to enable accurate diagnosis and personalized metabolic management.</p>
+      
+      
+      <!-- Interaction buttons -->
+      <div style="margin-top: 10px; display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
+        <button class="like-btn" data-pmid="42831216" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👍 Like (<span class="like-count">0</span>)
+        </button>
+        <button class="dislike-btn" data-pmid="42831216" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👎 Dislike (<span class="dislike-count">0</span>)
+        </button>
+        <button class="comment-btn" data-pmid="42831216" 
+                style="padding: 5px 12px; background-color: #284b63; color: white; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          💬 Comment (<span class="comment-count">0</span>)
+        </button>
+      </div>
+      
+      <!-- Comments section (hidden by default) -->
+      <div class="comments-section" id="comments-42831216" style="display: none; margin-top: 15px; padding: 10px; background-color: #f9f9f9; border-radius: 4px;">
+        <h5 style="margin-top: 0;">Comments:</h5>
+        <div class="comments-list" id="comments-list-42831216">
+          <!-- Comments will be loaded here -->
+        </div>
+        <div style="margin-top: 10px;">
+          <textarea class="comment-input" data-pmid="42831216" 
+                    placeholder="Add a comment..." 
+                    style="width: 100%; min-height: 60px; padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; font-size: 14px;"></textarea>
+          <button class="submit-comment-btn" data-pmid="42831216" 
+                  style="margin-top: 5px; padding: 6px 12px; background-color: #284b63; color: white; 
+                         border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+            Submit Comment
+          </button>
+        </div>
+      </div>
+    </li>
+  
+    <li style="margin-bottom: 1.5em; padding-bottom: 1em; border-bottom: 1px solid #eee;">
+      <strong>
+        <a href="https://pubmed.ncbi.nlm.nih.gov/42775034/" target="_blank" style="text-decoration: none; color: #003366;">
+          Seizure due to Lamotrigine Underexposure During High-Volume CRRT for Hyperammonaemia: A Case Report.
+        </a>
+      </strong><br>
+      <em>Case reports in critical care</em>, 2026, Vol. 2026, pp. 9950547<br>
+      <small>
+        PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/42775034/" target="_blank">42775034</a> |
+        PMCID: PMC13595043
+      </small>
+      <p>Hyperammonaemic decompensation in urea cycle disorders (UCDs) is a medical emergency that requires prompt intervention. Continuous renal replacement therapy (CRRT) is an effective strategy for acute ammonia clearance, but it may significantly alter the pharmacokinetics of administered drugs. A woman in her 40s with argininosuccinate lyase (ASL) deficiency and long-standing, well-controlled epilepsy treated with lamotrigine presented with a hyperammonaemic crisis and was treated with high-volume continuous venovenous haemodialysis (CVVHD). She developed a generalised tonic-clonic seizure shortly after cessation of CVVHD. Serum lamotrigine declined from 12.7 to 6.0 mg/L over approximately 12 h, corresponding to an apparent elimination half-life of 11.5 h. Lamotrigine was measurable in the effluent (2.9 mg/L), giving a saturation coefficient of 0.48 and an extracorporeal clearance of 38.4 mL/min during the high-volume phase. The seizure was attributed to the abrupt underexposure of lamotrigine in a previously seizure-free patient. This case underscores the clinical significance of extracorporeal clearance of antiseizure medications during CRRT in patients with UCDs. Drug selection should consider both ammonia-modifying and dialysability profiles. Therapeutic drug monitoring and pre-emptive dose adjustment, or the addition of a second intravenously available agent, should be considered when high-volume dialysis is initiated in a patient receiving a dialysable antiseizure medication.</p>
+      
+      
+      <!-- Interaction buttons -->
+      <div style="margin-top: 10px; display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
+        <button class="like-btn" data-pmid="42775034" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👍 Like (<span class="like-count">0</span>)
+        </button>
+        <button class="dislike-btn" data-pmid="42775034" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👎 Dislike (<span class="dislike-count">0</span>)
+        </button>
+        <button class="comment-btn" data-pmid="42775034" 
+                style="padding: 5px 12px; background-color: #284b63; color: white; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          💬 Comment (<span class="comment-count">0</span>)
+        </button>
+      </div>
+      
+      <!-- Comments section (hidden by default) -->
+      <div class="comments-section" id="comments-42775034" style="display: none; margin-top: 15px; padding: 10px; background-color: #f9f9f9; border-radius: 4px;">
+        <h5 style="margin-top: 0;">Comments:</h5>
+        <div class="comments-list" id="comments-list-42775034">
+          <!-- Comments will be loaded here -->
+        </div>
+        <div style="margin-top: 10px;">
+          <textarea class="comment-input" data-pmid="42775034" 
+                    placeholder="Add a comment..." 
+                    style="width: 100%; min-height: 60px; padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; font-size: 14px;"></textarea>
+          <button class="submit-comment-btn" data-pmid="42775034" 
+                  style="margin-top: 5px; padding: 6px 12px; background-color: #284b63; color: white; 
+                         border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+            Submit Comment
+          </button>
+        </div>
+      </div>
+    </li>
+  
+    <li style="margin-bottom: 1.5em; padding-bottom: 1em; border-bottom: 1px solid #eee;">
+      <strong>
+        <a href="https://pubmed.ncbi.nlm.nih.gov/42107753/" target="_blank" style="text-decoration: none; color: #003366;">
+          Mechanism of Jianpi Qinghua granule in ameliorating metabolic dysfunction-associated fatty liver disease by targeting the DNMT-urea cycle axis.
+        </a>
+      </strong><br>
+      <em>Journal of ethnopharmacology</em>, Sep 15 2026, Vol. 368, pp. 121846<br>
+      <small>
+        PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/42107753/" target="_blank">42107753</a> |
+        PMCID: N/A
+      </small>
+      <p>Jianpi Qinghua Granule (JPQH) is a hospital-prepared traditional Chinese medicine formula used for insulin resistance and related metabolic disorders. However, its pharmacodynamic basis and epigenetic mechanisms in metabolic dysfunction-associated fatty liver disease (MAFLD) remain unclear. This study aimed to evaluate the therapeutic effects of JPQH on high-fat diet (HFD)-induced MAFLD and determine whether its action involves regulation of DNMT-mediated DNA methylation and hepatic urea cycle metabolism. HFD-induced MAFLD mice were treated with JPQH for 4 weeks. Blood-absorbed constituents were identified by UHPLC-Q Exactive Orbitrap MS/MS. Network pharmacology, liver transcriptomics, and targeted metabolomics were integrated to explore mechanisms. Pyrosequencing, RT-qPCR, Western blotting, molecular docking, and molecular dynamics simulations were used for validation. JPQH ameliorated glucose-lipid metabolic disorders and liver injury, as indicated by reduced serum TC, TG, ALT, and AST levels (P &lt; 0.05), decreased hepatic MDA levels (P &lt; 0.01), improved OGTT/ITT responses (P &lt; 0.001), restored GSH/GSSG ratio (P &lt; 0.05), and downregulation of inflammatory- and fibrosis-related gene expression (P &lt; 0.05). A total of 44 blood-absorbed constituents and 87 JPQH-MAFLD overlapping targets were identified. Integrated analyses highlighted nitrogen metabolism and arginine and proline metabolism. JPQH restored urea cycle intermediates, upregulated CPS1, OTC, ASS1, ASL, and ARG1 expression (P &lt; 0.01), and reduced hepatic ammonia accumulation (P &lt; 0.01). Mechanistically, JPQH reduced DNMT1/DNMT3A expression, attenuated promoter hypermethylation of urea cycle enzyme genes, and restored their transcriptional and protein expression. Core flavonoids, including genistein, baicalein, nepetin, hispidulin, and quercetin 3,4&#39;-dimethylether, exhibited stable binding to DNMT1 and DNMT3A in silico. JPQH exerts protective effects against MAFLD by restoring hepatic nitrogen metabolism and ammonia detoxification via epigenetic regulation of the DNMT-urea cycle axis.</p>
+      
+      
+      <!-- Interaction buttons -->
+      <div style="margin-top: 10px; display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
+        <button class="like-btn" data-pmid="42107753" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👍 Like (<span class="like-count">0</span>)
+        </button>
+        <button class="dislike-btn" data-pmid="42107753" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👎 Dislike (<span class="dislike-count">0</span>)
+        </button>
+        <button class="comment-btn" data-pmid="42107753" 
+                style="padding: 5px 12px; background-color: #284b63; color: white; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          💬 Comment (<span class="comment-count">0</span>)
+        </button>
+      </div>
+      
+      <!-- Comments section (hidden by default) -->
+      <div class="comments-section" id="comments-42107753" style="display: none; margin-top: 15px; padding: 10px; background-color: #f9f9f9; border-radius: 4px;">
+        <h5 style="margin-top: 0;">Comments:</h5>
+        <div class="comments-list" id="comments-list-42107753">
+          <!-- Comments will be loaded here -->
+        </div>
+        <div style="margin-top: 10px;">
+          <textarea class="comment-input" data-pmid="42107753" 
+                    placeholder="Add a comment..." 
+                    style="width: 100%; min-height: 60px; padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; font-size: 14px;"></textarea>
+          <button class="submit-comment-btn" data-pmid="42107753" 
+                  style="margin-top: 5px; padding: 6px 12px; background-color: #284b63; color: white; 
+                         border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+            Submit Comment
+          </button>
+        </div>
+      </div>
+    </li>
+  
+    <li style="margin-bottom: 1.5em; padding-bottom: 1em; border-bottom: 1px solid #eee;">
+      <strong>
+        <a href="https://pubmed.ncbi.nlm.nih.gov/42481021/" target="_blank" style="text-decoration: none; color: #003366;">
+          Newborn Screening for Urea Cycle Disorders and Clinical Outcomes.
+        </a>
+      </strong><br>
+      <em>Pediatrics</em>, Aug 01 2026, Vol. 158, pp. N/A<br>
+      <small>
+        PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/42481021/" target="_blank">42481021</a> |
+        PMCID: N/A
+      </small>
+      <p>To evaluate feasibility and diagnostic and process qualities as well as the clinical benefit of newborn screening (NBS) for urea cycle disorders (UCDs). Between 2016 and 2023, 624 480 neonates were enrolled in the German NBS pilot study, including NBS for UCDs by tandem mass spectrometry. In addition, patients with confirmed cases were enrolled in an observational, multicenter outcome study assessing clinical and neurodevelopmental outcomes. NBS for UCDs demonstrated high sensitivity (100%) and specificity (99.988%) with a positive predictive value (PPV) of 0.2. Nineteen cases (7 ornithine transcarbamoylase deficiency, 7 argininosuccinate synthetase 1 deficiency, 4 argininosuccinate lyase deficiency, and 1 carbamoylphosphate synthetase 1 deficiency) were confirmed, yielding a cumulative birth prevalence of 1:32 867 newborns. Despite short process times, more than 50% of screened individuals with a UCD were already symptomatic at first NBS report. Retrospective analyses indicated that integration of metabolite ratios (eg, ornithine/citrulline) may further enhance PPV. Outcome data from 25 individuals revealed higher rates of metabolic decompensations and hospitalizations in mitochondrial UCDs vs cytosolic forms. At last follow-up, 55% showed disease-related symptoms, and mean IQ was reduced in symptomatic individuals, but mortality was lower than previously reported. NBS for UCDs is technically feasible and enables early diagnosis. Although early-onset decompensations remain difficult to prevent, screening reduces mortality. Refinement of the screening algorithm may further improve specificity and clinical benefit.</p>
+      
+      
+      <!-- Interaction buttons -->
+      <div style="margin-top: 10px; display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
+        <button class="like-btn" data-pmid="42481021" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👍 Like (<span class="like-count">0</span>)
+        </button>
+        <button class="dislike-btn" data-pmid="42481021" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👎 Dislike (<span class="dislike-count">0</span>)
+        </button>
+        <button class="comment-btn" data-pmid="42481021" 
+                style="padding: 5px 12px; background-color: #284b63; color: white; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          💬 Comment (<span class="comment-count">0</span>)
+        </button>
+      </div>
+      
+      <!-- Comments section (hidden by default) -->
+      <div class="comments-section" id="comments-42481021" style="display: none; margin-top: 15px; padding: 10px; background-color: #f9f9f9; border-radius: 4px;">
+        <h5 style="margin-top: 0;">Comments:</h5>
+        <div class="comments-list" id="comments-list-42481021">
+          <!-- Comments will be loaded here -->
+        </div>
+        <div style="margin-top: 10px;">
+          <textarea class="comment-input" data-pmid="42481021" 
+                    placeholder="Add a comment..." 
+                    style="width: 100%; min-height: 60px; padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; font-size: 14px;"></textarea>
+          <button class="submit-comment-btn" data-pmid="42481021" 
+                  style="margin-top: 5px; padding: 6px 12px; background-color: #284b63; color: white; 
+                         border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+            Submit Comment
+          </button>
+        </div>
+      </div>
+    </li>
+  
+    <li style="margin-bottom: 1.5em; padding-bottom: 1em; border-bottom: 1px solid #eee;">
+      <strong>
+        <a href="https://pubmed.ncbi.nlm.nih.gov/42210031/" target="_blank" style="text-decoration: none; color: #003366;">
+          Urea cycle fumarate limits fibrosis post-myocardial infarction by reducing fibroblast mitochondrial adenosine triphosphate production.
+        </a>
+      </strong><br>
+      <em>Cardiovascular research</em>, Jul 11 2026, Vol. 122, pp. 1359-1373<br>
+      <small>
+        PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/42210031/" target="_blank">42210031</a> |
+        PMCID: PMC13355841
+      </small>
+      <p>Cardiac fibrosis, a common pathological outcome of various heart diseases including myocardial infarction (MI), is primarily driven by the activation and trans-differentiation of cardiac fibroblasts that demand substantial adenosine triphosphate production (ATP) for energy. Although sodium-glucose co-transporter 2 (SGLT2) inhibitors such as dapagliflozin have been shown to improve outcomes in heart failure, their direct impact on cardiac fibrosis, particularly through the modulation of fibroblast energy metabolism remains unexplored. We employed an integrated strategy combining metabolomics and metabolic flux analysis to investigate metabolic reprogramming in cardiac fibroblasts under ischaemic conditions. Our findings confirmed that treatment with an SGLT2 inhibitor confers anti-fibrotic benefits post-MI. Multi-omics analysis identified a key metabolic pathway modulated in fibroblasts from SGLT2 inhibitor-treated mice under ischaemia: the conversion of N-acetyl-glutamate (NAcGlu) to fumarate, catalysed by argininosuccinate lyase (ASL). This pathway serves as a metabolic bridge linking the urea cycle to the tricarboxylic acid (TCA) cycle. Exogenous supplementation with either NAcGlu or fumarate significantly improved cardiac function and reduced fibrosis after MI. In contrast, targeted deletion of ASL in activated cardiac fibroblasts impaired cardiac performance, even with NAcGlu supplementation. Mechanistically, we found that fumarate accumulation under stress presses the TCA cycle in cardiac fibroblasts, resulting in reduced ATP production. These findings identify the NAcGlu/ASL/fumarate axis as an important regulator of fibroblast metabolism and trans-differentiation during ischaemic stress. Our data are consistent with a model in which targeting key metabolites (NAcGlu, fumarate) or enzymes (ASL) in the urea cycle pathway of cardiac fibroblasts may point to a potential therapeutic strategy to combat adverse cardiac fibrosis following MI.</p>
+      
+      
+      <!-- Interaction buttons -->
+      <div style="margin-top: 10px; display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
+        <button class="like-btn" data-pmid="42210031" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👍 Like (<span class="like-count">0</span>)
+        </button>
+        <button class="dislike-btn" data-pmid="42210031" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👎 Dislike (<span class="dislike-count">0</span>)
+        </button>
+        <button class="comment-btn" data-pmid="42210031" 
+                style="padding: 5px 12px; background-color: #284b63; color: white; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          💬 Comment (<span class="comment-count">0</span>)
+        </button>
+      </div>
+      
+      <!-- Comments section (hidden by default) -->
+      <div class="comments-section" id="comments-42210031" style="display: none; margin-top: 15px; padding: 10px; background-color: #f9f9f9; border-radius: 4px;">
+        <h5 style="margin-top: 0;">Comments:</h5>
+        <div class="comments-list" id="comments-list-42210031">
+          <!-- Comments will be loaded here -->
+        </div>
+        <div style="margin-top: 10px;">
+          <textarea class="comment-input" data-pmid="42210031" 
+                    placeholder="Add a comment..." 
+                    style="width: 100%; min-height: 60px; padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; font-size: 14px;"></textarea>
+          <button class="submit-comment-btn" data-pmid="42210031" 
+                  style="margin-top: 5px; padding: 6px 12px; background-color: #284b63; color: white; 
+                         border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+            Submit Comment
+          </button>
+        </div>
+      </div>
+    </li>
+  
+    <li style="margin-bottom: 1.5em; padding-bottom: 1em; border-bottom: 1px solid #eee;">
+      <strong>
+        <a href="https://pubmed.ncbi.nlm.nih.gov/42790946/" target="_blank" style="text-decoration: none; color: #003366;">
+          Clinical, Biochemical, and Molecular Analyses of Three Patients with Urea Cycle Disorders in China.
+        </a>
+      </strong><br>
+      <em>Annals of clinical and laboratory science</em>, Jul 2026, Vol. 56, pp. 512-522<br>
+      <small>
+        PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/42790946/" target="_blank">42790946</a> |
+        PMCID: N/A
+      </small>
+      <p>Urea cycle disorders (UCDs) are rare inherited metabolic diseases that can cause severe hyperammonemia and neurological damage. This study aimed to characterize the clinical, biochemical, and molecular features of three Chinese patients with UCDs and identify pathogenic variants through genetic analysis. Blood tandem mass spectrometry and urinary gas chromatography-mass spectrometry were performed on three children diagnosed with UCDs. Next-generation sequencing and Sanger sequencing were performed on blood samples from the probands and their parents. Clinical data and other laboratory results were retrospectively collected from medical records. In silico and structural analyses were performed for three of the five identified variants. The three probands exhibited clinical and biochemical features characteristic of UCDs. Genetic analysis confirmed five diagnostic variants, including two novel variants. These variants caused three types of UCDs: ornithine transcarbamylase deficiency (OTCD), carbamoyl phosphate synthase 1 deficiency, and argininosuccinate lyase deficiency (ASLD). In silico and structural analyses of three variants (&lt;i&gt;OTC&lt;/i&gt;:c.1006-1G&gt;T, &lt;i&gt;CPS1&lt;/i&gt;:c.729+1G&gt;A, and &lt;i&gt;ASL&lt;/i&gt;:c.370T&gt;C) suggested that all three may impair enzyme function or stability, although experimental validation is required. We characterized the clinical, biochemical, and molecular features of three Chinese patients with UCDs. Two novel variants expand the known mutational spectra of OTCD and ASLD.</p>
+      
+      
+      <!-- Interaction buttons -->
+      <div style="margin-top: 10px; display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
+        <button class="like-btn" data-pmid="42790946" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👍 Like (<span class="like-count">0</span>)
+        </button>
+        <button class="dislike-btn" data-pmid="42790946" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👎 Dislike (<span class="dislike-count">0</span>)
+        </button>
+        <button class="comment-btn" data-pmid="42790946" 
+                style="padding: 5px 12px; background-color: #284b63; color: white; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          💬 Comment (<span class="comment-count">0</span>)
+        </button>
+      </div>
+      
+      <!-- Comments section (hidden by default) -->
+      <div class="comments-section" id="comments-42790946" style="display: none; margin-top: 15px; padding: 10px; background-color: #f9f9f9; border-radius: 4px;">
+        <h5 style="margin-top: 0;">Comments:</h5>
+        <div class="comments-list" id="comments-list-42790946">
+          <!-- Comments will be loaded here -->
+        </div>
+        <div style="margin-top: 10px;">
+          <textarea class="comment-input" data-pmid="42790946" 
+                    placeholder="Add a comment..." 
+                    style="width: 100%; min-height: 60px; padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; font-size: 14px;"></textarea>
+          <button class="submit-comment-btn" data-pmid="42790946" 
+                  style="margin-top: 5px; padding: 6px 12px; background-color: #284b63; color: white; 
+                         border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+            Submit Comment
+          </button>
+        </div>
+      </div>
+    </li>
+  
+    <li style="margin-bottom: 1.5em; padding-bottom: 1em; border-bottom: 1px solid #eee;">
+      <strong>
+        <a href="https://pubmed.ncbi.nlm.nih.gov/42075308/" target="_blank" style="text-decoration: none; color: #003366;">
+          Ammonia Exposure Elevated 5-HT Expression, Reprogrammed Transcriptome and Microbiota Community in Yellow Catfish (&lt;i&gt;Pelteobagrus fulvidraco&lt;/i&gt;) Gill During Early Ontogeny.
+        </a>
+      </strong><br>
+      <em>Microorganisms</em>, Apr 17 2026, Vol. 14, pp. N/A<br>
+      <small>
+        PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/42075308/" target="_blank">42075308</a> |
+        PMCID: PMC13118413
+      </small>
+      <p>The accumulated ammonia within the recirculating aquaculture systems threaten fish health, while little is known about the influences during early fish ontogeny. Using larval and juvenile yellow catfish (&lt;i&gt;Pelteobagrus fulvidraco&lt;/i&gt;) as a model, a comprehensive experiment exposing fish to varying total ammonia nitrogen concentrations (0, 10, 20 mg/L for larvae; 0, 25, 125 mg/L for juveniles) was conducted to evaluate the effects on gill transcriptome and microbiota along with the serotonergic regulation. First, the serotonin (5-HT) signal, which controls oxygen chemoreception and ventilation, was mainly detected in the surface of the body of the larvae, and then shifted to gill filaments of juveniles, showing a transition from cutaneous to branchial respiration. Both larval and juvenile yellow catfish exhibited reduced survival, damaged gill structure, and elevated 5-HT expression after ammonia exposure, as well as upregulated &lt;i&gt;tph1b&lt;/i&gt;, &lt;i&gt;slc6a4b&lt;/i&gt;, &lt;i&gt;scgn&lt;/i&gt; and &lt;i&gt;lama5&lt;/i&gt; expression with the increased ammonia concentration, indicating the effects on respiratory function via serotonergic regulation. Further transcriptome analysis was conducted in juveniles to identify the differentially expressed genes (DEGs) and thus, to illustrate more detailed responses after ammonia exposure; KEGG enrichment analysis of DEGs indicated the coping strategy shifted from metabolic buffering to metabolic elimination via glutamine synthesis with the increased ammonia level. The qRT-PCR experiment also identified the increased expression of genes involved in the urea cycle-such as &lt;i&gt;ass1&lt;/i&gt;, &lt;i&gt;asl&lt;/i&gt; and &lt;i&gt;glula&lt;/i&gt;-with the increased ammonia level. Considering the potential contributary role of microbiome to gill health, 16S sequencing was conducted on the gill in the control and the 125 mg/L ammonia-exposed group. Ammonia exposure at 125 mg/L induced significant variation in Simpson index and a marked decline in β diversity. Notably, the abundance of opportunistic pathogens such as &lt;i&gt;Pseudomonadota&lt;/i&gt; increased, while the abundance of &lt;i&gt;Deinococcota&lt;/i&gt; and &lt;i&gt;Deinococcus&lt;/i&gt;-which were renowned for exceptional stress resistance capacity-decreased after ammonia exposure. Thus ammonia exposure disrupts the transcriptomic and microecological balance within gill mucosa, which may elevate the risk of pathogenic infection. Overall, our study provided the first evidence of serotonergic regulation on early fish respiration during ammonia exposure, and also offered new theoretical insights into the involvement of microorganisms in ammonia toxicity.</p>
+      
+      
+      <!-- Interaction buttons -->
+      <div style="margin-top: 10px; display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
+        <button class="like-btn" data-pmid="42075308" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👍 Like (<span class="like-count">0</span>)
+        </button>
+        <button class="dislike-btn" data-pmid="42075308" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👎 Dislike (<span class="dislike-count">0</span>)
+        </button>
+        <button class="comment-btn" data-pmid="42075308" 
+                style="padding: 5px 12px; background-color: #284b63; color: white; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          💬 Comment (<span class="comment-count">0</span>)
+        </button>
+      </div>
+      
+      <!-- Comments section (hidden by default) -->
+      <div class="comments-section" id="comments-42075308" style="display: none; margin-top: 15px; padding: 10px; background-color: #f9f9f9; border-radius: 4px;">
+        <h5 style="margin-top: 0;">Comments:</h5>
+        <div class="comments-list" id="comments-list-42075308">
+          <!-- Comments will be loaded here -->
+        </div>
+        <div style="margin-top: 10px;">
+          <textarea class="comment-input" data-pmid="42075308" 
+                    placeholder="Add a comment..." 
+                    style="width: 100%; min-height: 60px; padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; font-size: 14px;"></textarea>
+          <button class="submit-comment-btn" data-pmid="42075308" 
+                  style="margin-top: 5px; padding: 6px 12px; background-color: #284b63; color: white; 
+                         border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+            Submit Comment
+          </button>
+        </div>
+      </div>
+    </li>
+  
+    <li style="margin-bottom: 1.5em; padding-bottom: 1em; border-bottom: 1px solid #eee;">
+      <strong>
+        <a href="https://pubmed.ncbi.nlm.nih.gov/42074106/" target="_blank" style="text-decoration: none; color: #003366;">
+          Nitrogen Isotope Effects in Urea Metabolism: From Biochemistry to &lt;sup&gt;15&lt;/sup&gt;N Natural Abundance in Cancer.
+        </a>
+      </strong><br>
+      <em>International journal of molecular sciences</em>, Apr 12 2026, Vol. 27, pp. N/A<br>
+      <small>
+        PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/42074106/" target="_blank">42074106</a> |
+        PMCID: PMC13116166
+      </small>
+      <p>The urea cycle (UC) is usually described as the hepatic metabolic pathway responsible for ammonia detoxification, but its role extends far beyond nitrogen (N) elimination to include cellular biosynthesis and metabolic signalling. In cancer cells, the UC is reconfigured/reorchestrated to support high anabolic demand, often involving the dysregulation of key enzymes such as ASS1, ASL, OTC and CPS1. While these changes support biomass production and stress resistance, they also generate measurable biochemical signatures through kinetic and thermodynamic isotope effects (&lt;sup&gt;14&lt;/sup&gt;N/&lt;sup&gt;15&lt;/sup&gt;N). In this review, we summarise UC biochemistry and recall key enzymatic mechanisms. Together, these elements provide a mechanistic framework to interpret changes in &lt;sup&gt;15&lt;/sup&gt;N abundance observed in tumour tissues and cells. We discuss how the redirection of N flux toward nucleotide and polyamine synthesis, coupled with partial excretion of &lt;sup&gt;15&lt;/sup&gt;N-depleted urea, may shape the isotopic composition of cancer cells. By integrating molecular oncology with stable isotope analysis, this review highlights the potential of natural isotope abundance as a functional readout of tumour metabolism and supports further investigation of its translational relevance in cancer phenotyping and monitoring.</p>
+      
+      
+      <!-- Interaction buttons -->
+      <div style="margin-top: 10px; display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
+        <button class="like-btn" data-pmid="42074106" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👍 Like (<span class="like-count">0</span>)
+        </button>
+        <button class="dislike-btn" data-pmid="42074106" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👎 Dislike (<span class="dislike-count">0</span>)
+        </button>
+        <button class="comment-btn" data-pmid="42074106" 
+                style="padding: 5px 12px; background-color: #284b63; color: white; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          💬 Comment (<span class="comment-count">0</span>)
+        </button>
+      </div>
+      
+      <!-- Comments section (hidden by default) -->
+      <div class="comments-section" id="comments-42074106" style="display: none; margin-top: 15px; padding: 10px; background-color: #f9f9f9; border-radius: 4px;">
+        <h5 style="margin-top: 0;">Comments:</h5>
+        <div class="comments-list" id="comments-list-42074106">
+          <!-- Comments will be loaded here -->
+        </div>
+        <div style="margin-top: 10px;">
+          <textarea class="comment-input" data-pmid="42074106" 
+                    placeholder="Add a comment..." 
+                    style="width: 100%; min-height: 60px; padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; font-size: 14px;"></textarea>
+          <button class="submit-comment-btn" data-pmid="42074106" 
+                  style="margin-top: 5px; padding: 6px 12px; background-color: #284b63; color: white; 
+                         border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+            Submit Comment
+          </button>
+        </div>
+      </div>
+    </li>
+  
+    <li style="margin-bottom: 1.5em; padding-bottom: 1em; border-bottom: 1px solid #eee;">
+      <strong>
+        <a href="https://pubmed.ncbi.nlm.nih.gov/41708583/" target="_blank" style="text-decoration: none; color: #003366;">
+          Taurine is a natural suppressor of urea cycle via targeting ASL.
+        </a>
+      </strong><br>
+      <em>Cell death discovery</em>, Feb 18 2026, Vol. 12, pp. 99<br>
+      <small>
+        PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/41708583/" target="_blank">41708583</a> |
+        PMCID: PMC12921272
+      </small>
+      <p>Hepatocellular carcinoma (HCC) has become the leading cause of global cancer-related mortality, which raises the demand for optimized therapeutic routes. The semi-essential micronutrient taurine has been gradually identified as a pivotal player linked to various diseases. Nevertheless, the metabolic impacts of taurine on hepatocellular carcinoma remain elusive. Here, we report that taurine is a negative regulator of urea cycle, thereby exerting a suppressive effect on growth of HCC tumors. Mechanistically, argininosuccinate lyase (ASL) is uncovered as the main target of taurine in repressing urea cycle of HCC cell lines. Furthermore, Fos proto-oncogene (FOS) functions as the transcription factor of ASL, which is significantly reduced upon taurine treatment. Physiologically, FOS-ASL axis is required for metabolic effects of taurine and contributes to growth of HCC tumors. Expression of ASL correlates with the inhibitory effect of taurine. Ultimately, synergistic blockade of glutaminolysis and urea cycle indicates that taurine is sufficient to substantially enhance the efficacy of the glutaminase GLS1 inhibitor in management of hepatocellular carcinoma. Collectively, these findings not only illustrate the metabolic mechanism of taurine in controlling growth of HCC tumors, but also create a promising route for utilization of taurine in clinic.</p>
+      
+      
+      <!-- Interaction buttons -->
+      <div style="margin-top: 10px; display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
+        <button class="like-btn" data-pmid="41708583" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👍 Like (<span class="like-count">0</span>)
+        </button>
+        <button class="dislike-btn" data-pmid="41708583" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👎 Dislike (<span class="dislike-count">0</span>)
+        </button>
+        <button class="comment-btn" data-pmid="41708583" 
+                style="padding: 5px 12px; background-color: #284b63; color: white; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          💬 Comment (<span class="comment-count">0</span>)
+        </button>
+      </div>
+      
+      <!-- Comments section (hidden by default) -->
+      <div class="comments-section" id="comments-41708583" style="display: none; margin-top: 15px; padding: 10px; background-color: #f9f9f9; border-radius: 4px;">
+        <h5 style="margin-top: 0;">Comments:</h5>
+        <div class="comments-list" id="comments-list-41708583">
+          <!-- Comments will be loaded here -->
+        </div>
+        <div style="margin-top: 10px;">
+          <textarea class="comment-input" data-pmid="41708583" 
+                    placeholder="Add a comment..." 
+                    style="width: 100%; min-height: 60px; padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; font-size: 14px;"></textarea>
+          <button class="submit-comment-btn" data-pmid="41708583" 
+                  style="margin-top: 5px; padding: 6px 12px; background-color: #284b63; color: white; 
+                         border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+            Submit Comment
+          </button>
+        </div>
+      </div>
+    </li>
+  
+    <li style="margin-bottom: 1.5em; padding-bottom: 1em; border-bottom: 1px solid #eee;">
+      <strong>
+        <a href="https://pubmed.ncbi.nlm.nih.gov/41448182/" target="_blank" style="text-decoration: none; color: #003366;">
+          Tumor-produced ammonia is metabolized by regulatory T cells to further impede anti-tumor immunity.
+        </a>
+      </strong><br>
+      <em>Cell</em>, Jan 22 2026, Vol. 189, pp. 418-434.e24<br>
+      <small>
+        PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/41448182/" target="_blank">41448182</a> |
+        PMCID: N/A
+      </small>
+      <p>Mechanisms of adaptation of regulatory T cells (Tregs) to harsh tumor metabolic microenvironments for suppression of anti-tumor immunity remain largely unclear. Here, using spatial metabolomics and transcriptomics, we show that human hepatocellular carcinoma harbored metabolically heterogeneous subregions characterized by high glutaminolysis and ammonia contents, where Tregs were frequently present but CD8&lt;sup&gt;+&lt;/sup&gt; and CD4&lt;sup&gt;+&lt;/sup&gt; effector T cells die. We found Tregs used the urea cycle to detoxify ammonia by upregulating argininosuccinate lyase (ASL); meanwhile, ammonia was also converted to spermine by the FOXP3 transcription factor regulated spermine synthase (SMS). A direct interaction between spermine and PPARγ was verified by X-ray crystallography, leading to comprehensively modulating the transcription of multiple mitochondrial complex proteins to enhance oxidative phosphorylation and immunosuppression of Tregs. Clinically, anti-PD-1-treated dying tumor cells used transdeamination to release ammonia, which reinforced Treg function, leading to immunotherapeutic resistance. Targeting ammonia production to suppress Tregs presents a potential strategy for anti-tumor immunotherapy.</p>
+      
+      
+      <!-- Interaction buttons -->
+      <div style="margin-top: 10px; display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
+        <button class="like-btn" data-pmid="41448182" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👍 Like (<span class="like-count">0</span>)
+        </button>
+        <button class="dislike-btn" data-pmid="41448182" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👎 Dislike (<span class="dislike-count">0</span>)
+        </button>
+        <button class="comment-btn" data-pmid="41448182" 
+                style="padding: 5px 12px; background-color: #284b63; color: white; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          💬 Comment (<span class="comment-count">0</span>)
+        </button>
+      </div>
+      
+      <!-- Comments section (hidden by default) -->
+      <div class="comments-section" id="comments-41448182" style="display: none; margin-top: 15px; padding: 10px; background-color: #f9f9f9; border-radius: 4px;">
+        <h5 style="margin-top: 0;">Comments:</h5>
+        <div class="comments-list" id="comments-list-41448182">
+          <!-- Comments will be loaded here -->
+        </div>
+        <div style="margin-top: 10px;">
+          <textarea class="comment-input" data-pmid="41448182" 
+                    placeholder="Add a comment..." 
+                    style="width: 100%; min-height: 60px; padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; font-size: 14px;"></textarea>
+          <button class="submit-comment-btn" data-pmid="41448182" 
+                  style="margin-top: 5px; padding: 6px 12px; background-color: #284b63; color: white; 
+                         border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+            Submit Comment
+          </button>
+        </div>
+      </div>
+    </li>
+  
+</ol>
+
+<div style="text-align:center; margin-top:1rem;">
+  <button id="load-more" style="padding:8px 16px; background-color:#284b63; color:white; border:none; border-radius:5px;">
+    Show More
+  </button>
+  <button id="show-all" style="padding:6px 14px; background-color:#999; color:white; border:none; border-radius:5px;">
+    Show All
+  </button>
+</div>
+
+
+
+<div id="loading-text" class="loading-text" style="display:none;">Fetching papers...</div>
+
+
+  </main>
+
+  <footer>
+    <p>© 2025 Urea Cycle Research Hub</p>
+  </footer>
+  
+<script src="/urea-cycle/ucrh/static/js/script.js"></script>
+
+</body>
+</html>

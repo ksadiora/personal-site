@@ -1,0 +1,20 @@
+/* Read-only snapshot of the Urea Cycle Research Hub: a banner, and the live-only controls hidden. */
+.ucrh-snapshot-bar {
+  position: relative; z-index: 50;
+  padding: 9px 16px; text-align: center;
+  background: #0f2742; color: #dbe7f7;
+  font: 13px/1.5 -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+.ucrh-snapshot-bar a { color: #9cc4ff; }
+.ucrh-snapshot-toast {
+  position: fixed; left: 50%; bottom: 24px; z-index: 1000;
+  transform: translate(-50%, 20px); opacity: 0; pointer-events: none;
+  max-width: min(520px, calc(100vw - 32px)); padding: 10px 16px; border-radius: 8px;
+  background: #0f2742; color: #fff; font: 14px/1.4 -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.25); transition: opacity 0.2s, transform 0.2s;
+}
+.ucrh-snapshot-toast.on { opacity: 1; transform: translate(-50%, 0); }
+
+/* Need a live server: likes, comments, saved keywords, sorting by likes, "new since last visit". */
+.like-btn, .dislike-btn, .like-count, .dislike-count, .comment-btn, .comment-count, .comments-section,
+#toggle-keywords, #keywords-panel, #sort-select, #new-papers-link, #new-papers-modal { display: none !important; }

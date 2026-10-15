@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><link rel="stylesheet" href="/urea-cycle/ucrh/_snapshot/snapshot.css"><script src="/urea-cycle/ucrh/_snapshot/shim.js"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CITRIN - Citrin</title>
+  <link rel="icon" type="image/jpeg" href="/urea-cycle/ucrh/static/images/favicon.jpeg">
+  <link rel="stylesheet" href="/urea-cycle/ucrh/static/css/styles.css">
+</head>
+<body><div class="ucrh-snapshot-bar">Read-only snapshot of the Urea Cycle Research Hub, taken Oct 14, 2026. Live PubMed search, accounts, comments and email digests are off. <a href="/urea-cycle/">Paper and poster</a> · <a href="/">karansadiora.com</a></div>
+  
+  <header>
+    <a href="/urea-cycle/ucrh/" class="header-home-link">Home</a>
+    <div class="header-top-right">
+      
+        
+        
+      
+    </div>
+    <div style="display: flex; align-items: center; justify-content: center; margin-bottom: 1rem; position: relative;">
+      <h1><a href="/urea-cycle/ucrh/" class="site-title-link">Urea Cycle Research Hub</a></h1>
+    </div>
+    <nav>
+      <a href="/urea-cycle/ucrh/OTC" class="">OTC</a>  
+      <a href="/urea-cycle/ucrh/CPS1" class="">CPS1</a>
+      <a href="/urea-cycle/ucrh/NAGS" class="">NAGS</a>
+      <a href="/urea-cycle/ucrh/ASS" class="">ASS</a>
+      <a href="/urea-cycle/ucrh/ARG1" class="">ARG1</a>
+      <a href="/urea-cycle/ucrh/ASL" class="">ASL</a>
+      <a href="/urea-cycle/ucrh/ORNT1" class="">ORNT1</a>
+      <a href="/urea-cycle/ucrh/CITRIN" class="active">CITRIN</a>
+      <a href="/urea-cycle/ucrh/variants" class="">Variants</a>
+      
+      
+      
+    </nav>
+  </header>
+
+  <main>
+    
+
+
+<!-- Sidebar panel -->
+<div id="keywords-panel" style="display:none; position: fixed; right:0; top:0; height:100%; width:250px; background:#f7f7f7; border-left:1px solid #ccc; padding:15px; padding-top: 80px; box-shadow: -2px 0 5px rgba(0,0,0,0.1); overflow-y:auto; z-index: 1001;">
+  <button id="close-keywords" style="position: absolute; top: 15px; right: 15px; background: #C8102E; color: white; border: none; border-radius: 50%; width: 30px; height: 30px; cursor: pointer; font-size: 18px; line-height: 1; display: flex; align-items: center; justify-content: center;">×</button>
+  <h4>Current Keywords</h4>
+  <ul id="current-keywords">
+    
+      <li>urea cycle</li>
+    
+      <li>ureagenesis</li>
+    
+      <li>citrin</li>
+    
+      <li>CITRIN</li>
+    
+    
+  </ul>
+
+  <h5 style="margin-top: 1rem;">Add Keywords (comma-separated)</h5>
+  <input type="text" id="new-keywords" placeholder="e.g., mitochondrial" style="width:100%; padding:5px;">
+  <button id="add-keywords" style="margin-top:5px; padding:6px 10px; background-color:#003366; color:white; border:none; border-radius:4px;">Add</button>
+</div>
+
+<div style="margin-bottom: 1rem;">
+  <h2 style="margin: 0 0 0.5rem 0;">Citrin (CITRIN)</h2>
+  <p style="margin: 0;">Citrin is a mitochondrial aspartate-glutamate carrier that plays a crucial role in the urea cycle by transporting aspartate into mitochondria.</p>
+</div>
+
+<h4 style="color:#284b63; margin-top:1rem;"><a href="#" id="new-papers-link" data-since="" style="color:#284b63; text-decoration: underline; cursor: pointer;">
+  0 Publications Since Last Visit
+</a></h4>
+
+<!-- Modal for new papers -->
+<div id="new-papers-modal" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.5); z-index: 2000; overflow-y: auto;">
+  <div style="position: relative; background: white; margin: 50px auto; max-width: 900px; padding: 30px; border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.3); max-height: 90vh; overflow-y: auto;">
+    <button id="close-modal" style="position: absolute; top: 15px; right: 15px; background: #C8102E; color: white; border: none; border-radius: 50%; width: 35px; height: 35px; cursor: pointer; font-size: 20px; line-height: 1; display: flex; align-items: center; justify-content: center;">×</button>
+    <h2 style="margin-top: 0; color: #284b63;">New Publications Since Last Visit</h2>
+    <div id="new-papers-content">
+      <div style="text-align: center; padding: 40px;">
+        <p>Loading new publications...</p>
+      </div>
+    </div>
+  </div>
+</div>
+<hr>
+<div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 1rem;">
+  <h3 style="margin: 0;">Recent Publications</h3>
+  <div style="display: flex; gap: 10px; align-items: center;">
+    <select id="sort-select" style="padding: 6px 10px; background-color:#fff; border:1px solid #ccc; border-radius:4px; font-size:14px;">
+      <option value="date" selected>Sort by Date</option>
+      <option value="popularity" >Sort by Popularity</option>
+    </select>
+    <div style="position: relative; display: inline-block;">
+      <button id="export-btn" style="padding: 6px 10px; background-color:#284b63; color:white; border:none; border-radius:4px; cursor: pointer; display: inline-flex; align-items: center; gap: 4px;">
+        Export<span style="display: inline-block;">▼</span>
+      </button>
+      <div id="export-menu" style="display: none; position: absolute; top: 100%; right: 0; margin-top: 5px; background: white; border: 1px solid #ccc; border-radius: 4px; box-shadow: 0 2px 5px rgba(0,0,0,0.2); z-index: 1000; min-width: 150px;">
+        <a href="#" id="export-ris" style="display: block; padding: 8px 12px; text-decoration: none; color: #333; border-bottom: 1px solid #eee;">Export as RIS</a>
+        <a href="#" id="export-pmid" style="display: block; padding: 8px 12px; text-decoration: none; color: #333;">Export as PMID list</a>
+      </div>
+    </div>
+    <button id="toggle-keywords" style="padding: 6px 10px; background-color:#C8102E; color:white; border:none; border-radius:4px;">
+      Keywords
+    </button>
+  </div>
+</div>
+
+
+<ol id="papers-list">
+  
+    <li style="margin-bottom: 1.5em; padding-bottom: 1em; border-bottom: 1px solid #eee;">
+      <strong>
+        <a href="https://pubmed.ncbi.nlm.nih.gov/42831216/" target="_blank" style="text-decoration: none; color: #003366;">
+          Dual Urea Cycle Dysfunction Caused by Coexisting Argininosuccinic Aciduria and Citrin Deficiency: Clinical, Biochemical, and Molecular Insights From an Exceptional Case.
+        </a>
+      </strong><br>
+      <em>JIMD reports</em>, Nov 2026, Vol. 67, pp. e70129<br>
+      <small>
+        PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/42831216/" target="_blank">42831216</a> |
+        PMCID: PMC13634694
+      </small>
+      <p>Dual inherited defects affecting urea cycle function are exceptionally rare. We report the first case, to our knowledge, of the coexistence of argininosuccinic aciduria (ASA) and citrin deficiency (CD). A girl born to consanguineous Tunisian parents presented at 6 months of age with recurrent seizures, vomiting, developmental delay, and severe hyperammonemic encephalopathy. Laboratory investigations revealed hyperammonemia, respiratory alkalosis, transaminitis, dyslipidemia, hyperglutaminemia, and mild hypercitrullinemia. Brain imaging showed delayed myelination and basal ganglia abnormalities. Management involved arginine supplementation, ammonia scavengers, protein restriction and antiepileptic drugs. The patient died at 33 months of age from severe hyperammonemia and lactic acidosis. Next-generation sequencing identified two homozygous variants affecting distinct urea cycle-related genes: &lt;i&gt;The known pathogenic ASL&lt;/i&gt; variant c.1153C&gt;T p.(Arg385Cys), responsible for ASA, and a previously unreported likely pathogenic &lt;i&gt;SLC25A13&lt;/i&gt; variant, c.1474C&gt;T, p.(Arg492Trp), consistent with CD. Segregation analysis confirmed biallelic inheritance of both variants. This unique association illustrates how multilocus pathogenic variation can generate an atypical phenotype. From a pathophysiological perspective, CD may aggravate urea cycle dysfunction by reducing cytosolic aspartate availability and ASS1 activity, while ASL deficiency blocks the downstream conversion of argininosuccinate, resulting in a profound impairment of ureagenesis. This dual defect creates diagnostic and therapeutic challenges, highlighting the importance of integrating comprehensive biochemical investigations with molecular testing to enable accurate diagnosis and personalized metabolic management.</p>
+      
+      
+      <!-- Interaction buttons -->
+      <div style="margin-top: 10px; display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
+        <button class="like-btn" data-pmid="42831216" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👍 Like (<span class="like-count">0</span>)
+        </button>
+        <button class="dislike-btn" data-pmid="42831216" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👎 Dislike (<span class="dislike-count">0</span>)
+        </button>
+        <button class="comment-btn" data-pmid="42831216" 
+                style="padding: 5px 12px; background-color: #284b63; color: white; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          💬 Comment (<span class="comment-count">0</span>)
+        </button>
+      </div>
+      
+      <!-- Comments section (hidden by default) -->
+      <div class="comments-section" id="comments-42831216" style="display: none; margin-top: 15px; padding: 10px; background-color: #f9f9f9; border-radius: 4px;">
+        <h5 style="margin-top: 0;">Comments:</h5>
+        <div class="comments-list" id="comments-list-42831216">
+          <!-- Comments will be loaded here -->
+        </div>
+        <div style="margin-top: 10px;">
+          <textarea class="comment-input" data-pmid="42831216" 
+                    placeholder="Add a comment..." 
+                    style="width: 100%; min-height: 60px; padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; font-size: 14px;"></textarea>
+          <button class="submit-comment-btn" data-pmid="42831216" 
+                  style="margin-top: 5px; padding: 6px 12px; background-color: #284b63; color: white; 
+                         border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+            Submit Comment
+          </button>
+        </div>
+      </div>
+    </li>
+  
+    <li style="margin-bottom: 1.5em; padding-bottom: 1em; border-bottom: 1px solid #eee;">
+      <strong>
+        <a href="https://pubmed.ncbi.nlm.nih.gov/42272103/" target="_blank" style="text-decoration: none; color: #003366;">
+          Therapeutic potential of three-dimensional hepatocyte-like cells from human adipose-derived mesenchymal stem cells in urea cycle disorders.
+        </a>
+      </strong><br>
+      <em>Molecular therapy : the journal of the American Society of Gene Therapy</em>, Sep 02 2026, Vol. 34, pp. 5127-5134<br>
+      <small>
+        PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/42272103/" target="_blank">42272103</a> |
+        PMCID: PMC13555575
+      </small>
+      <p>Three-dimensional hepatocyte-like cells (3D HLCs) derived from human adipose-derived mesenchymal stem cells (ADSCs) represent a scalable and clinically accessible cell source for metabolic liver diseases. Here, the authors demonstrate that transplantation (Tx) of ADSC-derived 3D HLCs significantly enhances ammonia detoxification in vivo across multiple urea cycle disorder (UCD) models. 3D HLC Tx attenuated hyperammonemia, accelerated ammonia clearance, and improved encephalopathy-associated behavior in wild-type, ornithine transcarbamylase-deficient, and citrin-deficient mice. Engrafted human cells persisted and contributed to metabolic improvement. These findings highlight ADSC-derived 3D HLCs as a promising, minimally invasive therapeutic strategy and support their potential as an alternative to liver Tx for UCDs.</p>
+      
+      
+      <!-- Interaction buttons -->
+      <div style="margin-top: 10px; display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
+        <button class="like-btn" data-pmid="42272103" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👍 Like (<span class="like-count">0</span>)
+        </button>
+        <button class="dislike-btn" data-pmid="42272103" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👎 Dislike (<span class="dislike-count">0</span>)
+        </button>
+        <button class="comment-btn" data-pmid="42272103" 
+                style="padding: 5px 12px; background-color: #284b63; color: white; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          💬 Comment (<span class="comment-count">0</span>)
+        </button>
+      </div>
+      
+      <!-- Comments section (hidden by default) -->
+      <div class="comments-section" id="comments-42272103" style="display: none; margin-top: 15px; padding: 10px; background-color: #f9f9f9; border-radius: 4px;">
+        <h5 style="margin-top: 0;">Comments:</h5>
+        <div class="comments-list" id="comments-list-42272103">
+          <!-- Comments will be loaded here -->
+        </div>
+        <div style="margin-top: 10px;">
+          <textarea class="comment-input" data-pmid="42272103" 
+                    placeholder="Add a comment..." 
+                    style="width: 100%; min-height: 60px; padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; font-size: 14px;"></textarea>
+          <button class="submit-comment-btn" data-pmid="42272103" 
+                  style="margin-top: 5px; padding: 6px 12px; background-color: #284b63; color: white; 
+                         border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+            Submit Comment
+          </button>
+        </div>
+      </div>
+    </li>
+  
+    <li style="margin-bottom: 1.5em; padding-bottom: 1em; border-bottom: 1px solid #eee;">
+      <strong>
+        <a href="https://pubmed.ncbi.nlm.nih.gov/42722418/" target="_blank" style="text-decoration: none; color: #003366;">
+          Distinct Urea Cycle Dysfunction Profiles Differentiate Acute Metabolic Decompensation in TMEM70 and MT-ATP6-Related Mitochondrial ATP Synthase Defects.
+        </a>
+      </strong><br>
+      <em>Journal of inherited metabolic disease</em>, Sep 2026, Vol. 49, pp. e70244<br>
+      <small>
+        PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/42722418/" target="_blank">42722418</a> |
+        PMCID: PMC13561688
+      </small>
+      <p>ATP synthase defects, including TMEM70 and MT-ATP6 deficiencies, cause severe mitochondrial encephalo-(cardio)-myopathies complicated by acute metabolic decompensations (AMDs) often associated with hyperammonaemia. However, detailed biochemical characterisation of these events remains limited. The aim of the study was to evaluate the metabolic profiles associated with TMEM70 and MT-ATP6 deficiencies during AMDs in comparison to stable metabolic conditions, assessing frequency and severity of hyperammonaemia, and exploring the mechanisms linking impaired mitochondrial ATP production to the urea cycle by in vivo ureagenesis studies, using [&lt;sup&gt;15&lt;/sup&gt;N] ammonium chloride as stable isotope and assessed by high-resolution mass-spectrometry coupled with liquid chromatography. We retrospectively analysed clinical and biochemical profiles from two genetically confirmed cohorts. Patients with TMEM70 deficiency experienced more frequent AMDs, often with hyperammonaemia and requiring extracorporeal detoxification, while the MT-ATP6 cohort had more prominent neurological symptoms and a lower incidence of hyperammonaemia. Biochemically, both groups showed elevated lactate, alanine and glutamine, with orotic aciduria and abnormalities in purine/pyrimidine metabolism. Plasma citrulline levels were divergent in the two cohorts, with a consistent reduction in patients with MT-ATP6 deficiency and normal or borderline elevated levels in the TMEM70 cohort. In vivo stable isotope studies pointed to the differential impact of TMEM70 and MT-ATP6 deficiency on ureagenesis and on the enrichment of individual urea cycle-related amino acids. This study reveals that TMEM70 and MT-ATP6 deficiencies share features of mitochondrial dysfunction but present distinct metabolic profiles, highlighting a different impact on the urea cycle and its related metabolites, and providing novel insights on our understanding of mitochondrial pathophysiology.</p>
+      
+      
+      <!-- Interaction buttons -->
+      <div style="margin-top: 10px; display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
+        <button class="like-btn" data-pmid="42722418" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👍 Like (<span class="like-count">0</span>)
+        </button>
+        <button class="dislike-btn" data-pmid="42722418" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👎 Dislike (<span class="dislike-count">0</span>)
+        </button>
+        <button class="comment-btn" data-pmid="42722418" 
+                style="padding: 5px 12px; background-color: #284b63; color: white; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          💬 Comment (<span class="comment-count">0</span>)
+        </button>
+      </div>
+      
+      <!-- Comments section (hidden by default) -->
+      <div class="comments-section" id="comments-42722418" style="display: none; margin-top: 15px; padding: 10px; background-color: #f9f9f9; border-radius: 4px;">
+        <h5 style="margin-top: 0;">Comments:</h5>
+        <div class="comments-list" id="comments-list-42722418">
+          <!-- Comments will be loaded here -->
+        </div>
+        <div style="margin-top: 10px;">
+          <textarea class="comment-input" data-pmid="42722418" 
+                    placeholder="Add a comment..." 
+                    style="width: 100%; min-height: 60px; padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; font-size: 14px;"></textarea>
+          <button class="submit-comment-btn" data-pmid="42722418" 
+                  style="margin-top: 5px; padding: 6px 12px; background-color: #284b63; color: white; 
+                         border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+            Submit Comment
+          </button>
+        </div>
+      </div>
+    </li>
+  
+    <li style="margin-bottom: 1.5em; padding-bottom: 1em; border-bottom: 1px solid #eee;">
+      <strong>
+        <a href="https://pubmed.ncbi.nlm.nih.gov/42647245/" target="_blank" style="text-decoration: none; color: #003366;">
+          Newborn Screening for Neonatal Intrahepatic Cholestasis Caused by Citrin Deficiency and Analysis of &lt;i&gt;SLC25A13&lt;/i&gt; Gene Mutations in Hefei, China.
+        </a>
+      </strong><br>
+      <em>International journal of neonatal screening</em>, Jul 28 2026, Vol. 12, pp. N/A<br>
+      <small>
+        PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/42647245/" target="_blank">42647245</a> |
+        PMCID: PMC13510412
+      </small>
+      <p>Citrin deficiency (CD) is an autosomal recessive disorder and represents one of the urea cycle disorders. This study aims to analyze the detection rate, clinical features, and genetic mutation characteristics of neonatal intrahepatic cholestasis caused by citrin deficiency (NICCD) in the Hefei region of China. We conducted NICCD screening using tandem mass spectrometry (MS/MS) for infants born in Hefei City between January 2016 and December 2025. Screen-positive cases were subjected to genetic testing via next-generation sequencing (NGS), with subsequent validation by Sanger sequencing. Clinical manifestations, biochemical parameters, and genetic mutation profiles of confirmed cases were systematically analyzed. A total of 924,676 newborns underwent screening, identifying 17 cases of NICCD, yielding a detection rate of 1/54,393, with two false-negative cases identified. The most prevalent mutation site is c.852_855del (p.M285Pfs*2). Following diagnosis, health education, dietary guidance, and symptomatic treatment were administered, resulting in favorable outcomes in the majority of cases. However, one infant exhibited significant growth retardation despite early therapeutic intervention that normalized biochemical parameters. Furthermore, an infant was found to have gallstones at birth and subsequently diagnosed with a liver hemangioma at one year of age. Some patients may experience missed screenings due to delayed elevations in citrulline levels. Therefore, even for newborns with negative screening results, timely assessments of liver function, MS/MS, and genetic testing are recommended for infants experiencing prolonged jaundice. This approach enables early identification and intervention. The combination of MS/MS with genetic screening may serve as a reliable strategy to reduce false-negative results in NICCD screening.</p>
+      
+      
+      <!-- Interaction buttons -->
+      <div style="margin-top: 10px; display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
+        <button class="like-btn" data-pmid="42647245" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👍 Like (<span class="like-count">0</span>)
+        </button>
+        <button class="dislike-btn" data-pmid="42647245" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👎 Dislike (<span class="dislike-count">0</span>)
+        </button>
+        <button class="comment-btn" data-pmid="42647245" 
+                style="padding: 5px 12px; background-color: #284b63; color: white; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          💬 Comment (<span class="comment-count">0</span>)
+        </button>
+      </div>
+      
+      <!-- Comments section (hidden by default) -->
+      <div class="comments-section" id="comments-42647245" style="display: none; margin-top: 15px; padding: 10px; background-color: #f9f9f9; border-radius: 4px;">
+        <h5 style="margin-top: 0;">Comments:</h5>
+        <div class="comments-list" id="comments-list-42647245">
+          <!-- Comments will be loaded here -->
+        </div>
+        <div style="margin-top: 10px;">
+          <textarea class="comment-input" data-pmid="42647245" 
+                    placeholder="Add a comment..." 
+                    style="width: 100%; min-height: 60px; padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; font-size: 14px;"></textarea>
+          <button class="submit-comment-btn" data-pmid="42647245" 
+                  style="margin-top: 5px; padding: 6px 12px; background-color: #284b63; color: white; 
+                         border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+            Submit Comment
+          </button>
+        </div>
+      </div>
+    </li>
+  
+    <li style="margin-bottom: 1.5em; padding-bottom: 1em; border-bottom: 1px solid #eee;">
+      <strong>
+        <a href="https://pubmed.ncbi.nlm.nih.gov/42454984/" target="_blank" style="text-decoration: none; color: #003366;">
+          The Role of Urea Cycle Functional Studies in Preclinical Research.
+        </a>
+      </strong><br>
+      <em>Journal of inherited metabolic disease</em>, Jul 2026, Vol. 49, pp. e70225<br>
+      <small>
+        PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/42454984/" target="_blank">42454984</a> |
+        PMCID: PMC13371387
+      </small>
+      <p>Inborn errors of metabolism affecting the urea cycle are rare severe conditions caused by impaired nitrogen detoxification, leading to hyperammonemia and neurological morbidity across a broad clinical spectrum. Current biochemical diagnostics largely rely on quantification of metabolites. While indispensable for diagnosis and acute management, these snapshot readouts are highly dependent on external factors and often fail to reflect urea cycle function in metabolically compensated states, limiting their usefulness for disease stratification, therapeutic monitoring, and preclinical evaluation of treatments. Here, we reflect on the rationale, development, and application of a functional ureagenesis assay based on administration of [&lt;sup&gt;15&lt;/sup&gt;N]-labeled ammonium chloride, enabling quantitative assessment of total in vivo urea cycle function. This assay development was prompted by discordant biochemical and phenotypic findings in a gene therapy-treated mouse model of ornithine transcarbamylase deficiency where supraphysiological enzyme activity did not translate into clinical improvement. We demonstrate that the [&lt;sup&gt;15&lt;/sup&gt;N]-isotope based ureagenesis assay is applicable to in vivo models and enables detection of functional correction of the urea cycle. Importantly, we show its applicability in metabolically stable individuals affected by urea cycle disorders, where classical biochemical markers are often normal despite significant enzyme or transporter impairment. Together, these data establish the [&lt;sup&gt;15&lt;/sup&gt;N]ammonium chloride-based functional ureagenesis assay as a robust and sensitive tool for quantifying urea cycle function. This approach offers clear advantages for preclinical research and translational studies, particularly in the evaluation of novel therapeutic strategies where traditional biomarkers lack discriminatory power.</p>
+      
+      
+      <!-- Interaction buttons -->
+      <div style="margin-top: 10px; display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
+        <button class="like-btn" data-pmid="42454984" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👍 Like (<span class="like-count">0</span>)
+        </button>
+        <button class="dislike-btn" data-pmid="42454984" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👎 Dislike (<span class="dislike-count">0</span>)
+        </button>
+        <button class="comment-btn" data-pmid="42454984" 
+                style="padding: 5px 12px; background-color: #284b63; color: white; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          💬 Comment (<span class="comment-count">0</span>)
+        </button>
+      </div>
+      
+      <!-- Comments section (hidden by default) -->
+      <div class="comments-section" id="comments-42454984" style="display: none; margin-top: 15px; padding: 10px; background-color: #f9f9f9; border-radius: 4px;">
+        <h5 style="margin-top: 0;">Comments:</h5>
+        <div class="comments-list" id="comments-list-42454984">
+          <!-- Comments will be loaded here -->
+        </div>
+        <div style="margin-top: 10px;">
+          <textarea class="comment-input" data-pmid="42454984" 
+                    placeholder="Add a comment..." 
+                    style="width: 100%; min-height: 60px; padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; font-size: 14px;"></textarea>
+          <button class="submit-comment-btn" data-pmid="42454984" 
+                  style="margin-top: 5px; padding: 6px 12px; background-color: #284b63; color: white; 
+                         border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+            Submit Comment
+          </button>
+        </div>
+      </div>
+    </li>
+  
+    <li style="margin-bottom: 1.5em; padding-bottom: 1em; border-bottom: 1px solid #eee;">
+      <strong>
+        <a href="https://pubmed.ncbi.nlm.nih.gov/42107343/" target="_blank" style="text-decoration: none; color: #003366;">
+          Patient experience informing outcomes and research in rare disease: Citrin deficiency as a case study.
+        </a>
+      </strong><br>
+      <em>Molecular genetics and metabolism</em>, Jul 2026, Vol. 148, pp. 110141<br>
+      <small>
+        PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/42107343/" target="_blank">42107343</a> |
+        PMCID: N/A
+      </small>
+      <p>The rapid expansion of therapies for rare diseases, including urea cycle disorders (UCDs), has intensified the need for endpoints that reflect meaningful benefit to patients. In rare inborn metabolic disorders, conventional clinical assessments and fragmented natural history data may not fully capture the daily disease burden. Citrin deficiency (CD) exemplifies this challenge: despite heterogeneous, age-dependent phenotypes, a &#34;silent&#34; or &#34;adaptive&#34; period is often described as largely asymptomatic based on clinical and biochemical measures. We present a patient-organization-led, patient-centered qualitative survey as a complementary approach to uncover &#34;hidden&#34; disease burden in a rare metabolic and urea cycle disorder. In an in-depth survey of seven adult CD patients, findings identified gaps between clinical descriptions and patient-reported disease burden. Fatigue and symptoms triggered by high carbohydrate intake emerged as key impacts on quality of life (QoL) among all surveyed patients. Other symptoms included under-recognized gastrointestinal (GI) issues, poor appetite, and psychological impacts. These findings contrasted with existing literature and questioned the concept of an asymptomatic adaptive phase. Although limited by the cohort size (n = 7), the current study illustrates how this approach can identify patient-important domains that standard clinical frameworks may under-capture. We propose that these domains should inform the development of fit-for-purpose patient-reported outcome measures (PROMs) and be integrated with relevant biochemical or molecular markers as endpoints for therapeutic studies and inform better research priorities and clinical management. More broadly, patient-organization-led qualitative surveying offers a scalable strategy to align translational efforts with outcomes that matter to patients across rare diseases.</p>
+      
+      
+      <!-- Interaction buttons -->
+      <div style="margin-top: 10px; display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
+        <button class="like-btn" data-pmid="42107343" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👍 Like (<span class="like-count">0</span>)
+        </button>
+        <button class="dislike-btn" data-pmid="42107343" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👎 Dislike (<span class="dislike-count">0</span>)
+        </button>
+        <button class="comment-btn" data-pmid="42107343" 
+                style="padding: 5px 12px; background-color: #284b63; color: white; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          💬 Comment (<span class="comment-count">0</span>)
+        </button>
+      </div>
+      
+      <!-- Comments section (hidden by default) -->
+      <div class="comments-section" id="comments-42107343" style="display: none; margin-top: 15px; padding: 10px; background-color: #f9f9f9; border-radius: 4px;">
+        <h5 style="margin-top: 0;">Comments:</h5>
+        <div class="comments-list" id="comments-list-42107343">
+          <!-- Comments will be loaded here -->
+        </div>
+        <div style="margin-top: 10px;">
+          <textarea class="comment-input" data-pmid="42107343" 
+                    placeholder="Add a comment..." 
+                    style="width: 100%; min-height: 60px; padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; font-size: 14px;"></textarea>
+          <button class="submit-comment-btn" data-pmid="42107343" 
+                  style="margin-top: 5px; padding: 6px 12px; background-color: #284b63; color: white; 
+                         border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+            Submit Comment
+          </button>
+        </div>
+      </div>
+    </li>
+  
+    <li style="margin-bottom: 1.5em; padding-bottom: 1em; border-bottom: 1px solid #eee;">
+      <strong>
+        <a href="https://pubmed.ncbi.nlm.nih.gov/41809964/" target="_blank" style="text-decoration: none; color: #003366;">
+          Looking Beyond Severe Hypertriglyceridemia when Diagnosing Adult-Onset Citrullinemia Type II.
+        </a>
+      </strong><br>
+      <em>European journal of case reports in internal medicine</em>, 2026, Vol. 13, pp. 006200<br>
+      <small>
+        PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/41809964/" target="_blank">41809964</a> |
+        PMCID: PMC12971039
+      </small>
+      <p>Adult-onset citrullinemia type II (CTLN2) is a rare autosomal recessive urea cycle disorder caused by mutations in the solute carrier family 25 member 13 (&lt;i&gt;SLC25A13&lt;/i&gt;) gene, which encodes citrin-a mitochondrial transporter involved in the malate-aspartate shuttle. In adults, CTLN2 may present atypically as isolated hypertriglyceridemia, often misattributed to secondary dyslipidaemia. A 30-year-old Vietnamese male with longstanding severe hypertriglyceridemia, first identified at age 13, was referred after an episode of acute pancreatitis at age 28. At presentation, plasma triglyceride levels reached 34.61 mmol/l. Secondary causes were excluded. Genetic testing via next-generation sequencing revealed compound heterozygous &lt;i&gt;SLC25A13&lt;/i&gt; mutations: c.2T&gt;C and c.1638_1660dup, resulting in p.Met1Thr and p.Ala554GlyfsTer17, confirming the diagnosis of CTLN2. Initiation of a low-carbohydrate, high-protein, low-fat diet combined with fenofibrate (145 mg/day) led to a rapid reduction in triglyceride levels, normalizing within two weeks and remaining stable over three months. The treatment was well tolerated, with no reported adverse effects. CTLN2 should be considered in young adults with persistent, unexplained, and severe hypertriglyceridemia. Dietary modification constitutes the cornerstone of management, with fibrates playing a supportive role. Persistent, unexplained, and severe hypertriglyceridemia in young adults should prompt consideration of inherited metabolic disorders, including adult-onset citrullinemia type II (CTLN2).Genetic testing to detect compound heterozygous or homozygous &lt;i&gt;SLC25A13&lt;/i&gt; variants is essential for definitive diagnosis of CTLN2.In CTLN2, dietary management with a low-carbohydrate, high-protein, low-fat represents the cornerstone, with fibrates serving as adjunctive lipid-lowering therapy.</p>
+      
+      
+      <!-- Interaction buttons -->
+      <div style="margin-top: 10px; display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
+        <button class="like-btn" data-pmid="41809964" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👍 Like (<span class="like-count">0</span>)
+        </button>
+        <button class="dislike-btn" data-pmid="41809964" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👎 Dislike (<span class="dislike-count">0</span>)
+        </button>
+        <button class="comment-btn" data-pmid="41809964" 
+                style="padding: 5px 12px; background-color: #284b63; color: white; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          💬 Comment (<span class="comment-count">0</span>)
+        </button>
+      </div>
+      
+      <!-- Comments section (hidden by default) -->
+      <div class="comments-section" id="comments-41809964" style="display: none; margin-top: 15px; padding: 10px; background-color: #f9f9f9; border-radius: 4px;">
+        <h5 style="margin-top: 0;">Comments:</h5>
+        <div class="comments-list" id="comments-list-41809964">
+          <!-- Comments will be loaded here -->
+        </div>
+        <div style="margin-top: 10px;">
+          <textarea class="comment-input" data-pmid="41809964" 
+                    placeholder="Add a comment..." 
+                    style="width: 100%; min-height: 60px; padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; font-size: 14px;"></textarea>
+          <button class="submit-comment-btn" data-pmid="41809964" 
+                  style="margin-top: 5px; padding: 6px 12px; background-color: #284b63; color: white; 
+                         border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+            Submit Comment
+          </button>
+        </div>
+      </div>
+    </li>
+  
+    <li style="margin-bottom: 1.5em; padding-bottom: 1em; border-bottom: 1px solid #eee;">
+      <strong>
+        <a href="https://pubmed.ncbi.nlm.nih.gov/41238906/" target="_blank" style="text-decoration: none; color: #003366;">
+          Glycerol-3-phosphate activates ChREBP, FGF21 transcription and lipogenesis in citrin deficiency.
+        </a>
+      </strong><br>
+      <em>Nature metabolism</em>, Nov 2025, Vol. 7, pp. 2284-2299<br>
+      <small>
+        PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/41238906/" target="_blank">41238906</a> |
+        PMCID: PMC12638245
+      </small>
+      <p>Citrin deficiency (CD) is caused by the inactivation of SLC25A13, a mitochondrial membrane protein required to move electrons from cytosolic NADH to the mitochondrial matrix in hepatocytes. People with CD do not like sweets. Here we show that SLC25A13 loss causes the accumulation of glycerol-3-phosphate (G3P), which activates the carbohydrate response element-binding protein (ChREBP) to transcribe FGF21, which acts in the brain to restrain intake of sweets and alcohol and to transcribe key genes driving lipogenesis. Mouse and human data suggest that G3P-ChREBP is a mechanistic component of the Randle Cycle that contributes to metabolic-dysfunction-associated steatotic liver disease and forms part of a system that communicates metabolic states from the liver to the brain in a manner that alters food and alcohol choices. The data provide a framework for understanding FGF21 induction in varied conditions, suggest ways to develop FGF21-inducing drugs and suggest potential drug candidates for lean metabolic-dysfunction-associated steatotic liver disease and support of urea cycle function in CD.</p>
+      
+<div class="paper-variants-mentioned" style="margin-top: 0.75rem; padding: 0.5rem 0.75rem; background: #f0f7fb; border-radius: 6px; font-size: 0.9rem;">
+  <strong>Variants mentioned:</strong>
+  
+    <a href="/urea-cycle/ucrh/variants/CITRIN/G3P" style="margin-right: 0.5rem; white-space: nowrap;">G3P</a>
+  
+</div>
+
+      
+      <!-- Interaction buttons -->
+      <div style="margin-top: 10px; display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
+        <button class="like-btn" data-pmid="41238906" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👍 Like (<span class="like-count">0</span>)
+        </button>
+        <button class="dislike-btn" data-pmid="41238906" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👎 Dislike (<span class="dislike-count">0</span>)
+        </button>
+        <button class="comment-btn" data-pmid="41238906" 
+                style="padding: 5px 12px; background-color: #284b63; color: white; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          💬 Comment (<span class="comment-count">0</span>)
+        </button>
+      </div>
+      
+      <!-- Comments section (hidden by default) -->
+      <div class="comments-section" id="comments-41238906" style="display: none; margin-top: 15px; padding: 10px; background-color: #f9f9f9; border-radius: 4px;">
+        <h5 style="margin-top: 0;">Comments:</h5>
+        <div class="comments-list" id="comments-list-41238906">
+          <!-- Comments will be loaded here -->
+        </div>
+        <div style="margin-top: 10px;">
+          <textarea class="comment-input" data-pmid="41238906" 
+                    placeholder="Add a comment..." 
+                    style="width: 100%; min-height: 60px; padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; font-size: 14px;"></textarea>
+          <button class="submit-comment-btn" data-pmid="41238906" 
+                  style="margin-top: 5px; padding: 6px 12px; background-color: #284b63; color: white; 
+                         border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+            Submit Comment
+          </button>
+        </div>
+      </div>
+    </li>
+  
+    <li style="margin-bottom: 1.5em; padding-bottom: 1em; border-bottom: 1px solid #eee;">
+      <strong>
+        <a href="https://pubmed.ncbi.nlm.nih.gov/41163474/" target="_blank" style="text-decoration: none; color: #003366;">
+          Nitrogen Scavengers: History, Clinical Considerations and Future Prospects.
+        </a>
+      </strong><br>
+      <em>Journal of inherited metabolic disease</em>, Nov 2025, Vol. 48, pp. e70110<br>
+      <small>
+        PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/41163474/" target="_blank">41163474</a> |
+        PMCID: PMC12572923
+      </small>
+      <p>Nitrogen scavengers play a critical role in treating acute and chronic hyperammonemia, especially in urea cycle disorders (UCDs), where impaired ammonia detoxification leads to toxic nitrogen accumulation. These agents complement low-protein diets and urea cycle intermediates. Sodium benzoate and sodium phenylacetate are the main scavengers, conjugating with glycine and glutamine to form hippurate and phenylacetylglutamine, which are excreted in urine. This therapeutic approach, introduced in the 1980s, was based on early findings linking benzoate to reduced urea excretion. Nitrogen scavengers are also used in secondary hyperammonemia from organic acidemias and fatty acid oxidation disorders, though they may become increasingly ineffective in progressing liver failure due to their reliance on hepatocyte function. To improve tolerability, phenylbutyrate was developed as an oral alternative to phenylacetate and is available in sodium-bound and prodrug forms, but issues with taste and side effects persist. While effective, current treatments target nitrogenous waste products rather than ammonia directly, offering an avenue of future drug development for UCDs. This review discusses the chemical properties, clinical use, and limitations of nitrogen scavengers, hereby focusing on phenylacetate and related substances, and highlights the need for improved therapies, including approaches that directly target ammonia removal. For the benefit of readers already experienced in nitrogen scavengers for UCDs, we also include considerations concerning the use of these drugs in animal experiments and a viewpoint on ornithine phenylacetate as a related substance.</p>
+      
+      
+      <!-- Interaction buttons -->
+      <div style="margin-top: 10px; display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
+        <button class="like-btn" data-pmid="41163474" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👍 Like (<span class="like-count">0</span>)
+        </button>
+        <button class="dislike-btn" data-pmid="41163474" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👎 Dislike (<span class="dislike-count">0</span>)
+        </button>
+        <button class="comment-btn" data-pmid="41163474" 
+                style="padding: 5px 12px; background-color: #284b63; color: white; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          💬 Comment (<span class="comment-count">0</span>)
+        </button>
+      </div>
+      
+      <!-- Comments section (hidden by default) -->
+      <div class="comments-section" id="comments-41163474" style="display: none; margin-top: 15px; padding: 10px; background-color: #f9f9f9; border-radius: 4px;">
+        <h5 style="margin-top: 0;">Comments:</h5>
+        <div class="comments-list" id="comments-list-41163474">
+          <!-- Comments will be loaded here -->
+        </div>
+        <div style="margin-top: 10px;">
+          <textarea class="comment-input" data-pmid="41163474" 
+                    placeholder="Add a comment..." 
+                    style="width: 100%; min-height: 60px; padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; font-size: 14px;"></textarea>
+          <button class="submit-comment-btn" data-pmid="41163474" 
+                  style="margin-top: 5px; padding: 6px 12px; background-color: #284b63; color: white; 
+                         border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+            Submit Comment
+          </button>
+        </div>
+      </div>
+    </li>
+  
+    <li style="margin-bottom: 1.5em; padding-bottom: 1em; border-bottom: 1px solid #eee;">
+      <strong>
+        <a href="https://pubmed.ncbi.nlm.nih.gov/41074536/" target="_blank" style="text-decoration: none; color: #003366;">
+          The Current Status of Adult Patients With Urea Cycle Disorders in Japan: From the Nation-Wide Study.
+        </a>
+      </strong><br>
+      <em>Journal of inherited metabolic disease</em>, Nov 2025, Vol. 48, pp. e70099<br>
+      <small>
+        PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/41074536/" target="_blank">41074536</a> |
+        PMCID: N/A
+      </small>
+      <p>Urea cycle disorders (UCDs) are rare inherited metabolic diseases characterized by defective detoxification of nitrogen, leading to hyperammonemia and neurological complications. While pediatric UCDs have been extensively studied in Japan, data on adult patients remain limited. This study aims to evaluate the current status of Japanese adult UCD patients, hereby comparing long-term outcomes after neonatal/infantile or late onset in a new nationwide study investigating clinical manifestations and management. In total, we collected data of 116 adult UCD patients diagnosed and/or treated at various institutions, combining this new cohort (34 UCD patients between January 2010 and December 2022) with data from a previous nationwide study (82 UCD patients between January 2000 and March 2018). Among 116 adult UCD patients, ornithine transcarbamylase deficiency was the most common subtype (N = 69). Hyperammonemia occurred in 91.4% of patients, and intellectual disability was present in 50.0%. Patients generally showed reduced final height and BMI compared to Japanese controls, particularly among females and those with infantile-onset UCDs. Peak ammonia levels ≥ 360 μmol/L were significantly associated with intellectual disability. Liver transplantation (LT) was performed in 20 patients, and although it helped to avoid hyperammonemia, it did not statistically improve neurocognitive outcomes in patients with peak ammonia &lt; 360 μmol/L. This study provides the first comprehensive overview of adult UCD patients in Japan, highlighting frequent growth impairment and variable cognitive outcomes. LT improves metabolic control but cannot prevent intellectual disability in all patients. These findings underscore the need for early diagnosis, individualized treatment strategies, and long-term follow-up into adulthood.</p>
+      
+      
+      <!-- Interaction buttons -->
+      <div style="margin-top: 10px; display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
+        <button class="like-btn" data-pmid="41074536" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👍 Like (<span class="like-count">0</span>)
+        </button>
+        <button class="dislike-btn" data-pmid="41074536" 
+                style="padding: 5px 12px; background-color: #e0e0e0; 
+                       color: black; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          👎 Dislike (<span class="dislike-count">0</span>)
+        </button>
+        <button class="comment-btn" data-pmid="41074536" 
+                style="padding: 5px 12px; background-color: #284b63; color: white; 
+                       border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+          💬 Comment (<span class="comment-count">0</span>)
+        </button>
+      </div>
+      
+      <!-- Comments section (hidden by default) -->
+      <div class="comments-section" id="comments-41074536" style="display: none; margin-top: 15px; padding: 10px; background-color: #f9f9f9; border-radius: 4px;">
+        <h5 style="margin-top: 0;">Comments:</h5>
+        <div class="comments-list" id="comments-list-41074536">
+          <!-- Comments will be loaded here -->
+        </div>
+        <div style="margin-top: 10px;">
+          <textarea class="comment-input" data-pmid="41074536" 
+                    placeholder="Add a comment..." 
+                    style="width: 100%; min-height: 60px; padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; font-size: 14px;"></textarea>
+          <button class="submit-comment-btn" data-pmid="41074536" 
+                  style="margin-top: 5px; padding: 6px 12px; background-color: #284b63; color: white; 
+                         border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">
+            Submit Comment
+          </button>
+        </div>
+      </div>
+    </li>
+  
+</ol>
+
+<div style="text-align:center; margin-top:1rem;">
+  <button id="load-more" style="padding:8px 16px; background-color:#284b63; color:white; border:none; border-radius:5px;">
+    Show More
+  </button>
+  <button id="show-all" style="padding:6px 14px; background-color:#999; color:white; border:none; border-radius:5px;">
+    Show All
+  </button>
+</div>
+
+
+
+<div id="loading-text" class="loading-text" style="display:none;">Fetching papers...</div>
+
+
+  </main>
+
+  <footer>
+    <p>© 2025 Urea Cycle Research Hub</p>
+  </footer>
+  
+<script src="/urea-cycle/ucrh/static/js/script.js"></script>
+
+</body>
+</html>

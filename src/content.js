@@ -6,7 +6,7 @@
 
 export const person = {
   name: 'Karan Sadiora',
-  email: 'karansadiora@email.virginia.edu',
+  email: 'karan@virginia.edu',
   github: 'https://github.com/ksadiora',
   linkedin: 'https://linkedin.com/in/ksadiora',
   // The resume link shows only when this is set. Use a public copy of the resume (no phone number or

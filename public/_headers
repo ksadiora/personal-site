@@ -47,3 +47,6 @@
 /urea-cycle/ucrh/export/CITRIN/pmid
   Content-Type: text/plain
   Content-Disposition: attachment; filename="CITRIN_pmids.txt"
+
+/resume.pdf
+  X-Robots-Tag: noindex

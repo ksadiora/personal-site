@@ -17,7 +17,8 @@ export const person = {
 export const hello = "hi, i'm karan.";
 
 export const currently = [
-  'currently studying neuroscience @ UVA. i research and build software for hospitals, labs and patients.',
+  // Telora: accepted 2026-11-14 (vault Session Log). Telora is the fellowship, not the company.
+  'currently studying neuroscience @ UVA and building a healthcare startup as a [Telora](https://telora.com) fellow. i research and build software for hospitals, labs and patients.',
 ];
 
 // One line per dendrite, top branch first. Hovering a line sends an input down that branch.

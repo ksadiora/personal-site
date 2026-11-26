@@ -16,6 +16,7 @@
       try { document.documentElement.dataset.theme = localStorage.getItem('ks-theme') === 'light' ? 'light' : 'dark'; }
       catch (e) { document.documentElement.dataset.theme = 'dark'; }
     </script>
+    <noscript><style>.rv { opacity: 1; transform: none; }</style></noscript>
   </head>
   <body>
     <canvas id="gl" aria-hidden="true"></canvas>

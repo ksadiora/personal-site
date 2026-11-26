@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build && node tools/postbuild.mjs",
     "preview": "vite preview",
     "sync:eyespeak": "rm -rf public/eyespeak && mkdir -p public/eyespeak && cp ../_archive/eyespeak/public/* public/eyespeak/",
     "preview:worker": "npm run build && wrangler dev"
